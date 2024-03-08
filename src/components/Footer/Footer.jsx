@@ -216,10 +216,10 @@ const Footer = () => {
                   <i className="cmt-textcolor-skincolor fa fa-map-marker" />
                   Amiralsgatan 86E 214 37 Malmö, Sweden
                 </li>
-                <li>
+                {/* <li>
                   <i className="cmt-textcolor-skincolor fa fa-map-marker" />
                   Roskildevej 30B, 2620 Albertslund, Denmark
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
