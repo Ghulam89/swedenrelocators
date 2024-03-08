@@ -55,3 +55,15 @@ i {
     color: #fff !important;
   }
   
+
+  @media screen and (max-width:991px) {
+
+    .hover-dropdown:hover .dropdown-menu {
+      display: block;
+      position:unset !important;
+      left: 0; 
+      
+    }
+  
+
+  }

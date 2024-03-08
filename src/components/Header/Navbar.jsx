@@ -47,7 +47,7 @@ const Navbar = () => {
                     New in sweden
                   </Link>
                 </li>
-                <li className="nav-item dropdown hover-dropdown">
+                <li className="nav-item dropdown hover-dropdown md:tw-block tw-hidden">
                   <Link
                     className="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
                     to="#"
@@ -60,7 +60,7 @@ const Navbar = () => {
                     <i class="fas fa-chevron-down  ps-2"></i>
                   </Link>
                   <ul
-                    className="dropdown-menu border-0  tw-w-60 tw-shadow-xl "
+                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" tw-py-1">
@@ -100,6 +100,56 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
+
+
+                <li class="nav-item dropdown md:tw-hidden tw-block ">
+          <a class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Services
+          <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
+          </a>
+          
+          <ul
+                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to="#"
+                      >
+                        HOW ITS WORKS
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to="#"
+                      >
+                        AVAILABLE HOUSING
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm   tw-font-medium"
+                        to="#"
+                      >
+                        RENT OUT YOUR HOUSE
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium"
+                        to="#"
+                      >
+                        LOOKING FOR HOUSING
+                      </Link>
+                    </li>
+                  </ul>
+        </li>
+                
                 <li className="nav-item">
                   <Link
                     className=" tw-font-bold tw-text-gray-dark tw-text-sm tw-uppercase"
@@ -108,7 +158,7 @@ const Navbar = () => {
                     About us
                   </Link>
                 </li>
-                <li className="nav-item dropdown hover-dropdown">
+                <li className="nav-item dropdown hover-dropdown md:tw-block tw-hidden">
                   <Link
                     className="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
                     to="#"
@@ -118,10 +168,10 @@ const Navbar = () => {
                     aria-expanded="false"
                   >
                     Housing
-                    <i class="fas fa-chevron-down  ps-2"></i>
+                    <i class="fas fa-chevron-down   ps-2"></i>
                   </Link>
                   <ul
-                    className="dropdown-menu border-0  tw-w-60 tw-shadow-xl "
+                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" tw-py-2">
@@ -162,7 +212,58 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-                <li className="nav-item dropdown hover-dropdown">
+
+                <li class="nav-item dropdown md:tw-hidden tw-block ">
+          <a class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Housing
+          <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
+          </a>
+          
+          <ul
+                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to="#"
+                      >
+                        HOW ITS WORKS
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to="#"
+                      >
+                        AVAILABLE HOUSING
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm   tw-font-medium"
+                        to="#"
+                      >
+                        RENT OUT YOUR HOUSE
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium"
+                        to="#"
+                      >
+                        LOOKING FOR HOUSING
+                      </Link>
+                    </li>
+                  </ul>
+        </li>
+
+                
+
+                <li className="nav-item dropdown hover-dropdown md:tw-block tw-hidden">
                   <Link
                     className="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
                     to="#"
@@ -175,7 +276,7 @@ const Navbar = () => {
                     <i class="fas ms-2 fa-chevron-down "></i>
                   </Link>
                   <ul
-                    className="dropdown-menu border-0  tw-w-60 tw-shadow-xl "
+                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" tw-py-2">
@@ -238,10 +339,87 @@ const Navbar = () => {
                         to="#"
                       >
                         ALL ASSESSMENTS
+                        
                       </Link>
                     </li>
                   </ul>
                 </li>
+
+                <li class="nav-item dropdown md:tw-hidden tw-block ">
+          <a class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Assessments
+          <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
+          </a>
+          
+          <ul
+                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to="#"
+                      >
+                        BUSINESS VISA
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className="tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to="#"
+                      >
+                        LONG TEAM EU STATUS
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm   tw-font-medium"
+                        to="#"
+                      >
+                        FAMILY REUNIFICATION
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium"
+                        to="#"
+                      >
+                        STUDY IN SWEDEN
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium"
+                        to="#"
+                      >
+                        VISIT VISA
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium"
+                        to="#"
+                      >
+                        WORK PEPMIT
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium"
+                        to="#"
+                      >
+                        ALL ASSESSMENTS
+                        
+                      </Link>
+                    </li>
+                  </ul>
+        </li>
                 <li className="nav-item">
                   <Link
                     className=" tw-font-bold tw-text-gray-dark tw-text-sm  tw-uppercase"
