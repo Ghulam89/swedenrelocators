@@ -4,9 +4,12 @@
 @tailwind utilities;
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
+section{
+  overflow-x: hidden !important;
+}
 i {
     margin-right: 7px;
     display: inline-block;
