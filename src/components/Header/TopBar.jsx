@@ -25,7 +25,7 @@ const TopBar = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className=" tw-flex  tw-justify-end tw-gap-4 tw-items-center">
+              <div className=" sm:tw-flex  tw-block tw-justify-end tw-gap-4 tw-items-center">
                 <div className="">
                   <Link to={'/book_your_appointment'} className="tw-font-normal tw-text-sm  tw-text-white">
                     {" "}
@@ -33,7 +33,7 @@ const TopBar = () => {
                     <i class="fa fa-calendar-check"></i> Book an Appointment{" "}
                   </Link>
                 </div>
-                <div className="">
+                <div className=" tw-float-right sm:tw-pt-0 tw-pt-3">
                   <div className=" tw-flex tw-items-center">
                     <button className=" tw-bg-blue tw-py-3.5 tw-px-5  tw-text-white text-sm tw-font-semibold tw-flex tw-border-r tw-justify-center tw-items-center">
                       My Page

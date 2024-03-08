@@ -41,18 +41,6 @@ i {
   }
 
 
-  @media screen and (max-width:991px) {
-    /* .hover-dropdown .dropdown-menu {
-        display: block;
-      }
-      
-    
-      .hover-dropdown:hover .dropdown-menu {
-        display: block;
-        position: absolute; 
-        left: 0; 
-      } */
-  }
 
   .dropdown-item{
     color: gray !important;

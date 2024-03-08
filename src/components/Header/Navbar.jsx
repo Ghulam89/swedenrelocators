@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/images/SwedenRelocators.png";
 import TopBar from "./TopBar";
 const Navbar = () => {
+  
   return (
     <>
       <div className="">
         <TopBar />
-        <nav className="navbar   md:tw-absolute  tw-relative -tw-top-9 tw-h-24 navbar-expand-lg navbar-light">
+        <nav className="navbar   md:tw-absolute  tw-relative sm:-tw-top-9 -tw-top-10 tw-h-24 navbar-expand-lg navbar-light">
           <div className="container  tw-py-1 tw-bg-white tw-shadow-md px-4 md:tw-rounded-md tw-rounded-none">
             <button
               className="navbar-toggler"
