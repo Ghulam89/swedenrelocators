@@ -1,0 +1,66 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+i {
+    margin-right: 7px;
+    display: inline-block;
+    width: 13px;
+    height: 17px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 13px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+/* Ensure the dropdown menu is initially hidden */
+.hover-dropdown .dropdown-menu {
+    display: none;
+  }
+
+
+  .dropdown-toggle::after{
+
+    display: none !important;
+
+  }
+  
+
+  .hover-dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0; 
+    
+  }
+
+
+  @media screen and (max-width:991px) {
+    /* .hover-dropdown .dropdown-menu {
+        display: block;
+      }
+      
+    
+      .hover-dropdown:hover .dropdown-menu {
+        display: block;
+        position: absolute; 
+        left: 0; 
+      } */
+  }
+
+  .dropdown-item{
+    color: gray !important;
+    font-weight: 400 !important; 
+  }
+
+  .sign_up:hover{
+     
+    color: #fff !important;
+  }
+  
