@@ -15,7 +15,7 @@ const Login = () => {
         <div className="container py-5">
           <div className="row">
             <div className="col-md-5">
-              <img src={login_img} alt="" />
+              <img src={login_img} className=" tw-w-full" alt="" />
               <p className=" tw-text-gray tw-text-center tw-leading-5">
                 Our portal allows you to communicate directly with our team of
                 immigration experts, lawyers who can provide you with guidance &
@@ -35,6 +35,7 @@ const Login = () => {
                       <img
                         src="https://swedenrelocators.se/pages/assets/web/images/icons8-email-48.png"
                         alt=""
+                        className=""
                       />
                       <p className=" tw-text-white m-0  tw-font-bold tw-text-2xl">
                         EMAIL ID
@@ -42,6 +43,7 @@ const Login = () => {
                       <img
                         src="https://swedenrelocators.se/pages/assets/web/images/icons8-globe-48.png"
                         alt=""
+                        className=""
                       />
                     </div>
 

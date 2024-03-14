@@ -10,7 +10,7 @@ const Register = () => {
     <>
       <Navbar />
       <Banner_Page title={"Setup Your Account - Sign Up"} />
-      <section className=" tw-pt-40">
+      <section className=" md:tw-pt-40 tw-pt-48">
         <div className="container py-5">
           <div className=" row  tw-items-center ">
             <div className="col-md-8">

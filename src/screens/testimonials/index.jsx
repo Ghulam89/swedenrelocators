@@ -9,7 +9,7 @@ const Testimonials = () => {
       <Navbar />
       <Banner_Page title={"Testimonial"} />
       <div className="">
-        <div className="container tw-pt-56">
+        <div className="container md:tw-pt-56 tw-pt-48">
           <div className="">
             <span>TESTIMONIAL</span>
             <h2>What Our Clients Say?</h2>
