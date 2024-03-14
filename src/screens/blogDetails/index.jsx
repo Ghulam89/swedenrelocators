@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import Banner_Page from "../../components/Common/Banner_Page";
 import { LiaAngleRightSolid } from "react-icons/lia";
 import profile from "../../assets/images/profile.png";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import Button from "../../components/Button";
 import Input from "../../components/Input";
 const BlogDetails = () => {
@@ -13,11 +13,11 @@ const BlogDetails = () => {
     <>
       <Navbar />
       <Banner_Page title={"5 Swedish Foods You Must Try"} />
-      <section className=" tw-mt-36">
+      <section className=" md:tw-mt-36 tw-mt-48">
         <div className="container-fluid ">
           <div className="row g-5">
             <div className="col-md-8    tw-py-10 tw-bg-white">
-              <div className="row tw-pt-6  tw-px-10">
+              <div className="row tw-pt-6   md:tw-px-10 tw-px-2 ">
                 <div className="col-lg-12">
                   {/* featured-imagebox-post */}
                   <div className=" tw-shadow-lg">
@@ -132,10 +132,20 @@ const BlogDetails = () => {
                             <Button label={'Visa'}  className={' tw-bg-[#F5FAFF] tw-py-1 tw-rounded-sm  hover:tw-bg-blue hover:tw-text-white border tw-border-gray'}  />
                             </div>
                             <div>
-                                <ul>
+                                <ul className=" tw-flex tw-gap-4">
                                     <li  className="  tw-flex tw-justify-center hover:tw-bg-blue hover:tw-border-blue hover:tw-text-white tw-items-center tw-border-gray-dark tw-border tw-h-8 tw-w-8 tw-rounded-full" >
                                         <a  href="#">
                                         <FaFacebookF className="  tw-text-gray-dark" />
+                                        </a>
+                                    </li>
+                                    <li  className="  tw-flex tw-justify-center hover:tw-bg-blue hover:tw-border-blue hover:tw-text-white tw-items-center tw-border-gray-dark tw-border tw-h-8 tw-w-8 tw-rounded-full" >
+                                        <a  href="#">
+                                        <FaTwitter className="  tw-text-gray-dark" />
+                                        </a>
+                                    </li>
+                                    <li  className="  tw-flex tw-justify-center hover:tw-bg-blue hover:tw-border-blue hover:tw-text-white tw-items-center tw-border-gray-dark tw-border tw-h-8 tw-w-8 tw-rounded-full" >
+                                        <a  href="#">
+                                        <FaInstagram className="  tw-text-gray-dark" />
                                         </a>
                                     </li>
                                 </ul>

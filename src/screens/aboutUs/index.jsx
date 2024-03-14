@@ -10,7 +10,7 @@ const AboutUs = () => {
       <Navbar />
       <Banner_Page title={"ABOUT US"} />
       
-     <div className=" tw-mt-36"
+     <div className=" md:tw-mt-36 tw-mt-48"
      >
 
 <section className=" tw-bg-[#F5FAFF]">

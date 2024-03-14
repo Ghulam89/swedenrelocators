@@ -21,9 +21,27 @@ const Testimonials = () => {
             </p>
           </div>
 
-          <div className="row tw-py-12 g-4">
+          <div className="row tw-py-12 g-5">
             <div className="col-md-6">
-              <div className="testi_card tw-w-[80%] tw-shadow-lg  tw-h-80 tw-relative">
+              <div className="testi_card tw-w-[80%] tw-shadow-lg  tw-mt-12 tw-h-80 tw-relative">
+                <div className=" p-5 tw-shadow-lg tw-w-full  tw-bg-white tw-text-center tw-absolute tw-left-10  -tw-top-20">
+                  <p className=" tw-text-lg tw-text-gray">
+                    Have used their services for getting advice for moving to
+                    Sweden, I found them to be resonantly professional and yet
+                    cost-effective
+                  </p>
+                  <img
+                    src={tesi}
+                    alt=""
+                    className=" tw-w-20 tw-h-20 tw-my-4 tw-mx-auto tw-rounded-full"
+                  />
+                  <h5 className="">AB Mack</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="testi_card tw-w-[80%] tw-shadow-lg  tw-mt-12 tw-h-80 tw-relative">
                 <div className=" p-5 tw-shadow-lg tw-w-full  tw-bg-white tw-text-center tw-absolute tw-left-10  -tw-top-20">
                   <p className=" tw-text-lg tw-text-gray">
                     Have used their services for getting advice for moving to
@@ -40,8 +58,8 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="testi_card">
-                <div className=" p-5 tw-shadow-lg tw-text-center">
+              <div className="testi_card tw-w-[80%] tw-shadow-lg  tw-mt-12 tw-h-80 tw-relative">
+                <div className=" p-5 tw-shadow-lg tw-w-full  tw-bg-white tw-text-center tw-absolute tw-left-10  -tw-top-20">
                   <p className=" tw-text-lg tw-text-gray">
                     Have used their services for getting advice for moving to
                     Sweden, I found them to be resonantly professional and yet
@@ -57,8 +75,8 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="testi_card">
-                <div className=" p-5 tw-shadow-lg tw-text-center">
+              <div className="testi_card tw-w-[80%] tw-shadow-lg  tw-mt-12 tw-h-80 tw-relative">
+                <div className=" p-5 tw-shadow-lg tw-w-full  tw-bg-white tw-text-center tw-absolute tw-left-10  -tw-top-20">
                   <p className=" tw-text-lg tw-text-gray">
                     Have used their services for getting advice for moving to
                     Sweden, I found them to be resonantly professional and yet
@@ -73,6 +91,41 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
+            <div className="col-md-6">
+              <div className="testi_card tw-w-[80%] tw-shadow-lg  tw-mt-12 tw-h-80 tw-relative">
+                <div className=" p-5 tw-shadow-lg tw-w-full  tw-bg-white tw-text-center tw-absolute tw-left-10  -tw-top-20">
+                  <p className=" tw-text-lg tw-text-gray">
+                    Have used their services for getting advice for moving to
+                    Sweden, I found them to be resonantly professional and yet
+                    cost-effective
+                  </p>
+                  <img
+                    src={tesi}
+                    alt=""
+                    className=" tw-w-20 tw-h-20 tw-my-4 tw-mx-auto tw-rounded-full"
+                  />
+                  <h5 className="">AB Mack</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="testi_card tw-w-[80%] tw-shadow-lg  tw-mt-12 tw-h-80 tw-relative">
+                <div className=" p-5 tw-shadow-lg tw-w-full  tw-bg-white tw-text-center tw-absolute tw-left-10  -tw-top-20">
+                  <p className=" tw-text-lg tw-text-gray">
+                    Have used their services for getting advice for moving to
+                    Sweden, I found them to be resonantly professional and yet
+                    cost-effective
+                  </p>
+                  <img
+                    src={tesi}
+                    alt=""
+                    className=" tw-w-20 tw-h-20 tw-my-4 tw-mx-auto tw-rounded-full"
+                  />
+                  <h5 className="">AB Mack</h5>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>

@@ -3,11 +3,11 @@ import Banner_Page from "../../components/Common/Banner_Page";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
-const New_In_sweden = () => {
+const ServiceDetails = () => {
   return (
     <>
       <Navbar />
-      <Banner_Page title={"NEW IN SWEDEN"} />
+      <Banner_Page title={"ASYLUM"} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -15,19 +15,17 @@ const New_In_sweden = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>SOCIAL SECURITY NUMBER</span>
+                  <span>ASYLUM IN SWEDEN</span>
                   <h2>
-                    <strong>Personnummer</strong>
+                    <strong>What We Offer</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                    If you are new in Sweden then the first thing you must to do
-                    is to register yourself with swedish tax authority
-                    ‘Skatteverket’ to get your social security number also
-                    called as personal identity number or personnummer. As an
-                    EU/EEA-citizen you are entitled to live, work and study in
-                    Sweden with or without a personnummer.
+                    If you are an asylum seeker and need an expert to take care
+                    of your asylum process at the Swedish Migration Agency, we
+                    are here for you
                   </p>
+                  <p className=" tw-text-gray">WHY AN EXPERT?</p>
                   <p className=" tw-text-gray">
                     It is a 12-digit number issued by Skatteverket to the
                     persons registered in Sweden when they are convinced that
@@ -98,62 +96,70 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>IDENTIFICATION CARD</span>
+                    <span>ELIGIBILITY</span>
                     <h2>
-                      <strong>Swedish ID Card</strong>
+                      <strong>CAN APPLY FOR ASYLUM? </strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                      Once you have received your Social Security number, you
-                      need to book an appointment with Swedish tax
-                      authority-Skatteverket to apply for a Swedish ID card.
+                      You have to be in Sweden or on the Sweden’s border in
+                      order to apply for asylum. It’s not possible to apply for
+                      asylum before you arrive in Sweden or at a Swedish embassy
+                      in another country.
                     </p>
-                    <p className=" tw-text-gray">
-                      Anyone who is at least 13 years old and registered for
-                      population purposes in Sweden may apply to the Swedish Tax
-                      Agency for Swedish ID card. You must be able to identify
-                      yourself, in other words prove who you are, with approved
-                      ID documentation or via an attester.
+                    <p className=" tw-text-gray tw-py-3">
+                      Asylum seeker’s application is examined individually and
+                      will be granted a residence permit only if one fulfills
+                      criteria of being a refugee.
                     </p>
                   </div>
-
 
                   <div>
                     <span>OPENING OF A</span>
                     <h2>
-                      <strong>Bank Account
-</strong>
+                      <strong>Bank Account</strong>
                     </h2>
 
-                    <p className=" tw-text-gray"><strong>General requirements:</strong></p>
+                    <p className=" tw-text-gray">
+                      <strong>General requirements:</strong>
+                    </p>
 
-                    <p className=" tw-text-gray">In order to open a bank account, you must always be able to identify yourself.
-
-</p>
+                    <p className=" tw-text-gray">
+                      In order to open a bank account, you must always be able
+                      to identify yourself.
+                    </p>
 
                     <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        You can identify yourself with a valid Swedish identification document, such as a passport, a national identity card or a BankID. You can also identify yourself with a Swedish driving license.
-
+                          You can identify yourself with a valid Swedish
+                          identification document, such as a passport, a
+                          national identity card or a BankID. You can also
+                          identify yourself with a Swedish driving license.
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        If you do not have Swedish identification documents, you can identify yourself with a valid foreign passport or other photo identification document that clearly shows your citizenship and is issued by an authority or some other authorised issuer. Note that the bank may request that you also present other documents.
-
+                          If you do not have Swedish identification documents,
+                          you can identify yourself with a valid foreign
+                          passport or other photo identification document that
+                          clearly shows your citizenship and is issued by an
+                          authority or some other authorised issuer. Note that
+                          the bank may request that you also present other
+                          documents.
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        If you do not have any valid identity documents, you must be able to prove who you are and your citizenship by means of other documents issued by a competent authority.
-
+                          If you do not have any valid identity documents, you
+                          must be able to prove who you are and your citizenship
+                          by means of other documents issued by a competent
+                          authority.
                         </p>
                       </li>
-                      
                     </ul>
                   </div>
                 </div>
@@ -237,4 +243,4 @@ const New_In_sweden = () => {
   );
 };
 
-export default New_In_sweden;
+export default ServiceDetails;

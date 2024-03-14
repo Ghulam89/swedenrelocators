@@ -1,5 +1,6 @@
 import React from 'react'
 import footer_map from '../../assets/images/footer_map.png';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
@@ -35,7 +36,7 @@ const Footer = () => {
               <div className="social-icons circle">
                 <ul className="list-inline p-0  tw-flex tw-gap-2 cmt-textcolor-skincolor">
                   <li className="social-facebook tw-w-9 tw-h-9 tw-flex tw-justify-center tw-items-center tw-rounded-full tw-border  tw-border-blue">
-                    <a
+                    <Link
                       className=" "
                       target="_blank"
                       href="https://www.facebook.com/cymolthemes.191219"
@@ -43,10 +44,10 @@ const Footer = () => {
                       
                     >
                       <span className="ti ti-facebook" />
-                    </a>
+                    </Link>
                   </li>
                   <li className="social-twitter tw-w-9 tw-h-9 tw-flex tw-justify-center tw-items-center tw-rounded-full tw-border  tw-border-blue">
-                    <a
+                    <Link
                       className="tooltip-top"
                       target="_blank"
                       href="https://twitter.com/CymolThemes"
@@ -54,10 +55,10 @@ const Footer = () => {
                    
                     >
                       <span className="ti ti-twitter-alt" />
-                    </a>
+                    </Link>
                   </li>
                   <li className="social-instagram tw-w-9 tw-h-9 tw-flex tw-justify-center tw-items-center tw-rounded-full tw-border  tw-border-blue">
-                    <a
+                    <Link
                       className="tooltip-top"
                       target="_blank"
                       href="https://www.instagram.com/cymol_themes/"
@@ -65,10 +66,10 @@ const Footer = () => {
                      
                     >
                       <span className="ti ti-instagram" />
-                    </a>
+                    </Link>
                   </li>
                   <li className="social-google tw-w-9 tw-h-9 tw-flex tw-justify-center tw-items-center tw-rounded-full tw-border  tw-border-blue">
-                    <a
+                    <Link
                       className="tooltip-top"
                       target="_blank"
                       href="https://dribbble.com/cymol_themes"
@@ -76,7 +77,7 @@ const Footer = () => {
                     
                     >
                       <span className="ti ti-dribbble" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -89,43 +90,43 @@ const Footer = () => {
               <ul  className='  p-0 tw-mt-6'>
               <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase'>about US</a>
+                  <Link to={'/about_us'} className=' tw-text-white tw-uppercase'>about US</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '> CONTACT US</a>
+                  <Link to={'/contact_us'} className=' tw-text-white tw-uppercase '> CONTACT US</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '>services</a>
+                  <Link to={'/services'} className=' tw-text-white tw-uppercase '>services</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '>GALLERY</a>
+                  <Link to={'/gallery'} className=' tw-text-white tw-uppercase '>GALLERY</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '>CAREERS</a>
+                  <Link className=' tw-text-white tw-uppercase '>CAREERS</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '>BLOG</a>
+                  <Link to={'/blogs'} className=' tw-text-white tw-uppercase '>BLOG</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '>FAQs</a>
+                  <Link to={'/faqs'} className=' tw-text-white tw-uppercase '>FAQs</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '>TESTIMONIALS</a>
+                  <Link to={'/testimonials'} className=' tw-text-white tw-uppercase '>TESTIMONIALS</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '>TERMS & CONDITIONS</a>
+                  <Link to={'/terms_conditions'} className=' tw-text-white tw-uppercase '>TERMS & CONDITIONS</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <a className=' tw-text-white tw-uppercase '>PRIVACY POLICY</a>
+                  <Link to={'/privacy_policy'} className=' tw-text-white tw-uppercase '>PRIVACY POLICY</Link>
                 </li>
               </ul>
             </div>
@@ -136,7 +137,7 @@ const Footer = () => {
               <hr  className=' tw-border-blue tw-border-2   tw-opacity-80 m-0 tw-w-5' />
               <ul className=" p-0 tw-mt-6 ">
                 <li className=' tw-flex tw-gap-4 '>
-                  <a href="">
+                  <Link href="">
                     <img
                       className="img-fluid"
                       width={150}
@@ -144,19 +145,19 @@ const Footer = () => {
                       src="https://swedenrelocators.se/wp-content/uploads/2021/07/business-startup-2-150x150.png"
                       alt="post-img"
                     />
-                  </a>
+                  </Link>
                   <div className=" tw-flex tw-flex-col">
                     <span className="post-date tw-text-white">
                       <i className="fa fa-calendar" />
                       Apr 06, 2020
                     </span>
-                    <a className=' tw-text-white  tw-text-sm'>
+                    <Link className=' tw-text-white  tw-text-sm'>
                     5 Things To Keep In Mind If You Are Relocating To...
-                    </a>
+                    </Link>
                   </div>
                 </li>
                 <li className=' tw-flex tw-mt-3 tw-gap-4'>
-                  <a href="blog-single.html">
+                  <Link href="blog-single.html">
                     <img
                       className="img-fluid"
                       width={90}
@@ -164,19 +165,19 @@ const Footer = () => {
                       src="https://swedenrelocators.se/wp-content/uploads/2021/07/business-startup-1-150x150.png"
                       alt="post-img"
                     />
-                  </a>
+                  </Link>
                   <div className=" tw-flex tw-flex-col">
                     <span className="post-date tw-text-white">
                       <i className="fa fa-calendar" />
                       Apr 06, 2020
                     </span>
-                    <a className=' tw-text-white  tw-text-sm'>
+                    <Link className=' tw-text-white  tw-text-sm'>
                     5 Swedish Foods You Must Try
-                    </a>
+                    </Link>
                   </div>
                 </li>
                 <li className=' tw-flex tw-mt-3 tw-gap-4'>
-                  <a href="blog-single.html">
+                  <Link href="blog-single.html">
                     <img
                       className="img-fluid"
                       width={90}
@@ -184,15 +185,15 @@ const Footer = () => {
                       src="https://swedenrelocators.se/wp-content/uploads/2021/07/educational-books-150x150.png"
                       alt="post-img"
                     />
-                  </a>
+                  </Link>
                   <div className=" tw-flex tw-flex-col">
                     <span className="post-date tw-text-white">
                       <i className="fa fa-calendar" />
                       Apr 06, 2020
                     </span>
-                    <a className=' tw-text-white  tw-text-sm'>
+                    <Link className=' tw-text-white  tw-text-sm'>
                     5 Swedish Foods You Must Try
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>
@@ -244,7 +245,7 @@ const Footer = () => {
                     <p className=' tw-font-semibold m-0 tw-text-white'>info@swedenrelocators.se</p>
                   </div>
                   <div className="featured-desc">
-                    <p className=' tw-text-white'>Drop Us a Line</p>
+                    <p className=' tw-text-white'>Drop Us Link Line</p>
                   </div>
                 </div>
               </div>
@@ -305,8 +306,8 @@ const Footer = () => {
             <div className=" text-center tw-py-1">
              
               <p className=' tw-text-white tw-text-sm '>
-                Copyright © 2024 &nbsp;<a href="" className=' tw-text-white'>SWEDEN RELOCATORS AB.</a> Powered By
-               - <a className=' tw-text-white'  href=''>SWEDEN RELOCATORS AB</a>    - <a  className=' tw-text-white'  href=''>GLOBALVISA.EU.</a>
+                Copyright © 2024 &nbsp;<Link href="" className=' tw-text-white'>SWEDEN RELOCATORS AB.</Link> Powered By
+               - <Link className=' tw-text-white'  href=''>SWEDEN RELOCATORS AB</Link>    - <Link  className=' tw-text-white'  href=''>GLOBALVISA.EU.</Link>
               </p>
             </div>
           </div>

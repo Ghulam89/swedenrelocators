@@ -15,6 +15,12 @@ import FAQs from "../screens/FAQs";
 import Blogs from "../screens/blogs";
 import BlogDetails from "../screens/blogDetails";
 import Assessment_register from "../screens/assessment_register";
+import Gallery from "../screens/gallery";
+import Terms_conditions from "../screens/terms_conditions";
+import PrivacyPolicy from "../screens/privacyPolicy";
+import Rent_out_your_housing from "../screens/rent_out_your_housing";
+import ServiceDetails from "../screens/ServiceDetails";
+import Looking_for_housing from "../screens/Looking_for_housing";
 const Routing = () => {
   return (
     <BrowserRouter>
@@ -28,12 +34,18 @@ const Routing = () => {
           <Route path="/about_us" element={<AboutUs/>} />
           <Route path="/set_up_your_account" element={<Set_up_your_account/>} />
           <Route path="/book_your_appointment" element={<Book_your_appointment/>} />
+          <Route path="/rent_out_your_housing" element={<Rent_out_your_housing/>} />
+          <Route path="/looking_for_housing" element={<Looking_for_housing/>} />
           <Route path="/assessment" element={<Assessment/>} />
           <Route path="/assessment_register" element={<Assessment_register/>} />
           <Route path="/services" element={<Services/>} />
+          <Route path="/service_details" element={<ServiceDetails/>} />
           <Route path="/faqs" element={<FAQs/>} />
           <Route path="/blogs" element={<Blogs/>} />
           <Route path="/blog_details" element={<BlogDetails/>} />
+          <Route path="/gallery" element={<Gallery/>} />
+          <Route path="/terms_conditions" element={<Terms_conditions/>} />
+          <Route path="/privacy_policy" element={<PrivacyPolicy/>} />
       </Routes>
       <GoTop/>
     </BrowserRouter>

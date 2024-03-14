@@ -34,3 +34,9 @@ a {
   right:15px;
   -webkit-transform: rotate(45deg);
 }
+
+
+
+.hover-effect:hover p {
+  color: white;
+}

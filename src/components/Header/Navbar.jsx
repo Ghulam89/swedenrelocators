@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/images/SwedenRelocators.png";
 import TopBar from "./TopBar";
 const Navbar = () => {
-  
   return (
     <>
       <div className="">
@@ -34,7 +33,7 @@ const Navbar = () => {
                   <Link
                     className=" tw-font-bold  tw-text-gray-dark tw-text-sm tw-uppercase"
                     aria-current="page"
-                    to="#"
+                    to="/"
                   >
                     Home
                   </Link>
@@ -42,7 +41,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     className="  tw-font-bold tw-text-gray-dark tw-text-sm tw-uppercase"
-                    to="#"
+                    to="/new_in_sweden"
                   >
                     New in sweden
                   </Link>
@@ -66,34 +65,125 @@ const Navbar = () => {
                     <li className=" tw-py-1">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/service_details"
                       >
-                        HOW ITS WORKS
+                        ASYLUM
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
                     <li className=" tw-py-1">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/service_details"
                       >
-                        AVAILABLE HOUSING
+                        BUSINESS VISIT
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
                     <li className=" tw-py-1">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="#"
+                        to="/service_details"
                       >
-                        RENT OUT YOUR HOUSE
+                        CPR NUMBER DENMARK
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
                     <li className=" tw-py-1">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/service_details"
+                      >
+                        LOOKING FOR HOUSING
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-1">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                        Family Reunification
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-1">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                        Personnummer Sweden
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-1">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                        Global Visit Visas
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-1">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                        EEA Permits
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown md:tw-hidden tw-block ">
+                  <a
+                    class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                    <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
+                  </a>
+
+                  <ul
+                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to="/service_details"
+                      >
+                        HOW ITS WORKS
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to="/service_details"
+                      >
+                        AVAILABLE HOUSING
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm   tw-font-medium"
+                        to="/service_details"
+                      >
+                        RENT OUT YOUR HOUSE
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className=" tw-py-2">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium"
+                        to="/service_details"
                       >
                         LOOKING FOR HOUSING
                       </Link>
@@ -101,59 +191,10 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-
-                <li class="nav-item dropdown md:tw-hidden tw-block ">
-          <a class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Services
-          <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
-          </a>
-          
-          <ul
-                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
-                    aria-labelledby="navbarDropdown"
-                  >
-                    <li className=" tw-py-2">
-                      <Link
-                        className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
-                      >
-                        HOW ITS WORKS
-                      </Link>
-                    </li>
-                    <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
-                      <Link
-                        className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
-                      >
-                        AVAILABLE HOUSING
-                      </Link>
-                    </li>
-                    <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
-                      <Link
-                        className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="#"
-                      >
-                        RENT OUT YOUR HOUSE
-                      </Link>
-                    </li>
-                    <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
-                      <Link
-                        className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
-                      >
-                        LOOKING FOR HOUSING
-                      </Link>
-                    </li>
-                  </ul>
-        </li>
-                
                 <li className="nav-item">
                   <Link
                     className=" tw-font-bold tw-text-gray-dark tw-text-sm tw-uppercase"
-                    to="#"
+                    to="/about_us"
                   >
                     About us
                   </Link>
@@ -195,7 +236,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="#"
+                        to="/rent_out_your_housing"
                       >
                         RENT OUT YOUR HOUSE
                       </Link>
@@ -204,7 +245,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/looking_for_housing"
                       >
                         LOOKING FOR HOUSING
                       </Link>
@@ -212,14 +253,20 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-
                 <li class="nav-item dropdown md:tw-hidden tw-block ">
-          <a class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Housing
-          <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
-          </a>
-          
-          <ul
+                  <a
+                    class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Housing
+                    <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
+                  </a>
+
+                  <ul
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
@@ -244,7 +291,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="#"
+                        to="/rent_out_your_housing"
                       >
                         RENT OUT YOUR HOUSE
                       </Link>
@@ -253,15 +300,13 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/looking_for_housing"
                       >
                         LOOKING FOR HOUSING
                       </Link>
                     </li>
                   </ul>
-        </li>
-
-                
+                </li>
 
                 <li className="nav-item dropdown hover-dropdown md:tw-block tw-hidden">
                   <Link
@@ -282,7 +327,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/assessment_register"
                       >
                         BUSINESS VISA
                       </Link>
@@ -291,7 +336,7 @@ const Navbar = () => {
                     <li className="tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/assessment_register"
                       >
                         LONG TEAM EU STATUS
                       </Link>
@@ -300,7 +345,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="#"
+                        to="/assessment_register"
                       >
                         FAMILY REUNIFICATION
                       </Link>
@@ -309,7 +354,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/assessment_register"
                       >
                         STUDY IN SWEDEN
                       </Link>
@@ -318,7 +363,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/assessment_register"
                       >
                         VISIT VISA
                       </Link>
@@ -327,7 +372,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/assessment_register"
                       >
                         WORK PEPMIT
                       </Link>
@@ -336,29 +381,35 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/assessment"
                       >
                         ALL ASSESSMENTS
-                        
                       </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li class="nav-item dropdown md:tw-hidden tw-block ">
-          <a class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Assessments
-          <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
-          </a>
-          
-          <ul
+                  <a
+                    class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Assessments
+                    <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
+                  </a>
+
+                  <ul
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/assessment_register"
                       >
                         BUSINESS VISA
                       </Link>
@@ -367,7 +418,7 @@ const Navbar = () => {
                     <li className="tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/assessment_register"
                       >
                         LONG TEAM EU STATUS
                       </Link>
@@ -376,7 +427,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="#"
+                        to="/assessment_register"
                       >
                         FAMILY REUNIFICATION
                       </Link>
@@ -385,7 +436,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/assessment_register"
                       >
                         STUDY IN SWEDEN
                       </Link>
@@ -394,7 +445,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/assessment_register"
                       >
                         VISIT VISA
                       </Link>
@@ -403,7 +454,7 @@ const Navbar = () => {
                     <li className=" tw-py-2">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/assessment_register"
                       >
                         WORK PEPMIT
                       </Link>
@@ -415,11 +466,10 @@ const Navbar = () => {
                         to="#"
                       >
                         ALL ASSESSMENTS
-                        
                       </Link>
                     </li>
                   </ul>
-        </li>
+                </li>
                 <li className="nav-item">
                   <Link
                     className=" tw-font-bold tw-text-gray-dark tw-text-sm  tw-uppercase"
