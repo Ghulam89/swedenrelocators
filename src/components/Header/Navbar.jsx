@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="">
         <TopBar />
         <nav className="navbar   md:tw-absolute  tw-relative md:-tw-top-10 -tw-top-8 tw-h-24 navbar-expand-lg navbar-light">
-          <div className="container-lg  container-navbar tw-py-1.5 tw-bg-white  px-5 md:tw-rounded-md tw-rounded-none">
+          <div className="container-lg  container-navbar tw-py-1.5 tw-bg-white  sm:px-5 px-3 md:tw-rounded-md tw-rounded-none">
             <button
               className="navbar-toggler"
               type="button"

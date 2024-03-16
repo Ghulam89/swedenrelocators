@@ -14,7 +14,7 @@ const Hero = () => {
                 With  an <strong className=" tw-text-blue">Expert Advise</strong>
               </h1>
               <p className=" tw-text-gray">We offer complete Relocation Services to our worldwide clients including, <br/> Residene & Work Permit,Home Finding, School-Pre Search, Integration, and Setting-in Services</p>
-              <div className="  tw-flex tw-gap-7 tw-pt-5">
+              <div className="  sm:tw-flex tw-block tw-gap-7 tw-pt-5">
                 <div className=" ">
                   <Button className={"btn-warning"} label={"Our Services"} />
                 </div>
