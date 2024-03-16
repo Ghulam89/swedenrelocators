@@ -1,6 +1,10 @@
 import React from 'react'
 import footer_map from '../../assets/images/footer_map.png';
 import { Link } from 'react-router-dom';
+import playstore from '../../assets/images/Google-play.png';
+import applestore from '../../assets/images/App-Store.png';
+import sweden from '../../assets/images/icons8-sweden.png';
+import denmark from '../../assets/images/icons8-denmark.png';
 const Footer = () => {
   return (
     <>
@@ -15,18 +19,22 @@ const Footer = () => {
               <h5 className=' tw-text-white'>About Us</h5>
               <hr  className=' tw-border-blue tw-border-2   tw-opacity-80 m-0 tw-w-7' />
               <div className="textwidget widget-text tw-mt-6">
-                <p className='  tw-text-cyan-50'>
+                <p className='  tw-text-cyan-50 tw-font-light'>
                 We are Relocation Services Provider Company which deals with all sort of legal relocation to Sweden. We offers quality guidance, effective advice and provides information to our clients to settle down in the country.
 
                 </p>
 
                 <ul className=' p-0  tw-leading-2' >
-                  <li>
-                     {/* <img src={require('../assets/images/icons8-denmark.png')} alt='' /> */}
+                  <li className=' tw-flex tw-gap-1'>
+                     <div>
+                     <img src={sweden} alt='' />
+                     </div>
                     <p className='  m-0 tw-text-white'> REG 559025-2648</p>
                   </li>
-                  <li>
-
+                  <li className=' tw-flex  tw-gap-1'>
+                   <div>
+                   <img src={denmark} alt='' />
+                   </div>
                     <p className=' m-0 tw-text-white'> CVR 41200677</p>
                   </li>
                 </ul>
@@ -79,7 +87,23 @@ const Footer = () => {
                       <span className="ti ti-dribbble" />
                     </Link>
                   </li>
+                  <li className="social-google tw-w-9 tw-h-9 tw-flex tw-justify-center tw-items-center tw-rounded-full tw-border  tw-border-blue">
+                    <Link
+                      className="tooltip-top"
+                      target="_blank"
+                      href="https://dribbble.com/cymol_themes"
+                      rel="noopener"
+                    
+                    >
+                      <span className="ti ti-linkedin" />
+                    </Link>
+                  </li>
                 </ul>
+              </div>
+              <div className=' tw-flex tw-gap-3'>
+              
+                <img src={applestore} alt='' className=' tw-w-28 tw-object-contain' />
+                <img src={playstore} alt='' className=' tw-w-28 tw-object-contain' />
               </div>
             </div>
           </div>
@@ -90,43 +114,43 @@ const Footer = () => {
               <ul  className='  p-0 tw-mt-6'>
               <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/about_us'} className=' tw-text-white tw-uppercase'>about US</Link>
+                  <Link to={'/about_us'} className=' tw-text-white tw-uppercase tw-font-light'>about US</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/contact_us'} className=' tw-text-white tw-uppercase '> CONTACT US</Link>
+                  <Link to={'/contact_us'} className=' tw-text-white tw-uppercase tw-font-light '> CONTACT US</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/services'} className=' tw-text-white tw-uppercase '>services</Link>
+                  <Link to={'/services'} className=' tw-text-white tw-uppercase  tw-font-light'>services</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/gallery'} className=' tw-text-white tw-uppercase '>GALLERY</Link>
+                  <Link to={'/gallery'} className=' tw-text-white tw-uppercase tw-font-light '>GALLERY</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link className=' tw-text-white tw-uppercase '>CAREERS</Link>
+                  <Link className=' tw-text-white tw-uppercase tw-font-light '>CAREERS</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/blogs'} className=' tw-text-white tw-uppercase '>BLOG</Link>
+                  <Link to={'/blogs'} className=' tw-text-white tw-uppercase tw-font-light '>BLOG</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/faqs'} className=' tw-text-white tw-uppercase '>FAQs</Link>
+                  <Link to={'/faqs'} className=' tw-text-white tw-uppercase tw-font-light '>FAQs</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/testimonials'} className=' tw-text-white tw-uppercase '>TESTIMONIALS</Link>
+                  <Link to={'/testimonials'} className=' tw-text-white tw-font-light tw-uppercase '>TESTIMONIALS</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/terms_conditions'} className=' tw-text-white tw-uppercase '>TERMS & CONDITIONS</Link>
+                  <Link to={'/terms_conditions'} className=' tw-text-white tw-font-light tw-uppercase '>TERMS & CONDITIONS</Link>
                 </li>
                 <li className=' tw-flex tw-items-center  tw-gap-2'> 
                 <hr className=' tw-w-3 tw-opacity-75  tw-border-white  tw-border-2' /> 
-                  <Link to={'/privacy_policy'} className=' tw-text-white tw-uppercase '>PRIVACY POLICY</Link>
+                  <Link to={'/privacy_policy'} className=' tw-text-white tw-font-light tw-uppercase '>PRIVACY POLICY</Link>
                 </li>
               </ul>
             </div>
@@ -214,20 +238,20 @@ const Footer = () => {
               </div>
               <ul className=" tw-mt-5">
                 <li className=' tw-text-white tw-text-base'>
-                  <i className="cmt-textcolor-skincolor fa fa-map-marker" />
+                  <i className="cmt-textcolor-skincolor tw-text-blue fa fa-map-marker" />
                   Amiralsgatan 86E 214 37 Malmö, Sweden
                 </li>
-                {/* <li>
-                  <i className="cmt-textcolor-skincolor fa fa-map-marker" />
+                <li className=' tw-text-white tw-text-base'> 
+                  <i className="cmt-textcolor-skincolor   tw-text-blue fa fa-map-marker" />
                   Roskildevej 30B, 2620 Albertslund, Denmark
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div className="second-footer">
+    <div className="second-footer tw-pt-8">
       <div className="container py-3 px-4">
         <div className="row  no-gutters tw-bg-blue ">
           <div className=" tw-bg-[#1A1F31] mb-4 col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -242,7 +266,7 @@ const Footer = () => {
                 </div>
                 <div className="featured-content">
                   <div className="featured-title">
-                    <p className=' tw-font-semibold m-0 tw-text-white'>info@swedenrelocators.se</p>
+                    <p className=' m-0 tw-text-white'>info@swedenrelocators.se</p>
                   </div>
                   <div className="featured-desc">
                     <p className=' tw-text-white'>Drop Us Link Line</p>
@@ -263,7 +287,7 @@ const Footer = () => {
                 </div>
                 <div className="featured-content">
                   <div className="featured-title">
-                    <p className=' tw-font-semibold m-0 tw-text-white'>+0 (123) 456 7890</p>
+                    <p className=' m-0 tw-text-white'>+0 (123) 456 7890</p>
                   </div>
                   <div className="featured-desc">
                     <p className=' tw-text-white'>Call Us Now!</p>
@@ -286,10 +310,10 @@ const Footer = () => {
                </div>
                 <div className="featured-content">
                   <div className="featured-title">
-                    <p className=' tw-font-semibold m-0 tw-text-white'>Amiralsgatan 86A 214 37 Malmö, Sweden</p>
+                    <p className='  m-0 tw-text-white'>Amiralsgatan 86A 214 37 Malmö, Sweden</p>
                   </div>
                   <div className="featured-desc">
-                    <p className=' tw-text-white'>Get Direction</p>
+                    <p className='  tw-text-gray'>Get Direction</p>
                   </div>
                 </div>
               </div>

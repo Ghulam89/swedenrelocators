@@ -37,7 +37,7 @@ const OurSkills = () => {
                 <div className="featured-content">
                   <div className="featured-title">
                     <h3>
-                      <a className=" tw-text-black   tw-text-xl" href="business-visa.html">Family Reunification</a>
+                      <a className=" tw-text-black  tw-font-medium  tw-text-xl" href="business-visa.html">Family Reunification</a>
                     </h3>
                   </div>
                   <div className="featured-desc">
@@ -74,7 +74,7 @@ const OurSkills = () => {
                <div className="featured-content">
                  <div className="featured-title">
                    <h3>
-                     <a className=" tw-text-black   tw-text-xl" href="business-visa.html">Visitor Visa</a>
+                     <a className=" tw-text-black tw-font-medium   tw-text-xl" href="business-visa.html">Visitor Visa</a>
                    </h3>
                  </div>
                  <div className="featured-desc">
@@ -108,7 +108,7 @@ const OurSkills = () => {
                <div className="featured-content">
                  <div className="featured-title">
                    <h3>
-                     <a className=" tw-text-black   tw-text-xl" href="business-visa.html">Work Permit</a>
+                     <a className=" tw-text-black tw-font-medium   tw-text-xl" href="business-visa.html">Work Permit</a>
                    </h3>
                  </div>
                  <div className="featured-desc">
@@ -142,7 +142,7 @@ const OurSkills = () => {
                <div className="featured-content">
                  <div className="featured-title">
                    <h3>
-                     <a className=" tw-text-black   tw-text-xl" href="business-visa.html">Family 	
+                     <a className=" tw-text-black tw-font-medium   tw-text-xl" href="business-visa.html">Family 	
 Study in Sweden</a>
                    </h3>
                  </div>

@@ -5,9 +5,7 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        poppins: ["Roboto", "sans-serif"]
-      },
+    
 
       colors: {
         'primary':'#1F2437',
@@ -17,7 +15,7 @@ export default {
         'orange': '#ff7849',
         'green': '#13ce66',
         'yellow': '#ffc82c',
-        'gray-dark': '#1F2437',
+        'gray-dark': '#1D2143',
         'gray': '#898a9c',
         'gray-light': '#d3dce6',
       },

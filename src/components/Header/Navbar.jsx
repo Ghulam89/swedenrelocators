@@ -7,8 +7,8 @@ const Navbar = () => {
     <>
       <div className="">
         <TopBar />
-        <nav className="navbar   md:tw-absolute  tw-relative sm:-tw-top-9 -tw-top-10 tw-h-24 navbar-expand-lg navbar-light">
-          <div className="container  tw-py-1 tw-bg-white tw-shadow-md px-4 md:tw-rounded-md tw-rounded-none">
+        <nav className="navbar   md:tw-absolute  tw-relative md:-tw-top-10 -tw-top-8 tw-h-24 navbar-expand-lg navbar-light">
+          <div className="container-lg  container-navbar tw-py-1.5 tw-bg-white  px-5 md:tw-rounded-md tw-rounded-none">
             <button
               className="navbar-toggler"
               type="button"
@@ -20,7 +20,7 @@ const Navbar = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <Link className="navbar-brand  tw-w-56" to="#">
+            <Link className="navbar-brand   tw-w-56" to="#">
               <img src={logo} alt="" />
             </Link>
 
@@ -28,10 +28,10 @@ const Navbar = () => {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 tw-gap-8">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 tw-gap-7">
                 <li className="nav-item">
                   <Link
-                    className=" tw-font-bold  tw-text-gray-dark tw-text-sm tw-uppercase"
+                    className=" tw-font-bold    tw-text-gray-dark tw-text-sm tw-uppercase"
                     aria-current="page"
                     to="/"
                   >

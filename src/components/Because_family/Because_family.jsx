@@ -26,7 +26,7 @@ const Because_family = () => {
                   <span>BECAUSE FAMILY COMES FIRST!</span>
                   <h2 className="h2  tw-text-black">
                     EU Family
-                    <strong>Reunification Solutions</strong>
+                    <strong> Reunification Solutions</strong>
                   </h2>
                 </div>
               </div>
@@ -43,7 +43,7 @@ const Because_family = () => {
                 <span>EU RESIDENCE CARD</span>
                 <h2 className="h2  tw-text-black">
                   Family
-                  <strong>Reunification </strong>
+                  <strong> Reunification </strong>
                 </h2>
               </div>
 

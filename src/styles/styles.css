@@ -1,14 +1,23 @@
+
 h2 {
-  @apply md:tw-text-[40px]      tw-font-normal tw-text-primary  !important;
+  @apply md:tw-text-[40px]       tw-font-light tw-text-primary  !important;
+}
+strong{
+  @apply  tw-font-semibold  !important
+}
+
+body{
+  font-family: "Roboto", sans-serif !important;
 }
 h3 {
   @apply tw-text-3xl  tw-font-semibold tw-text-black  !important;
 }
+
 h4 {
   @apply tw-text-2xl  tw-font-semibold   !important;
 }
 h5 {
-  @apply tw-text-xl  tw-font-semibold   !important;
+  @apply tw-text-xl     !important;
 }
 
 span {
@@ -39,4 +48,9 @@ a {
 
 .hover-effect:hover p {
   color: white;
+}
+
+p{
+  font-size: 15px !important;
+   line-height: 25px !important;
 }
