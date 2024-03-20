@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/SwedenRelocators.png";
 import TopBar from "./TopBar";
 const Navbar = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+     
+      setIsSticky(window.scrollY > 260);
+    };
+
+    
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   return (
     <>
       <div className="">
         <TopBar />
-        <nav className="navbar   md:tw-absolute  tw-relative md:-tw-top-10 -tw-top-8 tw-h-24 navbar-expand-lg navbar-light">
-          <div className="container-lg  container-navbar tw-py-1.5 tw-bg-white  sm:px-5 px-3 md:tw-rounded-md tw-rounded-none">
+        <nav className={`navbar md:tw-absolute tw-relative md:-tw-top-10 -tw-top-8 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${isSticky ? 'fixed-top tw-smooth-transition' : ''}`}>
+      <div className={`container${isSticky ? '-fluid  ' : '-lg'}  tw-transition-all tw-duration-700 container-navbar tw-py-1.5 tw-bg-white sm:px-5 px-3 md:tw-rounded-md tw-rounded-none`}>
             <button
               className="navbar-toggler"
               type="button"
