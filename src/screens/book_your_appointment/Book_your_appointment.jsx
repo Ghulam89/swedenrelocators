@@ -11,7 +11,7 @@ const Book_your_appointment = () => {
     <>
       <Navbar />
       <Banner_Page title={"BOOK YOUR APPOINTMENT"} />
-      <section className=" md:tw-pt-36 tw-pt-48">
+      <section className=" md:tw-pt-32 tw-pt-48">
         <div className="container-fluid ">
           <div className="row">
             <div className="col-md-8">

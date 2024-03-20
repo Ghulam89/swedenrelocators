@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <>
       <section className=" tw-pb-16">
-        <div className=" container tw-py-24">
-          <div className=" row tw-items-center tw-pt-20">
+        <div className=" container md:tw-py-24 tw-py-10">
+          <div className=" row tw-items-center g-5 md:tw-pt-20 tw-pt-0">
             <div className=" col-md-8 ">
               <motion.div    variants={containerVariants}
                 initial="hidden"
@@ -52,7 +52,7 @@ const Hero = () => {
                 School-Pre Search, Integration, and Setting-in Services
               </motion.p>
               </motion.div>
-              <div className="  sm:tw-flex tw-block tw-gap-7 tw-pt-5">
+              <div className="  tw-flex sm:tw-flex-row tw-flex-col tw-gap-7 tw-pt-5">
                 <div className=" ">
                   <Button className={"btn-warning"} label={"Our Services"} />
                 </div>
@@ -68,7 +68,7 @@ const Hero = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: true, amount: 0.25 }}
-                 className=" col-md-6  md:tw-absolute tw-relative tw-right-0">
+                 className=" col-md-6  md:tw-absolute tw-relative  tw-right-0">
               <motion.img  variants={fadeIn("down", "tween", 0.6, 2)}  src={hero} alt="" width="100%" />
             </motion.div>
           </div>

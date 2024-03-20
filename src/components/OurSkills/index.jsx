@@ -74,7 +74,7 @@ const OurSkills = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: true, amount: 0.25 }} className="col-lg-6 col-md-12">
-              <motion.div  variants={fadeIn("up", "tween", 0.6, 1)} className=" tw-flex tw-shadow-xl tw-pt-5 px-4 tw-gap-8 wrapperIcon">
+              <motion.div  variants={fadeIn("up", "tween", 0.2, 1)} className=" tw-flex tw-shadow-xl tw-pt-5 px-4 tw-gap-8 wrapperIcon">
                 <div className="featured-icon tw-bg-[#F5FAFF] p-1    tw-w-72 tw-rounded-tl-3xl tw-rounded-tr-3xl">
                   <div className="">
                     <i className=" icons-animate mt_tripzia flaticon-travel tw-text-blue tw-pl-1  tw-text-5xl" />
@@ -110,8 +110,11 @@ const OurSkills = () => {
                 </div>
               </motion.div>
             </motion.div>
-            <div className="col-lg-6 col-md-12">
-              <div className=" tw-flex tw-shadow-xl tw-pt-5 px-4 tw-gap-8 wrapperIcon">
+            <div  variants={containerVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.25 }} className="col-lg-6 col-md-12">
+              <div  className=" tw-flex tw-shadow-xl tw-pt-5 px-4 tw-gap-8 wrapperIcon">
                 <div className="featured-icon tw-bg-[#F5FAFF] p-1    tw-w-72 tw-rounded-tl-3xl tw-rounded-tr-3xl">
                   <div className="">
                     <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-text-5xl flaticon-certificate" />

@@ -20,6 +20,11 @@ export default {
         'gray-light': '#d3dce6',
       },
     },
+
+    fontFamily:{
+      font:[ "Roboto","serif"]
+    }
+
   },
   plugins: [],
 }

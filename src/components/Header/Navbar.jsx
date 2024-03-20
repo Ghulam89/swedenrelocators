@@ -20,8 +20,8 @@ const Navbar = () => {
     <>
       <div className="">
         <TopBar />
-        <nav className={`navbar md:tw-absolute tw-relative md:-tw-top-10 -tw-top-8 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${isSticky ? 'fixed-top tw-smooth-transition' : ''}`}>
-      <div className={`container${isSticky ? '-fluid  ' : '-lg'}  tw-transition-all tw-duration-700 container-navbar tw-py-1.5 tw-bg-white sm:px-5 px-3 md:tw-rounded-md tw-rounded-none`}>
+        <nav className={`navbar md:tw-absolute tw-relative md:-tw-top-10 -tw-top-8 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${isSticky ? 'fixed-top p-0 tw-smooth-transition' : ''}`}>
+      <div className={`container${isSticky ? '-fluid  px-lg-5 px-sm-0 tw-rounded-none' : '-lg px-lg-5 px-sm-3  md:tw-rounded-md  tw-rounded-none'}  tw-transition-all tw-duration-700 container-navbar tw-py-1.5 tw-bg-white `}>
             <button
               className="navbar-toggler"
               type="button"
@@ -75,16 +75,16 @@ const Navbar = () => {
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
-                    <li className=" tw-py-1">
+                    <li className=" ">
                       <Link
-                        className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/service_details"
+                        className="dropdown-item tw-text-sm  tw-font-medium "
+                        to="/service_details" 
                       >
                         ASYLUM
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-1">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="/service_details"
@@ -93,7 +93,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-1">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
                         to="/service_details"
@@ -102,7 +102,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-1">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/service_details"
@@ -111,7 +111,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-1">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
                         to="/service_details"
@@ -120,7 +120,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-1">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
                         to="/service_details"
@@ -129,7 +129,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-1">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
                         to="/service_details"
@@ -138,7 +138,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-1">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
                         to="/service_details"
@@ -166,7 +166,7 @@ const Navbar = () => {
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="/service_details"
@@ -175,7 +175,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="/service_details"
@@ -184,7 +184,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
                         to="/service_details"
@@ -193,7 +193,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/service_details"
@@ -228,7 +228,7 @@ const Navbar = () => {
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="#"
@@ -237,7 +237,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="#"
@@ -246,7 +246,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
                         to="/rent_out_your_housing"
@@ -255,7 +255,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/looking_for_housing"
@@ -283,7 +283,7 @@ const Navbar = () => {
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="#"
@@ -292,7 +292,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="#"
@@ -301,7 +301,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
                         to="/rent_out_your_housing"
@@ -310,7 +310,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/looking_for_housing"
@@ -337,7 +337,7 @@ const Navbar = () => {
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="/assessment_register"
@@ -346,7 +346,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className="tw-py-2">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="/assessment_register"
@@ -355,7 +355,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
                         to="/assessment_register"
@@ -364,7 +364,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/assessment_register"
@@ -373,7 +373,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/assessment_register"
@@ -382,7 +382,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/assessment_register"
@@ -391,7 +391,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/assessment"
@@ -419,7 +419,7 @@ const Navbar = () => {
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
-                    <li className=" tw-py-2">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="/assessment_register"
@@ -428,7 +428,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className="tw-py-2">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to="/assessment_register"
@@ -437,7 +437,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
                         to="/assessment_register"
@@ -446,7 +446,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/assessment_register"
@@ -455,7 +455,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/assessment_register"
@@ -464,7 +464,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/assessment_register"
@@ -473,7 +473,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" tw-py-2">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="#"

@@ -4,11 +4,52 @@ import Banner_Page from "../../components/Common/Banner_Page";
 import Footer from "../../components/Footer/Footer";
 import Button from "../../components/Button";
 import { GoTriangleRight } from "react-icons/go";
-import assess1 from '../../assets/images/BusinessAssessment.png'
-import assess2 from '../../assets/images/VisitVisaAssessment.png'
-import assess3 from '../../assets/images/StudyAssesmment.png'
-import assess4 from '../../assets/images/WorkPermit.png'
+import assess1 from "../../assets/images/BusinessAssessment.png";
+import assess2 from "../../assets/images/VisitVisaAssessment.png";
+import assess3 from "../../assets/images/StudyAssesmment.png";
+import assess4 from "../../assets/images/WorkPermit.png";
+import assess5 from "../../assets/images/ass5.png";
+import assess6 from "../../assets/images/ass6.png";
+import { Link } from "react-router-dom";
 const Assessment = () => {
+  const data = [
+    {
+      id: 1,
+      title: "Business Visa Assessment",
+      image: assess1,
+      Icon: <i class="fa fa-building tw-mt-1" aria-hidden="true"></i>,
+    },
+    {
+      id: 2,
+      title: "Visit Visa Assessment",
+      image: assess2,
+      Icon: <i class="fa fa-street-view tw-mt-1" aria-hidden="true"></i>,
+    },
+    {
+      id: 3,
+      title: "Study in Sweden Assesmment",
+      image: assess3,
+      Icon: <i class="fa fa-male tw-mt-1" aria-hidden="true"></i>,
+    },
+    {
+      id: 4,
+      title: "Work Permit Assesmment",
+      image: assess4,
+      Icon: <i class="fa fa-briefcase tw-mt-1" aria-hidden="true"></i>,
+    },
+    {
+      id: 5,
+      title: "Family Reunification Assessment",
+      image: assess5,
+      Icon: <i class="fa fa-users tw-mt-1" aria-hidden="true"></i>,
+    },
+    {
+      id: 6,
+      title: "Long Term EU Status Assessment",
+      image: assess6,
+      Icon: <i class="fa fa-home tw-mt-1" aria-hidden="true"></i>,
+    },
+  ];
   return (
     <>
       <Navbar />
@@ -17,7 +58,7 @@ const Assessment = () => {
         <div className="container-fluid ">
           <div className="row">
             <div className="col-md-8 ">
-              <div className=" tw-bg-white  md:tw-px-20 tw-px-5 tw-pt-14">
+              <div className=" tw-bg-white  md:tw-pl-20 tw-pl-5 md:tw-pr-18 tw-pr-5 tw-pt-14">
                 <div className="">
                   <p className=" tw-font-bold tw-text-2xl md:tw-flex tw-block tw-gap-2  tw-text-gray-dark tw-m-0">
                     {" "}
@@ -52,51 +93,47 @@ const Assessment = () => {
                 </div>
 
                 <div className="row tw-py-12">
-                  <div className="col-md-6">
-                     <div>
-                      <img src={assess1} alt=""  className="  tw-mx-auto"/>
+                  {data?.map((item, index) => {
+                    return (
+                      <>
+                        <div className="col-md-6">
+                          <Link to={`/assessment_register`}   >
+                            <img
+                              src={item?.image}
+                              alt=""
+                              className="  tw-mx-auto"
+                            />
 
-                      <Button Icons={<i class="fa fa-building tw-mt-1" aria-hidden="true"></i>} className={' hover:tw-bg-blue tw-font-semibold tw-w-full tw-py-3 tw-text-lg'}  label={'Business Visa Assessment'} />
-                     </div>
-                  </div>
-                  <div className="col-md-6">
-                     <div>
-                      <img src={assess2} alt=""  className="  tw-mx-auto"/>
-
-                      <Button Icons={<i class="fa fa-street-view tw-mt-1" aria-hidden="true"></i>} className={' hover:tw-bg-blue tw-font-semibold tw-w-full tw-py-3 tw-text-lg'}  label={'Visit Visa Assessment'} />
-                     </div>
-                  </div>
-                  <div className="col-md-6">
-                     <div>
-                      <img src={assess3} alt=""  className="  tw-mx-auto"/>
-
-                      <Button Icons={<i class="fa fa-street-view tw-mt-1" aria-hidden="true"></i>} className={' hover:tw-bg-blue tw-font-semibold tw-w-full tw-py-3 tw-text-lg'}  label={'Study in Sweden Assesmment'} />
-                     </div>
-                  </div>
-
-                  <div className="col-md-6">
-                     <div>
-                      <img src={assess4} alt=""  className="  tw-mx-auto"/>
-
-                      <Button Icons={<i class="fa fa-street-view tw-mt-1" aria-hidden="true"></i>} className={' hover:tw-bg-blue tw-font-semibold tw-w-full tw-py-3 tw-text-lg'}  label={'Work Permit Assesmment'} />
-                     </div>
-                  </div>
+                            <Button
+                              Icons={item?.Icon}
+                              className={
+                                " hover:tw-bg-blue tw-text-black tw-font-semibold tw-w-full tw-py-3"
+                              }
+                              label={`${item?.title}`}
+                            />
+                          </Link>
+                        </div>
+                      </>
+                    );
+                  })}
                 </div>
-            
-
 
                 <h6 className=" tw-text-gray tw-mb-3 text-xl">Notes:</h6>
 
                 <div className=" tw-bg-white tw-shadow-lg tw-rounded-md tw-py-4  tw-mb-4  px-3">
                   <p className="  tw-text-gray text-sm tw-m-0">
-                    Once you book the appointment you will be able to upload the documents on online portal, If you are in Sweden or Denmark you can visit us in our office.
+                    Once you book the appointment you will be able to upload the
+                    documents on online portal, If you are in Sweden or Denmark
+                    you can visit us in our office.
                   </p>
                 </div>
 
                 <div className=" tw-bg-blue tw-rounded-md tw-py-4 tw-mb-12  px-3">
                   <h6 className=" tw-text-white tw-m-0">
                     {" "}
-                    <i class="fa fa-calendar"></i>You can be anywhere in the world to apply visa online through our one window visa application system.
+                    <i class="fa fa-calendar"></i>You can be anywhere in the
+                    world to apply visa online through our one window visa
+                    application system.
                   </h6>
                 </div>
               </div>
