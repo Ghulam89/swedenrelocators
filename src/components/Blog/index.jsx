@@ -39,7 +39,7 @@ const Blog = () => {
       >
         <div className="col-lg-3">
           {/* featured-imagebox-post */}
-          <div className=" tw-shadow-lg">
+          <div className=" tw-shadow-xl">
             <div className=" tw-relative">
               <img
                 width={720}
@@ -79,7 +79,7 @@ const Blog = () => {
         </div>
         <div className="col-lg-3">
           {/* featured-imagebox-post */}
-          <div className=" tw-shadow-lg">
+          <div className=" tw-shadow-xl">
             <div className=" tw-relative">
               <img
                 width={720}
@@ -119,7 +119,7 @@ const Blog = () => {
         </div>
         <div className="col-lg-3">
           {/* featured-imagebox-post */}
-          <div className=" tw-shadow-lg">
+          <div className=" tw-shadow-xl">
             <div className=" tw-relative">
               <img
                 width={720}
@@ -159,7 +159,7 @@ const Blog = () => {
         </div>
         <div className="col-lg-3">
           {/* featured-imagebox-post */}
-          <div className=" tw-shadow-lg">
+          <div className=" tw-shadow-xl">
             <div className=" tw-relative">
               <img
                 width={720}

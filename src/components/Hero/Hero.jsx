@@ -2,7 +2,7 @@ import React from "react";
 import hero from "../../assets/images/hero.png";
 import Button from "../Button";
 import { motion } from "framer-motion";
-import { fadeIn, staggerContainer } from "../../utils/motion";
+import { fadeIn, imageVariants, staggerContainer } from "../../utils/motion";
 const Hero = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
 
@@ -64,13 +64,11 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <motion.div variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }}
+            <div 
                  className=" col-md-6  md:tw-absolute tw-relative  tw-right-0">
-              <motion.img  variants={fadeIn("down", "tween", 0.6, 2)}  src={hero} alt="" width="100%" />
-            </motion.div>
+              <motion.img  
+                 animate={imageVariants}  src={hero} alt="" width="100%" />
+            </div>
           </div>
         </div>
       </section>

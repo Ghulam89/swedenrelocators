@@ -17,8 +17,8 @@ const OurSkills = () => {
               {/* section title */}
               <div className="section-title title-style-center_text">
                 <div className="title-header tw-text-center">
-                  <span>WE EMPOWER YOUR SKILLS TO SUCCEED IN SWEDEN!</span>
-                  <h2 className="h2  tw-text-black">
+                  <span >WE EMPOWER YOUR SKILLS TO SUCCEED IN SWEDEN!</span>
+                  <h2 className="h2 tw-pt-1  tw-text-black">
                     Legal Relocation{" "}
                     <strong>Solutions For Worldwide Clients</strong>
                   </h2>
@@ -28,7 +28,7 @@ const OurSkills = () => {
             </div>
           </div>{" "}
           {/* row end*/}
-          <div className="row tw-pt-8">
+          <div className="row tw-pt-8 g-4">
             <motion.div   variants={containerVariants}
                 initial="hidden"
                 whileInView="show"

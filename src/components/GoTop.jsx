@@ -1,40 +1,71 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { LiaAngleUpSolid } from "react-icons/lia";
+import { motion } from 'framer-motion';
 
-const GoTop = ({ scrollStepInPx = 50, delayInMs = 15 }) => {
-  const [thePosition, setThePosition] = React.useState(false);
-  const timeoutRef = React.useRef(null);
+const GoTop = () => {
+  const [isVisible, setIsVisible] = useState(false);
 
-  React.useEffect(() => {
-    const listenToScroll = () => {
-      let position = window.pageYOffset > 170;
-      setThePosition(position);
+  // Function to toggle visibility based on scroll position
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 170) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  // Scroll to top smoothly
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
+  // Adding and removing the scroll event listener
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
     };
-
-    window.addEventListener("scroll", listenToScroll);
-    return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
 
-  const onScrollStep = () => {
-    if (window.pageYOffset === 0){
-      clearInterval(timeoutRef.current);
-    }
-    window.scroll(0, window.pageYOffset - scrollStepInPx);
-  }
-
-  const scrollToTop = () => {
-    timeoutRef.current = setInterval(onScrollStep, delayInMs);
-  }
+  // Framer Motion animation variants
+  const buttonVariants = {
+    hidden: { y: 50, opacity: 0 },
+    visible: { y: 0, opacity: 1, transition: { type: 'spring', stiffness: 100 } },
+    hover: { scale: 1.1, transition: { duration: 0.3 } }
+  };
 
   return (
     <>
-      {thePosition && (
-        <div id='scroll_up' className="tw-fixed top-visible tw-bottom-5 tw-right-5  tw-rounded-md tw-z-50 tw-cursor-pointer tw-p-3  tw-shadow-2xl    tw-bg-lightPink tw-text-white hover:bg-primary hover:shadow-lg transition duration-500 ease-in-out tw-bg-blue transform hover:-translate-y-1" onClick={scrollToTop}>
-          <LiaAngleUpSolid  className=' tw-text-white ' size={20} />
-        </div>
+      {isVisible && (
+        <motion.button
+          initial="hidden"
+          animate="visible"
+          whileHover="hover"
+          onClick={scrollToTop}
+          variants={buttonVariants}
+          style={{
+            position: 'fixed',
+            bottom: '20px',
+            right: '20px',
+            padding: '10px',
+            borderRadius: '5px',
+            zIndex: 50,
+            cursor: 'pointer',
+            backgroundColor: '#007BFF',
+            color: 'white',
+            border: 'none',
+            boxShadow: '0px 2px 5px rgba(0,0,0,0.3)'
+          }}
+        >
+          <LiaAngleUpSolid size={20} />
+        </motion.button>
       )}
     </>
-  )
+  );
 }
 
 export default GoTop;

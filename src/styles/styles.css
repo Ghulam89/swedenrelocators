@@ -21,7 +21,7 @@ h5 {
 }
 
 span {
-  @apply tw-text-xs tw-uppercase tw-text-blue tw-font-bold  !important;
+  @apply tw-text-[13px] tw-uppercase tw-text-blue tw-tracking-wider	 tw-font-bold  !important;
 }
 
 a {

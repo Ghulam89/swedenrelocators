@@ -9,7 +9,7 @@ import seven_image from "../../assets/images/bank-manager-talking.png";
 import eight_image from "../../assets/images/child-care.png";
 import Button from "../Button";
 import Why_choose_us from "../Why_choose_us";
-import { fadeIn, staggerContainer, zoomIn } from "../../utils/motion";
+import { fadeIn, imageVariants, staggerContainer, zoomIn } from "../../utils/motion";
 import { motion } from "framer-motion";
 const Because_family = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
@@ -37,13 +37,11 @@ const Because_family = () => {
             </div>
           </div>{" "}
           {/* row end*/}
-          <div className="row tw-items-center ">
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-6">
-              <motion.img variants={fadeIn("right", "tween", 0.2, 1)}  src={first_image} alt="" />
-            </motion.div>
+          <div className="row tw-items-center g-5 ">
+            <div   className="col-md-6">
+              <motion.img
+                 animate={imageVariants}  src={first_image} alt="" />
+            </div>
             <div className="col-md-6">
               <motion.div variants={containerVariants}
                 initial="hidden"
@@ -152,12 +150,11 @@ const Because_family = () => {
               </motion.p>
               </motion.div>
             </div>
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-6">
-              <motion.img  variants={fadeIn("left", "tween", 0.2, 1)}  src={second_image} alt="" />
-            </motion.div>
+            <div   className="col-md-6">
+              <motion.img  
+                 animate={imageVariants}  src={second_image} alt="" />
+              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+            </div>
 
             <div className="col-md-6">
               <motion.div  variants={containerVariants}
@@ -216,20 +213,17 @@ const Because_family = () => {
 
            
 
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-6">
-              <motion.img  variants={fadeIn("right", "tween", 0.2, 1)}  src={third_image} alt="" />
-            </motion.div>
+            <div  className="col-md-6">
+              <motion.img  
+                 animate={imageVariants}  src={third_image} alt="" />
+            </div>
 
            
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-6">
-              <motion.img  variants={fadeIn("right", "tween", 0.2, 1)}  src={fourth_image} alt="" />
-            </motion.div>
+            <div  className="col-md-6">
+              <motion.img  
+                 animate={imageVariants}  src={fourth_image} alt="" />
+              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+            </div>
             <div className="col-md-6">
               <motion.div variants={containerVariants}
                 initial="hidden"
@@ -315,7 +309,13 @@ const Because_family = () => {
               </motion.p>
               </motion.div>
             </div>
-            
+            <div className="col-md-6">
+              <motion.img  
+                 animate={imageVariants}  src={fifth_image} alt="" />
+
+
+              
+            </div>
             <div className="col-md-6">
               <div className="title-header">
                 <span>WORK PERMIT & EXTENSIONS</span>
@@ -349,20 +349,13 @@ const Because_family = () => {
 
            
 
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-6">
-              <motion.img  variants={fadeIn("left", "tween", 0.2, 1)}  src={fifth_image} alt="" />
-            </motion.div>
+         
 
             
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-6">
-              <motion.img  variants={fadeIn("left", "tween", 0.2, 1)}  src={third_image} alt="" />
-            </motion.div>
+            <div    className="col-md-6">
+              <motion.img 
+                 animate={imageVariants}  src={third_image} alt="" />
+            </div>
             <div className="col-md-6">
               <div className="title-header">
                 <span>BUSINESS & INVESTMENT SOLUTIONS</span>
@@ -413,12 +406,10 @@ const Because_family = () => {
             </div>
 
 
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-5">
-              <motion.img  variants={fadeIn("left", "tween", 0.2, 1)}  src={six_image} alt="" />
-            </motion.div>
+            <div   className="col-md-5">
+              <motion.img  
+                 animate={imageVariants}  src={six_image} alt="" />
+            </div>
 
             <div className="col-md-6">
               <div className="title-header">
@@ -443,12 +434,10 @@ const Because_family = () => {
             </div>
 
             
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-6">
-              <motion.img  variants={fadeIn("bottom", "tween", 0.2, 1)}  src={seven_image} alt="" />
-            </motion.div>
+            <div    className="col-md-6">
+              <motion.img  
+                 animate={imageVariants}  src={seven_image} alt="" />
+            </div>
             <div className="col-md-6">
               <div className="title-header">
                 <span>AU-PAIR SERVICES FOR NORDIC FAMILIES</span>
@@ -477,12 +466,10 @@ const Because_family = () => {
 
         
               
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-md-6">
-              <motion.img  variants={zoomIn(0.3, 1)}  src={eight_image} alt="" />
-            </motion.div>
+            <div   className="col-md-6">
+              <motion.img  
+                 animate={imageVariants}  src={eight_image} alt="" />
+            </div>
           </div>
         </div>
       </section>

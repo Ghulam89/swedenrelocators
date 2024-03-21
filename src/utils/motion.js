@@ -159,3 +159,19 @@ export const footerVariants = {
     },
   },
 };
+
+
+
+
+
+export const  imageVariants = {
+  x: ["-3%", "3%", "-3%"], 
+  transition: {
+    x: {
+      repeat: Infinity,
+      repeatType: "loop",
+      duration: 9,
+      ease: "linear"
+    }
+  }
+};

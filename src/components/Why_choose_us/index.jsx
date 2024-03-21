@@ -1,32 +1,31 @@
 import React from "react";
 import choose from "../../assets/images/office-meetings.png";
 import Button from "../Button";
-import { fadeIn, staggerContainer } from "../../utils/motion";
+import { fadeIn, imageVariants, staggerContainer } from "../../utils/motion";
 import { motion } from "framer-motion";
 const Why_choose_us = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
+
   return (
     <>
       <section>
         <div className="container  tw-pt-10">
           <div className="row">
             <div className="col-xl-6 col-lg-6">
-              <motion.div
-                variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }}
+              <div
+                
                 className=""
               >
                 <motion.img
-                  variants={fadeIn("right", "tween", 0.2, 1)}
+                 animate={imageVariants}
+                  
                   width={530}
                   height={522}
                   className="img-fluid"
                   src={choose}
                   alt="single_04"
                 />
-              </motion.div>
+              </div>
             </div>
             <div className="col-xl-6 col-lg-6">
               {/* section title */}
