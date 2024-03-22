@@ -38,15 +38,6 @@ i {
   }
   
 
-  /* .dropdown:hover .dropdown-menu2 { */
-    /* display: grid !important; */
-     /* Show the dropdown menu on hover */
-/* } */
-
-.dropdown:hover .dropdown-menu{
-  /* width: 200px !important; */
-  /* word-wrap: break-word; */
-}
 
   .hover-dropdown:hover .dropdown-menu {
     display: block;
