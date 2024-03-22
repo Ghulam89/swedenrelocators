@@ -33,7 +33,7 @@ const Navbar = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <Link className="navbar-brand   tw-w-56" to="#">
+            <Link className="navbar-brand   tw-w-56" to="/">
               <img src={logo} alt="" />
             </Link>
 
@@ -72,10 +72,11 @@ const Navbar = () => {
                     <i class="fas fa-chevron-down  ps-2"></i>
                   </Link>
                   <ul
-                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                  style={{ gridTemplateColumns: "repeat(3, 1fr)", gap: 4 }}
+                    className="dropdown-menu dropdown-men2 border-0  tw-bg-white tw-shadow-xl absolute hidden"
                     aria-labelledby="navbarDropdown"
                   >
-                    <li className=" ">
+                    <li >
                       <Link
                         className="dropdown-item tw-text-sm  tw-font-medium "
                         to="/service_details" 
@@ -83,7 +84,7 @@ const Navbar = () => {
                         ASYLUM
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
+                   
                     <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
@@ -92,7 +93,7 @@ const Navbar = () => {
                         BUSINESS VISIT
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
+                    
                     <li className="">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
@@ -101,49 +102,168 @@ const Navbar = () => {
                         CPR NUMBER DENMARK
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
+                   
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
                         to="/service_details"
                       >
-                        LOOKING FOR HOUSING
+                        EU FAMILY <br/> REUNIFICATION
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
+                 
                     <li className="">
                       <Link
                         className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
                         to="/service_details"
                       >
-                        Family Reunification
+                       GOLDEN VISA <br/> 
+                       
+                       (GREECE-PORTUGAL)
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
+                   
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
                         to="/service_details"
                       >
-                        Personnummer Sweden
+                        MARRIAGE & DIVORCE
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
+                
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
                         to="/service_details"
                       >
-                        Global Visit Visas
+                       PERSONNUMMER SWEDEN
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
+             
                     <li className="">
                       <Link
                         className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
                         to="/service_details"
                       >
-                        EEA Permits
+                        APPEAL CASES
+                      </Link>
+                    </li>
+                    
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                        CITIZENSHIP
+                      </Link>
+                    </li>
+                   
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                       DIRECT CITIZENSHIP <br/> BY INVESTMENTS
+                      </Link>
+                    </li>
+                  
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                        FAMILY REUNIFICATION
+                      </Link>
+                    </li>
+                 
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                        HOUSE & OFFICES
+                      </Link>
+                    </li>
+               
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                       PARENTS EU PERMIT
+                      </Link>
+                    </li>
+                
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                        STUDY IN EU
+                      </Link>
+                    </li>
+                
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                      BUSINESS PERMIT
+                      </Link>
+                    </li>
+                   
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                       COMPANY REGISTRATION
+                      </Link>
+                    </li>
+        
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                    EEA PERMITS
+                      </Link>
+                    </li>
+                  
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                       GLOBAL VISIT VISAS
+                      </Link>
+                    </li>
+                  
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                       INVESTMENT
+                      </Link>
+                    </li>
+                   
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                       PERMANENT RESIDENCE
+                      </Link>
+                    </li>
+                  
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-uppercase tw-text-sm tw-font-medium"
+                        to="/service_details"
+                      >
+                       PERMANENT RESIDENCE
                       </Link>
                     </li>
                   </ul>

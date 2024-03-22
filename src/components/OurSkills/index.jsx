@@ -4,6 +4,63 @@ import { motion } from "framer-motion";
 
 const OurSkills = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
+
+  const data = [
+    {
+      id: 1,
+      title: "Family Reunification",
+      description:
+        "Family reunification is a recognized reason for the immigration of family members to a country where one or more family members already reside. If a person is an EU citizen or has a permanent residence permit or is an individual who needs subsidiary protection, then you may have the right to invite your family to that country.      ",
+      Icon: (
+        <i className="flaticon icons-animate tw-text-blue tw-pl-1   tw-mr-0 tw-text-[43px] flaticon-family" />
+      ),
+    },
+    {
+      id: 2,
+      title: "Visitor Visa",
+      description:
+        "For visiting Sweden for a short period you will need a visit visa. Visiting for a short tour, meeting your relatives, visiting friends, or business meeting you need to consider a short visit to Sweden which is called the Schengen tourist visa. Sweden follows the same visa rules as other European countries because it is also part of the Schengen agreement.      ",
+      Icon: (
+        <i className=" icons-animate mt_tripzia flaticon-travel tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px]" />
+      ),
+    },
+    {
+      id: 3,
+      title: "Work Permit",
+      description:
+        "Currently, every EU country has a different process for granting work permits to nationals of non-EU countries. To address this issue, the European Commission began work in 1999 on developing an EU-wide process for the entry of non-EU nationals into the workforce. For a work permit, you must have received an official offer of employment from a Swedish employer.",
+      Icon: (
+        <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px] flaticon-certificate" />
+      ),
+    },
+    {
+      id: 4,
+      title: "Study in Sweden",
+      description:
+        "If you are thinking about studying abroad, then visit Sweden. Studying in Sweden is unique, and you will not find an experience like it anywhere else in the world. Swedish educational institutions provide an exciting as well as an open environment, with a strong focus on cooperation. This will give you valuable skills that you cannot find at other universities across the world.      ",
+      Icon: (
+        <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px] flaticon-reading" />
+      ),
+    },
+    {
+      id: 5,
+      title: "Citizenship",
+      description:
+        "When you have lived in Sweden for a specified period and meet requirements, you can apply for Swedish citizenship. Normally after 5 years you are eligible to apply.      ",
+      Icon: (
+        <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px] flaticon-visa" />
+      ),
+    },
+    {
+      id: 6,
+      title: "	Invest in Sweden",
+      description:
+        "There are various opportunities for business ventures, Look for the best opportunity, grab it and do your best. For more signup and see the Business Section on My Page.",
+      Icon: (
+        <i className="flaticon icons-animate tw-text-blue tw-pl-1 tw-mr-0 tw-text-[43px] flaticon-bussiness-man" />
+      ),
+    },
+  ];
   return (
     <>
       <section
@@ -17,7 +74,7 @@ const OurSkills = () => {
               {/* section title */}
               <div className="section-title title-style-center_text">
                 <div className="title-header tw-text-center">
-                  <span >WE EMPOWER YOUR SKILLS TO SUCCEED IN SWEDEN!</span>
+                  <span>WE EMPOWER YOUR SKILLS TO SUCCEED IN SWEDEN!</span>
                   <h2 className="h2 tw-pt-1  tw-text-black">
                     Legal Relocation{" "}
                     <strong>Solutions For Worldwide Clients</strong>
@@ -29,164 +86,50 @@ const OurSkills = () => {
           </div>{" "}
           {/* row end*/}
           <div className="row tw-pt-8 g-4">
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }}
+            {data?.map((item, index) => {
+              return (
+                <div
                 
-                className="col-lg-6 col-md-12">
-              <motion.div  variants={fadeIn("up", "tween", 0.2, 1)}   className=" tw-flex tw-shadow-xl tw-pt-5 px-4 tw-gap-8 wrapperIcon">
-                <div className="featured-icon tw-bg-[#F5FAFF] p-1    tw-w-72 tw-rounded-tl-3xl tw-rounded-tr-3xl">
-                  <div className="">
-                    <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-text-5xl flaticon-bussiness-man" />
-                  </div>
+                  className="col-lg-6 col-md-12"
+                >
+                  <motion.div
+                    variants={fadeIn("up", "tween", 0.2, 1)}
+                    className=" tw-flex tw-shadow-xl tw-pt-5 tw-px-11 tw-gap-8 wrapperIcon"
+                  >
+                    <div className="featured-icon tw-bg-[#F5FAFF] p-1     tw-w-[12%] tw-rounded-tl-3xl tw-rounded-tr-3xl">
+                      <div className=" tw-pt-6">
+                       {item?.Icon}
+                      </div>
+                    </div>
+                    <div className="featured-content tw-w-[80%]">
+                      <div className="featured-title">
+                        <h3>
+                          <a
+                            className=" tw-text-black  tw-font-medium  tw-text-xl"
+                            href="business-visa.html"
+                          >
+                           {item?.title}
+                          </a>
+                        </h3>
+                      </div>
+                      <div className="featured-desc">
+                        <p className=" tw-text-gray  tw-font-normal">
+                          {item?.description}
+                        </p>
+                      </div>
+                      <div className="cmt-serviceboxbox-readmore tw-pb-5">
+                        <a
+                          className=" tw-font-medium"
+                          href="business-visa.html"
+                        >
+                          View More Details
+                        </a>
+                      </div>
+                    </div>
+                  </motion.div>
                 </div>
-                <div className="featured-content">
-                  <div className="featured-title">
-                    <h3>
-                      <a
-                        className=" tw-text-black  tw-font-medium  tw-text-xl"
-                        href="business-visa.html"
-                      >
-                        Family Reunification
-                      </a>
-                    </h3>
-                  </div>
-                  <div className="featured-desc">
-                    <p className=" tw-text-gray  tw-font-normal">
-                      Family reunification is a recognized reason for the
-                      immigration of family members to a country where one or
-                      more family members already reside. If a person is an EU
-                      citizen or has a permanent residence permit or is an
-                      individual who needs subsidiary protection, then you may
-                      have the right to invite your family to that country.
-                    </p>
-                  </div>
-                  <div className="cmt-serviceboxbox-readmore tw-pb-5">
-                    <a className=" tw-font-medium" href="business-visa.html">
-                      View More Details
-                    </a>
-                  </div>
-                </div>
-              </motion.div>
-            </motion.div>
-            <motion.div   variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-lg-6 col-md-12">
-              <motion.div  variants={fadeIn("up", "tween", 0.2, 1)} className=" tw-flex tw-shadow-xl tw-pt-5 px-4 tw-gap-8 wrapperIcon">
-                <div className="featured-icon tw-bg-[#F5FAFF] p-1    tw-w-72 tw-rounded-tl-3xl tw-rounded-tr-3xl">
-                  <div className="">
-                    <i className=" icons-animate mt_tripzia flaticon-travel tw-text-blue tw-pl-1  tw-text-5xl" />
-                  </div>
-                </div>
-                <div className="featured-content">
-                  <div className="featured-title">
-                    <h3>
-                      <a
-                        className=" tw-text-black tw-font-medium   tw-text-xl"
-                        href="business-visa.html"
-                      >
-                        Visitor Visa
-                      </a>
-                    </h3>
-                  </div>
-                  <div className="featured-desc">
-                    <p className=" tw-text-gray  tw-font-normal">
-                      For visiting Sweden for a short period you will need a
-                      visit visa. Visiting for a short tour, meeting your
-                      relatives, visiting friends, or business meeting you need
-                      to consider a short visit to Sweden which is called the
-                      Schengen tourist visa. Sweden follows the same visa rules
-                      as other European countries because it is also part of the
-                      Schengen agreement.
-                    </p>
-                  </div>
-                  <div className="cmt-serviceboxbox-readmore tw-pb-5">
-                    <a className=" tw-font-medium" href="business-visa.html">
-                      View More Details
-                    </a>
-                  </div>
-                </div>
-              </motion.div>
-            </motion.div>
-            <div  variants={containerVariants}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }} className="col-lg-6 col-md-12">
-              <div  className=" tw-flex tw-shadow-xl tw-pt-5 px-4 tw-gap-8 wrapperIcon">
-                <div className="featured-icon tw-bg-[#F5FAFF] p-1    tw-w-72 tw-rounded-tl-3xl tw-rounded-tr-3xl">
-                  <div className="">
-                    <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-text-5xl flaticon-certificate" />
-                  </div>
-                </div>
-                <div className="featured-content">
-                  <div className="featured-title">
-                    <h3>
-                      <a
-                        className=" tw-text-black tw-font-medium   tw-text-xl"
-                        href="business-visa.html"
-                      >
-                        Work Permit
-                      </a>
-                    </h3>
-                  </div>
-                  <div className="featured-desc">
-                    <p className=" tw-text-gray  tw-font-normal">
-                      Currently, every EU country has a different process for
-                      granting work permits to nationals of non-EU countries. To
-                      address this issue, the European Commission began work in
-                      1999 on developing an EU-wide process for the entry of
-                      non-EU nationals into the workforce. For a work permit,
-                      you must have received an official offer of employment
-                      from a Swedish employer.
-                    </p>
-                  </div>
-                  <div className="cmt-serviceboxbox-readmore tw-pb-5">
-                    <a className=" tw-font-medium" href="business-visa.html">
-                      View More Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-12">
-              <div className=" tw-flex tw-shadow-xl tw-pt-5 px-4 tw-gap-8 wrapperIcon">
-                <div className="featured-icon tw-bg-[#F5FAFF] p-1    tw-w-72 tw-rounded-tl-3xl tw-rounded-tr-3xl">
-                  <div className="">
-                    <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-text-5xl flaticon-reading" />
-                  </div>
-                </div>
-                <div className="featured-content">
-                  <div className="featured-title">
-                    <h3>
-                      <a
-                        className=" tw-text-black tw-font-medium   tw-text-xl"
-                        href="business-visa.html"
-                      >
-                        Family Study in Sweden
-                      </a>
-                    </h3>
-                  </div>
-                  <div className="featured-desc">
-                    <p className=" tw-text-gray  tw-font-normal">
-                      If you are thinking about studying abroad, then visit
-                      Sweden. Studying in Sweden is unique, and you will not
-                      find an experience like it anywhere else in the world.
-                      Swedish educational institutions provide an exciting as
-                      well as an open environment, with a strong focus on
-                      cooperation. This will give you valuable skills that you
-                      cannot find at other universities across the world.
-                    </p>
-                  </div>
-                  <div className="cmt-serviceboxbox-readmore tw-pb-5">
-                    <a className=" tw-font-medium" href="business-visa.html">
-                      View More Details
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </section>

@@ -4,16 +4,19 @@ import { Link } from "react-router-dom";
 const TopBar = () => {
   return (
     <>
-      <section className="  md:tw-pb-3.5 tw-pb-0 md:tw-pl-24 tw-pl-0  tw-bg-primary">
+      <section className="  md:tw-pb-3 tw-pb-0 md:tw-pl-24 tw-pl-0  tw-bg-primary">
         <div className="container-fluid tw-p-0 ">
-          <div className="row  tw-items-center text-center">
+          <div className="row   tw-items-baseline text-center">
             <div className="col-lg-6 col-md-12">
-              <div className=" tw-flex tw-flex-wrap tw-items-center tw-gap-4 tw-justify-center md:tw-justify-start tw-text-center tw-pt-3">
+              <div className=" tw-flex tw-flex-wrap tw-items-center tw-gap-4 tw-justify-center md:tw-justify-start tw-text-center ">
                 <p className="   tw-text-sm      tw-border-gray  tw-text-white">
                   <i class="ti ti-alarm-clock"></i>
                   Mon - Fri 10.00 - 18.00
                 </p>
-               <span  className="  tw-h-5  tw-mb-4 tw-bg-gray  tw-border-gray" style={{width:'1px'}}></span>
+                <span
+                  className="  tw-h-5  tw-mb-4 tw-bg-gray  tw-border-gray"
+                  style={{ width: "1px" }}
+                ></span>
                 <p className="    tw-text-sm tw-text-white">
                   <i class="ti ti-location-pin"></i>
                   Amiralsgatan 86E 214 37 Malmö, Sweden
@@ -33,12 +36,12 @@ const TopBar = () => {
                 </div>
                 <div className=" tw-float-right sm:tw-pt-0 tw-pt-3">
                   <div className=" tw-flex tw-items-center">
-                    <button className=" tw-bg-blue tw-py-3.5  tw-px-4  tw-text-white text-xs  tw-flex tw-border-r tw-justify-center tw-items-center">
+                    <button className=" tw-bg-blue tw-py-3.5  tw-px-4   tw-font-medium tw-text-white tw-text-[15px]  tw-flex tw-border-r tw-justify-center tw-items-center">
                       My Page
                     </button>
                     <Link
                       to={"/register"}
-                      className=" sign_up tw-outline-none  hover:tw-text-white tw-bg-blue tw-py-3.5 tw-px-4  tw-w-44  tw-text-white text-sm tw-flex  tw-items-center"
+                      className=" sign_up tw-outline-none  hover:tw-text-white tw-font-medium tw-bg-blue tw-py-3.5 tw-px-4  tw-w-44  tw-text-white tw-text-[15px] tw-flex  tw-items-center"
                     >
                       Sign Up
                     </Link>
