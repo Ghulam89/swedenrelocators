@@ -86,6 +86,114 @@ const Services = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
     },
+    {
+      id: 9,
+      title: "Global Visit Visas",
+      description:
+        "For visiting Sweden for a short period you will need a visit visa. Sweden follows the same visa rules as others.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
+      ),
+    },
+    {
+      id: 10,
+      title: "EEA Permits",
+      description:
+        "Any EU citizen getting residence in the UK according to the EU rules, can bring their family with them.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
+      ),
+    },
+    {
+      id: 11,
+      title: "Parents EU Permit",
+      description:
+        "Parents of a child under 18 years who is in Sweden can move to sweden if they will live with the child.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
+      ),
+    },
+    {
+      id: 12,
+      title: "Marriage & Divorce      ",
+      description:
+        "Getting married is beautiful. But to make sure that it will be a good experience, it is important to have legal control.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
+      ),
+    },
+    {
+      id: 13,
+      title: "Company Registration      ",
+      description:
+        "If you are planning to register your company inside Sweden, you can reach us anytime if you have some queries about it.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
+      ),
+    },
+    {
+      id: 14,
+      title: "House & Offices",
+      description:
+        "we offer you an easy and painless solution where you can get a place to live without any worries.",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
+      ),
+    },
+    {
+      id: 15,
+      title: "Appeal Cases",
+      description:
+        "Have you been denied? let’s take a look at your case so that the decision can hopefully be overturned.",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
+      ),
+    },
+    {
+      id: 16,
+      title: "EU Citizens Relocation",
+      description:
+        "Family reunification means that a family that has been split up can apply to be allowed to live together.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
+      ),
+    },
+    {
+      id: 17,
+      title: "Investment",
+      description:
+        "There are various opportunities for business ventures, Look for the best opportunity, grab it and do your best.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
+      ),
+    },
+    {
+      id: 18,
+      title: "Direct Citizenship by Investments      ",
+      description:
+        "citizenship-by-investment programs provide ultra-wealthy families with the privilege of a second or third passport.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
+      ),
+    },
+    {
+      id: 19,
+      title: "Permanent Residence",
+      description:
+        "If you lived in Sweden for more than 5 years with the EU right of residence you can get the permanent residence permit.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
+      ),
+    },
+    {
+      id: 20,
+      title: "Golden Visa (Greece - Portugal)      ",
+      description:
+        "As a member state of the EU, They offer its residents and citizens a number of reassuring benefits.        ",
+      icons: (
+        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
+      ),
+    },
   ];
   return (
     <>
@@ -107,7 +215,10 @@ const Services = () => {
                     {item?.icons}
                     <h5 className=" tw-text-white">{item?.title} </h5>
                     <p className=" tw-text-white">{item?.description}</p>
-                    <Link to={"#"} className=" tw-font-semibold">
+                    <Link
+                      to={`${`/service_details/${item?.title}`}`}
+                      className=" tw-font-semibold"
+                    >
                       View More{" "}
                     </Link>
                   </div>
@@ -116,6 +227,7 @@ const Services = () => {
             })}
           </div>
         </div>
+
         <Footer />
       </div>
     </>

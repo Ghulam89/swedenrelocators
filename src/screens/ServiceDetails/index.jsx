@@ -3,11 +3,13 @@ import Banner_Page from "../../components/Common/Banner_Page";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
+import { useParams } from "react-router-dom";
 const ServiceDetails = () => {
+  const {id} =  useParams()
   return (
     <>
       <Navbar />
-      <Banner_Page title={"ASYLUM"} />
+      <Banner_Page title={`${id}`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -15,7 +17,7 @@ const ServiceDetails = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>ASYLUM IN SWEDEN</span>
+                  <span>{id}</span>
                   <h2>
                     <strong>What We Offer</strong>
                   </h2>

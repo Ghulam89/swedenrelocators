@@ -57,7 +57,7 @@ const Routing = () => {
         <Route path="/assessment" element={<Assessment />} />
         <Route path="/assessment_register" element={<Assessment_register />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/service_details" element={<ServiceDetails />} />
+        <Route path="/service_details/:id" element={<ServiceDetails />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blog_details" element={<BlogDetails />} />

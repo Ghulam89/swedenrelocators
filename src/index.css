@@ -48,6 +48,29 @@ i {
 
 
 
+
+  .hover-dropdown2:hover   .dropdown-men2{
+      
+      display: block !important;
+      
+
+
+  }
+
+
+  .dropdown-men2 li{
+    border-right: 1px solid #ccc;
+  }
+ .dropdown-men2 li a{
+  padding: 0px 12px;
+ }
+
+
+
+
+
+
+
   .dropdown-item{
     color: gray !important;
     font-weight: 400 !important; 
