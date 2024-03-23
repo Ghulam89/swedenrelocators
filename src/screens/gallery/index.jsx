@@ -145,7 +145,7 @@ const Gallery = ({
       </section>
 
       <Modal
-        className={" tw-w-full h-[90vh] tw-bg-transparent"}
+        className={" tw-w-full h-[90vh] bg-transparent"}
         isOpen={isModalSlider}
         onClose={closeSlider}
       >

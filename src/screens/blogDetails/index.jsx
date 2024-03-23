@@ -9,6 +9,8 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import Button from "../../components/Button";
 import Input from "../../components/Input";
 const BlogDetails = () => {
+
+
   return (
     <>
       <Navbar />
@@ -29,6 +31,12 @@ const BlogDetails = () => {
                         src={blog1}
                         alt="image"
                       />
+                      <div className="    tw-bg-blue tw-w-20   tw-flex tw-justify-center tw-items-center tw-h-20 tw-rounded-md tw-absolute tw-top-0 tw-right-0">
+                       <div>
+                       <strong className=" tw-text-white tw-m-0 tw-uppercase tw-text-2xl" >06</strong>
+                        <p className=" tw-text-white  tw-m-0">JUL</p>
+                       </div>
+                      </div>
                     </div>
                     <div className=" tw-p-4">
                       <p className=" tw-text-gray">

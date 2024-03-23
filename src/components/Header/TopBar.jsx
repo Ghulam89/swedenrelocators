@@ -40,7 +40,7 @@ const TopBar = () => {
                       My Page
                     </button>
                     <Link
-                      to={"/register"}
+                      to={"/set_up_your_account"}
                       className=" sign_up tw-outline-none  hover:tw-text-white tw-font-medium tw-bg-blue tw-py-3.5 tw-px-4  tw-w-44  tw-text-white tw-text-[15px] tw-flex  tw-items-center"
                     >
                       Sign Up

@@ -3,6 +3,7 @@ import Banner_Page from "../../components/Common/Banner_Page";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
+import { Button } from "bootstrap";
 const Services = () => {
   const data = [
     {
@@ -207,7 +208,7 @@ const Services = () => {
             </h1>
             <hr className=" tw-w-28 tw-opacity-3 tw-mx-auto tw-border-white" />
           </div>
-          <div className="row tw-pt-10 g-4">
+          <div className="row tw-pt-10 tw-pb-32 g-4">
             {data?.map((item, index) => {
               return (
                 <div className="col-md-4">
@@ -226,6 +227,23 @@ const Services = () => {
               );
             })}
           </div>
+        </div>
+
+
+        <div className=" tw-bg-white sm:tw-h-32 tw-h-auto tw-relative tw-justify-center tw-flex">
+
+          <div className="container sm:tw-h-48 tw-h-auto p-5 tw-py-5 sm:tw-absolute  tw-relative   sm:-tw-top-16 tw-top-0 tw-bg-blue sm:tw-rounded-md  tw-rounded-none">
+             <div className="  row  tw-items-center tw-justify-between">
+              <div className="col-md-9">
+                <p className=" fs-2 tw-font-medium tw-text-white">HAVE ANY QUESTIONS?</p >
+                <p className="  tw-text-white tw-font-normal"><strong>Need a consultation? </strong> Call us today at +46102146276 or email us: info@swedenrelocators.se</p>
+              </div>
+              <div className=" col-md-3">
+                 <button className=" tw-text-white border  tw-px-8 tw-py-2 tw-rounded-full  hover:tw-bg-white hover:tw-text-black">Book an  appointment</button>
+              </div>
+             </div>
+          </div>
+
         </div>
 
         <Footer />

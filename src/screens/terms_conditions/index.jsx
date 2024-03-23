@@ -57,25 +57,43 @@ const Terms_conditions = () => {
                 and wants to get our services under defined conditions.
               </p>
 
-              <hr  className=" tw-border-gray" />
+              <hr className=" tw-border-gray" />
 
+              <h5>2. ARRANGEMENTS AND COSTS </h5>
 
+              <p className=" tw-text-gray m-0">
+                <strong>2.1 </strong> We strive to provide services for
+                attractive fees, we will provide you with an estimate of our fee
+                at the start of the assignment or application and, depending on
+                the nature of the assignment, we can also agree on a single
+                budget or another fee arrangement. For a different type of
+                Relocations services, we have a fixed fee that clients have to
+                pay when they signed the Power of Attorney with the company. We
+                are not providing any kind of guarantees to our clients as our
+                job is to provide you right assistance. Even due to a lack of
+                documents or false documentation if your application is rejected
+                by the authorities we will cost the client a regular application
+                fee. We do have our online portal where you can see the service
+                charges for your desired assignment. Sign up on our website and
+                see the section Service charges.
+              </p>
+              <p className=" tw-text-gray m-0">
+                <strong>2.2</strong> If we do not agree on a fixed application
+                otherwise, our fees will be determined on the basis of a number
+                of factors such as (i) time, (ii) the skill and experience
+                required by the assignment, (iii) the values that the assignment
+                relates to, (iv) any risks for the company, ( v) time pressure
+                and (vi) achieved results.
+              </p>
+              <p className=" tw-text-gray m-0">
+                <strong>2.3</strong> In addition to our fees, travel and other
+                expenses may be charged. Normally, the client will limit his
+                expenses and wants to charge us in the same application area,
+                but wants to add other services too, so we may be charged extra
+                on top of the already paid invoice.
+              </p>
 
-              <h5>2. ARRANGEMENTS AND  COSTS </h5>
-
-<p className=" tw-text-gray m-0">
-  <strong>2.1 </strong> We strive to provide services for attractive fees, we will provide you with an estimate of our fee at the start of the assignment or application and, depending on the nature of the assignment, we can also agree on a single budget or another fee arrangement. For a different type of Relocations services, we have a fixed fee that clients have to pay when they signed the Power of Attorney with the company. We are not providing any kind of guarantees to our clients as our job is to provide you right assistance. Even due to a lack of documents or false documentation if your application is rejected by the authorities we will cost the client a regular application fee. We do have our online portal where you can see the service charges for your desired assignment. Sign up on our website and see the section Service charges.
-</p>
-<p className=" tw-text-gray m-0">
-  <strong>2.2</strong> If we do not agree on a fixed application otherwise, our fees will be determined on the basis of a number of factors such as (i) time, (ii) the skill and experience required by the assignment, (iii) the values that the assignment relates to, (iv) any risks for the company, ( v) time pressure and (vi) achieved results.
-</p>
-<p className=" tw-text-gray m-0">
-  <strong>2.3</strong>  In addition to our fees, travel and other expenses may be charged. Normally, the client will limit his expenses and wants to charge us in the same application area, but wants to add other services too, so we may be charged extra on top of the already paid invoice.
-</p>
-
-<hr  className=" tw-border-gray" />
-
-
+              <hr className=" tw-border-gray" />
             </div>
           </div>
         </div>
