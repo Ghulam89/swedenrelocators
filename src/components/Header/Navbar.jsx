@@ -314,7 +314,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/service_details"
+                        to="/housing"
                       >
                         HOW ITS WORKS
                       </Link>
@@ -323,7 +323,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/service_details"
+                        to="/available_housing"
                       >
                         AVAILABLE HOUSING
                       </Link>
