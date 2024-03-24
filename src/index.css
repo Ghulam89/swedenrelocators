@@ -93,6 +93,29 @@ i {
   background: url("./assets/images/bar.svg");
 }
 
+
+
+tw-scroll-container
+
+/* Scrollbar Styling */
+.tw-productOverflow::-webkit-scrollbar {
+  width:2px !important;
+  display: none !important;
+}
+
+.tw-productOverflow::-webkit-scrollbar-track {
+  background-color: #ebebeb !important;
+  -webkit-border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+
+.tw-productOverflow::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px !important;
+  border-radius: 10px !important;
+  background: #061F48 !important; 
+}
+
+
 .housing::before {
   content: url("./assets/images/arrow-right.svg");
   flex: 0 0 23px;
