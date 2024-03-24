@@ -22,6 +22,8 @@ import Rent_out_your_housing from "../screens/rent_out_your_housing";
 import ServiceDetails from "../screens/ServiceDetails";
 import Looking_for_housing from "../screens/Looking_for_housing";
 import { useEffect } from "react";
+import Housing from "../screens/Housing";
+import Available_housing from "../screens/Available_housing";
 const Routing = () => {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -64,6 +66,8 @@ const Routing = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/terms_conditions" element={<Terms_conditions />} />
         <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+        <Route path="/housing" element={<Housing />} />
+        <Route path="/available_housing" element={<Available_housing />} />
       </Routes>
       <GoTop />
     </BrowserRouter>

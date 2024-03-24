@@ -280,12 +280,9 @@ const Rent_out_your_housing = () => {
                       </select>
                     </div>
 
-
-
-
                     <div className=" tw-bg-blue  tw-rounded-md tw-py-2  px-3">
                       <h6 className=" tw-text-white tw-m-0">
-                      CONTRACT DETAILS
+                        CONTRACT DETAILS
                       </h6>
                     </div>
 
@@ -305,7 +302,6 @@ const Rent_out_your_housing = () => {
                         <option>N/A</option>
                       </select>
                     </div>
-                    
 
                     <div className="col-md-6">
                       <label
@@ -358,13 +354,9 @@ const Rent_out_your_housing = () => {
                       </select>
                     </div>
 
-
-
-
-
                     <div className=" tw-bg-blue  tw-rounded-md tw-py-2  px-3">
                       <h6 className=" tw-text-white tw-m-0">
-                      PROPERTY DETAILS & PICTURES
+                        PROPERTY DETAILS & PICTURES
                       </h6>
                     </div>
 
@@ -381,15 +373,13 @@ const Rent_out_your_housing = () => {
                         <option>Rental Property</option>
                         <option>Shared Property</option>
                         <option>Own Property</option>
-                        
                       </select>
                     </div>
-                    
 
                     <div className="col-md-6">
-                    <Input
+                      <Input
                         star={"*"}
-                         type={'text'}
+                        type={"text"}
                         className={" tw-w-full border"}
                         label={"Your Property Address"}
                         placeholder={"Complete Address"}
@@ -397,21 +387,17 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                    <Input
+                      <Input
                         star={"*"}
-                         type={'file'}
+                        type={"file"}
                         className={" tw-w-full border"}
                         label={"Upload Property Pictures"}
                         placeholder={"Total area in square meters"}
                       />
                     </div>
 
-
-
                     <div className=" tw-bg-blue  tw-rounded-md tw-py-2  px-3">
-                      <h6 className=" tw-text-white tw-m-0">
-                      BANK DETAILS
-                      </h6>
+                      <h6 className=" tw-text-white tw-m-0">BANK DETAILS</h6>
                     </div>
 
                     <div className="col-md-6">
@@ -427,15 +413,13 @@ const Rent_out_your_housing = () => {
                         <option>Rental Property</option>
                         <option>Shared Property</option>
                         <option>Own Property</option>
-                        
                       </select>
                     </div>
-                    
 
                     <div className="col-md-6">
-                    <Input
+                      <Input
                         star={"*"}
-                         type={'text'}
+                        type={"text"}
                         className={" tw-w-full border"}
                         label={"Bank Name"}
                         placeholder={""}
@@ -443,28 +427,24 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-5">
-                    <Input
+                      <Input
                         star={"*"}
-                         type={''}
+                        type={""}
                         className={" tw-w-full border"}
                         label={"Branch Code"}
                         placeholder={""}
                       />
                     </div>
 
-
                     <div className="col-md-7">
-                    <Input
+                      <Input
                         star={"*"}
-                         type={''}
+                        type={""}
                         className={" tw-w-full border"}
                         label={"Account No"}
                         placeholder={""}
                       />
                     </div>
-
-
-                  
 
                     <div className="col-md-12">
                       <Button
@@ -479,73 +459,73 @@ const Rent_out_your_housing = () => {
               </div>
             </div>
             <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
-                  <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                    <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                      <a href="#" className="m-0 hover:tw-text-white">
-                        <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                          APPEAL CASES
-                        </p>
-                      </a>
-                      <GoTriangleRight className="tw-text-gray" />
-                    </li>
+              <div className="  tw-pr-10">
+                <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
+                  <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
+                    <a href="#" className="m-0 hover:tw-text-white">
+                      <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                        APPEAL CASES
+                      </p>
+                    </a>
+                    <GoTriangleRight className="tw-text-gray" />
+                  </li>
 
-                    <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                      <a href="#" className="m-0 hover:tw-text-white">
-                        <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                          ASYLUM
-                        </p>
-                      </a>
-                      <GoTriangleRight className="tw-text-gray" />
-                    </li>
+                  <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
+                    <a href="#" className="m-0 hover:tw-text-white">
+                      <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                        ASYLUM
+                      </p>
+                    </a>
+                    <GoTriangleRight className="tw-text-gray" />
+                  </li>
 
-                    <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                      <a href="#" className="m-0 hover:tw-text-white">
-                        <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                          BUSINESS PERMIT
-                        </p>
-                      </a>
-                      <GoTriangleRight className="tw-text-gray" />
-                    </li>
+                  <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
+                    <a href="#" className="m-0 hover:tw-text-white">
+                      <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                        BUSINESS PERMIT
+                      </p>
+                    </a>
+                    <GoTriangleRight className="tw-text-gray" />
+                  </li>
 
-                    <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                      <a href="#" className="m-0 hover:tw-text-white">
-                        <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                          BUSINESS VISIT
-                        </p>
-                      </a>
-                      <GoTriangleRight className="tw-text-gray" />
-                    </li>
+                  <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
+                    <a href="#" className="m-0 hover:tw-text-white">
+                      <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                        BUSINESS VISIT
+                      </p>
+                    </a>
+                    <GoTriangleRight className="tw-text-gray" />
+                  </li>
 
-                    <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                      <a href="#" className="m-0 hover:tw-text-white">
-                        <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                          CITIZENSHIP
-                        </p>
-                      </a>
-                      <GoTriangleRight className="tw-text-gray" />
-                    </li>
+                  <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
+                    <a href="#" className="m-0 hover:tw-text-white">
+                      <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                        CITIZENSHIP
+                      </p>
+                    </a>
+                    <GoTriangleRight className="tw-text-gray" />
+                  </li>
 
-                    <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                      <a href="#" className="m-0 hover:tw-text-white">
-                        <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                          COMPANY REGISTRATION
-                        </p>
-                      </a>
-                      <GoTriangleRight className="tw-text-gray" />
-                    </li>
+                  <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
+                    <a href="#" className="m-0 hover:tw-text-white">
+                      <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                        COMPANY REGISTRATION
+                      </p>
+                    </a>
+                    <GoTriangleRight className="tw-text-gray" />
+                  </li>
 
-                    <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                      <a href="#" className="m-0 hover:tw-text-white">
-                        <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                          CPR NUMBER DENMARK
-                        </p>
-                      </a>
-                      <GoTriangleRight className="tw-text-gray" />
-                    </li>
-                  </ul>
-                </div>
+                  <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
+                    <a href="#" className="m-0 hover:tw-text-white">
+                      <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                        CPR NUMBER DENMARK
+                      </p>
+                    </a>
+                    <GoTriangleRight className="tw-text-gray" />
+                  </li>
+                </ul>
               </div>
+            </div>
           </div>
         </div>
       </section>

@@ -376,7 +376,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/housing"
                       >
                         HOW ITS WORKS
                       </Link>
@@ -385,7 +385,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/available_housing"
                       >
                         AVAILABLE HOUSING
                       </Link>
@@ -431,7 +431,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/housing"
                       >
                         HOW ITS WORKS
                       </Link>
@@ -440,7 +440,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="#"
+                        to="/available_housing"
                       >
                         AVAILABLE HOUSING
                       </Link>

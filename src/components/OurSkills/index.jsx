@@ -61,6 +61,19 @@ const OurSkills = () => {
       ),
     },
   ];
+
+
+
+  const hoverAnimation = {
+    rotateY: 360,
+  };
+
+  // Transition settings for the animation
+  const transitionSettings = {
+    duration: 1,
+    ease: "linear",
+  };
+
   return (
     <>
       <section
@@ -92,12 +105,12 @@ const OurSkills = () => {
                 
                   className="col-lg-6 col-md-12"
                 >
-                  <motion.div
-                    variants={fadeIn("up", "tween", 0.2, 1)}
-                    className=" tw-flex tw-shadow-xl tw-pt-5 tw-px-11 tw-gap-8 wrapperIcon"
+                  <div
+                
+                    className=" hover-div tw-flex tw-shadow-xl tw-pt-5 tw-px-11 tw-gap-8 wrapperIcon"
                   >
                     <div className="featured-icon tw-bg-[#F5FAFF] p-1     tw-w-[12%] tw-rounded-tl-3xl tw-rounded-tr-3xl">
-                      <div className=" tw-pt-6">
+                      <div    className=" tw-pt-6  iconY">
                        {item?.Icon}
                       </div>
                     </div>
@@ -126,7 +139,7 @@ const OurSkills = () => {
                         </a>
                       </div>
                     </div>
-                  </motion.div>
+                  </div>
                 </div>
               );
             })}
