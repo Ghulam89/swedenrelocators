@@ -439,6 +439,117 @@ const PrivacyPolicy = () => {
                 information, or other employment, financial or health
                 information.
               </p>
+
+
+
+
+              <h3 className=" tw-py-2 tw-text-gray-dark">
+              5- Opting Out and Unsubscribing
+
+              </h3>
+              <p className=" tw-text-gray m-0">
+                <strong>5.1- Reviewing, Correcting, and Removing Your Personal Information</strong>
+              </p>
+              <p className=" tw-text-gray m-0">
+              Upon request company will provide you with information about whether we hold any of your Personal Information. If you provide us with your Personal Information, you have the following rights with respect to that information:
+
+
+              </p>
+
+              <p className=" tw-text-gray m-0">
+              To exercise any of these rights, please contact us at support@swedenrelocators.se or by mail to SWEDEN RELOCATORS, Sallerupsvägen 28D 212 18 Malmö Sweden. Subject: Private Privacy. We will respond to your request to change, correct, or delete your information within a reasonable timeframe and notify you of the action we have taken.
+
+
+
+              </p>
+
+            
+
+              <p className=" tw-text-gray m-0">
+                <strong>5.2- Anti-Spam Policy</strong>
+              </p>
+              <p className=" tw-text-gray m-0">
+              Our Acceptable Use Policy, among other things, prohibits the use of the Subscription Service to send unsolicited commercial emails in violation of applicable laws and requires the inclusion in every email sent using the Subscription Service of an “opt-out” mechanism and other required information. We require all of our customers to agree to adhere to the Acceptable Use Policy at all times, and any violations of the Acceptable Use Policy by a customer can result in immediate suspension or termination of the Subscription Service.
+
+
+              </p>
+
+
+              <p className=" tw-text-gray m-0">
+                <strong>5.3- Anti-Spam Policy
+</strong>
+              </p>
+              <p className=" tw-text-gray m-0">
+              You may unsubscribe from our marketing communications by clicking on the “unsubscribe” link located at the bottom of our e-mails, by sending us an email at support@swedenrelocators.se, or by sending us postal mail to SWEDEN RELOCATORS, Sallerupsvägen 28D 212 18 Malmö Sweden, Subject: Private Privacy. Customers can receive regular emails regarding their services, unsubscribing can stop all future emails.
+
+
+              </p>
+
+            
+
+
+
+
+              <h3 className=" tw-py-2 tw-text-gray-dark">
+              6- Navigational Information
+
+              </h3>
+              <p className=" tw-text-gray m-0">
+                <strong>6.1- Cookies</strong>
+              </p>
+              <p className=" tw-text-gray m-0">
+              SWEDEN RELOCATORS and its partners use cookies or similar technologies to analyze trends, administer the website, track users’ movements around the website, and gather demographic information about our user base as a whole.
+
+              </p>
+
+              <p className=" tw-text-gray m-0">
+              We use “cookies” to help you personalize your online experience. A cookie is a text file that is placed on your hard disk by a Web server. Cookies are not used to run programs or deliver viruses to your computer. Cookies are uniquely assigned to you, and can only be read by a Web server in the domain that issued the cookie to you. One of the primary purposes of cookies is to provide a convenience feature to save you time. The purpose of a cookie is to tell the Web server that you have returned to a specific page. For example, if you personalize pages on our Websites, or register for the Subscription Service, a cookie helps us to recall your specific information on subsequent visits. When you return to the same Website, the information you previously provided can be retrieved, so you can easily use the customized features.
+
+
+              </p>
+
+              <p className=" tw-text-gray m-0">
+              You have the ability to accept or decline cookies. Most Web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. If you choose to decline cookies, you may not be able to fully experience the interactive features of the Service or Websites you visit. SWEDEN RELOCATORS keeps track of the Websites and pages you visit within the company, in order to determine what portion of the company Website or Subscription Service is the most popular or most used. This data is used to deliver customized content and promotions within the NIM.MERSION Website and Subscription Service to customers whose behavior indicates that they are interested in a particular subject area.
+
+
+
+              </p>
+              <p className=" tw-text-gray m-0">
+                <strong>6.2- Log Files</strong>
+              </p>
+              <p className=" tw-text-gray m-0">
+              We may collect demographic information, such as your ZIP code, age, gender, preferences, interests, and favorites using log files that are not associated with your name or other personal information. There is also information about your computer hardware and software that is automatically collected by us. This information can include your IP address, browser type, domain names, internet service provider (ISP), the files viewed on our site (e.g., HTML pages, graphics, etc.), operating system, clickstream data, access times, and referring website addresses. This information is used by the company for the operation of the Subscription Service, to maintain the quality of the Subscription Service, and to provide general statistics regarding the use of the Company Website. For these purposes, we do link this automatically-collected data to Personal Information such as name, email address, address, and phone number.
+
+              </p>
+
+              <p className=" tw-text-gray m-0">
+                <strong>6.3- Clear Gifs-Web Beacons/Web Bugs</strong>
+              </p>
+              <p className=" tw-text-gray m-0">
+              We employ a software technology called clear gifs (a.k.a. Web Beacons/Web Bugs), that helps us better manage the Website and Subscription Service by informing us what content is effective. Clear gifs are tiny graphics with a unique identifier, similar in function to cookies, and are used to track the online movements of Web users. In contrast to cookies, which are stored on a user’s computer hard drive, clear gifs are embedded invisibly on Web pages or in emails and are about the size of the period at the end of this sentence. We use clear gifs in our HTML-based emails to let us know which emails have been opened by recipients. This allows us to gauge the effectiveness of certain communications and the effectiveness of our marketing campaigns. We tie the information gathered by clear gifs in emails to our customers’ Personal Information. If you would like to opt out of these emails, please see “Opting Out and Unsubscribing”.
+
+              </p>
+
+
+              <p className=" tw-text-gray m-0">
+                <strong>6.4- Navigational Information Collected by Our Customers
+</strong>
+              </p>
+              <p className=" tw-text-gray m-0">
+              Our customers can use the tools we provide, as well as tools provided by third parties, to collect Navigational Information when you visit their web pages on the Subscription Service. SWEDEN RELOCATORS does not control our customers’ use of these tools, nor do we control the information they collect or how they use it.
+
+              </p>
+
+             
+
+              <p className=" tw-text-gray m-0">
+                <strong>6.5- Single Sign-On</strong>
+              </p>
+              <p className=" tw-text-gray m-0">
+              If you use a Single Sign-on (SSO) service like your Google account to access services, the service will authenticate your identity and provide you the option to share certain personal information with us such as your name and email address to pre-populate our sign-up form. Such services may give you the option to post information about your activities on this Web site to your profile page to share with others within your network.
+
+              </p>
+
             </div>
           </div>
         </div>

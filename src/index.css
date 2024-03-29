@@ -95,7 +95,6 @@ i {
 
 
 
-tw-scroll-container
 
 /* Scrollbar Styling */
 .tw-productOverflow::-webkit-scrollbar {
@@ -114,6 +113,9 @@ tw-scroll-container
   border-radius: 10px !important;
   background: #061F48 !important; 
 }
+
+
+
 
 
 .housing::before {

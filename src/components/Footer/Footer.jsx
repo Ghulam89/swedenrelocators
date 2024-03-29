@@ -387,7 +387,7 @@ const Footer = () => {
                             to={"https://goo.gl/maps/djSuGUoQN6Bd72ri7"}
                             className="  m-0 tw-text-white"
                           >
-                            Amiralsgatan 86A 214 37 Malmö, Sweden
+                           Amiralsgatan 86E 214 37 Malmö, Sweden
                           </Link>
                         </div>
                         <div className="featured-desc">

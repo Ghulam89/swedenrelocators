@@ -5,6 +5,7 @@ import "./styles/styles.css";
 import "./styles/flaticon.css";
 import "./styles/themify-icons.css";
 import "./styles/animate.css";
+import './i18n';
 function App() {
   return (
     <>

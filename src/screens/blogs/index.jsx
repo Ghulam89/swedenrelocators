@@ -90,7 +90,7 @@ const Blogs = () => {
                               className=" tw-rounded-full"
                             />
                             <p className="cmt-meta-line byline     tw-pl-2  tw-text-gray tw-m-0">
-                              Shahid Aslam
+                            Swedenre Locators
                             </p>
                           </div>
   

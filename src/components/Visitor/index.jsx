@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 const Visitor = () => {
   return (
@@ -126,13 +127,15 @@ const Visitor = () => {
                       {/* featured-icon-box end*/}
                     </div>
                   </div>
-
-                  <Button
+                <Link to={'/register'}>
+                <Button
                     label={"Apply Now!"}
                     className={
                       " tw-my-3 tw-mx-auto tw-bg-blue tw-text-white tw-py-3.5 tw-rounded-md "
                     }
                   />
+                </Link>
+                
                 </div>
               </div>
             </div>

@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import  LanguageSelector  from "../language/LanguageSelector";
 const TopBar = () => {
+  const LANGUAGES = [
+    { label: "Spanish", code: "es" },
+    { label: "English", code: "en" },
+    { label: "Italian", code: "it" },
+  ];
+  
   return (
     <>
       <section className="  md:tw-pb-3 tw-pb-0 md:tw-pl-24 tw-pl-0  tw-bg-primary">
@@ -30,10 +36,24 @@ const TopBar = () => {
                     to={"/book_your_appointment"}
                     className="tw-text-sm  tw-text-white"
                   >
-                    {" "}
+                   
                     <i class="fa fa-calendar-check"></i> Book an Appointment{" "}
                   </Link>
                 </div>
+                {/* <select className=" tw-outline-none tw-py-3.5" defaultValue={"es"}>
+                  {LANGUAGES.map(({ code, label }) => (
+                    <option key={code} value={code}>
+                      {label}
+                    </option>
+                  ))}
+                </select> */}
+                
+                {/* <div className="">
+                   <LanguageSelector/>
+                </div> */}
+
+               
+
                 <div className=" tw-float-right sm:tw-pt-0 tw-pt-3">
                   <div className=" tw-flex tw-items-center">
                     <button className=" tw-bg-blue tw-py-3.5  tw-px-4   tw-font-medium tw-text-white tw-text-[15px]  tw-flex tw-border-r tw-justify-center tw-items-center">

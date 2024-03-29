@@ -67,7 +67,7 @@ const Hero = () => {
             <div 
                  className=" col-md-6  md:tw-absolute tw-relative  tw-right-0">
               <motion.img  
-                 animate={imageVariants}  src={hero} alt="" width="100%" />
+                 animate={imageVariants}  src={hero} alt="" />
             </div>
           </div>
         </div>

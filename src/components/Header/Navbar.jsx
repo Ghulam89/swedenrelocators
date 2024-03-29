@@ -184,7 +184,7 @@ const Navbar = () => {
     },
     {
       id: 18,
-      title: "Direct Citizenship by Investments      ",
+      title: "Direct Citizenship ",
       description:
         "citizenship-by-investment programs provide ultra-wealthy families with the privilege of a second or third passport.        ",
       icons: (
@@ -202,7 +202,7 @@ const Navbar = () => {
     },
     {
       id: 20,
-      title: "Golden Visa (Greece - Portugal)      ",
+      title: "Golden Visa    ",
       description:
         "As a member state of the EU, They offer its residents and citizens a number of reassuring benefits.        ",
       icons: (
@@ -214,9 +214,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="">
+      <div className=" tw-relative">
         <TopBar />
-        <nav className={`navbar md:tw-absolute tw-relative md:-tw-top-10 -tw-top-8 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${isSticky ? 'fixed-top p-0 tw-smooth-transition' : ''}`}>
+        <nav className={`navbar md:tw-absolute tw-relative md:-tw-top-10   -tw-top-8 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${isSticky ? 'fixed-top p-0 tw-smooth-transition' : ''}`}>
       <div className={`container${isSticky ? '-fluid  px-lg-5 px-sm-0 tw-rounded-none' : '-lg px-lg-5 px-sm-3  md:tw-rounded-md  tw-rounded-none'}  tw-transition-all tw-duration-700 container-navbar tw-py-1.5 tw-bg-white `}>
             <button
               className="navbar-toggler"
@@ -255,7 +255,7 @@ const Navbar = () => {
                     New in sweden
                   </Link>
                 </li>
-                <li className="nav-item dropdown hover-dropdown2 relative md:tw-block tw-hidden">
+                <li className="nav-item dropdown hover-dropdown2  relative md:tw-block tw-hidden">
                   <Link
                     className="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
                     to="#"
@@ -267,10 +267,10 @@ const Navbar = () => {
                     Services
                     <i class="fas fa-chevron-down  ps-2"></i>
                   </Link>
-                  <div className="dropdown-men2  tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden">
+                  <div className="dropdown-men2   tw-w-[600px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden" aria-labelledby="dropdownMenuClickableOutside">
                   <ul
-                  style={{gridTemplateColumns: "180px 180px 180px",display:'grid'}}
-                    className=" tw-p-0 tw-bg-white tw-shadow-xl"
+                  style={{gridTemplateColumns: "200px 200px 200px",display:'grid'}}
+                    className=" tw-p-0 tw-bg-white  tw-shadow-xl"
                   
                   >
 

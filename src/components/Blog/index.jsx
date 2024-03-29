@@ -74,9 +74,9 @@ const Blog = () => {
                     </div>
                     <div className=" tw-p-4">
                       <div className="  tw-flex tw-gap-1 tw-items-center">
-                        <span className="cmt-meta-line byline   tw-border-l-2   tw-pl-2  tw-border-blue">
-                          Shahid Aslam
-                        </span>
+                        <p className=" m-0 cmt-meta-line byline  tw-lowercase  tw-border-l-2   tw-pl-2  tw-border-blue">
+                          Sweden Relocators
+                        </p>
                         <span className="">.</span>
                         <p className=" tw-text-gray m-0">2024-07-06</p>
                       </div>
@@ -84,7 +84,7 @@ const Blog = () => {
                         <div className="post-title featured-title">
                           <p className=" tw-leading-2">
                             <a
-                              className=" tw-text-black tw-font-medium tw-text-xl "
+                              className="  tw-text-gray-dark tw-font-medium tw-text-lg "
                               href="blog-single.html"
                             >
                               {item?.title}
