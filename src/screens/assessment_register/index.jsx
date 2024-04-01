@@ -235,7 +235,7 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"You Full Name"}
                             star={"*"}
-                            className={" tw-w-full border "}
+                            className={" tw-w-full border tw-rounded-xl  tw-py-3 tw-px-3"}
                             label={"Full Name"}
                           />
                         </div>
@@ -243,7 +243,7 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"Contact No with Country"}
                             star={"*"}
-                            className={" tw-w-full border"}
+                            className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
                             label={"Contact No"}
                           />
                         </div>
@@ -251,7 +251,7 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"your Address"}
                             star={"*"}
-                            className={" tw-w-full border"}
+                            className={" tw-w-full border tw-py-3  tw-px-3 tw-rounded-xl"}
                             label={"Your Email"}
                           />
                         </div>
@@ -280,7 +280,7 @@ const Assessment_register = () => {
                             </a>{" "}
                             Choose Option
                           </label>
-                          <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3  tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-xl">
                             <option>Choose an Option</option>
                             <option>I am in Sweden</option>
                             <option>I am outside of Sweden</option>
@@ -311,7 +311,7 @@ const Assessment_register = () => {
                             </a>{" "}
                             Do you have English language certificate?
                           </label>
-                          <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-xl">
                             <option>Choose an Option</option>
                             <option>yes</option>
                             <option>no</option>
@@ -327,7 +327,7 @@ const Assessment_register = () => {
                             </a>{" "}
                             Do you have Swedish Language Certificate?
                           </label>
-                          <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-xl">
                             <option>Choose an Option</option>
                             <option>yes</option>
                             <option>no</option>
@@ -340,7 +340,7 @@ const Assessment_register = () => {
                   <Button
                     label={"Submit"}
                     className={
-                      " tw-text-xl tw-bg-blue tw-py-2.5 tw-text-white tw-rounded-md  tw-float-end"
+                      "  tw-w-full tw-bg-blue tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
                     }
                   />
                 </div>

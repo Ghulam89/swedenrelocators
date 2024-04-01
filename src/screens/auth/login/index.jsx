@@ -26,7 +26,7 @@ const Login = () => {
               <div className="row ">
                 <div className="col-md-10 mx-auto">
                   <div className=" tw-text-center">
-                    <p className=" tw-text-lg tw-text-gray tw-font-semibold tw-pb-9">
+                    <p className=" tw-text-xl p_main  tw-text-gray-dark tw-font-semibold tw-pb-9">
                       Login with
                     </p>
                   </div>
@@ -53,23 +53,23 @@ const Login = () => {
                           <Input
                             placeholder={"Email Address..."}
                             star={"*"}
-                            className={" tw-w-full border"}
+                            className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
                             label={"Your Email"}
                           />
                         </div>
                         <div className="col-md-12">
                           <Input
-                            placeholder={"*********"}
+                            placeholder={"Enter Password"}
                             star={"*"}
-                            className={" tw-w-full border"}
-                            label={"Your Password"}
+                            className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                            label={"Your Password..."}
                           />
                         </div>
                         <div className=" col-md-12">
                           <div className=" tw-flex tw-justify-between tw-items-center">
-                            <div className=" tw-flex tw-gap-2 ">
-                              <input className={""} type={"checkbox"} />
-                              <p className=" tw-text-gray tw-pt-3">
+                            <div className=" tw-flex tw-gap-2 tw-items-center ">
+                              <Input type={'checkbox'} className={' tw-w-4  tw-h-4'} />
+                              <p className=" tw-text-gray tw-pt-5">
                                 Remember Password
                               </p>
                             </div>
@@ -84,7 +84,7 @@ const Login = () => {
                           <Button
                             label={"sign in"}
                             className={
-                              " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-1.5  tw-w-60 tw-rounded-sm tw-text-white "
+                              " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-3.5  tw-w-full  tw-rounded-xl tw-text-white "
                             }
                           />
                         </div>

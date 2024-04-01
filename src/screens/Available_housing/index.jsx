@@ -256,7 +256,7 @@ const Available_housing = () => {
       <div className="  tw-bg-[#f5f8fb]">
         <div className="  md:tw-mt-36 tw-mt-44">
           <div className="container tw-py-12">
-            <div className=" border p-4  tw-relative">
+            <div className=" p-4  tw-relative">
               <Tabs tabs={tabData} defaultTab={defaultTab} />
             </div>
 

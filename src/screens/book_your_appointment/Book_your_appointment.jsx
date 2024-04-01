@@ -229,7 +229,7 @@ const Book_your_appointment = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Appointment Type
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>At office</option>
                         <option>Telephone</option>
@@ -243,7 +243,7 @@ const Book_your_appointment = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Category
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>At office</option>
                         <option>Telephone</option>
@@ -257,7 +257,7 @@ const Book_your_appointment = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Country
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>At office</option>
                         <option>Telephone</option>
@@ -266,7 +266,7 @@ const Book_your_appointment = () => {
                     <div className="col-md-6">
                       <Input
                         star={"*"}
-                        className={" tw-w-full border"}
+                        className={" tw-w-full border tw-py-3 tw-px-2.5 tw-rounded-xl"}
                         label={"Select Appointment Date"}
                       />
                     </div>
@@ -278,7 +278,7 @@ const Book_your_appointment = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Appointment Time (Select date first)
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>At office</option>
                         <option>Telephone</option>
@@ -294,7 +294,7 @@ const Book_your_appointment = () => {
                       </label>
                       <textarea
                         rows={6}
-                        className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md"
+                        className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-xl"
                       ></textarea>
                     </div> 
                      <div className=" tw-flex tw-gap-2 ">
@@ -304,10 +304,10 @@ const Book_your_appointment = () => {
                     <div className="col-md-12">
                      <div className="row tw-items-center">
                       <div className="col-md-6">
-                      <Input placeholder={'Do you have a Promo Code?'} className={' tw-border-gray tw-w-full tw-border'} />
+                      <Input placeholder={'Do you have a Promo Code?'} className={' tw-w-full border tw-py-3 tw-px-2.5 tw-rounded-xl'} />
                       </div>
                       <div className="col-md-3">
-                        <Button label={'APPLY '}  className={' tw-bg-blue tw-mt-1.5 tw-py-1.5 tw-rounded-md text-md tw-w-18 tw-text-white'} />
+                        <Button label={'APPLY '}  className={' tw-bg-blue tw-mt-1.5 tw-py-3 tw-rounded-xl text-md tw-w-18 tw-text-white'} />
                       </div>
                      </div>
                     </div>
@@ -316,7 +316,7 @@ const Book_your_appointment = () => {
                       <Button
                         label={"BOOK YOUR APPOINTMENT"}
                         className={
-                          " tw-uppercase tw-mx-auto  tw-text-sm tw-mt-5   tw-bg-blue tw-py-1.5  tw-w-60 tw-rounded-sm tw-text-white "
+                          " tw-uppercase tw-mx-auto  tw-text-sm tw-mt-5   tw-bg-blue tw-py-3  tw-w-96 tw-rounded-xl tw-text-white "
                         }
                       />
                     </div>

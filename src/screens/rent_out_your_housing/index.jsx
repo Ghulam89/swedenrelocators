@@ -229,7 +229,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Country
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Sweden - Skane</option>
                         <option>Denmark - Copenhagen</option>
@@ -244,7 +244,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select your type of house
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Apartment</option>
                         <option>Villa</option>
@@ -262,7 +262,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Floor
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Basement</option>
                         <option>Ground Floor</option>
@@ -282,7 +282,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Total rooms are in the property?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>1</option>
                         <option>2</option>
@@ -295,7 +295,7 @@ const Rent_out_your_housing = () => {
                     <div className="col-md-6">
                       <Input
                         star={"*"}
-                        className={" tw-w-full border"}
+                        className={" tw-w-full border  tw-py-3 tw-rounded-xl tw-px-2"}
                         label={"Housing Area (square meters)?"}
                         placeholder={"Total area in square meters"}
                       />
@@ -315,7 +315,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Furnished?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Yes</option>
                         <option>Partly</option>
@@ -330,7 +330,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is car parking included?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Included</option>
                         <option>Not Included</option>
@@ -346,7 +346,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Are pets allowed?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Allowed</option>
                         <option>Not Allowed</option>
@@ -361,7 +361,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is smoking allowed?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Allowed</option>
                         <option>Not Allowed</option>
@@ -391,7 +391,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is lift available?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Allowed</option>
                         <option>Not Allowed</option>
@@ -406,7 +406,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is internet included?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Included</option>
                         <option>Not Included</option>
@@ -423,7 +423,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is washing machine available?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Available</option>
                         <option>Not Available</option>
@@ -438,7 +438,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is dishwasher available?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Available</option>
                         <option>Not Available</option>
@@ -453,7 +453,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is heat & water includes in rent?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Available</option>
                         <option>Not Available</option>
@@ -468,7 +468,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is balcony/terrace available?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Included</option>
                         <option>Not Included</option>
@@ -489,7 +489,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Contract Type?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>First Hand</option>
                         <option>Second Hand</option>
@@ -506,7 +506,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Are you looking for deposit?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Yes</option>
                         <option>No</option>
@@ -521,7 +521,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Maximum people can stay in this residence?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>1</option>
                         <option>2</option>
@@ -542,7 +542,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         What is the duration of rent out?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>1 month</option>
                         <option>2 month</option>
@@ -563,7 +563,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Your Property Type
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Rental Property</option>
                         <option>Shared Property</option>
@@ -575,7 +575,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={"text"}
-                        className={" tw-w-full border"}
+                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
                         label={"Your Property Address"}
                         placeholder={"Complete Address"}
                       />
@@ -585,7 +585,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={"file"}
-                        className={" tw-w-full border"}
+                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
                         label={"Upload Property Pictures"}
                         placeholder={"Total area in square meters"}
                       />
@@ -603,7 +603,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Bank Country
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray  tw-p-3   tw-text-gray-dark tw-w-full border tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Rental Property</option>
                         <option>Shared Property</option>
@@ -615,7 +615,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={"text"}
-                        className={" tw-w-full border"}
+                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
                         label={"Bank Name"}
                         placeholder={""}
                       />
@@ -625,7 +625,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={""}
-                        className={" tw-w-full border"}
+                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
                         label={"Branch Code"}
                         placeholder={""}
                       />
@@ -635,7 +635,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={""}
-                        className={" tw-w-full border"}
+                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
                         label={"Account No"}
                         placeholder={""}
                       />
@@ -645,7 +645,7 @@ const Rent_out_your_housing = () => {
                       <Button
                         label={"SEND REQUEST"}
                         className={
-                          " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-1.5  tw-w-60 tw-rounded-sm tw-text-white "
+                          " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-3   tw-w-full tw-rounded-xl  tw-text-white "
                         }
                       />
                     </div>
