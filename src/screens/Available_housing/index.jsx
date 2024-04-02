@@ -5,22 +5,25 @@ import Footer from "../../components/Footer/Footer";
 import Tabs from "../../components/Tabs";
 import { Button } from "bootstrap";
 import Img from "../../assets/images/rent1.jpeg";
+import san from '../../assets/images/san.webp'
+import Carousel from "../../components/property/Carousel";
 const Available_housing = () => {
   const tabData = [
     {
       title: "Apartments",
       content: (
         <>
-          <div className=" tw-flex md:tw-flex-row tw-flex-col tw-w-full  tw-gap-2">
-            <div className=" md:tw-w-[37%] tw-w-full ">
-              <img src={Img} alt="" className=" tw-w-full" />
+          <div className=" tw-flex md:tw-flex-row  tw-shadow-xl tw-bg-white p-4 tw-rounded-lg tw-flex-col tw-w-full  tw-gap-4">
+            <div className=" md:tw-w-[45%] tw-w-full ">
+              <Carousel/>
+              
             </div>
-            <div className=" md:tw-w-[80%]  w-[100%]">
-              <div className=" tw-bg-blue tw-px-4  tw-rounded-md tw-text-white tw-py-3.5 tw-flex tw-justify-center">
-                <p className=" tw-m-0">
-                  {" "}
+            <div className=" md:tw-w-[65%]  w-[100%]">
+              <div className=" tw-text-gray-dark ">
+              
+                 
                   ADDRESS: SKOLGATAN 2 LGH 1402, 22361 LUND, LUND, SWEDEN
-                </p>
+               
               </div>
 
               <div>
@@ -30,7 +33,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Rent:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         23000
                       </button>
                     </li>
@@ -38,7 +41,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Rooms:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         3
                       </button>
                     </li>
@@ -46,7 +49,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Floor:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         4
                       </button>
                     </li>
@@ -55,7 +58,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         People can Stay:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         4
                       </button>
                     </li>
@@ -63,7 +66,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Contract Type:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         First Hand
                       </button>
                     </li>
@@ -74,7 +77,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Available From:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         2024-02-19
                       </button>
                     </li>
@@ -82,7 +85,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Rentout Duration:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         2 Years
                       </button>
                     </li>
@@ -90,7 +93,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Property Type:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         Own Property
                       </button>
                     </li>
@@ -98,7 +101,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Deposit Required:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         Yes
                       </button>
                     </li>
@@ -106,7 +109,7 @@ const Available_housing = () => {
                       <p className=" m-0 tw-text-gray tw-font-semibold">
                         Deposit For:
                       </p>
-                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-52 tw-rounded-sm">
+                      <button className=" tw-bg-blue tw-text-sm tw-py-0.5  tw-font-normal tw-text-white tw-w-44 tw-rounded-sm">
                         2 Months
                       </button>
                     </li>
@@ -256,21 +259,13 @@ const Available_housing = () => {
       <div className="  tw-bg-[#f5f8fb]">
         <div className="  md:tw-mt-36 tw-mt-44">
           <div className="container tw-py-12">
-            <div className=" p-4  tw-relative">
+            <div className=" tw-relative">
               <Tabs tabs={tabData} defaultTab={defaultTab} />
             </div>
 
-            <div className=" tw-flex md:tw-flex-row  tw-gap-2 tw-flex-col  tw-my-4 tw-justify-between tw-items-center">
-              <div className=" md:tw-w-[75%] tw-w-[100%]">
-                <div className=" tw-bg-blue tw-rounded-md tw-px-4  tw-text-white tw-py-3.5 tw-flex tw-justify-center">
-                  <p className=" tw-m-0">
-                    {" "}
-                    IF YOU DIDN'T FIND YOUR REQUIRED HOUSING SOLUTION, PLEASE
-                    SEND US YOUR REQUIREMENTS.
-                  </p>
-                </div>
-              </div>
-              <div className="md:tw-w-[25%] tw-w-[100%] ">
+            <div className=" tw-flex md:tw-flex-row   tw-gap-2 tw-flex-col  tw-my-4  tw-justify-end tw-items-center">
+             
+              <div className="md:tw-w-[25%]  tw-w-[100%] ">
                 <button className=" tw-uppercase  tw-rounded-md tw-bg-primary tw-text-white tw-font-semibold tw-py-3.5 tw-px-12 tw-w-full">
                   Submit interest
                 </button>

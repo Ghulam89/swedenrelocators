@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Tabs = ({ tabs, defaultTab, className }) => {
   const [activeTab, setActiveTab] = useState(defaultTab);
 
-    console.log(tabs,'tabks');
+  console.log(tabs, "tabks");
 
   return (
     <div>
@@ -11,7 +11,7 @@ const Tabs = ({ tabs, defaultTab, className }) => {
         {tabs.map((tab) => (
           <button
             key={tab.title}
-            className={`tw-px-6 tw-py-3 ${className} ${
+            className={`tw-px-6 tw-py-2 ${className} ${
               activeTab === tab.title
                 ? "    tw-bg-blue tw-text-white   tw-rounded-full  tw-text-lg"
                 : "     tw-text-gray  tw-text-lg tw-bg-white tw-rounded-full border"

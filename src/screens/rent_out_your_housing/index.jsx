@@ -280,7 +280,7 @@ const Rent_out_your_housing = () => {
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
-                        Total rooms are in the property?
+                        Total rooms
                       </label>
                       <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
@@ -376,7 +376,7 @@ const Rent_out_your_housing = () => {
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is electricity included?
                       </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-md">
+                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
                         <option>Choose Option</option>
                         <option>Included</option>
                         <option>Not Included</option>
@@ -575,7 +575,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={"text"}
-                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
+                        className={" tw-w-full border tw-py-2.5 tw-px-3  tw-rounded-xl"}
                         label={"Your Property Address"}
                         placeholder={"Complete Address"}
                       />
@@ -615,7 +615,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={"text"}
-                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
+                        className={" tw-w-full border tw-py-2.5 tw-px-3  tw-rounded-xl"}
                         label={"Bank Name"}
                         placeholder={""}
                       />
@@ -625,7 +625,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={""}
-                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
+                        className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl "}
                         label={"Branch Code"}
                         placeholder={""}
                       />
@@ -635,7 +635,7 @@ const Rent_out_your_housing = () => {
                       <Input
                         star={"*"}
                         type={""}
-                        className={" tw-w-full border tw-py-2.5 tw-px-3 "}
+                        className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl "}
                         label={"Account No"}
                         placeholder={""}
                       />

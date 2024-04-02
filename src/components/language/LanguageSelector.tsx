@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./Language.module.css";
 
-import eng from '../../assets/images/eng.svg'
+import eng from '../../assets/images/uk.webp'
+import ge from '../../assets/images/ge.webp'
+import fr from '../../assets/images/fr.png'
+import sw from '../../assets/images/sw.png'
 // import { cdnBaseUrl, environment, projectToken } from "../../i18n";
 
 // interface FlagIconProps {
@@ -28,7 +31,7 @@ import eng from '../../assets/images/eng.svg'
 
 // const LANGUAGE_SELECTOR_ID = "language-selector";
 
-import { FaAngleUp } from "react-icons/fa6";
+import { FaAngleUp, FaArrowDown } from "react-icons/fa6";
  const LanguageSelector = () => {
 //   const { i18n } = useTranslation();
 //   const [languages, setLanguages] = useState<Language[]>([]);
@@ -138,26 +141,27 @@ const [isOpen, setIsOpen] = useState(null);
 
 
   <div className="tw-flex  tw-items-center tw-z-40">
-        <div className="tw-relative tw-inline-block ">
-        <button
+                <button
           onClick={handleLanguageChange}
               type="button"
-              className="tw-inline-flex tw-gap-2 tw-items-center tw-justify-center tw-w-full tw-rounded-md tw-border tw-border-gray-300 tw-shadow-sm tw-px-4 tw-py-2  tw-bg-blue tw-text-sm tw-font-medium tw-text-gray-700 tw-hover:bg-gray-50 tw-focus:outline-none tw-focus:ring-2 tw-focus:ring-offset-2 tw-focus:ring-indigo-500"
+              className="tw-inline-flex tw-gap-2 tw-items-center border  tw-justify-between tw-w-full tw-rounded-md tw-border tw-border-gray-300 tw-shadow-sm tw-px-3 tw-py-1 tw-white tw-text-sm tw-font-medium tw-text-gray-700 tw-hover:bg-gray-50 tw-focus:outline-none tw-focus:ring-2 tw-focus:ring-offset-2 tw-focus:ring-indigo-500"
       
               aria-haspopup="true"
          
             >
                 
             
-              <img src={eng} className=" tw-w-6" alt="" />
-              <p className=" m-0 tw-text-white">
+              <img src={eng} className=" tw-w-5 tw-h-5 tw-rounded-full tw-object-cover" alt="" />
+              <p className=" m-0 tw-text-sm tw-text-white">
               English
               </p>
+              
               <svg
-                className="-mr-1 ml-2 h-5 w-5"
+               
+                className="-tw-mr-2  tw-mb-1 tw-h-5 tw-w-5"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
-                fill="orange"
+                fill="white"
                 aria-hidden="true"
               >
                 <path
@@ -170,23 +174,61 @@ const [isOpen, setIsOpen] = useState(null);
 
           {isOpen && (
             <div
-              className="tw-origin-top-right tw-absolute tw-z-50 tw-right-0 tw-mt-2 tw-w-96 tw-rounded-md tw-shadow-lg tw-bg-white tw-ring-1 tw-ring-black tw-ring-opacity-5"
+              className="tw-origin-top-right tw-absolute tw-z-50  tw-top-12 tw-mt-2 tw-w-80 tw-rounded-md tw-shadow-lg tw-bg-white tw-ring-1 tw-ring-black tw-ring-opacity-5"
             
             
             >
-              <div className="tw-py-1 tw-grid tw-grid-cols-2 tw-gap-2" role="none">
-                 <div>d</div>
-                 <div>d</div>
-                 <div></div>
-                 <div></div>
-                 <div></div>
-                 <div></div>
+              <div className="tw-py-1 tw-grid tw-grid-cols-2  tw-gap-3 p-2" role="none">
+              <div className=" ">
+                        
+                        <div className=" tw-flex  tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
+                        <img src={eng} className=" tw-w-7 tw-h-7 tw-rounded-full tw-object-cover" alt="" />
+                            <p className=" m-0 tw-text-black">
+                            English
+                            </p>
+                        </div>
+                           
+                               </div>
+                               <div className="  ">
+                        
+                        <div className=" tw-flex  tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
+                        <img src={ge} className=" tw-w-7 tw-h-7 tw-object-cover tw-rounded-full" alt="" />
+                            <p className=" m-0 tw-text-black">
+                            German
+                            </p>
+                        </div>
+                           
+                               </div>
+
+                               <div className="  ">
+                        
+                        <div className=" tw-flex   tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
+                        <img src={fr} className=" tw-w-7 h-7 tw-rounded-full tw-object-cover" alt="" />
+                            <p className=" m-0 tw-text-black">
+                            French
+                            </p>
+                        </div>
+                           
+                               </div>
+                               <div className="  ">
+                        
+                        <div className=" tw-flex   tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
+                        <img src={sw} className=" tw-w-7 tw-h-7 tw-rounded-full tw-object-cover" alt="" />
+                            <p className=" m-0 tw-text-black">
+                            
+Swedish
+                            </p>
+                        </div>
+                           
+                               </div>
+                              
+                 
               </div>
             </div>
           )}
 
           </div>
-          </div>
+          
 
 
     </>

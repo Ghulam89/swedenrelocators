@@ -40,7 +40,7 @@ const Navbar = () => {
     },
     {
       id: 3,
-      title: "Personnummer Sweden",
+      title: "Personnummer ",
       description:
         "The personal identification is a number that the Swedish Tax Agency assigns to person registered in Sweden.",
       icons: (
