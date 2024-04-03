@@ -2,10 +2,14 @@ import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./Language.module.css";
 
-import eng from '../../assets/images/uk.webp'
-import ge from '../../assets/images/ge.webp'
-import fr from '../../assets/images/fr.png'
-import sw from '../../assets/images/sw.png'
+import eng from '../../assets/images/uk.webp';
+import ge from '../../assets/images/ge.webp';
+import da from '../../assets/images/da.png';
+import sw from '../../assets/images/sw.png';
+import pe from '../../assets/images/pe.png';
+import sp from '../../assets/images/sp.png';
+import po from '../../assets/images/po.png';
+import ab from '../../assets/images/ab.png';
 // import { cdnBaseUrl, environment, projectToken } from "../../i18n";
 
 // interface FlagIconProps {
@@ -200,12 +204,37 @@ const [isOpen, setIsOpen] = useState(null);
                            
                                </div>
 
+                              
                                <div className="  ">
                         
                         <div className=" tw-flex   tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
-                        <img src={fr} className=" tw-w-7 h-7 tw-rounded-full tw-object-cover" alt="" />
+                        <img src={sw} className=" tw-w-7 tw-h-7 tw-rounded-full tw-object-cover" alt="" />
                             <p className=" m-0 tw-text-black">
-                            French
+                            
+Swedish
+                            </p>
+                        </div>
+                           
+                               </div>
+                               <div className="  ">
+                        
+                        <div className=" tw-flex   tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
+                        <img src={da} className=" tw-w-7 tw-h-7 tw-rounded-full tw-object-cover" alt="" />
+                            <p className=" m-0 tw-text-black">
+                            
+                            Danish
+                            </p>
+                        </div>
+                           
+                               </div>
+
+                               <div className="  ">
+                        
+                        <div className=" tw-flex   tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
+                        <img src={po} className=" tw-w-7 tw-h-7 tw-rounded-full tw-object-cover" alt="" />
+                            <p className=" m-0 tw-text-black">
+                            
+                            Portugesse
                             </p>
                         </div>
                            
@@ -216,7 +245,29 @@ const [isOpen, setIsOpen] = useState(null);
                         <img src={sw} className=" tw-w-7 tw-h-7 tw-rounded-full tw-object-cover" alt="" />
                             <p className=" m-0 tw-text-black">
                             
-Swedish
+                            Spainish
+                            </p>
+                        </div>
+                           
+                               </div>
+                               <div className="  ">
+                        
+                        <div className=" tw-flex   tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
+                        <img src={ab} className=" tw-w-7 tw-h-7 tw-rounded-full tw-object-cover" alt="" />
+                            <p className=" m-0 tw-text-black">
+                            
+                            Arabic
+                            </p>
+                        </div>
+                           
+                               </div>
+                               <div className="  ">
+                        
+                        <div className=" tw-flex   tw-gap-4 hover:tw-bg-gray-light  p-2 tw-rounded-md">
+                        <img src={pe} className=" tw-w-7 tw-h-7 tw-rounded-full tw-object-cover" alt="" />
+                            <p className=" m-0 tw-text-black">
+                            
+                            Persian
                             </p>
                         </div>
                            

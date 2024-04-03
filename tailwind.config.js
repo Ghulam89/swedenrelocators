@@ -19,6 +19,9 @@ export default {
         'gray': '#898a9c',
         'gray-light': '#d3dce6',
       },
+      backgroundImage:{
+        common:"linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('assets/images/pagetitle-bg.jpg')",
+      }
     },
 
     fontFamily:{
