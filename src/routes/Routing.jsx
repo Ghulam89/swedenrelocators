@@ -24,6 +24,7 @@ import Looking_for_housing from "../screens/Looking_for_housing";
 import { useEffect } from "react";
 import Housing from "../screens/Housing";
 import Available_housing from "../screens/Available_housing";
+import PageNotFound from "../screens/pageNotFound";
 const Routing = () => {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -68,6 +69,7 @@ const Routing = () => {
         <Route path="/privacy_policy" element={<PrivacyPolicy />} />
         <Route path="/housing" element={<Housing />} />
         <Route path="/available_housing" element={<Available_housing />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <GoTop />
     </BrowserRouter>

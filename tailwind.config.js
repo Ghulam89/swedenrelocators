@@ -9,7 +9,7 @@ export default {
 
       colors: {
         'primary':'#1F2437',
-        'blue': '#247FE1',
+        'blue': '#0067ED',
         'purple': '#7e5bef',
         'pink': '#ff49db',
         'orange': '#ff7849',
@@ -21,6 +21,7 @@ export default {
       },
       backgroundImage:{
         common:"linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('assets/images/pagetitle-bg.jpg')",
+        Journey:"linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('assets/images/Journey.jpg')",
       }
     },
 

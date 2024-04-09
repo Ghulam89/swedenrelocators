@@ -107,9 +107,9 @@ const OurSkills = () => {
                 >
                   <div
                 
-                    className=" hover-div tw-flex tw-shadow-xl tw-pt-5 tw-px-11 tw-gap-8 wrapperIcon"
+                    className=" hover-div tw-flex  tw-min-h-72 tw-shadow-xl tw-pt-5 sm:tw-px-11 tw-px-5 tw-gap-8 wrapperIcon"
                   >
-                    <div className="featured-icon tw-bg-[#F5FAFF] p-1     tw-w-[12%] tw-rounded-tl-3xl tw-rounded-tr-3xl">
+                    <div className="featured-icon tw-bg-[#F5FAFF] p-1     sm:tw-w-[12%] tw-w-[20%] tw-rounded-tl-3xl tw-rounded-tr-3xl">
                       <div    className=" tw-pt-6  iconY">
                        {item?.Icon}
                       </div>

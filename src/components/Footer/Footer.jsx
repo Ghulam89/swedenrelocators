@@ -104,7 +104,7 @@ const Footer = () => {
                     <div className=" tw-flex tw-gap-3">
                       <Link
                         to={
-                          "https://swedenrelocators.se/pages/assets/email_images/App-Store.png"
+                          "https://apps.apple.com/ca/app/sweden-relocators/id1621885091"
                         }
                       >
                         <img

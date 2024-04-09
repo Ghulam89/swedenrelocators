@@ -61,7 +61,7 @@ const Set_up_your_account = () => {
                       aria-hidden="true"
                     ></i>
                   }
-                  label={"Companies"}
+                  label={"Businesses"}
                   className={
                     " tw-text-blue  tw-font-semibold tw-text-lg hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
                   }

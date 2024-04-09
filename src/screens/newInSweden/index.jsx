@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import mobile from "../../assets/images/business-person-opening-bank-account.png";
 import mobile2 from "../../assets/images/family-doctor-consultation.png";
 import mobile3 from "../../assets/images/girl-purchased-car-insurance.png";
+import mobile4 from "../../assets/images/family-purchasing-new-home.png";
 import { GoTriangleRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 const New_In_sweden = () => {
@@ -210,7 +211,7 @@ const New_In_sweden = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
+                <div className="  md:tw-pl-20 tw-pl-2 md:tw-pr-8 pr-2">
                   <span>SOCIAL SECURITY NUMBER</span>
                   <h2>
                     <strong>Personnummer</strong>
@@ -973,6 +974,531 @@ const New_In_sweden = () => {
                         register. Skatteverket does your folkbokföring
                         (registration), You can als apply for a Swedish ID card
                       </p>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>ARBETSFÖRMEDLINGEN</span>
+                      <h2>
+                        <strong>(Public Employment Service)</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Arbetsförmedlingen (the Public Employment Service) is
+                        mainly responsible for labor related issues.
+                      </p>
+                      <p className=" tw-text-gray tw-font-semibold">
+                        Arbetsförmedlingen has three main services for Newly
+                        arrived people:
+                      </p>
+
+                      <ul className=" tw-p-0 tw-pt-4">
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">Nystartsjobb</p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">Instegsjobb</p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Etableringspaket(for peple covered by the law 2010:
+                            197)
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>FÖRSÄKRINGSKASSAN</span>
+                      <h2>
+                        <strong>(Social Insurance Agency)</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Försäkringskassan (the social insurance Agency) is in
+                        charge for the social insurance in Sweden and their main
+                        task is to ensure you get the benefits and allowances
+                        you are entitled to. The social insurance covers
+                        everyone who lives and works in Sweden.
+                      </p>
+                      <p className=" tw-text-gray">
+                        Försäkringskassan is not always the determining
+                        authority (the one taking the actual decision whether or
+                        not you are entitled to a benefit or allowance), but is
+                        usually the one who pays out the benefits and
+                        allowances.
+                      </p>
+                      <p className=" tw-text-gray tw-font-semibold">
+                        Newbie relevant benefits and allowances (among many):
+                      </p>
+
+                      <ul className=" tw-p-0 tw-pt-4">
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Etableringsersättning(introduction supplement)
+                            Information in Swedish, English, Arabic, Dari,
+                            Tingrinja, Somali)
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Etableringstillägg(financial supplement that can be
+                            added to the introduction supplement if you have
+                            children) Information in Swedish
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Bostadsersättning(housing allowance)
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Föräldraförsäkring(parental leave)
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>SKOLVERKET</span>
+                      <h2>
+                        <strong>(National Agency For Education)</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Skolverket (National Agency for Education) is the
+                        central authority for education in Sweden. They offer an
+                        English- language guide to the Swedish school system.
+                        They also process applications for teachers with foreign
+                        qualifications that wish to work in Sweden.
+                      </p>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>JORDBRUKSVERKET</span>
+                      <h2>
+                        <strong>(Board Of Agriculture)</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Jordbruksverket is in charge of agricultural and
+                        horticultural matters in Sweden. They are the authority
+                        to turn to if you want to bring your dog or cat to
+                        Sweden.
+                      </p>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>TULLVERKET</span>
+                      <h2>
+                        <strong>(Customs)</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Tullverket (Customs) is charge of the flows of goods in
+                        and out of Sweden. Check with Tullverket when bringing
+                        or shipping goods in and out of Sweden. They have a
+                        guide in English especially for Newbies.
+                      </p>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>TRANSPORTSTYRELSEN (TRANSPORT AGENCY)</span>
+                      <h2>
+                        <strong>
+                          & Trafikverket (Transport Administration)
+                        </strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Transportstyrelsen and Trafikverket are in charge of
+                        everything concerning driving licenses as well as other
+                        transport- and traffic-related rules and regulations in
+                        Sweden. If you want to find out more visit their common
+                        website – körkortsportalen –
+                      </p>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>KOMMUNERNA</span>
+                      <h2>
+                        <strong>(The Municipalities)</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Kommunerna (the municipalities) fill an important and
+                        complex task in Sweden. They are responsible for the SFI
+                        teaching, Komvux (adult education) and
+                        samhällsorientering (social orientation). Yet, they are
+                        also responsible for the receiving and housing of
+                        Newbies covered by the law (2000: 1383), and shall, if
+                        necessary, provide practical assistance in connection
+                        with the settlement.
+                      </p>
+
+                      <p className=" tw-text-gray">
+                        The municipalities are furthermore responsible for the
+                        financial support of Newbies who are not covered by law
+                        (2010:197). You belong to the municipality where you
+                        made your registration (folkbokföring).
+                      </p>
+
+                      <p className=" tw-text-gray tw-font-semibold">
+                        Your municipality is in charge for:
+                      </p>
+
+                      <ul className=" tw-p-0 tw-pt-4">
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            SFI(Swedish teaching)
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Komvux(Adult education)
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Samhällsorientering(Social Orientation)
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Education (child care, preschool, school etc.)
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Financial support for Newbies who aren’t covered by
+                            the law (2010:197)
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Receiving and Housing of Newbies (covered by the law
+                            200: 1383)
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>LÄNSSTYRELSERNA</span>
+                      <h2>
+                        <strong>(The County Administrative Boards)</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Länsstyrelserna (the county administrative boards)
+                        represent the government in the county. Their task is to
+                        coordinate and supervise the work of the different
+                        actors and authorities and thereby ensure that national
+                        goals and objects are achieved. It is Länsstyrelserna’s
+                        task to ensure that the municipalities are prepared to
+                        receive Newbies, but also help the municipalities
+                        coordinate the SFI teaching and the society orientation.
+                      </p>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>LANDSTINGEN</span>
+                      <h2>
+                        <strong>(The County Councils)</strong>
+                      </h2>
+
+                      <p className=" tw-pt-8 tw-text-gray">
+                        Landstingen (the county councils) are in charge of
+                        everything concerning healthcare matters in Sweden.
+                      </p>
+                      <p className="  tw-text-gray tw-pt-6   tw-font-semibold">
+                        Länsstyrelserna (The County administrative boards)
+                      </p>
+
+                      <p className=" tw-text-gray">
+                        Länsstyrelserna (the county administrative boards)
+                        represent the government in the county. Their task is to
+                        coordinate and supervise the work of the different
+                        actors and authorities and thereby ensure that national
+                        goals and objects are achieved. It is Länsstyrelserna’s
+                        task to ensure that the municipalities are prepared to
+                        receive Newbies, but also help the municipalities
+                        coordinate the SFI teaching and the society orientation.
+                      </p>
+                      <p className="  tw-text-gray   tw-font-semibold">
+                        Länsstyrelserna (The County administrative boards)
+                      </p>
+                    </div>
+
+                    <div>
+                      <span>ACCOMODATION</span>
+                      <h2>
+                        <strong>Finding Home</strong>
+                      </h2>
+
+                      <div className="row tw-items-center">
+                        <div className="col-md-6">
+                          <img src={mobile4} alt="" />
+                        </div>
+                        <div className="col-md-6">
+                          <p className=" tw-text-gray">
+                            Perhaps you arranged temporary lodging or rented a
+                            room before arriving in Sweden and may want to move
+                            as temporary arrangements come to an end. Looking
+                            for your own place to stay can be a challenging task
+                            in larger cities such as Stockholm, Gothenburg and
+                            Malmö, where available housing remains relatively
+                            scarce.
+                          </p>
+                          <p className=" tw-text-gray">
+                            You can rent ‘first-hand’ or ‘second-hand’ in
+                            Sweden. First-hand (första hand) means you sign an
+                            agreement with the owner of the building, while
+                            second-hand (andra hand) means you sign an agreement
+                            with someone who owns the flat or has the first-hand
+                            contract on the flat.
+                          </p>
+                        </div>
+
+                        <p className=" tw-text-gray">
+                          To get a first-hand contract, you need to register to
+                          be put on the municipal waiting list (bostadskö) and
+                          it can take anywhere from a few days in some
+                          municipalities to up to ten years for central
+                          locations in cities like Stockholm for a first-hand
+                          contract to become available.
+                        </p>
+                        <p className=" tw-text-gray">
+                          As a new resident, you’ll probably be renting a flat
+                          from someone who sublets in a second-hand arrangement.
+                          It is extremely important to make sure that the tenant
+                          co-operation board of the building
+                          (bostadsrättsföreningen) or the landlord has signed
+                          off on second-hand leasing. If you rent a flat from a
+                          subletter who doesn’t have permission, you run the
+                          risk of being evicted (to make a long story short).
+                        </p>
+
+                        <p className=" tw-text-gray">
+                          Useful websites for finding flats in cities around the
+                          country are
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className=" tw-pt-6">
+                      <span>USEFULL</span>
+                      <h2>
+                        <strong>LINKS</strong>
+                      </h2>
+                      <ul className=" tw-p-0">
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Personnummer & ID card
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.skatteverket.se
+                            </Link>
+                          </div>
+                        </li>
+
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Application for Swedish Language
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              (https://malmo.se/…/Sfi—svenska…/Sfi-intensivkurs.html)
+                            </Link>
+                          </div>
+                        </li>
+
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Apartments Search
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.boplats.se
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Registration for Job Search
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.arbetsförmedlingen.se
+                            </Link>
+                          </div>
+                        </li>
+
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Business Registration
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.verksamt.se
+                            </Link>
+                          </div>
+                        </li>
+
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Driving Test
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              https://www.trafikverket.se/korkort/boka-prov/
+                            </Link>
+                          </div>
+                        </li>
+
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Change you EU B-Driving License
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              https://transportstyrelsen.se/…/ansokan-om-utbyte-av…/
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Change your Taxi License
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              https://transportstyrelsen.se/…/taxi…/
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Buy/Sell Everything
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.blocket.se
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Buy Sell House
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.hemnet.se
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Furniture
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.ikea.se
+                            </Link>
+                          </div>
+                        </li>
+
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Residence Permit
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.migrationsverket.se
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Foreign Educational Document evaluation
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.Uhr.se
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Applying for Study in Sweden-English
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              www.universityadmisisons.se
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Apply for study in Sweden-Swedish
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              https://www.antagning.se/se/start
+                              https://www.utbyten.se/
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            PHD Search
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              https://www.euraxess.se/
+                            </Link>
+                          </div>
+                        </li>
+
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Apply for Children’s Playgroup and School
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              https://malmo.se/…/Utbildning-och-forskola/Forskola.html
+                            </Link>
+                          </div>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              https://malmo.se/…/Utbildni…/Utbildningar-for-vuxna.html
+                            </Link>
+                          </div>
+                        </li>
+                        <li className=" ">
+                          <p className=" m-0 tw-text-gray tw-font-semibold">
+                            Social Rights
+                          </p>
+                          <div className=" tw-py-2">
+                            <Link className="  tw-font-normal" to={""}>
+                              https://www.forsakringskassan.se
+                            </Link>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
