@@ -80,7 +80,7 @@ const Set_up_your_account = () => {
                   }
                   label={"Partners"}
                   className={
-                    " tw-text-blue  tw-font-semibold tw-text-lg hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
+                    " tw-text-blue  tw-font-semibold tw-text-lg tw-mt-6 hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
                   }
                 />
               </div>
