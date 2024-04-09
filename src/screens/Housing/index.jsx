@@ -28,7 +28,7 @@ const Housing = () => {
           <div className="container-fluid">
             <section className="">
               <div className="container  tw-my-7 tw-rounded-md tw-shadow-lg tw-bg-white ">
-                <div className="   tw-gap-12  tw-grid tw-grid-cols-4 p-2 tw-w-full">
+                <div className="   tw-gap-12  tw-grid md:tw-grid-cols-4 tw-grid-cols-2 p-2 tw-w-full">
                   <div className=" tw-w-full   tw-items-end tw-flex tw-justify-between ">
                     <div>
                       <p className=" text-sm  tw-text-gray">

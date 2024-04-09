@@ -28,7 +28,7 @@ const New_Listings = ({
 
   return (
     <div className=" tw-bg-[#F5FAFF] tw-py-12">
-      <div className=" tw-container tw-px-12  tw-mx-auto">
+      <div className=" tw-container md:tw-px-12 tw-px-6  tw-mx-auto">
         <h3>
           <storng className=" tw-font-semibold">New Listings</storng>
         </h3>
@@ -36,7 +36,7 @@ const New_Listings = ({
           Explore latest & featured properties for sale.
         </p>
 
-        <div className=" tw-grid tw-gap-7 tw-grid-cols-3">
+        <div className=" tw-grid tw-gap-7 sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-grid-cols-1">
           <div className=" p-4 tw-bg-white tw-rounded-2xl">
             <div className=" tw-w-full">
               <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
