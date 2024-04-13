@@ -301,7 +301,7 @@ const Rent_out_your_housing = () => {
                       />
                     </div>
 
-                    <div className=" tw-bg-blue  tw-rounded-md tw-py-2  px-3">
+                    <div className=" tw-bg-blue  tw-rounded-md tw-py-3.5  px-3">
                       <h6 className=" tw-text-white tw-m-0">
                         BASIC NECESSITIES
                       </h6>

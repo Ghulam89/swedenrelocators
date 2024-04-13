@@ -3,6 +3,7 @@ import hero from "../../assets/images/hero.png";
 import Button from "../Button";
 import { motion } from "framer-motion";
 import { fadeIn, imageVariants, staggerContainer } from "../../utils/motion";
+import { Link } from "react-router-dom";
 const Hero = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
 
@@ -53,15 +54,15 @@ const Hero = () => {
               </motion.p>
               </motion.div>
               <div className="  tw-flex sm:tw-flex-row tw-flex-col tw-gap-7 tw-pt-5">
-                <div className=" ">
+                <Link to={'/services'} className=" ">
                   <Button className={"btn-warning"} label={"Our Services"} />
-                </div>
-                <div className=" ">
+                </Link>
+                <Link to={'/book_your_appointment'} className=" ">
                   <Button
                     className={"btn-indigo"}
                     label={"Book an Appointment!"}
                   />
-                </div>
+                </Link>
               </div>
             </div>
             <div 

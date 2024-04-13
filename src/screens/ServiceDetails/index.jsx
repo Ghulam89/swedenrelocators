@@ -4,11 +4,9 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
+import banner from "../../assets/images/psychological-problems-at-school.png";
 const ServiceDetails = () => {
-  const {id} =  useParams()
-
-
-
+  const { id } = useParams();
 
   const data = [
     {
@@ -312,53 +310,29 @@ const ServiceDetails = () => {
                     </p>
                   </div>
 
+                  <img src={banner} alt="" />
+
                   <div>
-                    <span>OPENING OF A</span>
+                    <span>FAMILY REUNIFICATION</span>
                     <h2>
-                      <strong>Bank Account</strong>
+                      <strong>Reunification For Refugees</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                      <strong>General requirements:</strong>
+                      Family reunification is a recognized reason for the
+                      immigration of family members to a country where one or
+                      more family members are already residing.
                     </p>
+                  </div>
+                  <div>
+                    <h2>
+                      <strong>Who Have A Right To Family Reunification?</strong>
+                    </h2>
 
                     <p className=" tw-text-gray">
-                      In order to open a bank account, you must always be able
-                      to identify yourself.
+                      Your family can apply for residence permits to join you in
+                      Sweden if you have been granted:
                     </p>
-
-                    <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                          You can identify yourself with a valid Swedish
-                          identification document, such as a passport, a
-                          national identity card or a BankID. You can also
-                          identify yourself with a Swedish driving license.
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                          If you do not have Swedish identification documents,
-                          you can identify yourself with a valid foreign
-                          passport or other photo identification document that
-                          clearly shows your citizenship and is issued by an
-                          authority or some other authorised issuer. Note that
-                          the bank may request that you also present other
-                          documents.
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                          If you do not have any valid identity documents, you
-                          must be able to prove who you are and your citizenship
-                          by means of other documents issued by a competent
-                          authority.
-                        </p>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
@@ -366,21 +340,21 @@ const ServiceDetails = () => {
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
                 <div className="  tw-pr-10">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                     {data?.map((item,index)=>{
+                    {data?.map((item, index) => {
                       return (
-
                         <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                        <Link   to={`${`/service_details/${item?.title}`}`} className="m-0 hover:tw-text-white">
-                          <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                           {item?.title}
-                          </p>
-                        </Link>
-                        <GoTriangleRight className="tw-text-gray" />
-                      </li>
-
-                      )
+                          <Link
+                            to={`${`/service_details/${item?.title}`}`}
+                            className="m-0 hover:tw-text-white"
+                          >
+                            <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                              {item?.title}
+                            </p>
+                          </Link>
+                          <GoTriangleRight className="tw-text-gray" />
+                        </li>
+                      );
                     })}
-                   
                   </ul>
                 </div>
               </div>
