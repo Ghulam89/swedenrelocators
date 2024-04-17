@@ -38,7 +38,7 @@ const Visitor = () => {
                         <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
                           <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
                           <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
-                            <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-passport-6" />
+                            <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-reading" />
                           </div>
                         </div>
 
@@ -83,7 +83,7 @@ const Visitor = () => {
                         <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
                           <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
                           <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
-                            <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-passport-6" />
+                            <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-contract" />
                           </div>
                         </div>
 
@@ -108,7 +108,7 @@ const Visitor = () => {
                         <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
                           <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
                           <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
-                            <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-passport-6" />
+                            <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-visa" />
                           </div>
                         </div>
 

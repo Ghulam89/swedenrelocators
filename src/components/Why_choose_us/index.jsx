@@ -3,6 +3,7 @@ import choose from "../../assets/images/office-meetings.png";
 import Button from "../Button";
 import { fadeIn, imageVariants, staggerContainer } from "../../utils/motion";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const Why_choose_us = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
 
@@ -136,8 +137,9 @@ const Why_choose_us = () => {
                   />
                 </div>
               </div>
-
+              <Link to={'/about_us'} >
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
             </div>
           </div>
         </div>

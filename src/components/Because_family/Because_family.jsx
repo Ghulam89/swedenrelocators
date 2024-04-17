@@ -11,6 +11,7 @@ import Button from "../Button";
 import Why_choose_us from "../Why_choose_us";
 import { fadeIn, imageVariants, staggerContainer, zoomIn } from "../../utils/motion";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const Because_family = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
   return (
@@ -401,8 +402,9 @@ const Because_family = () => {
                 apartment or rent out your apartment by providing information on
                 our Housing Solutions page.
               </p>
-
+               <Link  to="/housing">
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>  
             </div>
 
 
@@ -430,7 +432,7 @@ const Because_family = () => {
                 provide you solutions to your ongoing issues.
               </p>
 
-              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              <Button label={"Send Request"} className={"btn-indigo tw-mt-8"} />
             </div>
 
             
