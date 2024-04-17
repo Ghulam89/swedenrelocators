@@ -251,7 +251,7 @@ const Assessment = () => {
     <>
       <Navbar />
       <Banner_Page title={" Assessment"} />
-      <section className=" md:tw-pt-36 tw-pt-48">
+      <section className=" md:tw-pt-40 tw-pt-48">
         <div className="container-fluid ">
           <div className="row">
             <div className="col-md-8 ">
@@ -294,7 +294,7 @@ const Assessment = () => {
                     return (
                       <>
                         <div className="col-md-6">
-                          <Link to={`/assessment_register`}   >
+                          <Link to={`/assessment_register/${item?.title}`}   >
                             <img
                               src={item?.image}
                               alt=""

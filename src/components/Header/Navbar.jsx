@@ -485,7 +485,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/assessment_register"
+                        to={`/assessment_register/BUSINESS VISA`}
                       >
                         BUSINESS VISA
                       </Link>
@@ -494,7 +494,7 @@ const Navbar = () => {
                     <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/assessment_register"
+                        to={`/assessment_register/LONG TEAM EU STATUS`}
                       >
                         LONG TEAM EU STATUS
                       </Link>
@@ -503,7 +503,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="/assessment_register"
+                        to={`/assessment_register/FAMILY REUNIFICATION`}
                       >
                         FAMILY REUNIFICATION
                       </Link>
@@ -512,7 +512,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="/assessment_register"
+                        to={`/assessment_register/STUDY IN SWEDEN`}
                       >
                         STUDY IN SWEDEN
                       </Link>
@@ -521,7 +521,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="/assessment_register"
+                        to={`/assessment_register/VISIT VISA`}
                       >
                         VISIT VISA
                       </Link>
@@ -530,7 +530,7 @@ const Navbar = () => {
                     <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="/assessment_register"
+                        to="/assessment_register/WORK PEPMIT"
                       >
                         WORK PEPMIT
                       </Link>
@@ -564,10 +564,10 @@ const Navbar = () => {
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
-                    <li className="">
+                   <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/assessment_register"
+                        to={`/assessment_register/BUSINESS VISA`}
                       >
                         BUSINESS VISA
                       </Link>
@@ -576,7 +576,7 @@ const Navbar = () => {
                     <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/assessment_register"
+                        to={`/assessment_register/LONG TEAM EU STATUS`}
                       >
                         LONG TEAM EU STATUS
                       </Link>
@@ -585,7 +585,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="/assessment_register"
+                        to={`/assessment_register/FAMILY REUNIFICATION`}
                       >
                         FAMILY REUNIFICATION
                       </Link>
@@ -594,7 +594,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="/assessment_register"
+                        to={`/assessment_register/STUDY IN SWEDEN`}
                       >
                         STUDY IN SWEDEN
                       </Link>
@@ -603,25 +603,25 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="/assessment_register"
+                        to={`/assessment_register/VISIT VISA`}
                       >
                         VISIT VISA
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" ">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="/assessment_register"
+                        to="/assessment_register/WORK PEPMIT"
                       >
                         WORK PEPMIT
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className=" ">
+                    <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="#"
+                        to="/assessment"
                       >
                         ALL ASSESSMENTS
                       </Link>

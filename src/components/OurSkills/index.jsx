@@ -1,6 +1,7 @@
 import React from "react";
 import { fadeIn, staggerContainer } from "../../utils/motion";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const OurSkills = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
@@ -14,6 +15,7 @@ const OurSkills = () => {
       Icon: (
         <i className="flaticon icons-animate tw-text-blue tw-pl-1   tw-mr-0 tw-text-[43px] flaticon-family" />
       ),
+      
     },
     {
       id: 2,
@@ -131,12 +133,12 @@ const OurSkills = () => {
                         </p>
                       </div>
                       <div className="cmt-serviceboxbox-readmore tw-pb-5">
-                        <a
+                        <Link
                           className=" tw-font-medium"
-                          href="business-visa.html"
+                          to={`/service_details/${item?.title}`}
                         >
                           View More Details
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

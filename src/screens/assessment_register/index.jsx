@@ -10,10 +10,11 @@ import Button from "../../components/Button";
 import Input from "../../components/Input";
 import { GoTriangleRight } from "react-icons/go";
 import { TfiAngleLeft } from "react-icons/tfi";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const Assessment_register = () => {
-
+  
+  const {id} = useParams()
 
   const data = [
     {
@@ -213,7 +214,7 @@ const Assessment_register = () => {
   return (
     <>
       <Navbar />
-      <Banner_Page title={"BUSINESS VISA ASSESSMENT"} />
+      <Banner_Page title={`${id}`} />
       <section className=" md:tw-mt-36 tw-mt-48">
         <div className="container-fluid ">
           <div className="row g-5">
@@ -313,8 +314,8 @@ const Assessment_register = () => {
                           </label>
                           <select className="tw-outline-none tw-bg-lightGray  tw-py-3 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-xl">
                             <option>Choose an Option</option>
-                            <option>yes</option>
-                            <option>no</option>
+                            <option>Yes</option>
+                            <option>No</option>
                           </select>
                         </div>
                         <div className="col-md-8 tw-pt-4">
@@ -329,8 +330,8 @@ const Assessment_register = () => {
                           </label>
                           <select className="tw-outline-none tw-bg-lightGray  tw-py-3 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-xl">
                             <option>Choose an Option</option>
-                            <option>yes</option>
-                            <option>no</option>
+                            <option>Yes</option>
+                            <option>No</option>
                           </select>
                         </div>
                       </div>
