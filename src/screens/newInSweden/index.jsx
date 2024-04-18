@@ -6,6 +6,7 @@ import mobile from "../../assets/images/business-person-opening-bank-account.png
 import mobile2 from "../../assets/images/family-doctor-consultation.png";
 import mobile3 from "../../assets/images/girl-purchased-car-insurance.png";
 import mobile4 from "../../assets/images/family-purchasing-new-home.png";
+import mobile5 from "../../assets/images/writing_image.png";
 import { GoTriangleRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 const New_In_sweden = () => {
@@ -807,6 +808,56 @@ const New_In_sweden = () => {
                       You will get a list with all the dentists affiliated with
                       the public dental service – Folktandvården.
                     </p>
+                  </div>
+
+                  <div>
+                    <span>LANGUAGE</span>
+                    <h2>
+                      <strong>Courses</strong>
+                    </h2>
+
+                    <p className=" tw-text-gray">
+                      <strong>Learn Swedish in Sweden</strong>
+                    </p>
+
+                    <div className="row">
+                      <div className=" col-md-6">
+                        <img src={mobile5} className="" alt="" />
+                      </div>
+                      <div className=" col-md-6">
+                        <p className=" tw-text-gray">
+                          Depending on the location of your stay, there are
+                          different options for learning Swedish while in the
+                          country. More information at: www.sweden.se.
+                        </p>
+
+                        <p className=" tw-text-gray">
+                          Folkuniversitetet offers Swedish courses at different
+                          levels.
+                        </p>
+                        <p className=" tw-text-gray">
+                          Study associations also offer language courses and a
+                          wide range of other courses. See a list of study
+                          associations.
+                        </p>
+                        <p className=" tw-text-gray">
+                          SFI-courses (Swedish for immigrants). Once you have
+                          become a resident in Sweden and have been issued a
+                          personal identity number (personnummer) you can
+                          contact your local municipality for information about
+                        </p>
+                      </div>
+
+                      <div className="col-md-12">
+                        <p className=" tw-text-gray">
+                          Swedish lessons for immigrants (SFI). SFI is basic
+                          training in the Swedish language for adults who do not
+                          have Swedish as their first language. You can study
+                          SFI full-time or part-time. The training is free of
+                          charge.
+                        </p>
+                      </div>
+                    </div>
                   </div>
 
                   <div className=" tw-pt-6">

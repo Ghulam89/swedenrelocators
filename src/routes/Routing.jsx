@@ -25,6 +25,7 @@ import { useEffect } from "react";
 import Housing from "../screens/Housing";
 import Available_housing from "../screens/Available_housing";
 import PageNotFound from "../screens/pageNotFound";
+import Property_Details from "../screens/property_details/Property_Details";
 const Routing = () => {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -68,6 +69,7 @@ const Routing = () => {
         <Route path="/terms_conditions" element={<Terms_conditions />} />
         <Route path="/privacy_policy" element={<PrivacyPolicy />} />
         <Route path="/housing" element={<Housing />} />
+        <Route path="/property_details" element={<Property_Details />} />
         <Route path="/available_housing" element={<Available_housing />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
