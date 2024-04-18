@@ -1,13 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Header/Navbar";
 import Banner_Page from "../../components/Common/Banner_Page";
 import Footer from "../../components/Footer/Footer";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
 import { Link } from "react-router-dom";
-import { GoTriangleRight } from "react-icons/go";
-const Property_Details = () => {
+import { LiaAngleLeftSolid, LiaAngleRightSolid } from "react-icons/lia";
+import san from "../../assets/images/san.webp";
+import { GoArrowUpRight } from "react-icons/go";
+const Property_Details = ({
+  children: slides,
+  autoSlide = false,
+  autoSlideInterval = 3000,
+}) => {
+  const [curr, setCurr] = useState(0);
+  const [modal, setModal] = useState(false);
+  const sliders = [san, san, san, san];
 
+  const prev = () =>
+    setCurr((curr) => (curr === 0 ? slides?.length - 1 : curr - 1));
+  const next = () =>
+    setCurr((curr) => (curr === slides?.length - 1 ? 0 : curr + 1));
+
+  useEffect(() => {
+    if (!autoSlide) return;
+    const slideInterval = setInterval(next, autoSlideInterval);
+    return () => clearInterval(slideInterval);
+  }, []);
+
+  const goToSlide = (index) => {
+    setCurr(index);
+  };
 
   const data = [
     {
@@ -201,21 +224,84 @@ const Property_Details = () => {
     },
   ];
 
-  
   return (
     <>
       <Navbar />
       <Banner_Page title={"RENT OUT YOUR HOUSING"} />
       <section className=" md:tw-pt-40 tw-pt-48">
-        <div className="container-fluid ">
+        <div className="container">
           <div className="row">
-            <div className="col-md-12">
-              <div className=" tw-bg-white tw-pt-8  md:tw-p-14 tw-p-5">
-                
-               
+            <div className="col-md-9">
+              <div className=" p-4 tw-bg-white tw-rounded-2xl">
+                <div className=" tw-w-full">
+                  <div className="tw-overflow-hidden  tw-rounded-2xl tw-relative">
+                    <div
+                      className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
+                      style={{ transform: `translateX(-${curr * 100}%)` }}
+                    >
+                      {/* {sliders?.map((s) => (
+    <> */}
+                      <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
+                        <img
+                          src={san}
+                          alt=""
+                          className=" tw-w-full tw-h-full  tw-object-cover"
+                        />
+                      </div>
+                      <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
+                        <img
+                          src={san}
+                          alt=""
+                          className=" tw-w-full tw-h-full  tw-object-cover"
+                        />
+                      </div>
+                      <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
+                        <img
+                          src={san}
+                          alt=""
+                          className=" tw-w-full tw-h-full  tw-object-cover"
+                        />
+                      </div>
+
+                      <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
+                        <img
+                          src={san}
+                          alt=""
+                          className=" tw-w-full tw-h-full  tw-object-cover"
+                        />
+                      </div>
+
+                      {/* </>
+  ))} */}
+                    </div>
+                    <div className=" tw-absolute tw-top-6 tw-left-5 tw-gap-4  tw-flex  ">
+                      <button
+                        onClick={prev}
+                        className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
+                      >
+                        <LiaAngleLeftSolid
+                          size={30}
+                          className=" tw-text-blue"
+                        />
+                      </button>
+                      <button
+                        onClick={next}
+                        className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
+                      >
+                        <LiaAngleRightSolid
+                          size={30}
+                          className=" tw-text-blue"
+                        />
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+              
               </div>
             </div>
-          
+
+            <div className=" col-md-3"></div>
           </div>
         </div>
       </section>
