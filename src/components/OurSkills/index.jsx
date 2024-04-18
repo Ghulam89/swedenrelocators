@@ -48,7 +48,7 @@ const OurSkills = () => {
       id: 5,
       title: "Citizenship",
       description:
-        "When you have lived in Sweden for a specified period and meet requirements, you can apply for Swedish citizenship. Normally after 5 years you are eligible to apply.      ",
+        " When you have resided in Sweden for a specified period and meet the necessary requirements, you can apply for Swedish citizenship. Typically, after living in Sweden for 5 years, you become eligible to submit your application for citizenship.",
       Icon: (
         <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px] flaticon-visa" />
       ),
@@ -56,8 +56,7 @@ const OurSkills = () => {
     {
       id: 6,
       title: "	Invest in Sweden",
-      description:
-        "There are various opportunities for business ventures, Look for the best opportunity, grab it and do your best. For more signup and see the Business Section on My Page.",
+      description:"There are numerous opportunities for business ventures available. It's important to identify the best opportunity, seize it, and give it your all. To explore more, sign up and visit the Business Section on My Page to unlock potential business ideas and resources tailored to your interests.",
       Icon: (
         <i className="flaticon icons-animate tw-text-blue tw-pl-1 tw-mr-0 tw-text-[43px] flaticon-bussiness-man" />
       ),
@@ -90,7 +89,7 @@ const OurSkills = () => {
               <div className="section-title title-style-center_text">
                 <div className="title-header tw-text-center">
                   <span>WE EMPOWER YOUR SKILLS TO SUCCEED IN SWEDEN!</span>
-                  <h2 className="h2 tw-pt-1  tw-text-black">
+                  <h2 className="tw-pt-1  tw-text-black">
                     Legal Relocation{" "}
                     <strong>Solutions For Worldwide Clients</strong>
                   </h2>
@@ -109,7 +108,7 @@ const OurSkills = () => {
                 >
                   <div
                 
-                    className=" hover-div tw-flex  tw-min-h-72 tw-shadow-xl tw-pt-5 sm:tw-px-11 tw-px-5 tw-gap-8 wrapperIcon"
+                    className=" hover-div tw-flex  tw-min-h-72 tw-rounded-md tw-shadow-xl tw-pt-5 sm:tw-px-11 tw-px-5 tw-gap-8 wrapperIcon"
                   >
                     <div className="featured-icon tw-bg-[#F5FAFF] p-1     sm:tw-w-[12%] tw-w-[20%] tw-rounded-tl-3xl tw-rounded-tr-3xl">
                       <div    className=" tw-pt-6  iconY">

@@ -156,7 +156,7 @@ const Housing = () => {
               </div>
             </div>
             <New_Listings />
-            <div className="row g-4">
+            {/* <div className="row g-4">
               <div className=" tw-py-12 tw-text-center">
                 <span>EXPERT TEAM</span>
                 <h2>
@@ -165,7 +165,7 @@ const Housing = () => {
 
                 <Teams />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import first_image from "../../assets/images/Front-relocation.webp";
+import first_image from "../../assets/images/Front-relocation.png";
 import second_image from "../../assets/images/Second-relocation.jpg";
 import third_image from "../../assets/images/business-development-directions.png";
 import fourth_image from "../../assets/images/man-searching-air-ticket-for-summer-travel.png";
@@ -28,7 +28,7 @@ const Because_family = () => {
               <div className="section-title title-style-center_text">
                 <div className="title-header tw-text-center">
                   <span>BECAUSE FAMILY COMES FIRST!</span>
-                  <h2 className="h2  tw-text-black">
+                  <h2 className=" tw-text-black">
                     EU Family
                     <strong> Reunification Solutions</strong>
                   </h2>
@@ -50,7 +50,7 @@ const Because_family = () => {
                 viewport={{ once: true, amount: 0.25 }}
                  className="title-header">
                 <span>EU RESIDENCE CARD</span>
-                <motion.h2  variants={fadeIn("up", "tween", 0.2, 1)} className="h2  tw-text-black">
+                <motion.h2  variants={fadeIn("up", "tween", 0.2, 1)} className=" tw-text-black">
                   Family
                   <strong> Reunification </strong>
                 </motion.h2>
@@ -103,7 +103,7 @@ const Because_family = () => {
                 whileInView="show"
                 viewport={{ once: true, amount: 0.25 }} className="title-header">
                 <span> SOFTWARE BASE SOLUTION</span>
-                <motion.h2 variants={fadeIn("up", "tween", 0.2, 1)} className="h2  tw-text-black">
+                <motion.h2 variants={fadeIn("up", "tween", 0.2, 1)} className=" tw-text-black">
                   Apply Online
                   <strong> Now </strong>
                 </motion.h2>
@@ -163,7 +163,7 @@ const Because_family = () => {
                 whileInView="show"
                 viewport={{ once: true, amount: 0.25 }} className="title-header">
                 <span>COMPLETE ONLINE PORTAL & APP BASE SOLUTION</span>
-                <motion.h2  variants={fadeIn("left", "tween", 0.2, 1)}  className="h2  tw-text-black">
+                <motion.h2  variants={fadeIn("left", "tween", 0.2, 1)}  className="  tw-text-black">
                   Relocating To
                   <strong> Sweden? </strong>
                 </motion.h2>
@@ -231,7 +231,7 @@ const Because_family = () => {
                 whileInView="show"
                 viewport={{ once: true, amount: 0.25 }} className="title-header">
                 <span>STEP-BY-STEP ASSISTANCE</span>
-                <motion.h2 variants={fadeIn("right", "tween", 0.2, 1)} className="h2  tw-text-black">
+                <motion.h2 variants={fadeIn("right", "tween", 0.2, 1)} className="  tw-text-black">
                   Departure-Arrival
                   <strong> Services</strong>
                 </motion.h2>
@@ -320,7 +320,7 @@ const Because_family = () => {
             <div className="col-md-6">
               <div className="title-header">
                 <span>WORK PERMIT & EXTENSIONS</span>
-                <h2 className="h2  tw-text-black">
+                <h2 className=" tw-text-black">
                   Applying For
                   <strong> Work Permit?</strong>
                 </h2>
@@ -360,7 +360,7 @@ const Because_family = () => {
             <div className="col-md-6">
               <div className="title-header">
                 <span>BUSINESS & INVESTMENT SOLUTIONS</span>
-                <h2 className="h2  tw-text-black">
+                <h2 className="  tw-text-black">
                   Business
                   <strong> In Sweden</strong>
                 </h2>
@@ -389,7 +389,7 @@ const Because_family = () => {
             <div className="col-md-7">
               <div className="title-header">
                 <span>INSTANT HOUSING SOLUTIONS</span>
-                <h2 className="h2  tw-text-black">
+                <h2 className=" tw-text-black">
                   Home Loans & <br />
                   <strong> Secure Home Rental Solutions</strong>
                 </h2>
@@ -416,7 +416,7 @@ const Because_family = () => {
             <div className="col-md-6">
               <div className="title-header">
                 <span>PROFESSIONAL LEGAL SERVICES BY LAWYERS</span>
-                <h2 className="h2  tw-text-black">
+                <h2 className=" tw-text-black">
                   We Can Provide Lawyers For
                   <strong> Legal Issues</strong>
                 </h2>
@@ -443,7 +443,7 @@ const Because_family = () => {
             <div className="col-md-6">
               <div className="title-header">
                 <span>AU-PAIR SERVICES FOR NORDIC FAMILIES</span>
-                <h2 className="h2  tw-text-black">
+                <h2 className="  tw-text-black">
                   Solutions For Host Families &<strong> AU Pair</strong>
                 </h2>
               </div>

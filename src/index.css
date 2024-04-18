@@ -27,6 +27,7 @@ i {
 /* Ensure the dropdown menu is initially hidden */
 .hover-dropdown .dropdown-menu {
   display: none;
+  padding: 0px !important;
 }
 
 .dropdown-toggle::after {
@@ -75,7 +76,7 @@ i {
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  background-color: #247fe1 !important;
+  background-color: #1F2437 !important;
   color: white !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;

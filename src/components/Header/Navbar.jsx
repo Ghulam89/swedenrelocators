@@ -267,10 +267,10 @@ const Navbar = () => {
                     Services
                     <i class="fas fa-chevron-down  ps-2"></i>
                   </Link>
-                  <div className="dropdown-men2   tw-w-[600px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden" aria-labelledby="dropdownMenuClickableOutside">
+                  <div className="dropdown-men2  tw-w-[600px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden" aria-labelledby="dropdownMenuClickableOutside">
                   <ul
                   style={{gridTemplateColumns: "200px 200px 200px",display:'grid'}}
-                    className=" tw-p-0 tw-bg-white  tw-shadow-xl"
+                    className=" tw-p-0 tw-bg-white  tw-overflow-hidden tw-rounded-md tw-shadow-xl"
                   
                   >
 
@@ -370,12 +370,12 @@ const Navbar = () => {
                     <i class="fas fa-chevron-down   ps-2"></i>
                   </Link>
                   <ul
-                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                    className="dropdown-menu border-0  tw-rounded-md tw-overflow-hidden md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" ">
                       <Link
-                        className="dropdown-item tw-text-sm tw-font-medium "
+                        className="dropdown-item   tw-text-sm tw-font-medium "
                         to="/housing"
                       >
                         HOW ITS WORKS
@@ -479,8 +479,9 @@ const Navbar = () => {
                     <i class="fas ms-2 fa-chevron-down "></i>
                   </Link>
                   <ul
-                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                    className="dropdown-menu border-0  tw-rounded-md  tw-overflow-hidden md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
+                    
                   >
                     <li className=" ">
                       <Link
