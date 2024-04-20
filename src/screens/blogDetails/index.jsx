@@ -160,7 +160,7 @@ const BlogDetails = () => {
                             </div>
                         </div>
 
-
+                        
                         <div className=" tw-pt-10">
                             <h3>Leave a Reply</h3>
                             <p className="">Your email address will not be published.</p>

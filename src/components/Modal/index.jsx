@@ -10,7 +10,7 @@ const Modal = ({ isOpen, onClose, children, className, setIsModalOpen }) => {
               className="tw-fixed tw-inset-0 tw-transition-opacity"
               aria-hidden="true"
             >
-              <div onClick={onClose} className="tw-absolute tw-inset-0  tw-bg-[rgba(0,0,0,0.8)] tw-opacity-75"></div>
+              <div onClick={onClose} className="tw-absolute tw-inset-0  tw-bg-[rgba(0,0,0,0.1)] tw-opacity-75"></div>
             </div>
 
             <span

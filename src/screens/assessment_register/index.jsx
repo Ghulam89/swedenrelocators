@@ -11,6 +11,7 @@ import Input from "../../components/Input";
 import { GoTriangleRight } from "react-icons/go";
 import { TfiAngleLeft } from "react-icons/tfi";
 import { Link, useParams } from "react-router-dom";
+import Assessment_modal from "./Assessment_modal";
 
 const Assessment_register = () => {
   
@@ -210,6 +211,18 @@ const Assessment_register = () => {
 
 
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  
+
 
   return (
     <>
@@ -229,6 +242,14 @@ const Assessment_register = () => {
                         PERSONAL DETAILS
                       </p>
                     </div>
+
+
+                    
+        <Assessment_modal
+          isModalOpen={isModalOpen}
+          setIsModalOpen={setIsModalOpen}
+          // setUsers={setUsers}
+        />
 
                     <form>
                       <div className="row ">
@@ -339,6 +360,8 @@ const Assessment_register = () => {
                   </div>
 
                   <Button
+
+                    onClick={openModal}
                     label={"Submit"}
                     className={
                       "  tw-w-full tw-bg-blue tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"

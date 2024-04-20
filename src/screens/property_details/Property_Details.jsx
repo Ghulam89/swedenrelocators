@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Header/Navbar";
 import Banner_Page from "../../components/Common/Banner_Page";
+import { IoLocationOutline } from "react-icons/io5";
 import Footer from "../../components/Footer/Footer";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
 import { Link } from "react-router-dom";
 import { LiaAngleLeftSolid, LiaAngleRightSolid } from "react-icons/lia";
 import san from "../../assets/images/san.webp";
-import { GoArrowUpRight } from "react-icons/go";
+import san2 from "../../assets/images/san2.webp";
+import { GoArrowUpRight, GoTriangleRight } from "react-icons/go";
 const Property_Details = ({
   children: slides,
   autoSlide = false,
@@ -229,79 +231,412 @@ const Property_Details = ({
       <Navbar />
       <Banner_Page title={"RENT OUT YOUR HOUSING"} />
       <section className=" md:tw-pt-40 tw-pt-48">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-9">
-              <div className=" p-4 tw-bg-white tw-rounded-2xl">
-                <div className=" tw-w-full">
-                  <div className="tw-overflow-hidden  tw-rounded-2xl tw-relative">
-                    <div
-                      className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                      style={{ transform: `translateX(-${curr * 100}%)` }}
-                    >
-                      {/* {sliders?.map((s) => (
+        <section className="tw-bg-[#F5FAFF] tw-py-6">
+             
+
+          <div className="container">
+
+            <div className=" row tw-py-8">
+              <div className="col-md-6">
+                <h3>Luxury Apartments on California.
+</h3>
+
+<div className=" tw-mt-4 tw-flex tw-gap-4 tw-items-center">
+  <button className=" tw-bg-black  tw-text-white tw-px-4 tw-text-sm tw-rounded-full  tw-py-1">FOR SELL</button>
+  <p className="  tw-flex tw-items-center tw-gap-3 tw-m-0 tw-text-gray"> <IoLocationOutline size={30} /> SKOLGATAN 2 LGH 1402, 22361 LUND, LUND, SWEDEN
+</p>
+</div>
+
+<div className="">
+  
+</div>
+              </div>
+              <div className="col-md-6">
+
+                <div className=" tw-float-right">
+                <h6>Apartment Id: 475</h6>
+                <h6>Apartment Status: Available</h6>
+                <h6  className=" tw-text-gray">Uploaded Date: 2024-01-17</h6>
+                </div>
+              </div>
+            </div>
+            <div className="row ">
+              <div className="col-md-9">
+                <div className=" p-4 tw-bg-white tw-rounded-2xl">
+                  <div className=" tw-w-full">
+                    <div className="tw-overflow-hidden  tw-rounded-2xl tw-relative">
+                      <div
+                        className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
+                        style={{ transform: `translateX(-${curr * 100}%)` }}
+                      >
+                        {/* {sliders?.map((s) => (
     <> */}
-                      <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                        <img
-                          src={san}
-                          alt=""
-                          className=" tw-w-full tw-h-full  tw-object-cover"
-                        />
-                      </div>
-                      <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                        <img
-                          src={san}
-                          alt=""
-                          className=" tw-w-full tw-h-full  tw-object-cover"
-                        />
-                      </div>
-                      <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                        <img
-                          src={san}
-                          alt=""
-                          className=" tw-w-full tw-h-full  tw-object-cover"
-                        />
-                      </div>
+                        <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
+                          <img
+                            src={san}
+                            alt=""
+                            className=" tw-w-full tw-h-full  tw-object-cover"
+                          />
+                        </div>
+                        <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
+                          <img
+                            src={san2}
+                            alt=""
+                            className=" tw-w-full tw-h-full  tw-object-cover"
+                          />
+                        </div>
+                        <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
+                          <img
+                            src={san}
+                            alt=""
+                            className=" tw-w-full tw-h-full  tw-object-cover"
+                          />
+                        </div>
 
-                      <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                        <img
-                          src={san}
-                          alt=""
-                          className=" tw-w-full tw-h-full  tw-object-cover"
-                        />
-                      </div>
+                        <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
+                          <img
+                            src={san}
+                            alt=""
+                            className=" tw-w-full tw-h-full  tw-object-cover"
+                          />
+                        </div>
 
-                      {/* </>
+                        {/* </>
   ))} */}
-                    </div>
-                    <div className=" tw-absolute tw-top-6 tw-left-5 tw-gap-4  tw-flex  ">
-                      <button
-                        onClick={prev}
-                        className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                      >
-                        <LiaAngleLeftSolid
-                          size={30}
-                          className=" tw-text-blue"
-                        />
-                      </button>
-                      <button
-                        onClick={next}
-                        className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                      >
-                        <LiaAngleRightSolid
-                          size={30}
-                          className=" tw-text-blue"
-                        />
-                      </button>
-                    </div>
+                      </div>
+                      <div className=" tw-absolute tw-top-6 tw-left-5 tw-gap-4  tw-flex  ">
+                        <button
+                          onClick={prev}
+                          className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
+                        >
+                          <LiaAngleLeftSolid
+                            size={30}
+                            className=" tw-text-blue"
+                          />
+                        </button>
+                        <button
+                          onClick={next}
+                          className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
+                        >
+                          <LiaAngleRightSolid
+                            size={30}
+                            className=" tw-text-blue"
+                          />
+                        </button>
+                      </div>
 
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className=" col-md-3">
+
+                <div className=" tw-flex tw-flex-col tw-gap-5  p-4 tw-bg-white tw-rounded-2xl">
+                  <div className="  tw-h-32 tw-rounded-2xl tw-overflow-hidden">
+                    <img src={san2} className=" tw-w-full tw-h-full" alt="" />
+                  </div>
+                  <div className="  tw-h-32 tw-rounded-2xl tw-overflow-hidden">
+                    <img src={san} className=" tw-w-full tw-h-full" alt="" />
+                  </div>
+                  <div className="  tw-h-32 tw-rounded-2xl tw-overflow-hidden">
+                    <img src={san} className=" tw-w-full tw-h-full" alt="" />
+                  </div>
+                  <div className="  tw-h-32 tw-rounded-2xl tw-overflow-hidden">
+                    <img src={san} className=" tw-w-full tw-h-full" alt="" />
                   </div>
                 </div>
-              
               </div>
             </div>
 
-            <div className=" col-md-3"></div>
+          </div>
+
+
+          <div className="container tw-rounded-2xl tw-my-10 p-4 tw-shadow-lg tw-bg-white ">
+            <h3>Property Overview</h3>
+            <div className=" tw-grid tw-grid-cols-5 tw-mt-10">
+              <div className=" tw-flex  tw-flex-col tw-gap-2">
+                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" className=" tw-w-8" />
+                <h5 className="  tw-m-0 tw-font-light  tw-mt-1 tw-text-xl tw-text-gray">Sqft . 3,720</h5>
+              </div>
+              <div className=" tw-flex  tw-flex-col tw-gap-2">
+                <img src="https://homy-next.vercel.app/_next/static/media/icon_48.9b7f5b64.svg" className=" tw-w-12" />
+                <h5 className="  tw-m-0 tw-font-light  tw-mt-1 tw-text-xl tw-text-gray">Bed . 03</h5>
+              </div>
+              <div className=" tw-flex  tw-flex-col tw-gap-2">
+                <img src="https://homy-next.vercel.app/_next/static/media/icon_49.06c9f18e.svg" className=" tw-w-8" />
+                <h5 className="  tw-m-0 tw-font-light  tw-mt-1 tw-text-xl tw-text-gray">Bath . 2</h5>
+              </div>
+              <div className=" tw-flex  tw-flex-col tw-gap-2">
+                <img src="https://homy-next.vercel.app/_next/static/media/icon_50.8957a066.svg" className=" tw-w-8" />
+                <h5 className="  tw-m-0 tw-font-light  tw-mt-1 tw-text-xl tw-text-gray">Kitchen . 01</h5>
+              </div>
+              <div className=" tw-flex  tw-flex-col tw-gap-2">
+                <img src="	https://homy-next.vercel.app/_next/static/media/icon_51.96ca6f07.svg" className=" tw-w-8" />
+                <h5 className="  tw-m-0 tw-font-light  tw-mt-1 tw-text-xl tw-text-gray">Type . Apartment</h5>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="container ">
+            <div className="row">
+              <div className=" col-md-8">
+                <div className=" tw-rounded-2xl  p-5 tw-shadow-lg tw-bg-white">
+                  <h3>Overview
+                  </h3>
+                  <p className=" tw-text-gray tw-mt-5">
+                    Lorem ipsum dolor sit amet consectetur. Et velit varius ipsum tempor vel dignissim tincidunt. Aliquam accumsan laoreet ultricies tincidunt faucibus fames augue in sociis. Nisl enim integer neque nec.
+
+
+                  </p>
+                </div>
+
+                <div className=" tw-rounded-2xl tw-my-6 p-4 tw-shadow-lg tw-bg-white">
+                  <h3>Property Features
+
+                  </h3>
+                  <p className=" tw-text-gray tw-mt-5">
+                    Risk management and compliance, when approached strategically, have the potential to go beyond mitigating threats.
+
+
+
+
+                  </p>
+
+                  <hr className=" tw-text-gray" />
+
+                  <h4>Property Details
+
+                  </h4>
+
+
+                  <div className=" tw-grid  tw-gap-6 tw-grid-cols-2">
+                    <div className=" tw-w-full">
+
+
+                      <ul className=" tw-w-full tw-p-0">
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Bedrooms:</p>
+                          <h6>03</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Bathrooms:</p>
+                          <h6>03</h6>
+                        </li>
+
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Floor:</p>
+                          <h6>Ground</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Ceiling Height:</p>
+                          <h6>3.2m</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Renovation:</p>
+                          <h6>3.2m</h6>
+                        </li>
+                      </ul>
+
+                    </div>
+                    <div className=" tw-w-full">
+
+
+                      <ul className=" tw-w-full tw-p-0">
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Furnishing:</p>
+                          <h6>Semi furnished</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Year Built:</p>
+                          <h6>2010</h6>
+                        </li>
+
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Garage:</p>
+                          <h6>03</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Property Type:</p>
+                          <h6>Apartment</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Status:</p>
+                          <h6>For Sale</h6>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+
+
+                  <hr className=" tw-text-gray" />
+
+                  <h4>Basic Necessities
+
+
+                  </h4>
+
+
+                  <div className=" tw-grid  tw-gap-6 tw-grid-cols-2">
+                    <div className=" tw-w-full">
+
+
+                      <ul className=" tw-w-full tw-p-0">
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Furnished:</p>
+                          <h6>Flexible</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Electricity:</p>
+                          <h6>Included</h6>
+                        </li>
+
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Pets:</p>
+                          <h6>Allowed</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Internet:</p>
+                          <h6>Included	</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Heat Water:</p>
+                          <h6>Included</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Washing Machine:</p>
+                          <h6>Available</h6>
+                        </li>
+                      </ul>
+
+                    </div>
+                    <div className=" tw-w-full">
+
+
+                      <ul className=" tw-w-full tw-p-0">
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Balcony/Terrace:</p>
+                          <h6>Available</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Parking:</p>
+                          <h6>Not Included</h6>
+                        </li>
+
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Smoking:</p>
+                          <h6>Not Allowed
+                          </h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Lift:</p>
+                          <h6>Available</h6>
+                        </li>
+                        <li className="  tw-flex tw-justify-between tw-items-center">
+                          <p>Dishwasher:</p>
+                          <h6>Available</h6>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+
+
+                </div>
+
+
+                <h3 className=" tw-pt-4 tw-pb-4">Location
+
+                  </h3>
+                <div className=" tw-rounded-2xl  p-3 tw-shadow-lg tw-bg-white">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4509.282465196967!2d13.02468000000001!3d55.59085300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a16677346a9f%3A0x3fffcf31a36f0521!2sAmiralsgatan%2086A%2C%20214%2037%20Malm%C3%B6%2C%20Sweden!5e0!3m2!1sen!2sus!4v1709645005178!5m2!1sen!2sus" width="100%" height="450" style={{border:"0;"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                </div>
+
+
+               <div className=" tw-rounded-2xl  tw-my-10 p-5 tw-shadow-lg tw-bg-white">
+
+                <div className=" ">
+                            <h3>Leave a Reply</h3>
+                            <p className="">Your email address will not be published.</p>
+                            <form>
+                              <div className="row g-4 ">
+                              <div className="col-md-6">
+                                <Input placeholder={'Name (required)'} className={' border tw-rounded-none tw-p-3 tw-w-full'} />
+                              </div>
+                              <div className="col-md-6">
+                                <Input placeholder={'Email (required)'} className={' border tw-rounded-none tw-p-3 tw-w-full'} />
+                              </div>
+                              <div className="col-md-12">
+                                <textarea rows={6} className=" tw-border tw-border-gray-light  tw-rounded-md tw-w-full" ></textarea>
+                              </div>
+                              
+                             
+                              
+                             
+                              <div className="col-md-12 tw-pt-6">
+                                <Button label={'Post Comment'} className={' tw-border  tw-py-2.5  tw-rounded-md tw-text-white   tw-bg-black tw-border-gray-dark'} />
+                              </div>
+                              </div>
+                            </form>
+                        </div>
+
+                        </div>
+              </div>
+              <div className=" col-md-4">
+                <div className="">
+                  <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
+                    {data?.map((item, index) => {
+                      return (
+                        <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
+                          <Link
+                            to={`${`/service_details/${item?.title}`}`}
+                            className="m-0 hover:tw-text-white"
+                          >
+                            <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                              {item?.title}
+                            </p>
+                          </Link>
+                          <GoTriangleRight className="tw-text-gray" />
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </section>
+
+      <section className=" tw-flex  tw-items-center tw-bg-Journey tw-bg-fixed tw-bg-center tw-bg-cover  tw-h-[60vh]">
+        <div className=" container">
+          <div className=" row">
+            <div className=" col-md-6">
+              <div>
+                <h2 className=" text-white h2">
+                  Start your Journey As a Retailer.
+                </h2>
+              </div>
+            </div>
+            <div className=" col-md-6">
+              <div className=" tw-w-full tw-relative">
+                <input
+                  placeholder="Email address"
+                  className=" tw-bg-white  tw-h-20 tw-outline-none  tw-pl-4 tw-rounded-xl tw-w-full"
+                />
+                <Button
+                  label={"Get Started"}
+                  className={
+                    " tw-bg-blue tw-py-4 tw-rounded-xl tw-text-white tw-absolute tw-top-3 tw-right-3"
+                  }
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
