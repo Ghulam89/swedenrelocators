@@ -675,6 +675,8 @@ const Looking_for_housing = () => {
             </div>
           </div>
         </div>
+
+        
       </section>
       <Footer />
     </>
