@@ -95,8 +95,8 @@ const Assessment_modal = ({
             <div></div>
             <div className=" tw-flex  tw-items-center tw-gap-2">
                 <button className=" tw-bg-blue  tw-rounded-sm tw-text-xs px-2 tw-py-1.5 tw-text-white"> <i class="fa tw-m-0 fa-download" aria-hidden="true"></i> Download/View Report</button>
-                <button className=" tw-bg-[#218838]  tw-rounded-sm tw-text-xs px-2 tw-py-1.5 tw-text-white"> <i class="fa fa-step-forward tw-m-0 tw-mt-1" aria-hidden="true"></i> Book an Appointment</button>
-                <button className=" tw-bg-[#138496]  tw-rounded-sm  tw-text-xs px-2 tw-py-1.5 tw-text-white"> <i class="fa fa-times-circle  tw-m-0  tw-mt-1" aria-hidden="true"></i> close</button>
+                <button className=" tw-bg-blue tw-rounded-sm tw-text-xs px-2 tw-py-1.5 tw-text-white"> <i class="fa fa-step-forward tw-m-0 tw-mt-1" aria-hidden="true"></i> Book an Appointment</button>
+                <button onClick={()=>setIsModalOpen(false)} className=" tw-bg-[#1F2437]  tw-rounded-sm  tw-text-xs px-2 tw-py-1.5 tw-text-white"> <i class="fa fa-times-circle  tw-m-0  tw-mt-1" aria-hidden="true"></i> close</button>
             </div>
           </div>
           </div>
