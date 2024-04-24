@@ -59,7 +59,7 @@ const Blog = () => {
               return (
                 <Link to={`/blog_details/${item?.id}`} onClick={()=>navigate(`/blog_details/${item}`)} className="col-lg-3">
                   {/* featured-imagebox-post */}
-                  <div className=" tw-shadow-xl">
+                  <div className=" tw-shadow-xl tw-rounded-lg">
                     <div className=" tw-relative">
                       <img
                         width={720}
@@ -74,7 +74,7 @@ const Blog = () => {
                     </div>
                     <div className=" tw-p-4">
                       <div className="  tw-flex tw-gap-1 tw-items-center">
-                        <p className=" m-0 cmt-meta-line byline  tw-lowercase  tw-border-l-2   tw-pl-2  tw-border-blue">
+                        <p className=" m-0 cmt-meta-line byline  text-md tw-border-l-2   tw-pl-2  tw-border-blue">
                           Sweden Relocators
                         </p>
                         <span className="">.</span>

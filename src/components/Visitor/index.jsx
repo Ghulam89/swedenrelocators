@@ -34,30 +34,31 @@ const Visitor = () => {
                   <div className="row  g-5">
                     <div className="col-lg-3 col-md-2 ">
                       {/*featured-icon-box*/}
-                      <div className=" ">
-                        <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
-                          <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
-                          <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
-                            <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-reading" />
+                      <div className="wrapper ">
+                        <div className=" ">
+                          <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
+                            <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
+                            <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
+                              <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-reading" />
+                            </div>
                           </div>
-                        </div>
 
-                        <div className=" tw-text-center">
-                          <h5 className=" tw-pt-5 tw-pb-2">Sign Up</h5>
-                        </div>
-                        <div className="featured-desc">
-                          <p className=" tw-text-gray">
-                            You can signup on our website and book an
-                            appointment or write us in Message section on My
-                            Page!
-                          </p>
+                          <div className=" tw-text-center">
+                            <h5 className=" tw-pt-5 tw-pb-2">Sign Up</h5>
+                          </div>
+                          <div className="featured-desc">
+                            <p className=" tw-text-gray">
+                              You can signup on our website and book an appointment or write us in
+                              Message section on My Page!
+                            </p>
+                          </div>
                         </div>
                       </div>
                       {/* featured-icon-box end*/}
                     </div>
                     <div className="col-lg-3 col-md-2 ">
                       {/*featured-icon-box*/}
-                      <div className=" ">
+                      <div className="wrapper ">
                         <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
                           <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
                           <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
@@ -79,7 +80,7 @@ const Visitor = () => {
                     </div>
                     <div className="col-lg-3 col-md-2 ">
                       {/*featured-icon-box*/}
-                      <div className=" ">
+                      <div className=" wrapper">
                         <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
                           <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
                           <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
@@ -104,7 +105,7 @@ const Visitor = () => {
                     </div>
                     <div className="col-lg-3 col-md-2 ">
                       {/*featured-icon-box*/}
-                      <div className=" ">
+                      <div className=" wrapper">
                         <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
                           <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
                           <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
@@ -127,19 +128,19 @@ const Visitor = () => {
                       {/* featured-icon-box end*/}
                     </div>
                   </div>
-                <Link to={'/register'}>
-                <Button
-                    label={"Apply Now!"}
-                    className={
-                      " tw-my-3 tw-mx-auto tw-bg-blue tw-text-white tw-py-3.5 tw-rounded-md "
-                    }
-                  />
-                </Link>
-                
+                  <Link to={'/register'}>
+                    <Button
+                      label={"Apply Now!"}
+                      className={
+                        " tw-my-3 tw-mx-auto tw-bg-blue tw-text-white tw-py-3.5 tw-rounded-md "
+                      }
+                    />
+                  </Link>
+
                 </div>
               </div>
             </div>
-           
+
           </div>
         </section>
         {/*visitor-section end*/}

@@ -2,7 +2,7 @@ import React from "react";
 import { fadeIn, staggerContainer } from "../../utils/motion";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
+import dots from '../../assets/images/pattern.png'
 const OurSkills = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
 
@@ -108,7 +108,7 @@ const OurSkills = () => {
                 >
                   <div
                 
-                    className=" hover-div tw-flex  tw-min-h-72 tw-rounded-md tw-shadow-xl tw-pt-5 sm:tw-px-11 tw-px-5 tw-gap-8 wrapperIcon"
+                    className=" tw-relative hover-div tw-flex  tw-min-h-72 tw-rounded-md tw-shadow-xl tw-pt-5 sm:tw-px-11 tw-px-5 tw-gap-8 wrapperIcon"
                   >
                     <div className="featured-icon tw-bg-[#F5FAFF] p-1     sm:tw-w-[12%] tw-w-[20%] tw-rounded-tl-3xl tw-rounded-tr-3xl">
                       <div    className=" tw-pt-6  iconY">
@@ -140,7 +140,8 @@ const OurSkills = () => {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                    <img src={dots}  className="  tw-absolute tw-right-0 tw-bottom-0 tw-object-contain " alt="" />
+                  </div> 
                 </div>
               );
             })}

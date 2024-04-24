@@ -26,7 +26,7 @@ const Navbar = () => {
       description:
         "You have to be in Sweden or on the Swedish border in order to apply for asylum.",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
+        <i class=" tw-text-xl tw-mt-0  tw-text-blue fa fa-home"></i>
       ),
     },
     {
@@ -35,7 +35,7 @@ const Navbar = () => {
       description:
         "Family reunification is a recognized reason for the immigration of family members to a country.",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
+        <i class="  tw-text-2xl tw-mt-0   tw-text-blue flaticon-family"></i>
       ),
     },
     {
@@ -44,7 +44,7 @@ const Navbar = () => {
       description:
         "The personal identification is a number that the Swedish Tax Agency assigns to person registered in Sweden.",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
+        <i class="   tw-text-blue   tw-text-xl tw-mt-0  flaticon-passport-14"></i>
       ),
     },
     {
@@ -53,7 +53,7 @@ const Navbar = () => {
       description:
         "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
+        <i class="    tw-text-blue  tw-text-xl tw-mt-0   flaticon-passport-12"></i>
       ),
     },
     {
@@ -62,7 +62,7 @@ const Navbar = () => {
       description:
         "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
+        <i class="   tw-text-blue  tw-text-xl tw-mt-0   flaticon-passport-11"></i>
       ),
     },
     {
@@ -71,7 +71,7 @@ const Navbar = () => {
       description:
         "Swedish business culture is open and innovative, and starting a business there is relatively simple        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
+        <i class="   tw-text-blue  tw-text-xl tw-mt-0  fa fa-briefcase"></i>
       ),
     },
     {
@@ -80,7 +80,7 @@ const Navbar = () => {
       description:
         "Foreign people who want to invest in Sweden and stay temporarily for that purpose can apply for business visa.          ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
+        <i class="    tw-text-blue  tw-text-xl tw-mt-0   themifyicon ti-map-alt"></i>
       ),
     },
     {
@@ -89,7 +89,7 @@ const Navbar = () => {
       description:
         "When you have lived in Sweden for a specified period and meet requirements, you can apply for Swedish citizenship.          ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
+        <i class="  tw-text-blue  tw-text-xl tw-mt-0  flaticon-passport"></i>
       ),
     },
     {
@@ -98,7 +98,7 @@ const Navbar = () => {
       description:
         "If you are thinking about studying abroad, then visit Sweden. Sweden is well known for its world-class academic opportunities.          ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
+        <i class="  tw-text-blue  tw-text-xl tw-mt-0   flaticon-graduation-hat-1"></i>
       ),
     },
     {
@@ -107,7 +107,7 @@ const Navbar = () => {
       description:
         "For visiting Sweden for a short period you will need a visit visa. Sweden follows the same visa rules as others.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
+        <i class="  tw-text-blue   tw-text-xl tw-mt-0  flaticon-travel"></i>
       ),
     },
     {
@@ -116,7 +116,7 @@ const Navbar = () => {
       description:
         "Any EU citizen getting residence in the UK according to the EU rules, can bring their family with them.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
+        <i class="   tw-text-blue   tw-text-xl tw-mt-0  flaticon-contract"></i>
       ),
     },
     {
@@ -125,7 +125,7 @@ const Navbar = () => {
       description:
         "Parents of a child under 18 years who is in Sweden can move to sweden if they will live with the child.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
+        <i class="   tw-text-blue   tw-text-xl tw-mt-0  flaticon-family-1"></i>
       ),
     },
     {
@@ -134,7 +134,7 @@ const Navbar = () => {
       description:
         "Getting married is beautiful. But to make sure that it will be a good experience, it is important to have legal control.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
+        <i class="   tw-text-blue  tw-text-xl tw-mt-0    flaticon-insurance"></i>
       ),
     },
     {
@@ -143,7 +143,7 @@ const Navbar = () => {
       description:
         "If you are planning to register your company inside Sweden, you can reach us anytime if you have some queries about it.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
+        <i class="    tw-text-blue  tw-text-xl tw-mt-0    flaticon-certificate"></i>
       ),
     },
     {
@@ -152,7 +152,7 @@ const Navbar = () => {
       description:
         "we offer you an easy and painless solution where you can get a place to live without any worries.",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
+        <i class="   tw-text-blue  tw-text-xl tw-mt-0   flaticon-certificate"></i>
       ),
     },
     {
@@ -161,7 +161,7 @@ const Navbar = () => {
       description:
         "Have you been denied? let’s take a look at your case so that the decision can hopefully be overturned.",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
+        <i class="    tw-text-blue tw-text-xl tw-mt-0    flaticon-reading"></i>
       ),
     },
     {
@@ -170,7 +170,7 @@ const Navbar = () => {
       description:
         "Family reunification means that a family that has been split up can apply to be allowed to live together.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
+        <i class="    tw-text-blue  tw-text-xl tw-mt-0   flaticon-passport-3"></i>
       ),
     },
     {
@@ -179,7 +179,7 @@ const Navbar = () => {
       description:
         "There are various opportunities for business ventures, Look for the best opportunity, grab it and do your best.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
+        <i class="   tw-text-blue  tw-text-xl tw-mt-0   fa fa-sitemap"></i>
       ),
     },
     {
@@ -188,7 +188,7 @@ const Navbar = () => {
       description:
         "citizenship-by-investment programs provide ultra-wealthy families with the privilege of a second or third passport.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
+        <i class="    tw-text-blue  tw-text-xl tw-mt-0  flaticon-boarding-pass"></i>
       ),
     },
     {
@@ -197,7 +197,7 @@ const Navbar = () => {
       description:
         "If you lived in Sweden for more than 5 years with the EU right of residence you can get the permanent residence permit.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
+        <i class="    tw-text-blue  tw-text-xl tw-mt-0   flaticon-policy"></i>
       ),
     },
     {
@@ -206,7 +206,7 @@ const Navbar = () => {
       description:
         "As a member state of the EU, They offer its residents and citizens a number of reassuring benefits.        ",
       icons: (
-        <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
+        <i class="    tw-text-blue tw-text-xl tw-mt-0   flaticon-boarding-pass-2"></i>
       ),
     },
   ];
@@ -267,9 +267,9 @@ const Navbar = () => {
                     Services
                     <i class="fas fa-chevron-down  ps-2"></i>
                   </Link>
-                  <div className="dropdown-men2  tw-w-[600px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden" aria-labelledby="dropdownMenuClickableOutside">
+                  <div className="dropdown-men2  tw-w-[620px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden" aria-labelledby="dropdownMenuClickableOutside">
                   <ul
-                  style={{gridTemplateColumns: "200px 200px 200px",display:'grid'}}
+                  style={{gridTemplateColumns: "220px 220px 220px",display:'grid'}}
                     className=" tw-p-0 tw-bg-white  tw-overflow-hidden tw-rounded-md tw-shadow-xl"
                   
                   >
@@ -277,11 +277,15 @@ const Navbar = () => {
                     {data?.map((item,index)=>{
                       return (
                         <li  className=" " key={index}>
+                        
                         <Link
-                          style={{whiteSpace:'pre-wrap'}}
-                          className="dropdown-item    tw-uppercase tw-text-sm  tw-font-medium   "
+                          style={{whiteSpace:'pre-wrap',display:'flex',gap:'9px',alignItems:'center'}}
+                          className="dropdown-item     tw-uppercase tw-text-sm  tw-font-medium   "
                           to={`${`/service_details/${item?.title}`}`} 
+
+
                         >
+                            <p className="  tw-flex tw-gap-1"> {item?.icons}</p>
                           {item?.title}
                         </Link>
                       </li>

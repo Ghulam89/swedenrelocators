@@ -11,7 +11,7 @@ export default function Accordion(props) {
         className="tw-w-full tw-p-4 tw-flex tw-gap-3 tw-text-left tw-justify-between  tw-transition tw-duration-300"
         onClick={props.toggleAccordion}
       >
-        <h6 className="h6  ">{props.title}</h6>
+        <h6 className=" tw-font-normal">{props.title}</h6>
 
         <p className=" tw-m-0">{props.isOpen ? <FaMinus /> : <FaPlus />}</p>
       </button>
