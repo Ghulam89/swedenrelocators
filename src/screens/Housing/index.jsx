@@ -112,7 +112,7 @@ const Housing = () => {
                       <img
                         src={payments}
                         alt=""
-                        className=" tw-mx-auto tw-w-20"
+                        className=" tw-mx-auto tw-w-24"
                       />
                       <h5 className=" tw-pt-4">Security Deposit</h5>
                       <p className=" tw-text-gray">
@@ -126,7 +126,7 @@ const Housing = () => {
                       <img
                         src={agreement}
                         alt=""
-                        className=" tw-mx-auto tw-w-20"
+                        className=" tw-mx-auto tw-w-24"
                       />
                       <h5 className=" tw-pt-4">Service Charges (Tenants)</h5>
                       <p className=" tw-text-gray">

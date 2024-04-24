@@ -740,10 +740,10 @@ const New_In_sweden = () => {
                     </h2>
 
                     <div className="row tw-items-center">
-                      <div className="col-md-6">
+                      <div className="col-md-5">
                         <img src={mobile2} alt="" />
                       </div>
-                      <div className="col-md-6">
+                      <div className="col-md-7">
                         <p className=" tw-text-gray">
                           You can visit your local health centre – vårdcentral.
                           These centres provide a starting point for most
@@ -821,10 +821,10 @@ const New_In_sweden = () => {
                     </p>
 
                     <div className="row">
-                      <div className=" col-md-6">
+                      <div className=" col-md-5">
                         <img src={mobile5} className="" alt="" />
                       </div>
-                      <div className=" col-md-6">
+                      <div className=" col-md-7">
                         <p className=" tw-text-gray">
                           Depending on the location of your stay, there are
                           different options for learning Swedish while in the

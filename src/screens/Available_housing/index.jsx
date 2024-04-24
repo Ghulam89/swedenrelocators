@@ -337,2428 +337,360 @@ const Available_housing = ({
     {
       title: "Villas", content: <>
 
-        <div className=" tw-grid tw-gap-7 sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-grid-cols-1">
-          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
+<div className=" tw-grid md:tw-grid-cols-3 tw-grid-cols-1">
 
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
 
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
+<Link
+  
+  to={'/property_details'}
 
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <div className=" tw-relative tw-h-96 tw-w-full">
+    <img
+      src={available1}
+      alt="project"
+      className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+    />
+    <div className="  tw-flex  tw-rounded-2xl   tw-items-end  tw-bg-[rgba(0,0,0,0.2)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
 
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
+      <div>
+        <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+        <p className=" tw-text-white text-2xl">188,288 properties</p>
+      </div>
 
-            <hr className=" tw-border-dashed" />
+    </div>
+  </div>
+</Link>
 
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </Link>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
 
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
+<div
 
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <div className=" tw-flex tw-gap-3 tw-flex-col">
+    <Link  to={'/property_details'} className=" tw-relative  tw-h-48 tw-w-full">
+      <img
+        src={available2}
+        alt="project"
+        className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+      />
+      <div className="  tw-flex  tw-rounded-2xl  tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
 
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
+        <div>
+          <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+          <p className=" tw-text-white text-2xl">188,288 properties</p>
         </div>
+
+      </div>
+    </Link>
+    <Link to={'/property_details'} className=" tw-relative tw-h-48 tw-w-full">
+      <img
+        src={available3}
+        alt="project"
+        className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+      />
+      <div className="  tw-flex  tw-rounded-2xl   tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
+
+        <div>
+          <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+          <p className=" tw-text-white text-2xl">188,288 properties</p>
+        </div>
+
+      </div>
+    </Link>
+  </div>
+</div>
+<div
+
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <Link to={'/property_details'}  className=" tw-relative tw-h-96 tw-w-full">
+    <img
+      src={available4}
+      alt="project"
+      className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+    />
+    <div className="  tw-flex  tw-rounded-2xl  tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
+
+      <div>
+        <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+        <p className=" tw-text-white text-2xl">188,288 properties</p>
+      </div>
+
+    </div>
+  </Link>
+</div>
+</div>
 
       </>
     },
     {
       title: "Radhus", content: <>
 
-        <div className=" tw-grid tw-gap-7 sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-grid-cols-1">
-          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
+<div className=" tw-grid md:tw-grid-cols-3 tw-grid-cols-1">
 
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
 
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
+<Link
+  
+  to={'/property_details'}
 
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <div className=" tw-relative tw-h-96 tw-w-full">
+    <img
+      src={available1}
+      alt="project"
+      className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+    />
+    <div className="  tw-flex  tw-rounded-2xl   tw-items-end  tw-bg-[rgba(0,0,0,0.2)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
 
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
+      <div>
+        <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+        <p className=" tw-text-white text-2xl">188,288 properties</p>
+      </div>
 
-            <hr className=" tw-border-dashed" />
+    </div>
+  </div>
+</Link>
 
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </Link>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
 
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
+<div
 
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <div className=" tw-flex tw-gap-3 tw-flex-col">
+    <Link  to={'/property_details'} className=" tw-relative  tw-h-48 tw-w-full">
+      <img
+        src={available2}
+        alt="project"
+        className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+      />
+      <div className="  tw-flex  tw-rounded-2xl  tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
 
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
+        <div>
+          <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+          <p className=" tw-text-white text-2xl">188,288 properties</p>
         </div>
+
+      </div>
+    </Link>
+    <Link to={'/property_details'} className=" tw-relative tw-h-48 tw-w-full">
+      <img
+        src={available3}
+        alt="project"
+        className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+      />
+      <div className="  tw-flex  tw-rounded-2xl   tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
+
+        <div>
+          <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+          <p className=" tw-text-white text-2xl">188,288 properties</p>
+        </div>
+
+      </div>
+    </Link>
+  </div>
+</div>
+<div
+
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <Link to={'/property_details'}  className=" tw-relative tw-h-96 tw-w-full">
+    <img
+      src={available4}
+      alt="project"
+      className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+    />
+    <div className="  tw-flex  tw-rounded-2xl  tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
+
+      <div>
+        <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+        <p className=" tw-text-white text-2xl">188,288 properties</p>
+      </div>
+
+    </div>
+  </Link>
+</div>
+</div>
       </>
     },
     {
       title: "Shared Rooms", content: <>
-        <div className=" tw-grid tw-gap-7 sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-grid-cols-1">
-          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
+       <div className=" tw-grid md:tw-grid-cols-3 tw-grid-cols-1">
 
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
 
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
+<Link
+  
+  to={'/property_details'}
 
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <div className=" tw-relative tw-h-96 tw-w-full">
+    <img
+      src={available1}
+      alt="project"
+      className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+    />
+    <div className="  tw-flex  tw-rounded-2xl   tw-items-end  tw-bg-[rgba(0,0,0,0.2)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
 
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
+      <div>
+        <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+        <p className=" tw-text-white text-2xl">188,288 properties</p>
+      </div>
 
-            <hr className=" tw-border-dashed" />
+    </div>
+  </div>
+</Link>
 
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </Link>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
 
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
+<div
 
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <div className=" tw-flex tw-gap-3 tw-flex-col">
+    <Link  to={'/property_details'} className=" tw-relative  tw-h-48 tw-w-full">
+      <img
+        src={available2}
+        alt="project"
+        className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+      />
+      <div className="  tw-flex  tw-rounded-2xl  tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
 
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
+        <div>
+          <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+          <p className=" tw-text-white text-2xl">188,288 properties</p>
         </div>
+
+      </div>
+    </Link>
+    <Link to={'/property_details'} className=" tw-relative tw-h-48 tw-w-full">
+      <img
+        src={available3}
+        alt="project"
+        className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+      />
+      <div className="  tw-flex  tw-rounded-2xl   tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
+
+        <div>
+          <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+          <p className=" tw-text-white text-2xl">188,288 properties</p>
+        </div>
+
+      </div>
+    </Link>
+  </div>
+</div>
+<div
+
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <Link to={'/property_details'}  className=" tw-relative tw-h-96 tw-w-full">
+    <img
+      src={available4}
+      alt="project"
+      className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+    />
+    <div className="  tw-flex  tw-rounded-2xl  tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
+
+      <div>
+        <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+        <p className=" tw-text-white text-2xl">188,288 properties</p>
+      </div>
+
+    </div>
+  </Link>
+</div>
+</div>
       </>
     },
     {
       title: "Shared Beds", content: <>
-        <div className=" tw-grid tw-gap-7 sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-grid-cols-1">
-          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
+        <div className=" tw-grid md:tw-grid-cols-3 tw-grid-cols-1">
 
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
 
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
+<Link
+  
+  to={'/property_details'}
 
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <div className=" tw-relative tw-h-96 tw-w-full">
+    <img
+      src={available1}
+      alt="project"
+      className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+    />
+    <div className="  tw-flex  tw-rounded-2xl   tw-items-end  tw-bg-[rgba(0,0,0,0.2)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
 
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
+      <div>
+        <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+        <p className=" tw-text-white text-2xl">188,288 properties</p>
+      </div>
 
-            <hr className=" tw-border-dashed" />
+    </div>
+  </div>
+</Link>
 
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </Link>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
 
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
+<div
 
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <div className=" tw-flex tw-gap-3 tw-flex-col">
+    <Link  to={'/property_details'} className=" tw-relative  tw-h-48 tw-w-full">
+      <img
+        src={available2}
+        alt="project"
+        className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+      />
+      <div className="  tw-flex  tw-rounded-2xl  tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
 
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
-            <div className=" tw-w-full">
-              <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
-                <div
-                  className="tw-flex tw-transition-transform tw-ease-out tw-duration-500 tw-h-screen	 tw-w-full"
-                  style={{ transform: `translateX(-${curr * 100}%)` }}
-                >
-                  {/* {sliders?.map((s) => (
-    <> */}
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  <div className=" tw-flex-none  tw-w-full tw-h-full tw-relative">
-                    <img
-                      src={san}
-                      alt=""
-                      className=" tw-w-full tw-h-full  tw-object-cover"
-                    />
-                  </div>
-
-                  {/* </>
-  ))} */}
-                </div>
-                <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-between tw-p-4">
-                  <button
-                    onClick={prev}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleLeftSolid size={30} className=" tw-text-blue" />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="tw-p-1.5 tw-rounded-full tw-shadow tw-bg-white/80 tw-text-gray-800 tw-hover:bg-white"
-                  >
-                    <LiaAngleRightSolid size={30} className=" tw-text-blue" />
-                  </button>
-                </div>
-
-                <div className="tw-absolute tw-bottom-4 tw-right-0 tw-left-0">
-                  <div className="tw-flex tw-items-center tw-justify-center tw-gap-2">
-                    {sliders.map((_, i) => (
-                      <div
-                        key={i}
-                        onClick={() => goToSlide(i)}
-                        className={`
-        tw-transition-all tw-w-4 tw-h-4 tw-overflow-hidden tw-bg-white tw-rounded-full
-        ${curr === i ? " tw-w-4 tw-h-4" : " tw-w-4 tw-h-4 tw-opacity-40  "}
-      `}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
-            <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
-
-            <div className=" tw-flex  tw-justify-between  tw-items-center">
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_04.20cbbaa1.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">1370 sqft</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_05.57567837.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bed</p>
-              </div>
-              <div className=" tw-flex  tw-gap-2 tw-items-center">
-                <img src="https://homy-next.vercel.app/_next/static/media/icon_06.42f17dbd.svg" />
-                <p className="  tw-m-0 tw-font-light tw-text-gray">3 bath</p>
-              </div>
-            </div>
-
-            <hr className=" tw-border-dashed" />
-
-            <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
-              <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
-                <GoArrowUpRight size={30} className=" tw-text-white" />
-              </div>
-            </div>
-          </div>
+        <div>
+          <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+          <p className=" tw-text-white text-2xl">188,288 properties</p>
         </div>
+
+      </div>
+    </Link>
+    <Link to={'/property_details'} className=" tw-relative tw-h-48 tw-w-full">
+      <img
+        src={available3}
+        alt="project"
+        className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+      />
+      <div className="  tw-flex  tw-rounded-2xl   tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
+
+        <div>
+          <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+          <p className=" tw-text-white text-2xl">188,288 properties</p>
+        </div>
+
+      </div>
+    </Link>
+  </div>
+</div>
+<div
+
+  className="project tw-rounded tw-cursor-pointer p-3  tw-relative "
+>
+  <Link to={'/property_details'}  className=" tw-relative tw-h-96 tw-w-full">
+    <img
+      src={available4}
+      alt="project"
+      className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
+    />
+    <div className="  tw-flex  tw-rounded-2xl  tw-items-end  tw-bg-[rgba(0,0,0,0.4)] tw-h-full  tw-w-full  p-3 tw-absolute tw-bottom-0">
+
+      <div>
+        <h5 className=" tw-text-white tw-text-xl">Enjoy the great cold</h5>
+        <p className=" tw-text-white text-2xl">188,288 properties</p>
+      </div>
+
+    </div>
+  </Link>
+</div>
+</div>
       </>
     },
   ];
