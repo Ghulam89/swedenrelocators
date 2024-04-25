@@ -376,8 +376,8 @@ const Footer = () => {
                 </div>
                 </div>
              </div>
-              <div className=" col-md-4">
-              <div className="widget-area  tw-bg-[#1A1F31]  col-sm-12">
+              <div className=" col-md-4 p-0">
+              <div className="widget-area  tw-h-full tw-bg-[#1A1F31]  col-sm-12">
                   <aside className="widget p-3 widget-text">
                     {/*featured-icon-box*/}
                     <div className=" tw-flex tw-gap-3">

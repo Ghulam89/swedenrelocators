@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { LiaAngleLeftSolid, LiaAngleRightSolid } from "react-icons/lia";
 import san from "../../assets/images/san.webp";
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 const New_Listings = ({
   children: slides,
   autoSlide = false,
@@ -37,7 +38,7 @@ const New_Listings = ({
         </p>
 
         <div className=" tw-grid tw-gap-7 sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-grid-cols-1">
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
+          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
             <div className=" tw-w-full">
               <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
                 <div
@@ -110,7 +111,7 @@ const New_Listings = ({
                 </div>
               </div>
             </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
+            <h4 className=" tw-font-light tw-text-black tw-pt-5">Blueberry villa</h4>
             <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
 
             <div className=" tw-flex  tw-justify-between  tw-items-center">
@@ -131,13 +132,13 @@ const New_Listings = ({
             <hr className=" tw-border-dashed" />
 
             <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
+              <h4 className="tw-text-black">$3,280/m</h4>
               <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
                 <GoArrowUpRight size={30} className=" tw-text-white" />
               </div>
             </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
+          </Link>
+          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
             <div className=" tw-w-full">
               <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
                 <div
@@ -210,7 +211,7 @@ const New_Listings = ({
                 </div>
               </div>
             </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
+            <h4 className=" tw-font-light tw-text-black tw-pt-5">Blueberry villa</h4>
             <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
 
             <div className=" tw-flex  tw-justify-between  tw-items-center">
@@ -231,13 +232,13 @@ const New_Listings = ({
             <hr className=" tw-border-dashed" />
 
             <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
+              <h4 className="tw-text-black">$3,280/m</h4>
               <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
                 <GoArrowUpRight size={30} className=" tw-text-white" />
               </div>
             </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
+          </Link>
+          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
             <div className=" tw-w-full">
               <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
                 <div
@@ -310,7 +311,7 @@ const New_Listings = ({
                 </div>
               </div>
             </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
+            <h4 className=" tw-font-light tw-text-black tw-pt-5">Blueberry villa</h4>
             <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
 
             <div className=" tw-flex  tw-justify-between  tw-items-center">
@@ -331,13 +332,13 @@ const New_Listings = ({
             <hr className=" tw-border-dashed" />
 
             <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
+              <h4 className="tw-text-black">$3,280/m</h4>
               <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
                 <GoArrowUpRight size={30} className=" tw-text-white" />
               </div>
             </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
+          </Link>
+          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
             <div className=" tw-w-full">
               <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
                 <div
@@ -410,7 +411,7 @@ const New_Listings = ({
                 </div>
               </div>
             </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
+            <h4 className=" tw-font-light tw-text-black tw-pt-5">Blueberry villa</h4>
             <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
 
             <div className=" tw-flex  tw-justify-between  tw-items-center">
@@ -431,13 +432,13 @@ const New_Listings = ({
             <hr className=" tw-border-dashed" />
 
             <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
+              <h4 className="tw-text-black">$3,280/m</h4>
               <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
                 <GoArrowUpRight size={30} className=" tw-text-white" />
               </div>
             </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
+          </Link>
+          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
             <div className=" tw-w-full">
               <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
                 <div
@@ -510,7 +511,7 @@ const New_Listings = ({
                 </div>
               </div>
             </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
+            <h4 className=" tw-font-light tw-text-black tw-pt-5">Blueberry villa</h4>
             <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
 
             <div className=" tw-flex  tw-justify-between  tw-items-center">
@@ -531,13 +532,13 @@ const New_Listings = ({
             <hr className=" tw-border-dashed" />
 
             <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
+              <h4 className="tw-text-black">$3,280/m</h4>
               <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
                 <GoArrowUpRight size={30} className=" tw-text-white" />
               </div>
             </div>
-          </div>
-          <div className=" p-4 tw-bg-white tw-rounded-2xl">
+          </Link>
+          <Link to={'/property_details'} className=" p-4 tw-bg-white tw-rounded-2xl">
             <div className=" tw-w-full">
               <div className="tw-overflow-hidden tw-h-56 tw-rounded-2xl tw-relative">
                 <div
@@ -610,7 +611,7 @@ const New_Listings = ({
                 </div>
               </div>
             </div>
-            <h4 className=" tw-font-light tw-pt-5">Blueberry villa</h4>
+            <h4 className=" tw-font-light tw-text-black tw-pt-5">Blueberry villa</h4>
             <p className=" tw-text-gray">Mirpur 10, Stadium dhaka 1208</p>
 
             <div className=" tw-flex  tw-justify-between  tw-items-center">
@@ -631,12 +632,12 @@ const New_Listings = ({
             <hr className=" tw-border-dashed" />
 
             <div className=" tw-flex tw-justify-between tw-items-center">
-              <h4>$3,280/m</h4>
+              <h4 className="tw-text-black">$3,280/m</h4>
               <div className=" tw-w-12 tw-h-12 tw-bg-black tw-rounded-full tw-flex tw-justify-center  tw-items-center">
                 <GoArrowUpRight size={30} className=" tw-text-white" />
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

@@ -209,23 +209,21 @@ const Services = () => {
             <hr className=" tw-w-28 tw-opacity-3 tw-mx-auto tw-border-white" />
           </div>
           <div className="row tw-pt-10 tw-pb-32 g-4">
-            {data?.map((item, index) => {
-              return (
-                <div className="col-md-4">
-                  <div className="  tw-py-10 tw-px-4 tw-border-2 tw-border-dashed   tw-text-gray tw-text-center">
-                    {item?.icons}
-                    <h5 className=" tw-text-white">{item?.title} </h5>
-                    <p className=" tw-text-white">{item?.description}</p>
-                    <Link
-                      to={`${`/service_details/${item?.title}`}`}
-                      className=" tw-font-semibold"
-                    >
-                      View More{" "}
-                    </Link>
-                  </div>
-                </div>
-              );
-            })}
+          {data?.map((item, index) => {
+                      return (
+
+                        <Link
+                          to={`${`/service_details/${item?.title}`}`}
+                          className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
+                        >
+                          <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                            {item?.title}
+                          </p>
+                          <GoTriangleRight className="tw-text-gray" />
+                        </Link>
+
+                      );
+                    })}
           </div>
         </div>
 

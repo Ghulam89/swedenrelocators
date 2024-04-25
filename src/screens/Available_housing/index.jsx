@@ -4,6 +4,7 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Tabs from "../../components/Tabs";
 import san from '../../assets/images/san.webp'
+import san2 from "../../assets/images/san2.webp";
 import p1 from '../../assets/images/p1.jpg'
 import { GoArrowUpRight } from "react-icons/go";
 import available1 from '../../assets/images/available1.webp';
@@ -640,7 +641,7 @@ const Available_housing = ({
   <div className=" tw-flex tw-gap-3 tw-flex-col">
     <Link  to={'/property_details'} className=" tw-relative  tw-h-48 tw-w-full">
       <img
-        src={available2}
+        src={san2}
         alt="project"
         className="tw-w-full tw-h-full  tw-rounded-2xl  tw-object-cover tw-object-center tw-overflow-hidden tw-transition-transform tw-duration-400 tw-ease-in-out"
       />

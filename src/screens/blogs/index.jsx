@@ -9,6 +9,8 @@ import blog1 from "../../assets/images/blog/b1.png";
 import blog2 from "../../assets/images/blog/b2.png";
 import blog3 from "../../assets/images/blog/b3.png";
 import blog4 from "../../assets/images/blog/b4.png";
+import blog5 from "../../assets/images/blog/b5.png";
+import blog6 from "../../assets/images/blog/b6.jpg";
 
 const Blogs = () => {
 
@@ -39,6 +41,18 @@ const Blogs = () => {
       des: "",
       image: blog4,
     },
+    {
+      id: 2,
+      title: "How To Build A Successful Strat-Up In Sweden",
+      des: "",
+      image: blog5,
+    },
+    {
+      id: 6,
+      title: "How To Build A Successful Strat-Up In Sweden",
+      des: "",
+      image: blog6,
+    },
   ];
 
 
@@ -54,69 +68,69 @@ const Blogs = () => {
           <div className="row g-5">
             <div className="col-md-8    tw-py-10 tw-bg-white">
               <div className="row tw-pt-6  md:tw-px-10 tw-px-4">
-                {data?.map((item,index)=>{
+                {data?.map((item, index) => {
                   return (
                     <div className="col-lg-6">
-                    {/* featured-imagebox-post */}
-                    <Link to={`/blog_details/${item?.id}`}   className=" tw-shadow-lg">
-                      <div className=" tw-relative">
-                        <img
-                          width={720}
-                          height={630}
-                          className="img-fluid"
-                          src={item?.image}
-                          alt="image"
-                        />
-                      </div>
-                      <div className=" tw-p-4">
-                        <div className="post-header">
-                          <div className="post-title featured-title">
-                            <p className=" tw-leading-2">
-                              <a
-                                className=" tw-text-black tw-font-medium tw-text-xl "
-                                href="blog-single.html"
-                              >
-                                5 Things To Keep In Mind If You Are Relocating To
-                                Sweden
-                              </a>
+                      {/* featured-imagebox-post */}
+                      <Link to={`/blog_details/${item?.id}`} className=" tw-shadow-lg">
+                        <div className=" tw-relative">
+                          <img
+                            width={720}
+                            height={630}
+                            className="img-fluid"
+                            src={item?.image}
+                            alt="image"
+                          />
+                        </div>
+                        <div className=" tw-p-4  tw-shadow-lg">
+                          <div className="post-header">
+                            <div className="post-title featured-title">
+                              <p className=" tw-leading-2">
+                                <a
+                                  className=" tw-text-black tw-font-medium tw-text-xl "
+                                  href="blog-single.html"
+                                >
+                                  5 Things To Keep In Mind If You Are Relocating To
+                                  Sweden
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                          <div className="  tw-flex tw-gap-2 tw-items-center">
+                            <div className=" tw-flex tw-gap-2 tw-items-center">
+                              <img
+                                src={profile}
+                                alt=""
+                                className=" tw-rounded-full"
+                              />
+                              <p className="cmt-meta-line byline     tw-pl-2  tw-text-gray tw-m-0">
+                                Sweden Relocators
+                              </p>
+                            </div>
+
+                            <p className=" tw-text-gray m-0">
+                              {" "}
+                              <i class="fa fa-calendar-check"></i> 2024-07-06
+                            </p>
+                          </div>
+
+                          <div className="post-desc featured-desc">
+                            <p className=" tw-text-gray tw-pb-6 tw-pt-4">
+                              There are full service engage company is to provide
+                              solution for employees needs trai...
                             </p>
                           </div>
                         </div>
-                        <div className="  tw-flex tw-gap-2 tw-items-center">
-                          <div className=" tw-flex tw-gap-2 tw-items-center">
-                            <img
-                              src={profile}
-                              alt=""
-                              className=" tw-rounded-full"
-                            />
-                            <p className="cmt-meta-line byline     tw-pl-2  tw-text-gray tw-m-0">
-                            Swedenre Locators
-                            </p>
-                          </div>
-  
-                          <p className=" tw-text-gray m-0">
-                            {" "}
-                            <i class="fa fa-calendar-check"></i> 2024-07-06
-                          </p>
-                        </div>
-  
-                        <div className="post-desc featured-desc">
-                          <p className=" tw-text-gray tw-pb-6 tw-pt-4">
-                            There are full service engage company is to provide
-                            solution for employees needs trai...
-                          </p>
-                        </div>
-                      </div>
-                    </Link>
-                    {/* featured-imagebox-post end*/}
-                  </div>
+                      </Link>
+                      {/* featured-imagebox-post end*/}
+                    </div>
                   )
                 })}
-               
-               
-                
 
-                
+
+
+
+
               </div>
             </div>
 

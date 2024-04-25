@@ -381,10 +381,10 @@ const New_In_sweden = () => {
                     </p>
 
                     <div className="row">
-                      <div className=" col-md-6">
+                      <div className=" col-md-5">
                         <img src={mobile} className="" alt="" />
                       </div>
-                      <div className=" col-md-6">
+                      <div className=" col-md-7">
                         <ul className=" tw-p-0 tw-pt-4">
                           <li className=" tw-flex tw-items-center tw-gap-3">
                             <GoTriangleRight className=" tw-text-blue" />
@@ -502,10 +502,10 @@ const New_In_sweden = () => {
                     </h2>
 
                     <div className="row">
-                      <div className=" col-md-6">
+                      <div className=" col-md-5">
                         <img src={mobile3} className="" alt="" />
                       </div>
-                      <div className=" col-md-6">
+                      <div className=" col-md-7">
                         <p className=" m-0 tw-text-gray">
                           In case you have a driving license issued by any EU
                           country then it is valid throughout your stay in
@@ -1560,17 +1560,17 @@ const New_In_sweden = () => {
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (
-                        <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                          <Link
-                            to={`${`/service_details/${item?.title}`}`}
-                            className="m-0 hover:tw-text-white"
-                          >
-                            <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                              {item?.title}
-                            </p>
-                          </Link>
+
+                        <Link
+                          to={`${`/service_details/${item?.title}`}`}
+                          className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
+                        >
+                          <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                            {item?.title}
+                          </p>
                           <GoTriangleRight className="tw-text-gray" />
-                        </li>
+                        </Link>
+
                       );
                     })}
                   </ul>

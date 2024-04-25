@@ -232,32 +232,40 @@ const Property_Details = ({
       <Banner_Page title={"RENT OUT YOUR HOUSING"} />
       <section className=" md:tw-pt-40 tw-pt-48">
         <section className="tw-bg-[#F5FAFF] tw-py-6">
-             
+
 
           <div className="container">
 
-            <div className=" row tw-py-8">
+            <div className=" row g-3 tw-py-8">
               <div className="col-md-6">
                 <h3>Luxury Apartments on California.
-</h3>
+                </h3>
 
-<div className=" tw-mt-4 tw-flex tw-gap-4 tw-items-center">
-  <button className=" tw-bg-black  tw-text-white tw-px-4 tw-text-sm tw-rounded-full  tw-py-1">FOR SELL</button>
-  <p className="  tw-flex tw-items-center tw-gap-3 tw-m-0 tw-text-gray"> <IoLocationOutline size={30} /> SKOLGATAN 2 LGH 1402, 22361 LUND, LUND, SWEDEN
-</p>
-</div>
-
-<div className="">
-  
-</div>
-              </div>
-              <div className="col-md-6">
-
-                <div className=" tw-float-right">
-                <h6>Apartment Id: 475</h6>
-                <h6>Apartment Status: Available</h6>
-                <h6  className=" tw-text-gray">Uploaded Date: 2024-01-17</h6>
+                <div className=" tw-mt-4 tw-flex tw-gap-4 tw-items-center">
+                  <button className=" tw-bg-black  tw-text-white tw-px-4 tw-text-sm tw-rounded-full  tw-py-1">FOR SELL</button>
+                  <p className="  tw-flex tw-items-center tw-gap-3 tw-m-0 tw-text-gray"> <IoLocationOutline size={30} /> SKOLGATAN 2 LGH 1402, 22361 LUND, LUND, SWEDEN
+                  </p>
                 </div>
+
+                <div className="">
+
+                </div>
+              </div>
+              <div className="col-md-6 tw-float-right">
+               <div  className="row">
+                <div className="col-md-6">
+             
+                  <h6 className=" tw-flex tw-gap-2 tw-pt-1">Apartment Id: <p className=" tw-text-gray">475</p></h6>
+                  
+                 
+               
+                </div>
+                <div className="col-md-6">
+                
+                <h6 className=" tw-flex tw-gap-2 tw-pt-1">Apartment Status: <p className=" tw-text-gray">Available</p></h6>
+                </div>
+               </div>
+              
               </div>
             </div>
             <div className="row ">
@@ -550,58 +558,58 @@ const Property_Details = ({
 
                 <h3 className=" tw-pt-4 tw-pb-4">Location
 
-                  </h3>
+                </h3>
                 <div className=" tw-rounded-2xl  p-3 tw-shadow-lg tw-bg-white">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4509.282465196967!2d13.02468000000001!3d55.59085300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a16677346a9f%3A0x3fffcf31a36f0521!2sAmiralsgatan%2086A%2C%20214%2037%20Malm%C3%B6%2C%20Sweden!5e0!3m2!1sen!2sus!4v1709645005178!5m2!1sen!2sus" width="100%" height="450" style={{border:"0;"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4509.282465196967!2d13.02468000000001!3d55.59085300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a16677346a9f%3A0x3fffcf31a36f0521!2sAmiralsgatan%2086A%2C%20214%2037%20Malm%C3%B6%2C%20Sweden!5e0!3m2!1sen!2sus!4v1709645005178!5m2!1sen!2sus" width="100%" height="450" style={{ border: "0;" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                 </div>
 
 
-               <div className=" tw-rounded-2xl  tw-my-10 p-5 tw-shadow-lg tw-bg-white">
+                <div className=" tw-rounded-2xl  tw-my-10 p-5 tw-shadow-lg tw-bg-white">
 
-                <div className=" ">
-                            <h3>Leave a Reply</h3>
-                            <p className="">Your email address will not be published.</p>
-                            <form>
-                              <div className="row g-4 ">
-                              <div className="col-md-6">
-                                <Input placeholder={'Name (required)'} className={' border tw-rounded-none tw-p-3 tw-w-full'} />
-                              </div>
-                              <div className="col-md-6">
-                                <Input placeholder={'Email (required)'} className={' border tw-rounded-none tw-p-3 tw-w-full'} />
-                              </div>
-                              <div className="col-md-12">
-                                <textarea rows={6} className=" tw-border tw-border-gray-light  tw-rounded-md tw-w-full" ></textarea>
-                              </div>
-                              
-                             
-                              
-                             
-                              <div className="col-md-12 tw-pt-6">
-                                <Button label={'Post Comment'} className={' tw-border  tw-py-2.5  tw-rounded-md tw-text-white   tw-bg-black tw-border-gray-dark'} />
-                              </div>
-                              </div>
-                            </form>
+                  <div className=" ">
+                    <h3>Leave a Reply</h3>
+                    <p className="">Your email address will not be published.</p>
+                    <form>
+                      <div className="row g-4 ">
+                        <div className="col-md-6">
+                          <Input placeholder={'Name (required)'} className={' border tw-rounded-none tw-p-3 tw-w-full'} />
+                        </div>
+                        <div className="col-md-6">
+                          <Input placeholder={'Email (required)'} className={' border tw-rounded-none tw-p-3 tw-w-full'} />
+                        </div>
+                        <div className="col-md-12">
+                          <textarea rows={6} className=" tw-border tw-border-gray-light  tw-rounded-md tw-w-full" ></textarea>
                         </div>
 
+
+
+
+                        <div className="col-md-12 tw-pt-6">
+                          <Button label={'Post Comment'} className={' tw-border  tw-py-2.5  tw-rounded-md tw-text-white   tw-bg-black tw-border-gray-dark'} />
                         </div>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
               </div>
               <div className=" col-md-4">
                 <div className="">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (
-                        <li className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white">
-                          <Link
-                            to={`${`/service_details/${item?.title}`}`}
-                            className="m-0 hover:tw-text-white"
-                          >
-                            <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                              {item?.title}
-                            </p>
-                          </Link>
+
+                        <Link
+                          to={`${`/service_details/${item?.title}`}`}
+                          className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
+                        >
+                          <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                            {item?.title}
+                          </p>
                           <GoTriangleRight className="tw-text-gray" />
-                        </li>
+                        </Link>
+
                       );
                     })}
                   </ul>

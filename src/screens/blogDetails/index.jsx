@@ -25,9 +25,8 @@ const BlogDetails = () => {
                   <div className=" tw-shadow-lg">
                     <div className=" tw-relative">
                       <img
-                        width={720}
-                        height={630}
-                        className="img-fluid"
+                       
+                        className="img-fluid tw-mx-auto"
                         src={blog1}
                         alt="image"
                       />
@@ -55,7 +54,7 @@ const BlogDetails = () => {
                         Sweden:
                       </p>
                       <div>
-                        <p className=" tw-text-gray">1. Herring/Sill</p>
+                        <p className=" tw-text-gray  tw-font-semibold">1. Herring/Sill</p>
                         <p className=" tw-text-gray">
                           This will be the dish that you will either love or
                           hate depending upon your taste buds. There are a lot
@@ -83,7 +82,7 @@ const BlogDetails = () => {
                           chives, and gräddfil.
                         </p>
 
-                        <p className=" tw-text-gray">2. Falukorv</p>
+                        <p className=" tw-text-gray  tw-font-semibold">2. Falukorv</p>
                         <p className=" tw-text-gray">
                           This dish is a firm favorite among kids of all ages
                           across Sweden. Falukorv’s origin can be traced back to
@@ -98,7 +97,7 @@ const BlogDetails = () => {
                           or macaroni depending upon your choice.
                         </p>
 
-                        <p className=" tw-text-gray">3. Kroppkakor</p>
+                        <p className=" tw-text-gray  tw-font-semibold">3. Kroppkakor</p>
                         <p className=" tw-text-gray">
                           Hearty mashed potato dumplings with mushroom fillings
                           are known as kroppkakor. There are many different
@@ -110,14 +109,14 @@ const BlogDetails = () => {
                           cream, different sauces, and milk.
                         </p>
 
-                        <p className=" tw-text-gray">4. Raggmunk</p>
+                        <p className=" tw-text-gray  tw-font-semibold">4. Raggmunk</p>
                         <p className=" tw-text-gray">
                         Raggmunk is the name of a Swedish dish made of potato pancakes. These pancakes, however, cannot be cooked using new potatoes as these potatoes don’t contain enough starch to hold the pancake together. This dish is mostly cooked in winters so this is not an issue. The butterier and crispier the pancake is around the edges, the better it will be in taste. The trick to this is not to spread the batter too thinly. If you will add some diced onion in it, then it will be called “French” potato pancake.
 
 
                         </p>
 
-                        <p className=" tw-text-gray">5. Crayfish
+                        <p className=" tw-text-gray  tw-font-semibold">5. Crayfish
 </p>
                         <p className=" tw-text-gray">
                         August in Sweden is known for the Crayfish season and people host crayfish parties with amazing décor. Get stuck in, rip off the claws and suck out the delicious juices. The crayfish are usually boiled in a brine bath with a lot of spices and crown dill. All you need then is Västerbotten cheese pie, soft bread, cold beer, snaps, crispbread and you’re good to go!
