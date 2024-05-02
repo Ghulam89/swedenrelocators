@@ -429,13 +429,13 @@ const FAQs = () => {
             </div>
             <div className="col-md-5">
 
-              <div className="  tw-bg-gray-dark tw-p-10">
+              <div className="  tw-bg-gray-dark tw-rounded-lg tw-p-10">
                 <h2 className=" tw-text-4xl text-white tw-text-white">
                   Can't <strong>Find</strong> The <strong>Answers ?</strong></h2>
                 <form className=" tw-pt-2">
                   <div className="row g-2">
                     <div className="col-md-12">
-                      <Input placeholder={'Your Name'} className={' tw-bg-white tw-p-3.5 tw-rounded-none  tw-w-full'} />
+                      <Input placeholder={'Your Name'} className={' tw-bg-white  tw-p-3.5 tw-rounded-none  tw-w-full'} />
                     </div>
                     <div className="col-md-12">
                       <Input placeholder={'Email Id'} className={' tw-bg-white tw-p-3.5 tw-rounded-none  tw-w-full'} />

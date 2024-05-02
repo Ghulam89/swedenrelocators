@@ -1,12 +1,14 @@
 import React from "react";
 import first_image from "../../assets/images/Front-relocation.png";
 import second_image from "../../assets/images/Second-relocation.png";
+import Hero from '../../assets/images/hero.png'
 import third_image from "../../assets/images/business-development-directions.png";
 import fourth_image from "../../assets/images/man-searching-air-ticket-for-summer-travel.png";
 import fifth_image from "../../assets/images/My-Documents.png";
 import six_image from "../../assets/images/house-building.png";
 import seven_image from "../../assets/images/bank-manager-talking.png";
 import eight_image from "../../assets/images/child-care.png";
+import deals from "../../assets/images/real-estate-agent-sold-house-and-deal-confirmed.png";
 import Button from "../Button";
 import Why_choose_us from "../Why_choose_us";
 import { fadeIn, imageVariants, staggerContainer, zoomIn } from "../../utils/motion";
@@ -153,7 +155,7 @@ const Because_family = () => {
             </div>
             <div   className="col-md-6">
               <motion.img  
-                 animate={imageVariants}  src={second_image} alt="" />
+                 animate={imageVariants}  src={Hero} alt="" />
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
             </div>
 
@@ -215,8 +217,12 @@ const Because_family = () => {
            
 
             <div  className="col-md-6">
+             <div  className=" row">
+              <div  className="col-md-10 tw-mx-auto">
               <motion.img  
-                 animate={imageVariants}  src={third_image} alt="" />
+                 animate={imageVariants}  src={second_image} alt="" />
+              </div>
+             </div>
             </div>
 
            
@@ -311,8 +317,12 @@ const Because_family = () => {
               </motion.div>
             </div>
             <div className="col-md-6">
+             <div className="row">
+              <div className="col-md-10 tw-mx-auto">
               <motion.img  
                  animate={imageVariants}  src={fifth_image} alt="" />
+              </div>
+             </div>
 
 
               
@@ -354,8 +364,12 @@ const Because_family = () => {
 
             
             <div    className="col-md-6">
+             <div className=" row">
+              <div  className="col-md-10 tw-mx-auto">
               <motion.img 
-                 animate={imageVariants}  src={third_image} alt="" />
+                 animate={imageVariants}  src={deals} alt="" />
+              </div>
+             </div>
             </div>
             <div className="col-md-6">
               <div className="title-header">

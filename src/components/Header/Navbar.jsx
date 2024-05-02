@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/SwedenRelocators.png";
 import TopBar from "./TopBar";
 const Navbar = () => {
@@ -212,6 +212,13 @@ const Navbar = () => {
   ];
 
 
+
+  let navigate = useNavigate();
+  
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
+
   return (
     <>
       <div className=" tw-relative">
@@ -257,8 +264,10 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item dropdown hover-dropdown2  relative md:tw-block tw-hidden">
                   <Link
+
+onClick={() => handleNavigation('/services')}
                     className="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
-                    to="#"
+                    to={'/services'}
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -267,9 +276,9 @@ const Navbar = () => {
                     Services
                     <i class="fas fa-chevron-down  ps-2"></i>
                   </Link>
-                  <div className="dropdown-men2  tw-w-[620px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden" aria-labelledby="dropdownMenuClickableOutside">
+                  <div className="dropdown-men2  tw-w-[600px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden" aria-labelledby="dropdownMenuClickableOutside">
                   <ul
-                  style={{gridTemplateColumns: "220px 220px 220px",display:'grid'}}
+                  style={{gridTemplateColumns: "200px 200px 200px",display:'grid'}}
                     className=" tw-p-0 tw-bg-white  tw-overflow-hidden tw-rounded-md tw-shadow-xl"
                   
                   >
@@ -285,7 +294,7 @@ const Navbar = () => {
 
 
                         >
-                            <p className="  tw-flex tw-gap-1"> {item?.icons}</p>
+                            {/* <p className="  tw-flex tw-gap-1"> {item?.icons}</p> */}
                           {item?.title}
                         </Link>
                       </li>
@@ -312,7 +321,7 @@ const Navbar = () => {
                   </a>
 
                   <ul
-                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                    className="dropdown-menu border-0   md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" ">
@@ -472,8 +481,10 @@ const Navbar = () => {
 
                 <li className="nav-item dropdown hover-dropdown md:tw-block tw-hidden">
                   <Link
+                  to={'/assessment'}
+                  onClick={() => handleNavigation('/assessment')}
                     className="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
-                    to="#"
+                     
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -553,7 +564,7 @@ const Navbar = () => {
                 </li>
 
                 <li class="nav-item dropdown md:tw-hidden tw-block ">
-                  <a
+                  <Link to={'/assessment'}
                     class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
                     href="#"
                     id="navbarDropdown"
@@ -563,7 +574,7 @@ const Navbar = () => {
                   >
                     Assessments
                     <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
-                  </a>
+                  </Link>
 
                   <ul
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "

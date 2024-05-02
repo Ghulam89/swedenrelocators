@@ -11,13 +11,15 @@ const Why_choose_us = () => {
     <>
       <section>
         <div className="container  tw-pt-10">
-          <div className="row">
+          <div className="row tw-items-center">
             <div className="col-xl-6 col-lg-6">
               <div
                 
                 className=""
               >
-                <motion.img
+                <div className="row">
+                  <div className="col-md-10">
+                  <motion.img
                  animate={imageVariants}
                   
                   width={530}
@@ -26,6 +28,8 @@ const Why_choose_us = () => {
                   src={choose}
                   alt="single_04"
                 />
+                  </div>
+                </div>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6">

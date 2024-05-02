@@ -4,6 +4,7 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import { Button } from "bootstrap";
+import { GoTriangleRight } from "react-icons/go";
 const Services = () => {
   const data = [
     {
@@ -212,15 +213,17 @@ const Services = () => {
           {data?.map((item, index) => {
                       return (
 
-                        <Link
-                          to={`${`/service_details/${item?.title}`}`}
-                          className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
-                        >
-                          <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                            {item?.title}
-                          </p>
-                          <GoTriangleRight className="tw-text-gray" />
-                        </Link>
+                      <div className=" col-md-4">
+                           <div className="    tw-h-80 tw-text-center tw-border-dashed tw-border-2 tw-border-gray py-5 px-4">
+                           <i>{item?.icons}</i>
+                         <div className="  tw-pt-12">
+                          <h5 className=" tw-text-white">{item?.title }</h5>
+                         <p className=" tw-text-white">{item?.description}</p>
+                         <button className=" tw-text-blue">View More</button>
+                         </div>
+                           </div>
+                      </div>   
+                       
 
                       );
                     })}

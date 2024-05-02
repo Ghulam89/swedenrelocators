@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <>
         {/*footer start*/}
-        <footer className="footer tw-bg-primary">
+        <footer className="footer tw-z-50   tw-bg-primary">
           <div className="first-footer tw-pt-12">
             <div className="container tw-px-0">
               <div className="row">
@@ -263,13 +263,13 @@ const Footer = () => {
                             <i className="fa fa-calendar" />
                             Apr 06, 2020
                           </span>
-                          <Link className=" tw-text-white  tw-text-sm">
+                          <Link to={'/blog_details/1'} className=" tw-text-white  tw-text-sm">
                             5 Swedish Foods You Must Try
                           </Link>
                         </div>
                       </li>
                       <li className=" tw-flex tw-mt-3 tw-gap-4">
-                        <Link to="blog-single.html">
+                        <Link to={'/blog_details/2'}>
                           <img
                             className="img-fluid"
                             width={90}
@@ -283,7 +283,7 @@ const Footer = () => {
                             <i className="fa fa-calendar" />
                             Apr 06, 2020
                           </span>
-                          <Link className=" tw-text-white  tw-text-sm">
+                          <Link to={'/blog_details/3'} className=" tw-text-white  tw-text-sm">
                             5 Swedish Foods You Must Try
                           </Link>
                         </div>

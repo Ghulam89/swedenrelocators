@@ -1,13 +1,13 @@
 import React from "react";
 import Button from "../Button";
 import { Link } from "react-router-dom";
-
+import arrow from '../../assets/images/proccess-box-arrow.png'
 const Visitor = () => {
   return (
     <div>
       <>
         {/*visitor-section*/}
-        <section className=" tw-py-6">
+        <section className=" tw-py-6  tw-relative">
           <div className="container">
             {/* row */}
             <div className="row">
@@ -25,10 +25,12 @@ const Visitor = () => {
                 </div>
                 {/* section title end */}
               </div>
+
+             
             </div>
             {/* row end */}
             {/* row */}
-            <div className="row  tw-py-8">
+            <div className="row   tw-py-8">
               <div className="col-lg-12">
                 <div className="">
                   <div className="row  g-5">
@@ -139,9 +141,20 @@ const Visitor = () => {
 
                 </div>
               </div>
+
+
+
+
             </div>
 
+            
+        
+
           </div>
+
+          <div className=" tw-absolute  -tw-z-50 tw-bottom-[35%]">
+                <img src={arrow} alt="" />
+              </div>
         </section>
         {/*visitor-section end*/}
       </>

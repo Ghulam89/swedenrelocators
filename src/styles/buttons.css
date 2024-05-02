@@ -1,5 +1,5 @@
 .btn-indigo {
-  @apply tw-border-black tw-border tw-text-black  tw-rounded-full hover:tw-bg-blue hover:tw-border-blue hover:tw-text-white   tw-text-[14px] tw-capitalize tw-font-medium tw-px-[35px] tw-py-[13px] tw-cursor-pointer !important;
+  @apply tw-border-black tw-border tw-text-black  tw-rounded-full hover:tw-bg-[#1F2437] hover:tw-border-[#1F2437] hover:tw-text-white   tw-text-[14px] tw-capitalize tw-font-medium tw-px-[35px] tw-py-[13px] tw-cursor-pointer !important;
 }
 .btn-warning {
   @apply tw-border-blue tw-border tw-text-black  tw-rounded-full hover:tw-bg-blue hover:tw-border-blue hover:tw-text-white   tw-text-[14px] tw-capitalize tw-font-medium tw-px-[35px] tw-py-[13px] tw-cursor-pointer;

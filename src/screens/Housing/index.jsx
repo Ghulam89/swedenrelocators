@@ -79,7 +79,7 @@ const Housing = () => {
               <div className="container tw-py-5">
                 <h3 className=" tw-pb-4 tw-flex tw-items-center tw-gap-3">
                   {" "}
-                  <img src={work} alt="" /> How It Works
+                  <img src={work} alt="" className=" tw-w-24" /> How It Works
                 </h3>
                 <p className=" tw-text-gray"></p>
                 <div className=" row  tw-pt-5">

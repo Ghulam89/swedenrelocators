@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Banner_Page from "../../components/Common/Banner_Page";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -202,6 +202,22 @@ const New_In_sweden = () => {
     },
   ];
 
+
+
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+        const bottomSpace = document.documentElement.offsetHeight - (window.scrollY + window.innerHeight);
+        setIsSticky(window.scrollY > 1100 && bottomSpace > 685);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []);
+
   return (
     <>
       <Navbar />
@@ -209,10 +225,10 @@ const New_In_sweden = () => {
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
-          <div className="container-fluid">
+          <div className="container-fluid  ">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-pl-20 tw-pl-2 md:tw-pr-8 pr-2">
+                <div className="   md:tw-pl-20 tw-pl-2 md:tw-pr-8 pr-2">
                   <span>SOCIAL SECURITY NUMBER</span>
                   <h2>
                     <strong>Personnummer</strong>
@@ -1555,8 +1571,8 @@ const New_In_sweden = () => {
                 </div>
               </div>
 
-              <div className="col-md-4  tw-pt-16   tw-bg-[#F5FAFF] ">
-                <div className="  tw-pr-10 ">
+              <div className="col-md-4  tw-pt-16   tw-bg-[#F5FAFF]  "  style={{ position: 'sticky', top: '300px'}} >
+                <div className={`tw-pr-10 ${isSticky?' md:tw-fixed tw-flex-initial  tw-bottom-0  md:tw-w-[30%] tw-w-full':'tw-relative'} `}>
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (

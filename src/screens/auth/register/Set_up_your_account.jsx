@@ -35,7 +35,7 @@ const Set_up_your_account = () => {
               <div className=" card border-0 tw-text-center">
                 <img src={individuals} alt="" />
                 <p className=" tw-text-gray">
-                  Set up your account to get full access to our online portal.
+                Sign up as a private individual if you are seeking services for yourself or any of your family members.     
                 </p>
                 <Button
                   Icons={
@@ -43,7 +43,7 @@ const Set_up_your_account = () => {
                   }
                   label={"Private"}
                   className={
-                    " tw-text-blue  tw-font-semibold tw-text-lg hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
+                    " tw-text-blue   tw-mt-8 tw-font-semibold tw-text-lg hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
                   }
                 />
               </div>
@@ -52,7 +52,7 @@ const Set_up_your_account = () => {
               <div className=" card border-0 tw-text-center">
                 <img src={Company} alt="" />
                 <p className=" tw-text-gray">
-                  At the moment this service is available for Swedish companies.
+                Sign up as an employer or company if you are looking to hire someone and need immigration and relocation services.  
                 </p>
                 <Button
                   Icons={
@@ -63,7 +63,7 @@ const Set_up_your_account = () => {
                   }
                   label={"Businesses"}
                   className={
-                    " tw-text-blue  tw-font-semibold tw-text-lg hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
+                    " tw-text-blue tw-mt-8  tw-font-semibold tw-text-lg hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
                   }
                 />
               </div>
@@ -72,7 +72,7 @@ const Set_up_your_account = () => {
               <div className=" card border-0 tw-text-center">
                 <img src={Partners} alt="" />
                 <p className=" tw-text-gray">
-                  Sign up and join our partner program.
+                Sign up as a Partner if you are interested in collaborating with us. This could include lawyers, law firms, or any other individuals or companies with expertise in this industry.
                 </p>
                 <Button
                   Icons={
@@ -80,7 +80,7 @@ const Set_up_your_account = () => {
                   }
                   label={"Partners"}
                   className={
-                    " tw-text-blue  tw-font-semibold tw-text-lg tw-mt-6 hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
+                    " tw-text-blue  tw-font-semibold tw-text-lg  hover:tw-bg-blue tw-py-2.5 hover:tw-text-white"
                   }
                 />
               </div>

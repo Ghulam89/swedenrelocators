@@ -339,7 +339,7 @@ const Assessment = () => {
             <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
               <div className="  tw-pr-10">
                 <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                {data?.map((item, index) => {
+                {data2?.map((item, index) => {
                       return (
 
                         <Link
