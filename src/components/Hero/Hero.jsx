@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn, imageVariants, staggerContainer } from "../../utils/motion";
 import { Link } from "react-router-dom";
 import VideoPlayer from "../videoPlayer";
-import video1 from '../../assets/images/video/about_video1.mp4';
+import video1 from '../../assets/images/hero_video.mp4';
 const Hero = () => {
   const containerVariants = staggerContainer(0.1, 0.1);
 
@@ -13,7 +13,7 @@ const Hero = () => {
     <>
       <section className=" tw-pb-16">
         <div className=" container md:tw-py-24 tw-py-10">
-          <div className=" row tw-items-center g-5 md:tw-pt-20 tw-pt-0">
+          <div className=" row tw-items-center g-4 md:tw-pt-20 tw-pt-0">
             <div className=" col-md-6">
               <motion.div    variants={containerVariants}
                 initial="hidden"

@@ -18,10 +18,10 @@ const ContactUs = () => {
             <div className="row  g-5">
                 <div className="col-md-4">
                   <div className="card border-0">
-                     <div className=" tw-bg-gray-dark p-4">
+                     <div className=" tw-bg-gray-dark tw-rounded-tl-md tw-rounded-tr-lg p-4">
 
                       <p className=" tw-text-white m-0 tw-font-semibold tw-text-2xl">Sweden Office:</p>
-                      <p className=" tw-text-white tw-pt-3">Amiralsgatan 86A 214 37 Malmö, Sweden
+                      <p className=" tw-text-white tw-pt-3">Amiralsgatan 86E 214 37 Malmö, Sweden
  
 </p>
 
@@ -51,7 +51,7 @@ const ContactUs = () => {
 
                       </div>   
 
-                      <div className=" tw-bg-blue tw-flex tw-gap-3 px-4 tw-py-9">
+                      <div className=" tw-bg-blue tw-flex tw-rounded-bl-lg tw-rounded-br-lg tw-gap-3 px-4 tw-py-9">
                          <div>
                          <div className=" tw-w-10 tw-h-10 tw-rounded-full    tw-border  tw-border-white  tw-flex tw-justify-center tw-items-center">
                     <i className="fa fa-phone m-0 tw-text-white" />
