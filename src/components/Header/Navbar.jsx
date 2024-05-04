@@ -6,6 +6,8 @@ const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [toggleMenu, setToggleMenu] = useState(false);
   const [housingDropdownOpen, setHousingDropdownOpen] = useState(false);
+  const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+  const [assessmentsDropdownOpen, setAssessmentDropdownOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
      
@@ -229,6 +231,20 @@ const Navbar = () => {
   const toggleHousingDropdown = () => {
     const newValue = !housingDropdownOpen;
     setHousingDropdownOpen(newValue);
+    setServicesDropdownOpen(false)
+    setAssessmentDropdownOpen(false)
+  
+    if (newValue) {
+      setIsSticky(false);
+    }
+  };
+
+
+  const toggleServicesDropdown = () => {
+    const newValue = !servicesDropdownOpen;
+    setServicesDropdownOpen(newValue);
+    setHousingDropdownOpen(false)
+    setAssessmentDropdownOpen(false)
   
   
     if (newValue) {
@@ -236,6 +252,18 @@ const Navbar = () => {
     }
   };
 
+
+  const toggleAssessmentDropdown = () => {
+    const newValue = !assessmentsDropdownOpen;
+    setAssessmentDropdownOpen(newValue);
+    setHousingDropdownOpen(false)
+    setServicesDropdownOpen(false)
+  
+  
+    if (newValue) {
+      setIsSticky(false);
+    }
+  };
   return (
     <>
       <div className=" tw-relative">
@@ -266,7 +294,7 @@ const Navbar = () => {
               <img src={logo} alt="" />
             </Link>
 
-            <div class={`collapse navbar-collapse ${toggleMenu ? "show" : ""}`} id="navbarSupportedContent">
+            <div class={`collapse navbar-collapse tw-z-50 ${toggleMenu ? "show" : ""}`} id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 tw-gap-7">
                 <li className="nav-item">
                   <Link
@@ -339,8 +367,8 @@ const Navbar = () => {
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                    onClick={toggleHousingDropdown}
-                    aria-expanded={housingDropdownOpen}
+                    onClick={toggleServicesDropdown}
+                    aria-expanded={toggleServicesDropdown}
                   >
                     Services
                     <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
@@ -348,7 +376,7 @@ const Navbar = () => {
 
                   <ul
                     className={`dropdown-menu border-0    md:tw-w-60 tw-w-full  ${
-                      housingDropdownOpen ? "show" : ""
+                      servicesDropdownOpen ? "show" : ""
                     } `}
                     // aria-labelledby="navbarDropdown"
                   >
@@ -586,8 +614,8 @@ const Navbar = () => {
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                    onClick={toggleHousingDropdown}
-                    aria-expanded={housingDropdownOpen}
+                    onClick={toggleAssessmentDropdown}
+                    aria-expanded={assessmentsDropdownOpen}
                   >
                     Assessments
                     <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
@@ -595,7 +623,7 @@ const Navbar = () => {
 
                   <ul
                     className={`dropdown-menu border-0  md:tw-w-60 tw-w-full  ${
-                      housingDropdownOpen ? "show" : ""
+                      assessmentsDropdownOpen ? "show" : ""
                     } `}
                     aria-labelledby="navbarDropdown"
                   >

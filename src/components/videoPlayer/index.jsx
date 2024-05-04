@@ -30,7 +30,7 @@ const VideoPlayer = ({ src }) => {
   };
 
   return (
-    <div className="tw-relative tw-overflow-hidden">
+    <div className=" tw-overflow-hidden">
       <video
       controls
         ref={videoRef}
