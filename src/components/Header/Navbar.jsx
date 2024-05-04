@@ -8,13 +8,17 @@ const Navbar = () => {
   const [housingDropdownOpen, setHousingDropdownOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      setIsSticky(window.scrollY > 260);
+     
+      if (!toggleMenu && !housingDropdownOpen) {
+        setIsSticky(window.scrollY > 260);
+      } else {
+        setIsSticky(false); 
+      }
     };
-
+  
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [toggleMenu, housingDropdownOpen]);
 
   const data = [
     {
@@ -212,11 +216,10 @@ const Navbar = () => {
     navigate(path);
   };
 
-
   const handleNavigationMenu = (path) => {
     navigate(path);
     setToggleMenu(false);
-    setHousingDropdownOpen(false); 
+    setHousingDropdownOpen(false);
   };
 
   const handleToggle = () => {
@@ -224,9 +227,14 @@ const Navbar = () => {
   };
 
   const toggleHousingDropdown = () => {
-    setHousingDropdownOpen(!housingDropdownOpen);  // Toggle the Housing dropdown
+    const newValue = !housingDropdownOpen;
+    setHousingDropdownOpen(newValue);
+  
+  
+    if (newValue) {
+      setIsSticky(false);
+    }
   };
-
 
   return (
     <>
@@ -240,18 +248,17 @@ const Navbar = () => {
           <div
             className={`container${
               isSticky
-                ? "-fluid  px-lg-5 px-sm-0 tw-rounded-none"
+                ?"-fluid  px-lg-5 px-sm-0 tw-rounded-none"
                 : "-lg px-lg-5 px-sm-3  md:tw-rounded-md  tw-rounded-none"
             }  tw-transition-all tw-duration-700 container-navbar tw-py-1.5 tw-bg-white `}
           >
             <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+               className="navbar-toggler"
+               type="button"
+               onClick={handleToggle}  
+               aria-controls="navbarSupportedContent"
+               aria-expanded={toggleMenu}  
+               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -259,9 +266,7 @@ const Navbar = () => {
               <img src={logo} alt="" />
             </Link>
 
-            <div
-              class="collapse navbar-collapse" id="navbarSupportedContent"
-            >
+            <div class={`collapse navbar-collapse ${toggleMenu ? "show" : ""}`} id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 tw-gap-7">
                 <li className="nav-item">
                   <Link
@@ -334,7 +339,7 @@ const Navbar = () => {
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                    onClick={toggleHousingDropdown}  
+                    onClick={toggleHousingDropdown}
                     aria-expanded={housingDropdownOpen}
                   >
                     Services
@@ -342,12 +347,13 @@ const Navbar = () => {
                   </a>
 
                   <ul
-                    className={`dropdown-menu border-0   md:tw-w-60 tw-w-full  ${housingDropdownOpen ? 'show' : ''} `}
+                    className={`dropdown-menu border-0    md:tw-w-60 tw-w-full  ${
+                      housingDropdownOpen ? "show" : ""
+                    } `}
                     // aria-labelledby="navbarDropdown"
                   >
-
-{data?.map((item, index) => {
-                        return (
+                    {data?.map((item, index) => {
+                      return (
                         <>
                           <li className=" " key={index}>
                             <Link
@@ -364,13 +370,10 @@ const Navbar = () => {
                               {item?.title}
                             </Link>
                           </li>
-                           <hr className=" tw-border-gray m-0" />
+                          <hr className=" tw-border-gray m-0" />
                         </>
-                        );
-                      })}
-                   
-                   
-                   
+                      );
+                    })}
                   </ul>
                 </li>
 
@@ -443,8 +446,7 @@ const Navbar = () => {
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                 
-                    onClick={toggleHousingDropdown}  
+                    onClick={toggleHousingDropdown}
                     aria-expanded={housingDropdownOpen}
                   >
                     Housing
@@ -452,8 +454,9 @@ const Navbar = () => {
                   </a>
 
                   <ul
-                  
-                    className={`dropdown-menu border-0  md:tw-w-60 tw-w-full  ${housingDropdownOpen ? 'show' : ''} `}
+                    className={`dropdown-menu border-0  md:tw-w-60 tw-w-full  ${
+                      housingDropdownOpen ? "show" : ""
+                    } `}
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" ">
@@ -580,18 +583,20 @@ const Navbar = () => {
                   <Link
                     to={"/assessment"}
                     class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
-                    href="#"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                    aria-expanded="false"
+                    onClick={toggleHousingDropdown}
+                    aria-expanded={housingDropdownOpen}
                   >
                     Assessments
                     <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
                   </Link>
 
                   <ul
-                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                    className={`dropdown-menu border-0  md:tw-w-60 tw-w-full  ${
+                      housingDropdownOpen ? "show" : ""
+                    } `}
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" ">
@@ -668,6 +673,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
+            
           </div>
         </nav>
       </div>
