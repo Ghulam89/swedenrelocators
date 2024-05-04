@@ -56,9 +56,9 @@ const TopBar = () => {
 
                 <div className=" tw-float-right sm:tw-pt-0 tw-pt-3">
                   <div className=" tw-flex tw-items-center">
-                    <button className=" tw-bg-blue tw-py-3.5  tw-px-4   tw-font-medium tw-text-white tw-text-[15px]  tw-flex tw-border-r tw-justify-center tw-items-center">
+                    <Link to={'/login'} className="sign_up tw-outline-none  hover:tw-text-white tw-font-medium tw-bg-blue tw-py-3.5 tw-px-4  tw-border-r tw-text-white tw-text-[15px] tw-flex  tw-items-center">
                       My Page
-                    </button>
+                    </Link>
                     <Link
                       to={"/set_up_your_account"}
                       className=" sign_up tw-outline-none  hover:tw-text-white tw-font-medium tw-bg-blue tw-py-3.5 tw-px-4  tw-w-44  tw-text-white tw-text-[15px] tw-flex  tw-items-center"

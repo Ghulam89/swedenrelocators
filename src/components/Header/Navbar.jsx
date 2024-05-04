@@ -10,14 +10,13 @@ const Navbar = () => {
   const [assessmentsDropdownOpen, setAssessmentDropdownOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-     
       if (!toggleMenu && !housingDropdownOpen) {
         setIsSticky(window.scrollY > 260);
       } else {
-        setIsSticky(false); 
+        setIsSticky(false);
       }
     };
-  
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [toggleMenu, housingDropdownOpen]);
@@ -231,35 +230,31 @@ const Navbar = () => {
   const toggleHousingDropdown = () => {
     const newValue = !housingDropdownOpen;
     setHousingDropdownOpen(newValue);
-    setServicesDropdownOpen(false)
-    setAssessmentDropdownOpen(false)
-  
+    setServicesDropdownOpen(false);
+    setAssessmentDropdownOpen(false);
+
     if (newValue) {
       setIsSticky(false);
     }
   };
-
 
   const toggleServicesDropdown = () => {
     const newValue = !servicesDropdownOpen;
     setServicesDropdownOpen(newValue);
-    setHousingDropdownOpen(false)
-    setAssessmentDropdownOpen(false)
-  
-  
+    setHousingDropdownOpen(false);
+    setAssessmentDropdownOpen(false);
+
     if (newValue) {
       setIsSticky(false);
     }
   };
 
-
   const toggleAssessmentDropdown = () => {
     const newValue = !assessmentsDropdownOpen;
     setAssessmentDropdownOpen(newValue);
-    setHousingDropdownOpen(false)
-    setServicesDropdownOpen(false)
-  
-  
+    setHousingDropdownOpen(false);
+    setServicesDropdownOpen(false);
+
     if (newValue) {
       setIsSticky(false);
     }
@@ -276,17 +271,17 @@ const Navbar = () => {
           <div
             className={`container${
               isSticky
-                ?"-fluid  px-lg-5 px-sm-0 tw-rounded-none"
+                ? "-fluid  px-lg-5 px-sm-0 tw-rounded-none"
                 : "-lg px-lg-5 px-sm-3  md:tw-rounded-md  tw-rounded-none"
             }  tw-transition-all tw-duration-700 container-navbar tw-py-1.5 tw-bg-white `}
           >
             <button
-               className="navbar-toggler"
-               type="button"
-               onClick={handleToggle}  
-               aria-controls="navbarSupportedContent"
-               aria-expanded={toggleMenu}  
-               aria-label="Toggle navigation"
+              className="navbar-toggler"
+              type="button"
+              onClick={handleToggle}
+              aria-controls="navbarSupportedContent"
+              aria-expanded={toggleMenu}
+              aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -294,7 +289,12 @@ const Navbar = () => {
               <img src={logo} alt="" />
             </Link>
 
-            <div class={`collapse navbar-collapse tw-z-50 ${toggleMenu ? "show" : ""}`} id="navbarSupportedContent">
+            <div
+              class={`collapse navbar-collapse tw-z-50 ${
+                toggleMenu ? "show" : ""
+              }`}
+              id="navbarSupportedContent"
+            >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 tw-gap-7">
                 <li className="nav-item">
                   <Link
@@ -701,7 +701,6 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            
           </div>
         </nav>
       </div>
