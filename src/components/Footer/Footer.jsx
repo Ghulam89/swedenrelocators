@@ -322,10 +322,14 @@ const Footer = () => {
           <div className="second-footer tw-pt-8">
             <div className="container py-3">
              <div className=" row">
-             <div className=" col-md-8">
+             {/* <div className=" col-md-8">
              <div className="row  tw-items-center no-gutters tw-bg-blue ">
-                <div className=" tw-bg-[#1A1F31] mb-4  col-md-6">
-                  <aside className="widget widget-text p-3">
+               
+                </div>
+             </div> */}
+
+<div className=" tw-bg-[#1A1F31]   col-md-4">
+                  <aside className="widget widget-text tw-h-full p-3">
                     {/*featured-icon-box*/}
                     <div className="tw-flex  tw-gap-3">
                       <div className="featured-icon">
@@ -350,8 +354,8 @@ const Footer = () => {
                     {/* featured-icon-box end*/}
                   </aside>
                 </div>
-                <div className="  col-md-6">
-                  <aside className="widget widget-text p-3 pt-0">
+                <div className="  tw-bg-blue col-md-4">
+                  <aside className="widget widget-text p-3">
                     {/*featured-icon-box*/}
                     <div className="tw-flex  tw-gap-3">
                       <div className="featured-icon ">
@@ -374,8 +378,6 @@ const Footer = () => {
                     {/* featured-icon-box end*/}
                   </aside>
                 </div>
-                </div>
-             </div>
               <div className=" col-md-4 p-0">
               <div className="widget-area  tw-h-full tw-bg-[#1A1F31]  col-sm-12">
                   <aside className="widget p-3 widget-text">

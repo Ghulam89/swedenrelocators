@@ -4,20 +4,17 @@ import logo from "../../assets/images/SwedenRelocators.png";
 import TopBar from "./TopBar";
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
-
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [housingDropdownOpen, setHousingDropdownOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-     
       setIsSticky(window.scrollY > 260);
     };
 
-    
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-
 
   const data = [
     {
@@ -25,9 +22,7 @@ const Navbar = () => {
       title: "Asylum",
       description:
         "You have to be in Sweden or on the Swedish border in order to apply for asylum.",
-      icons: (
-        <i class=" tw-text-xl tw-mt-0  tw-text-blue fa fa-home"></i>
-      ),
+      icons: <i class=" tw-text-xl tw-mt-0  tw-text-blue fa fa-home"></i>,
     },
     {
       id: 2,
@@ -211,22 +206,46 @@ const Navbar = () => {
     },
   ];
 
-
-
   let navigate = useNavigate();
-  
+
   const handleNavigation = (path) => {
     navigate(path);
   };
+
+
+  const handleNavigationMenu = (path) => {
+    navigate(path);
+    setToggleMenu(false);
+    setHousingDropdownOpen(false); 
+  };
+
+  const handleToggle = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
+  const toggleHousingDropdown = () => {
+    setHousingDropdownOpen(!housingDropdownOpen);  // Toggle the Housing dropdown
+  };
+
 
   return (
     <>
       <div className=" tw-relative">
         <TopBar />
-        <nav className={`navbar md:tw-absolute tw-relative md:-tw-top-10   -tw-top-8 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${isSticky ? 'fixed-top p-0 tw-smooth-transition' : ''}`}>
-      <div className={`container${isSticky ? '-fluid  px-lg-5 px-sm-0 tw-rounded-none' : '-lg px-lg-5 px-sm-3  md:tw-rounded-md  tw-rounded-none'}  tw-transition-all tw-duration-700 container-navbar tw-py-1.5 tw-bg-white `}>
+        <nav
+          className={`navbar md:tw-absolute tw-relative md:-tw-top-10   -tw-top-8 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${
+            isSticky ? "fixed-top p-0 tw-smooth-transition" : ""
+          }`}
+        >
+          <div
+            className={`container${
+              isSticky
+                ? "-fluid  px-lg-5 px-sm-0 tw-rounded-none"
+                : "-lg px-lg-5 px-sm-3  md:tw-rounded-md  tw-rounded-none"
+            }  tw-transition-all tw-duration-700 container-navbar tw-py-1.5 tw-bg-white `}
+          >
             <button
-              className="navbar-toggler"
+              class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -241,8 +260,7 @@ const Navbar = () => {
             </Link>
 
             <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
+              class="collapse navbar-collapse" id="navbarSupportedContent"
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 tw-gap-7">
                 <li className="nav-item">
@@ -264,10 +282,9 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item dropdown hover-dropdown2  relative md:tw-block tw-hidden">
                   <Link
-
-onClick={() => handleNavigation('/services')}
+                    onClick={() => handleNavigation("/services")}
                     className="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
-                    to={'/services'}
+                    to={"/services"}
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -276,34 +293,37 @@ onClick={() => handleNavigation('/services')}
                     Services
                     <i class="fas fa-chevron-down  ps-2"></i>
                   </Link>
-                  <div className="dropdown-men2  tw-w-[600px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden" aria-labelledby="dropdownMenuClickableOutside">
-                  <ul
-                  style={{gridTemplateColumns: "200px 200px 200px",display:'grid'}}
-                    className=" tw-p-0 tw-bg-white  tw-overflow-hidden tw-rounded-md tw-shadow-xl"
-                  
+                  <div
+                    className="dropdown-men2  tw-w-[600px] tw-pt-2  border-0   tw-absolute tw-z-40  tw-hidden"
+                    aria-labelledby="dropdownMenuClickableOutside"
                   >
-
-                    {data?.map((item,index)=>{
-                      return (
-                        <li  className=" " key={index}>
-                        
-                        <Link
-                          style={{whiteSpace:'pre-wrap',display:'flex',gap:'9px',alignItems:'center'}}
-                          className="dropdown-item     tw-uppercase tw-text-sm  tw-font-medium   "
-                          to={`${`/service_details/${item?.title}`}`} 
-
-
-                        >
-                            {/* <p className="  tw-flex tw-gap-1"> {item?.icons}</p> */}
-                          {item?.title}
-                        </Link>
-                      </li>
-                      )
-                    })}
-                   
-                   
-                   
-                  </ul>
+                    <ul
+                      style={{
+                        gridTemplateColumns: "200px 200px 200px",
+                        display: "grid",
+                      }}
+                      className=" tw-p-0 tw-bg-white  tw-overflow-hidden tw-rounded-md tw-shadow-xl"
+                    >
+                      {data?.map((item, index) => {
+                        return (
+                          <li className=" " key={index}>
+                            <Link
+                              style={{
+                                whiteSpace: "pre-wrap",
+                                display: "flex",
+                                gap: "9px",
+                                alignItems: "center",
+                              }}
+                              className="dropdown-item     tw-uppercase tw-text-sm  tw-font-medium   "
+                              to={`${`/service_details/${item?.title}`}`}
+                            >
+                              {/* <p className="  tw-flex tw-gap-1"> {item?.icons}</p> */}
+                              {item?.title}
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
                   </div>
                 </li>
 
@@ -314,51 +334,43 @@ onClick={() => handleNavigation('/services')}
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                    aria-expanded="false"
+                    onClick={toggleHousingDropdown}  
+                    aria-expanded={housingDropdownOpen}
                   >
                     Services
                     <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
                   </a>
 
                   <ul
-                    className="dropdown-menu border-0   md:tw-w-60 tw-w-full tw-shadow-xl "
-                    aria-labelledby="navbarDropdown"
+                    className={`dropdown-menu border-0   md:tw-w-60 tw-w-full  ${housingDropdownOpen ? 'show' : ''} `}
+                    // aria-labelledby="navbarDropdown"
                   >
-                    <li className=" ">
-                      <Link
-                        className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/housing"
-                      >
-                        HOW ITS WORKS
-                      </Link>
-                    </li>
-                    <hr className=" tw-border-gray m-0" />
-                    <li className=" ">
-                      <Link
-                        className="dropdown-item tw-text-sm tw-font-medium "
-                        to="/available_housing"
-                      >
-                        AVAILABLE HOUSING
-                      </Link>
-                    </li>
-                    <hr className=" tw-border-gray m-0" />
-                    <li className=" ">
-                      <Link
-                        className="dropdown-item tw-text-sm   tw-font-medium"
-                        to="/service_details"
-                      >
-                        RENT OUT YOUR HOUSE
-                      </Link>
-                    </li>
-                    <hr className=" tw-border-gray m-0" />
-                    <li className=" ">
-                      <Link
-                        className="dropdown-item tw-text-sm tw-font-medium"
-                        to="/service_details"
-                      >
-                        LOOKING FOR HOUSING
-                      </Link>
-                    </li>
+
+{data?.map((item, index) => {
+                        return (
+                        <>
+                          <li className=" " key={index}>
+                            <Link
+                              style={{
+                                whiteSpace: "pre-wrap",
+                                display: "flex",
+                                gap: "9px",
+                                alignItems: "center",
+                              }}
+                              className="dropdown-item     tw-uppercase tw-text-sm  tw-font-medium   "
+                              to={`${`/service_details/${item?.title}`}`}
+                            >
+                              {/* <p className="  tw-flex tw-gap-1"> {item?.icons}</p> */}
+                              {item?.title}
+                            </Link>
+                          </li>
+                           <hr className=" tw-border-gray m-0" />
+                        </>
+                        );
+                      })}
+                   
+                   
+                   
                   </ul>
                 </li>
 
@@ -431,14 +443,17 @@ onClick={() => handleNavigation('/services')}
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                    aria-expanded="false"
+                 
+                    onClick={toggleHousingDropdown}  
+                    aria-expanded={housingDropdownOpen}
                   >
                     Housing
                     <i class="fas ms-2 fa-chevron-down  tw-float-right"></i>
                   </a>
 
                   <ul
-                    className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
+                  
+                    className={`dropdown-menu border-0  md:tw-w-60 tw-w-full  ${housingDropdownOpen ? 'show' : ''} `}
                     aria-labelledby="navbarDropdown"
                   >
                     <li className=" ">
@@ -449,7 +464,7 @@ onClick={() => handleNavigation('/services')}
                         HOW ITS WORKS
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
+                    {/* <hr className=" tw-border-gray m-0" /> */}
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
@@ -481,10 +496,9 @@ onClick={() => handleNavigation('/services')}
 
                 <li className="nav-item dropdown hover-dropdown md:tw-block tw-hidden">
                   <Link
-                  to={'/assessment'}
-                  onClick={() => handleNavigation('/assessment')}
+                    to={"/assessment"}
+                    onClick={() => handleNavigation("/assessment")}
                     className="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
-                     
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -496,7 +510,6 @@ onClick={() => handleNavigation('/services')}
                   <ul
                     className="dropdown-menu border-0  tw-rounded-md  tw-overflow-hidden md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
-                    
                   >
                     <li className=" ">
                       <Link
@@ -564,7 +577,8 @@ onClick={() => handleNavigation('/services')}
                 </li>
 
                 <li class="nav-item dropdown md:tw-hidden tw-block ">
-                  <Link to={'/assessment'}
+                  <Link
+                    to={"/assessment"}
                     class="tw-font-bold flex  tw-justify-between tw-items-center tw-text-gray-dark tw-text-sm tw-uppercase dropdown-toggle"
                     href="#"
                     id="navbarDropdown"
@@ -580,7 +594,7 @@ onClick={() => handleNavigation('/services')}
                     className="dropdown-menu border-0  md:tw-w-60 tw-w-full tw-shadow-xl "
                     aria-labelledby="navbarDropdown"
                   >
-                   <li className=" ">
+                    <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
                         to={`/assessment_register/BUSINESS VISA`}
