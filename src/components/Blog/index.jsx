@@ -83,12 +83,12 @@ const Blog = () => {
                       <div className="post-header">
                         <div className="post-title featured-title">
                           <p className=" tw-leading-2">
-                            <a
+                            <Link
                               className="  tw-text-gray-dark tw-font-medium tw-text-lg "
-                              href="blog-single.html"
+                              to={`/blog_details/${item?.id}`}
                             >
                               {item?.title}
-                            </a>
+                            </Link>
                           </p>
                         </div>
                       </div>
