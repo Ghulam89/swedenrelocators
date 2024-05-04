@@ -232,7 +232,7 @@ const Footer = () => {
                         <Link to="">
                           <img
                             className="img-fluid"
-                            width={150}
+                            width={140}
                             height={150}
                             src="https://swedenrelocators.se/wp-content/uploads/2021/07/business-startup-2-150x150.png"
                             alt="post-img"
@@ -244,7 +244,7 @@ const Footer = () => {
                             Apr 06, 2020
                           </span>
                           <Link className=" tw-text-white  tw-text-sm">
-                            5 Things To Keep In Mind If You Are Relocating To...
+                          5 Things To Keep In Mind If You Are Relocating To...
                           </Link>
                         </div>
                       </li>
@@ -252,7 +252,7 @@ const Footer = () => {
                         <Link to="blog-single.html">
                           <img
                             className="img-fluid"
-                            width={90}
+                            width={85}
                             height={90}
                             src="https://swedenrelocators.se/wp-content/uploads/2021/07/business-startup-1-150x150.png"
                             alt="post-img"
@@ -272,7 +272,7 @@ const Footer = () => {
                         <Link to={'/blog_details/2'}>
                           <img
                             className="img-fluid"
-                            width={90}
+                            width={130}
                             height={90}
                             src="https://swedenrelocators.se/wp-content/uploads/2021/07/educational-books-150x150.png"
                             alt="post-img"
@@ -284,7 +284,7 @@ const Footer = () => {
                             Apr 06, 2020
                           </span>
                           <Link to={'/blog_details/3'} className=" tw-text-white  tw-text-sm">
-                            5 Swedish Foods You Must Try
+                          A Guide About Student Fee And Admissions In Sweden
                           </Link>
                         </div>
                       </li>
