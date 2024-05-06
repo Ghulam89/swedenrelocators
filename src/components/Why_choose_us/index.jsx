@@ -18,13 +18,11 @@ const Why_choose_us = () => {
                 className=""
               >
                 <div className="row">
-                  <div className="col-md-10">
+                  <div className="col-md-11">
                   <motion.img
                  animate={imageVariants}
                   
-                  width={530}
-                  height={522}
-                  className="img-fluid"
+                  className="img-fluid tw-w-full"
                   src={choose}
                   alt="single_04"
                 />

@@ -171,7 +171,7 @@ const LanguageSelector = () => {
         </button>
 
         {isOpen && (
-          <div className=" tw-absolute tw-z-50     tw-right-12  sm:tw-top-20 md:tw-top-12  lg:tw-top-12 tw-top-32  tw-mt-2 tw-w-80 tw-rounded-md tw-shadow-lg tw-bg-white tw-ring-1 tw-ring-black tw-ring-opacity-5">
+          <div className=" tw-absolute  tw-z-50    tw-right-12  sm:tw-top-20 md:tw-top-12  lg:tw-top-12 tw-top-32  tw-mt-2 tw-w-80 tw-rounded-md tw-shadow-lg tw-bg-white tw-ring-1 tw-ring-black tw-ring-opacity-5">
             <div
               className="tw-py-1 tw-grid tw-grid-cols-2  tw-gap-3 p-2"
               role="none"

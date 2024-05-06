@@ -155,8 +155,11 @@ const Because_family = () => {
             </div>
             <div   className="col-md-6">
               <motion.img  
-                 animate={imageVariants}  src={Hero} alt="" />
+                 animate={imageVariants} className=" tw-w-full"  src={Hero} alt="" />
+
+                 <Link to={`/service_details/Family Reunification`}>
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
             </div>
 
             <div className="col-md-6">
@@ -220,7 +223,7 @@ const Because_family = () => {
              <div  className=" row">
               <div  className="col-md-10 tw-mx-auto">
               <motion.img  
-                 animate={imageVariants}  src={second_image} alt="" />
+                 animate={imageVariants} className=" tw-w-full"  src={second_image} alt="" />
               </div>
              </div>
             </div>
@@ -228,8 +231,10 @@ const Because_family = () => {
            
             <div  className="col-md-6">
               <motion.img  
-                 animate={imageVariants}  src={fourth_image} alt="" />
+                 animate={imageVariants}  className=" tw-w-full" src={fourth_image} alt="" />
+                 <Link to={`/service_details/Family Reunification`}>
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
             </div>
             <div className="col-md-6">
               <motion.div variants={containerVariants}
@@ -320,7 +325,7 @@ const Because_family = () => {
              <div className="row">
               <div className="col-md-10 tw-mx-auto">
               <motion.img  
-                 animate={imageVariants}  src={fifth_image} alt="" />
+                 animate={imageVariants} className=" tw-w-full"  src={fifth_image} alt="" />
               </div>
              </div>
 
@@ -354,8 +359,9 @@ const Because_family = () => {
                 case directly with our team.
               </motion.p>
               </motion.div>
-
+             <Link to={`/service_details/business visit`}  >
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
             </div>
 
            
@@ -394,8 +400,9 @@ const Because_family = () => {
                 family and yourself while staying in Sweden during the first two
                 years. Don’t forget to use our Assessment tool to find out more.
               </p>
-
+             <Link to={`/service_details/business Permit`}>
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
             </div>
           </div>
           <Why_choose_us />
@@ -424,7 +431,7 @@ const Because_family = () => {
 
             <div   className="col-md-5">
               <motion.img  
-                 animate={imageVariants}  src={six_image} alt="" />
+                 animate={imageVariants} className=" tw-w-full"  src={six_image} alt="" />
             </div>
 
             <div className="col-md-6">
@@ -452,7 +459,7 @@ const Because_family = () => {
             
             <div    className="col-md-6">
               <motion.img  
-                 animate={imageVariants}  src={seven_image} alt="" />
+                 animate={imageVariants}  className=" tw-w-full" src={seven_image} alt="" />
             </div>
             <div className="col-md-6">
               <div className="title-header">
@@ -484,7 +491,7 @@ const Because_family = () => {
               
             <div   className="col-md-6">
               <motion.img  
-                 animate={imageVariants}  src={eight_image} alt="" />
+                 animate={imageVariants} className=" tw-w-full"  src={eight_image} alt="" />
             </div>
           </div>
         </div>

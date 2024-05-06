@@ -84,4 +84,23 @@ p{
   
 }
 
+.bg_visitor::before{
+  content: '';
+    position: absolute;
+    left: -134px;
+    right: -100%;
+    height: 100%;
+    display: block;
+    background: url(../assets/images/proccess-box-arrow.png) center left no-repeat;
+    top: -46px;
+}
 
+
+
+
+@media screen and (min-width:1200px) {
+
+   .container,.container-lg{
+    width: 1170px !important;
+   }
+}

@@ -219,7 +219,7 @@ const Services = () => {
                          <div className="  tw-pt-12">
                           <h5 className=" tw-text-white">{item?.title }</h5>
                          <p className=" tw-text-white">{item?.description}</p>
-                         <button className=" tw-text-blue">View More</button>
+                         <Link to={`/service_details/${item?.title}`} className=" tw-text-blue">View More</Link>
                          </div>
                            </div>
                       </div>   

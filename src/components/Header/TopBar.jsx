@@ -37,26 +37,21 @@ const TopBar = () => {
                       to={"/book_your_appointment"}
                       className="tw-text-sm  tw-text-white"
                     >
-
                       <i class="fa fa-calendar-check"></i> Book an Appointment{" "}
                     </Link>
-
                   </div>
 
                   <div className="">
                     <LanguageSelector />
                   </div>
-
                 </div>
-
-
-
-
-
 
                 <div className=" tw-float-right sm:tw-pt-0 tw-pt-3">
                   <div className=" tw-flex tw-items-center">
-                    <Link to={'/login'} className="sign_up tw-outline-none  hover:tw-text-white tw-font-medium tw-bg-blue tw-py-3.5 tw-px-4  tw-border-r tw-text-white tw-text-[15px] tw-flex  tw-items-center">
+                    <Link
+                      to={"/login"}
+                      className="sign_up tw-outline-none  hover:tw-text-white tw-font-medium tw-bg-blue tw-py-3.5 tw-px-4  tw-border-r tw-text-white tw-text-[15px] tw-flex  tw-items-center"
+                    >
                       My Page
                     </Link>
                     <Link

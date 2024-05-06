@@ -7,7 +7,7 @@ const Visitor = () => {
     <div>
       <>
         {/*visitor-section*/}
-        <section className=" tw-py-6  tw-relative">
+        <section className=" tw-py-6  bg_visitor tw-relative">
           <div className="container">
             {/* row */}
             <div className="row">
@@ -39,14 +39,14 @@ const Visitor = () => {
                       <div className="wrapper ">
                         <div className=" ">
                           <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
-                            <div class="border-animate tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
+                            <div class="border-animate bg-w tw-absolute tw-inset-0 tw-rounded-full tw-border-2 tw-border-dashed tw-border-gray-light"></div>
                             <div class="inner-content element-inner  tw-h-32 tw-w-32 tw-rounded-full  tw-flex tw-justify-center tw-items-center tw-bg-[#0067ED]">
                               <i className="flaticon tw-text-5xl tw-text-white tw-m-0  tw-h-14 tw-w-11 flaticon-reading" />
                             </div>
                           </div>
 
                           <div className=" tw-text-center">
-                            <h5 className=" tw-pt-5 tw-pb-2">Sign Up</h5>
+                            <h5 className=" tw-pt-8 tw-pb-2">Sign Up</h5>
                           </div>
                           <div className="featured-desc">
                             <p className=" tw-text-gray">
@@ -58,7 +58,7 @@ const Visitor = () => {
                       </div>
                       {/* featured-icon-box end*/}
                     </div>
-                    <div className="col-lg-3 col-md-2 ">
+                    <div className="col-lg-3 col-md-2  tw-pt-8">
                       {/*featured-icon-box*/}
                       <div className="wrapper ">
                         <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
@@ -69,7 +69,7 @@ const Visitor = () => {
                         </div>
 
                         <div className=" tw-text-center">
-                          <h5 className=" tw-pt-5 tw-pb-2">Upload Documents</h5>
+                          <h5 className=" tw-pt-8 tw-pb-2">Upload Documents</h5>
                         </div>
                         <div className="featured-desc">
                           <p className=" tw-text-gray">
@@ -91,7 +91,7 @@ const Visitor = () => {
                         </div>
 
                         <div className=" tw-text-center">
-                          <h5 className=" tw-pt-5 tw-pb-2">
+                          <h5 className=" tw-pt-8 tw-pb-2">
                             File Preparation Process
                           </h5>
                         </div>
@@ -105,7 +105,7 @@ const Visitor = () => {
                       </div>
                       {/* featured-icon-box end*/}
                     </div>
-                    <div className="col-lg-3 col-md-2 ">
+                    <div className="col-lg-3 col-md-2 tw-pt-8 ">
                       {/*featured-icon-box*/}
                       <div className=" wrapper">
                         <div class="wrapper tw-mx-auto tw-relative tw-w-44 tw-h-44 tw-flex tw-justify-center tw-items-center tw-overflow-hidden">
@@ -116,7 +116,7 @@ const Visitor = () => {
                         </div>
 
                         <div className=" tw-text-center">
-                          <h5 className=" tw-pt-5 tw-pb-2">Download or DHL</h5>
+                          <h5 className=" tw-pt-8 tw-pb-2">Download or DHL</h5>
                         </div>
                         <div className="featured-desc">
                           <p className=" tw-text-gray">
@@ -152,9 +152,9 @@ const Visitor = () => {
 
           </div>
 
-          <div className=" tw-absolute  -tw-z-50 tw-bottom-[35%]">
-                <img src={arrow} alt="" />
-              </div>
+        
+                {/* <img src={arrow} className="tw-absolute   -tw-z-50 tw-bottom-[35%]" alt="" /> */}
+             
         </section>
         {/*visitor-section end*/}
       </>
