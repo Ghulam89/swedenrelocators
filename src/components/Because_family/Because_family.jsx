@@ -8,6 +8,7 @@ import fifth_image from "../../assets/images/My-Documents.png";
 import six_image from "../../assets/images/house-building.png";
 import seven_image from "../../assets/images/bank-manager-talking.png";
 import eight_image from "../../assets/images/child-care.png";
+import nine_image from "../../assets/images/work-essentials.png";
 import deals from "../../assets/images/real-estate-agent-sold-house-and-deal-confirmed.png";
 import Button from "../Button";
 import Why_choose_us from "../Why_choose_us";
@@ -403,6 +404,83 @@ const Because_family = () => {
              <Link to={`/service_details/business Permit`}>
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
               </Link>
+            </div>
+
+          
+            <div className="col-md-6">
+              <div className="title-header">
+                <span>EOR & Payroll Services</span>
+                <h2 className="  tw-text-black">
+                  EOR &
+                  <strong>  Payroll Services</strong>
+                </h2>
+              </div>
+              <p className=" tw-text-gray">
+              Welcome to Sweden Relocators, your reliable partner for seamless global expansion. Our advanced Employer of Record (EOR) services simplify the process of growing your workforce internationally, helping you overcome common challenges with ease.
+
+
+
+
+
+
+
+              </p>
+              <p className=" tw-text-gray-dark tw-m-0 tw-pt-0 tw-font-semibold tw-text-lg">
+              How Payroll Services Work:
+
+              </p>
+
+              <p className=" tw-text-gray-dark tw-m-0 tw-pt-2 tw-font-semibold tw-text-lg">
+               1.EOR Services:
+
+              </p>
+              
+              <p className=" tw-pt-1 tw-text-gray tw-m-0">
+              <b>Global Expansion Made Simple:</b>  With our EOR solutions, we manage all aspects of employment, including compliance with local laws, employee contracts, and payroll, allowing you to focus on your business operations without the administrative burden.
+
+
+              </p>
+
+              <p className=" tw-text-gray-dark tw-m-0 tw-pt-2 tw-font-semibold tw-text-lg">
+               2.Payroll Services:
+
+              </p>
+              
+              <p className=" tw-pt-1 tw-text-gray tw-m-0">
+              <b> Accurate Salary Processing:</b>  We ensure timely and precise salary payments for your employees, considering all deductions, benefits, and tax obligations, thereby maintaining payroll accuracy.
+
+
+
+              </p>
+              <p className=" tw-pt-1 tw-text-gray tw-m-0">
+              <b> Tax Compliance:</b>   Our experts are well-versed in the latest tax regulations and ensure that your operations stay compliant, helping you avoid fines and penalties.
+
+
+
+
+              </p>
+              <p className=" tw-pt-1 tw-text-gray tw-m-0">
+              <b>Benefit Administration:</b>   We take care of administering employee benefits, from healthcare to retirement plans, ensuring that the process is efficient for both you and your employees.
+
+
+
+
+
+              </p>
+            </div>
+
+            <div    className="col-md-6">
+             <div className=" row">
+              <div  className="col-md-10 tw-mx-auto">
+              <motion.img 
+                 animate={imageVariants}  src={nine_image} alt="" />
+              </div>
+
+
+              <Link to={`/service_details/business Permit`}>
+              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
+             </div>
             </div>
           </div>
           <Why_choose_us />

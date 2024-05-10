@@ -7,14 +7,14 @@ const Tabs = ({ tabs, defaultTab, className }) => {
 
   return (
     <div>
-      <div className="tw-flex tw-gap-6  tw-rounded-md tw-border-white tw-border-opacity-20 tw-backdrop-blur-md tw-scroll-container  tw-productOverflow  tw-overflow-x-auto tw-whitespace-nowrap">
+      <div className="tw-flex tw-gap-6 tw-py-5  tw-rounded-md tw-border-white tw-border-opacity-20 tw-backdrop-blur-md tw-scroll-container  tw-productOverflow  tw-overflow-x-auto tw-whitespace-nowrap">
         {tabs.map((tab) => (
           <button
             key={tab.title}
-            className={`tw-px-6 tw-py-2 ${className} ${
+            className={`tw-px-6 tw-py-2 tw-shadow-lg tw-text-md ${className} ${
               activeTab === tab.title
-                ? "    tw-bg-blue tw-text-white   tw-rounded-full  tw-text-lg"
-                : "     tw-text-gray  tw-text-lg tw-bg-white tw-rounded-full border"
+                ? "    tw-bg-blue tw-text-white   tw-rounded-full  "
+                : "     tw-text-gray   tw-bg-white tw-rounded-full border  "
             }`}
             onClick={() => setActiveTab(tab.title)}
           >
