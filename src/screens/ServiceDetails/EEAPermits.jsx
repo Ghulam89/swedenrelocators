@@ -2,10 +2,12 @@ import React from "react";
 import Banner_Page from "../../components/Common/Banner_Page";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
-import { Link } from "react-router-dom";
-import { Button } from "bootstrap";
 import { GoTriangleRight } from "react-icons/go";
-const Services = () => {
+import { Link, useParams } from "react-router-dom";
+import banner from "../../assets/images/family-time.png";
+const EEAPermits = () => {
+  const { id } = useParams();
+
   const data = [
     {
       id: 1,
@@ -15,7 +17,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
-      Link:'/asylum'
     },
     {
       id: 2,
@@ -25,7 +26,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
-      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -35,9 +35,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
-
-      Link:'/personnumer-sweden'
-      
     },
     {
       id: 4,
@@ -47,8 +44,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
-      Link:'/cpr-number-denmark'
-      
     },
     {
       id: 5,
@@ -58,7 +53,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/cpr-number-denmark'
     },
     {
       id: 5,
@@ -68,9 +62,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
-
-      Link:'/business-permit'
-    
     },
     {
       id: 6,
@@ -80,8 +71,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
-      
-      Link:'/business-permit'
     },
     {
       id: 7,
@@ -91,9 +80,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      Link:'/citizenship'
-      
-    
     },
     {
       id: 8,
@@ -103,8 +89,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
-      Link:'/study-in-eu'
-      
     },
     {
       id: 9,
@@ -114,7 +98,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/study-in-eu'
     },
     {
       id: 10,
@@ -124,7 +107,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
-      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -134,7 +116,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
-      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -144,7 +125,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
-      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -154,7 +134,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/company-registration'
     },
     {
       id: 14,
@@ -164,7 +143,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/study-in-eu'
     },
     {
       id: 15,
@@ -174,7 +152,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
-      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -184,7 +161,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
-      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -194,7 +170,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
-      Link:'/investment'
     },
     {
       id: 18,
@@ -204,7 +179,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
-      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -214,7 +188,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
-      Link:'/permanent-residence'
     },
     {
       id: 20,
@@ -224,63 +197,212 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
-      Link:'/golden-visa-greece-portugal'
     },
   ];
+
+
+
+  
+
   return (
     <>
-      <div className=" tw-bg-[#1F2437]">
-        <Navbar />
-        <Banner_Page />
-        <div className="container">
-          <div className="  tw-text-center  tw-mt-28">
-            <h1 className=" tw-text-white tw-uppercase tw-font-bold">
-              Our Services
-            </h1>
-            <hr className=" tw-w-28 tw-opacity-3 tw-mx-auto tw-border-white" />
-          </div>
-          <div className="row tw-pt-10 tw-pb-32 g-4">
-          {data?.map((item, index) => {
+      <Navbar />
+      <Banner_Page title={`FAMILY REUNIFICATION`} />
+
+      <div className=" ">
+        <section className="  md:tw-mt-36 tw-mt-44">
+          <div className="container-fluid">
+            <div className="row g-4">
+              <div className="col-md-8 tw-py-20 tw-bg-white">
+                <div className="  md:tw-px-20 tw-px-2">
+                  <span>EU CITIZEN</span>
+                  <h2>
+                    <strong>Family Members</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray">
+                  Family reunification is a recognized reason for the immigration of family members to a country where one or more family member already reside.
+
+
+                  </p>
+                  <p className=" tw-text-gray">
+                  As a family member of an EU/EEA citizen exercising their right of free movement,you can get a visa through a facilitated process to travel with your family member or to join him/her in Sweden.
+
+
+
+
+                  </p>
+                  <p className=" tw-text-gray">
+                  Family members are:
+
+
+                  </p>
+
+
+
+                  <ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Spouse/partner/common law spouse.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        The direct descendants (children) who are under the age of 21 or are dependents, and those of the spouse or partner.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        The dependent direct relatives in the ascending line (e.g. parents) and those of the spouse or partner.
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
+
+                        </p>
+                      </li>
+
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Once in Sweden you should apply for a residence card for a family member of a EU/EEA citizen within three months for a Residence Card of a family member of a EU/EEA citizen.
+
+                        </p>
+                      </li>
+                     
+                    </ul>
+                  
+
+
+                  <img src={banner} alt="" />
+
+                  <div>
+                    <span>SWEDISH-NORDIC FAMILY
+</span>
+                    <h2>
+                      <strong>Reunification</strong>
+                    </h2>
+
+                    <p className=" tw-text-gray">
+                    If you are Swedish or Nordic citizen, then you can apply for residence permit under national Laws. Requirements are slightly different than the above-mentioned EU residence card.
+
+
+                    </p>
+                    <p className=" tw-text-gray">
+                    The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in. However, these mentainence requirements are not applicable in all cases.
+
+
+                    </p>
+
+
+                  </div>
+                  <div>
+                  <span>STUDENT-WORK-BUSINESS PERMIT FAMILY
+
+</span>
+                    <h2>
+                      <strong>Reunification
+</strong>
+                    </h2>
+
+                    <span>WHAT ARE
+
+</span>
+
+                    <h2>
+                      <strong>Mentainence Requirements
+
+</strong>
+                    </h2>
+
+                 
+     <div>
+
+     <span>HOUSING
+
+</span>
+
+                    <h2>
+                      <strong>Requirements:
+
+
+</strong>
+                    </h2>
+
+
+     <ul className=" tw-p-0  tw-list-disc    tw-pt-4">
+                      <li className=" ">
+                        
+                        <p className=" m-0 tw-text-gray">
+                        The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in.
+
+
+                        </p>
+                      </li>
+                      <li className=" ">
+                        
+                        <p className=" m-0 tw-text-gray">
+                        If you rent your home, you have to send in a copy of your tenancy agreement. You must also enclose a rent invoice for the last month’s rent (1 month).
+
+</p>
+                      </li>
+
+                     
+                   
+                    </ul>
+
+                    <p className=" tw-text-gray tw-font-medium">
+                    The agreement has to contain:
+
+</p>
+     </div>
+</div>
+</div>
+           
+
+                
+              </div>
+
+              <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
+                <div className="  tw-pr-10">
+                  <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
+                  {data?.map((item, index) => {
                       return (
 
-                      <div className=" col-md-4">
-                           <div className="    tw-h-80 tw-text-center tw-border-dashed tw-border-2 tw-border-gray py-5 px-4">
-                           <i>{item?.icons}</i>
-                         <div className="  tw-pt-12">
-                          <h5 className=" tw-text-white">{item?.title }</h5>
-                         <p className=" tw-text-white">{item?.description}</p>
-                         <Link to={`${item?.Link}`} className=" tw-text-blue">View More</Link>
-                         </div>
-                           </div>
-                      </div>   
-                       
+                        <Link
+                          to={`${`/service_details/${item?.title}`}`}
+                          className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
+                        >
+                          <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                            {item?.title}
+                          </p>
+                          <GoTriangleRight className="tw-text-gray" />
+                        </Link>
 
                       );
                     })}
-          </div>
-        </div>
-
-
-        <div className=" tw-bg-white sm:tw-h-32 tw-h-auto tw-relative tw-justify-center tw-flex">
-
-          <div className="container sm:tw-h-48 tw-h-auto p-5 tw-py-5 sm:tw-absolute  tw-relative   sm:-tw-top-16 tw-top-0 tw-bg-blue sm:tw-rounded-md  tw-rounded-none">
-             <div className="  row  tw-items-center tw-justify-between">
-              <div className="col-md-9">
-                <p className=" fs-2 tw-font-medium tw-text-white">HAVE ANY QUESTIONS?</p >
-                <p className="  tw-text-white tw-font-normal"><strong>Need a consultation? </strong> Call us today at +46102146276 or email us: info@swedenrelocators.se</p>
+                  </ul>
+                </div>
               </div>
-              <div className=" col-md-3">
-                 <button className=" tw-text-white border  tw-px-8 tw-py-2 tw-rounded-full  hover:tw-bg-white hover:tw-text-black">Book an  appointment</button>
-              </div>
-             </div>
+
+
+
+              
+            </div>
           </div>
-
-        </div>
-
-        <Footer />
+        </section>
       </div>
+
+      <Footer />
     </>
   );
 };
 
-export default Services;
+export default EEAPermits;

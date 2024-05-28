@@ -27,7 +27,7 @@ const Register = () => {
               <p className=" tw-text-gray">
                 {" "}
                 Sign Up as a
-                 <Link className=" tw-text-black" to={"/login"}>
+                <Link className=" tw-text-black" to={"/login"}>
                   Company
                 </Link>{" "}
               </p>
@@ -41,7 +41,9 @@ const Register = () => {
                   <Input
                     placeholder={"First Name..."}
                     star={"*"}
-                    className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      " tw-w-full border tw-py-3.5 tw-px-3 "
+                    }
                     label={"First Name"}
                   />
                 </div>
@@ -49,7 +51,9 @@ const Register = () => {
                   <Input
                     placeholder={"Last Name..."}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3"
+                    }
                     label={"Last Name"}
                   />
                 </div>
@@ -57,7 +61,9 @@ const Register = () => {
                   <Input
                     placeholder={"@12s"}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3"
+                    }
                     label={"Email"}
                   />
                 </div>
@@ -65,7 +71,9 @@ const Register = () => {
                   <Input
                     placeholder={"Contact No"}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3 "
+                    }
                     label={"Contact No"}
                   />
                 </div>
@@ -73,47 +81,53 @@ const Register = () => {
                   <Input
                     placeholder={"Date of Birth"}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3"
+                    }
                     label={" Date of Birth"}
                   />
                 </div>
                 <div className="col-md-4">
-                  <label
+                  {/* <label
                     htmlFor="first_name"
                     className=" tw-block  tw-text-md  tw-pb-2.5 tw-text-gray "
                   >
                     <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                     Nationality
-                  </label>
-                  <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                  </label> */}
+                  <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg">
                     <option>Select Country</option>
                     <option>Pakistan</option>
                     <option>China</option>
                   </select>
+
+
+
+                  
                 </div>
                 <div className="col-md-4">
-                  <label
+                  {/* <label
                     htmlFor="first_name"
                     className=" tw-block  tw-text-md  tw-pb-2.5 tw-text-gray"
                   >
                     <a className=" tw-text-red-600 tw-font-semibold">*</a> Place
                     of Birth
-                  </label>
-                  <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                  </label> */}
+                  <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg">
                     <option>Select Country</option>
                     <option>Pakistan</option>
                     <option>China</option>
                   </select>
                 </div>
                 <div className="col-md-4">
-                  <label
+                  {/* <label
                     htmlFor="first_name"
                     className=" tw-block  tw-text-md  tw-pb-2.5 tw-text-gray"
                   >
                     <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                     Currently Residing in
-                  </label>
-                  <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                  </label> */}
+                  <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg">
                     <option>Select Country</option>
                     <option>Pakistan</option>
                     <option>China</option>
@@ -123,7 +137,9 @@ const Register = () => {
                   <Input
                     placeholder={"Your Address"}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg"
+                    }
                     label={"Address"}
                   />
                 </div>
@@ -131,7 +147,9 @@ const Register = () => {
                   <Input
                     placeholder={"City Name"}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg"
+                    }
                     label={" City"}
                   />
                 </div>
@@ -139,7 +157,9 @@ const Register = () => {
                   <Input
                     placeholder={"Postal Code"}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg"
+                    }
                     label={" Postal Code"}
                   />
                 </div>
@@ -148,7 +168,9 @@ const Register = () => {
                   <Input
                     placeholder={"Enter Password..."}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg"
+                    }
                     label={"Your Password"}
                   />
                 </div>
@@ -156,7 +178,9 @@ const Register = () => {
                   <Input
                     placeholder={"Enter Repeat Password..."}
                     star={"*"}
-                    className={"  tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                    className={
+                      "  tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg"
+                    }
                     label={" Repeat Password"}
                   />
                 </div>
@@ -172,7 +196,7 @@ const Register = () => {
                   <Button
                     label={"sign up"}
                     className={
-                      " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-3  tw-w-96 tw-rounded-xl tw-text-white "
+                      " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-3  tw-w-96 tw-rounded-lg tw-text-white "
                     }
                   />
                 </div>

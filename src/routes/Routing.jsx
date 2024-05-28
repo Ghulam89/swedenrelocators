@@ -19,13 +19,31 @@ import Gallery from "../screens/gallery";
 import Terms_conditions from "../screens/terms_conditions";
 import PrivacyPolicy from "../screens/privacyPolicy";
 import Rent_out_your_housing from "../screens/rent_out_your_housing";
-import ServiceDetails from "../screens/ServiceDetails";
+import ServiceDetails from "../screens/ServiceDetails/asylum";
 import Looking_for_housing from "../screens/Looking_for_housing";
 import { useEffect } from "react";
 import Housing from "../screens/Housing";
 import Available_housing from "../screens/Available_housing";
 import PageNotFound from "../screens/pageNotFound";
 import Property_Details from "../screens/property_details/Property_Details";
+import FamilyRenuification from "../screens/ServiceDetails/FamilyReunification";
+import PersonnumerSweden from "../screens/ServiceDetails/PersonnummerSweden";
+import CPRNumberDenmark from "../screens/ServiceDetails/CPRNumberDenmark";
+import BusinessPermit from "../screens/ServiceDetails/BusinessPermit";
+import Citizenship from "../screens/ServiceDetails/Citizenship";
+import StudyInEu from "../screens/ServiceDetails/StudyInEu";
+import GlobalVisitVisas from "../screens/ServiceDetails/GlobalVisitVisas";
+import EEAPermits from "../screens/ServiceDetails/EEAPermits";
+import ParentsEUPermit from "../screens/ServiceDetails/ParentsEUPermit";
+import MarriageDivorce from "../screens/ServiceDetails/MarriageDivorce";
+import CompanyRegistration from "../screens/ServiceDetails/CompanyRegistration";
+import HouseOffices from "../screens/ServiceDetails/HouseOffices";
+import AppealCases from "../screens/ServiceDetails/AppealCases";
+import EUCitizensRelocation from "../screens/ServiceDetails/EUCitizensRelocation";
+import Investment from "../screens/ServiceDetails/Investment";
+import DirectCitizenship from "../screens/ServiceDetails/DirectCitizenship";
+import PermanentResidence from "../screens/ServiceDetails/PermanentResidence";
+import GoldenVisa from "../screens/ServiceDetails/GoldenVisa";
 const Routing = () => {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -61,7 +79,25 @@ const Routing = () => {
         <Route path="/assessment" element={<Assessment />} />
         <Route path="/assessment_register/:id" element={<Assessment_register />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/service_details/:id" element={<ServiceDetails />} />
+        <Route path="/asylum" element={<ServiceDetails />} />
+        <Route path="/family-reunification" element={<FamilyRenuification />} />
+        <Route path="/personnumer-sweden" element={<PersonnumerSweden />} />
+        <Route path="/cpr-number-denmark" element={<CPRNumberDenmark />} />
+        <Route path="/business-permit" element={<BusinessPermit />} />
+        <Route path="/citizenship" element={<Citizenship />} />
+        <Route path="/study-in-eu" element={<StudyInEu />} />
+        <Route path="/global-visit-visas" element={<GlobalVisitVisas />} />
+        <Route path="/eea-permits" element={<EEAPermits />} />
+        <Route path="/parents-eu-permit" element={<ParentsEUPermit />} />
+        <Route path="/marriage-divorce" element={<MarriageDivorce />} />
+        <Route path="/company-registration" element={<CompanyRegistration />} />
+        <Route path="/house-offices" element={<HouseOffices />} />
+        <Route path="/appeal-cases" element={<AppealCases />} />
+        <Route path="/eu-family-reunification" element={<EUCitizensRelocation />} />
+        <Route path="/investment" element={<Investment />} />
+        <Route path="/direct-citizenship-by-investments" element={<DirectCitizenship />} />
+        <Route path="/permanent-residence" element={<PermanentResidence />} />
+        <Route path="/golden-visa-greece-portugal" element={<GoldenVisa />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blog_details/:id" element={<BlogDetails />} />

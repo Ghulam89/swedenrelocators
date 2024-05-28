@@ -2,10 +2,12 @@ import React from "react";
 import Banner_Page from "../../components/Common/Banner_Page";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
-import { Link } from "react-router-dom";
-import { Button } from "bootstrap";
 import { GoTriangleRight } from "react-icons/go";
-const Services = () => {
+import { Link, useParams } from "react-router-dom";
+import banner from "../../assets/images/family-time.png";
+const CPRNumberDenmark = () => {
+  const { id } = useParams();
+
   const data = [
     {
       id: 1,
@@ -91,7 +93,6 @@ const Services = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      Link:'/citizenship'
       
     
     },
@@ -227,60 +228,194 @@ const Services = () => {
       Link:'/golden-visa-greece-portugal'
     },
   ];
+
+
+
+  
+
   return (
     <>
-      <div className=" tw-bg-[#1F2437]">
-        <Navbar />
-        <Banner_Page />
-        <div className="container">
-          <div className="  tw-text-center  tw-mt-28">
-            <h1 className=" tw-text-white tw-uppercase tw-font-bold">
-              Our Services
-            </h1>
-            <hr className=" tw-w-28 tw-opacity-3 tw-mx-auto tw-border-white" />
-          </div>
-          <div className="row tw-pt-10 tw-pb-32 g-4">
-          {data?.map((item, index) => {
+      <Navbar />
+      <Banner_Page title={`CPR NUMBER DENMARK`} />
+
+      <div className=" ">
+        <section className="  md:tw-mt-36 tw-mt-44">
+          <div className="container-fluid">
+            <div className="row g-4">
+              <div className="col-md-8 tw-py-20 tw-bg-white">
+                <div className="  md:tw-px-20 tw-px-2">
+                  <span>CPR NUMBER</span>
+                  <h2>
+                    <strong>Danish ID Number</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray">
+                  CPR (Centrale Personregister) number is unique to a person and is used as an ID in Denmark. A CPR number facilitates accurate linkage between all Danish national registers among all other things. Your CPR number consists of ten digits. The primary six digits are your date of birth and the last four are your unique identification number. The last digit of your CPR number indicates your sex. If it’s an odd digit you’re male, and if it’s a fair digit you’re female.
+
+
+
+                  </p>
+               
+
+
+                  <div>
+                    <span>CPR NUMBER REQUIREMENT
+
+</span>
+                    <h2>
+                      <strong>Why & When?
+</strong>
+                    </h2>
+
+                    <p className=" tw-text-gray tw-font-medium">
+                    WHY?
+
+
+
+                    </p>
+                    <p className=" tw-text-gray">
+                    Residents of Denmark are legally required to possess a CPR number. You may also notice that your CPR number grants you access to many services in Denmark. You may need it to open a checking account, get a Danish sign, borrow books at the library, cast off insurance and so on.
+
+
+
+                    </p>
+
+
+                    <p className=" tw-text-gray tw-font-medium">
+                    WHYWHEN?
+
+
+
+                    </p>
+                    <p className=" tw-text-gray">
+                    Non-EU/EEA citizens who intend to stay in Denmark for more than three months are required to register with the Danish Civil Registration System on arrival.
+
+
+
+
+                    </p>
+                    <p className=" tw-text-gray">
+                    Nordic citizens, citizens of EU and EEA countries and Switzerland are required to register with the Danish Civil Registration System and obtain a CPR number within six months of their arrival in Denmark.
+
+
+
+
+
+                    </p>
+
+
+                  </div>
+                  <div>
+                  <span>HOW TO GET
+
+
+</span>
+                    <h2>
+                      <strong>A CPR Number?
+
+</strong>
+                    </h2>
+
+                   <p className=" tw-text-gray">To obtain a CPR number you must have an address in Denmark, also present a range of documents counting on your current civil status (see below). Please note that if your documents aren’t in Danish, Norwegian, Swedish, English or German, you must bring an authorized translation of all these documents.
+
+</p>
+
+
+          <p className=" tw-text-gray tw-font-medium">At Citizens’ Services you’ll be asked for:
+
+</p>    
+
+
+
+<ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Your Danish residence and legal document (non-EU/EEA citizens), or certificate of registration (for EU/EEA and Swiss citizens). Nordic citizens must bring proof of their Nordic personal positive identification, e.g. your passport.
+
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        In case, if you’re married, your marriage certificate or a licensed copy of it.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        In case, if you have got children, your child/children’s birth certificate(s).
+
+                        </p>
+                      </li>
+                    
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        In case, If you’re divorced your divorce certificate.
+
+                        </p>
+                      </li>
+                    
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        In case, if you’re a widow/widower, the death certificate of your spouse.
+
+
+                        </p>
+                      </li>
+                    
+                     
+                     
+                    </ul>
+     <div>
+
+
+   
+     </div>
+</div>
+</div>
+           
+
+                
+              </div>
+
+              <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
+                <div className="  tw-pr-10">
+                  <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
+                  {data?.map((item, index) => {
                       return (
 
-                      <div className=" col-md-4">
-                           <div className="    tw-h-80 tw-text-center tw-border-dashed tw-border-2 tw-border-gray py-5 px-4">
-                           <i>{item?.icons}</i>
-                         <div className="  tw-pt-12">
-                          <h5 className=" tw-text-white">{item?.title }</h5>
-                         <p className=" tw-text-white">{item?.description}</p>
-                         <Link to={`${item?.Link}`} className=" tw-text-blue">View More</Link>
-                         </div>
-                           </div>
-                      </div>   
-                       
+                        <Link
+                          to={`${item?.Link}`}
+                          className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
+                        >
+                          <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                            {item?.title}
+                          </p>
+                          <GoTriangleRight className="tw-text-gray" />
+                        </Link>
 
                       );
                     })}
-          </div>
-        </div>
-
-
-        <div className=" tw-bg-white sm:tw-h-32 tw-h-auto tw-relative tw-justify-center tw-flex">
-
-          <div className="container sm:tw-h-48 tw-h-auto p-5 tw-py-5 sm:tw-absolute  tw-relative   sm:-tw-top-16 tw-top-0 tw-bg-blue sm:tw-rounded-md  tw-rounded-none">
-             <div className="  row  tw-items-center tw-justify-between">
-              <div className="col-md-9">
-                <p className=" fs-2 tw-font-medium tw-text-white">HAVE ANY QUESTIONS?</p >
-                <p className="  tw-text-white tw-font-normal"><strong>Need a consultation? </strong> Call us today at +46102146276 or email us: info@swedenrelocators.se</p>
+                  </ul>
+                </div>
               </div>
-              <div className=" col-md-3">
-                 <button className=" tw-text-white border  tw-px-8 tw-py-2 tw-rounded-full  hover:tw-bg-white hover:tw-text-black">Book an  appointment</button>
-              </div>
-             </div>
+
+
+
+              
+            </div>
           </div>
-
-        </div>
-
-        <Footer />
+        </section>
       </div>
+
+      <Footer />
     </>
   );
 };
 
-export default Services;
+export default CPRNumberDenmark;

@@ -4,8 +4,8 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/psychological-problems-at-school.png";
-const ServiceDetails = () => {
+import banner from "../../assets/images/family-time.png";
+const EUCitizensRelocation = () => {
   const { id } = useParams();
 
   const data = [
@@ -200,10 +200,14 @@ const ServiceDetails = () => {
     },
   ];
 
+
+
+  
+
   return (
     <>
       <Navbar />
-      <Banner_Page title={`${id}`} />
+      <Banner_Page title={`FAMILY REUNIFICATION`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -211,130 +215,159 @@ const ServiceDetails = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>{id}</span>
+                  <span>EU CITIZEN</span>
                   <h2>
-                    <strong>What We Offer</strong>
+                    <strong>Family Members</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                    If you are an asylum seeker and need an expert to take care
-                    of your asylum process at the Swedish Migration Agency, we
-                    are here for you
-                  </p>
-                  <p className=" tw-text-gray">WHY AN EXPERT?</p>
-                  <p className=" tw-text-gray">
-                    It is a 12-digit number issued by Skatteverket to the
-                    persons registered in Sweden when they are convinced that
-                    you can support yourself and your family during the first
-                    year of your stay.
+                  Family reunification is a recognized reason for the immigration of family members to a country where one or more family member already reside.
+
+
                   </p>
                   <p className=" tw-text-gray">
-                    Personnummer is not only required to be a part of the social
-                    security and health care systems in Sweden, which is
-                    otherwise quite expensive to arrange through private
-                    insurance companies, but is often used as identification
-                    proof at all government offices, banks, insurances,
-                    subscriptions, collection of postal items at the post office
-                    etc.
+                  As a family member of an EU/EEA citizen exercising their right of free movement,you can get a visa through a facilitated process to travel with your family member or to join him/her in Sweden.
+
+
+
+
+                  </p>
+                  <p className=" tw-text-gray">
+                  Family members are:
+
+
                   </p>
 
-                  <div>
-                    <span>TAKE</span>
-                    <h2>
-                      <strong>All These Into Consideration</strong>
-                    </h2>
 
-                    <ul className=" tw-p-0 tw-pt-4">
+
+                  <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          Employment contract(s),
+                        Spouse/partner/common law spouse.
+
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          Proof of savings ex. Bank statement.
+                        The direct descendants (children) who are under the age of 21 or are dependents, and those of the spouse or partner.
+
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          Number of members in the family
+                        The dependent direct relatives in the ascending line (e.g. parents) and those of the spouse or partner.
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          Place of residence(must be in Sweden). You can NOT
-                          apply for a personnummer while still living abroad.
-                          Neither is a holiday address enough. You must have a
-                          residential address in Sweden.
+                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
+
                         </p>
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          You need to go in person (all the persons in the
-                          family) to an office of Skatteverket to apply for a
-                          personnummer.
+                        Once in Sweden you should apply for a residence card for a family member of a EU/EEA citizen within three months for a Residence Card of a family member of a EU/EEA citizen.
+
                         </p>
                       </li>
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                          A legal ID-certificate, preferably a passport for
-                          every person applying.
-                        </p>
-                      </li>
+                     
                     </ul>
-                  </div>
+                  
 
-                  <div>
-                    <span>ELIGIBILITY</span>
-                    <h2>
-                      <strong>CAN APPLY FOR ASYLUM? </strong>
-                    </h2>
-
-                    <p className=" tw-text-gray">
-                      You have to be in Sweden or on the Sweden’s border in
-                      order to apply for asylum. It’s not possible to apply for
-                      asylum before you arrive in Sweden or at a Swedish embassy
-                      in another country.
-                    </p>
-                    <p className=" tw-text-gray tw-py-3">
-                      Asylum seeker’s application is examined individually and
-                      will be granted a residence permit only if one fulfills
-                      criteria of being a refugee.
-                    </p>
-                  </div>
 
                   <img src={banner} alt="" />
 
                   <div>
-                    <span>FAMILY REUNIFICATION</span>
+                    <span>SWEDISH-NORDIC FAMILY
+</span>
                     <h2>
-                      <strong>Reunification For Refugees</strong>
+                      <strong>Reunification</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                      Family reunification is a recognized reason for the
-                      immigration of family members to a country where one or
-                      more family members are already residing.
+                    If you are Swedish or Nordic citizen, then you can apply for residence permit under national Laws. Requirements are slightly different than the above-mentioned EU residence card.
+
+
                     </p>
+                    <p className=" tw-text-gray">
+                    The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in. However, these mentainence requirements are not applicable in all cases.
+
+
+                    </p>
+
+
                   </div>
                   <div>
+                  <span>STUDENT-WORK-BUSINESS PERMIT FAMILY
+
+</span>
                     <h2>
-                      <strong>Who Have A Right To Family Reunification?</strong>
+                      <strong>Reunification
+</strong>
                     </h2>
 
-                    <p className=" tw-text-gray">
-                      Your family can apply for residence permits to join you in
-                      Sweden if you have been granted:
-                    </p>
-                  </div>
-                </div>
+                    <span>WHAT ARE
+
+</span>
+
+                    <h2>
+                      <strong>Mentainence Requirements
+
+</strong>
+                    </h2>
+
+                 
+     <div>
+
+     <span>HOUSING
+
+</span>
+
+                    <h2>
+                      <strong>Requirements:
+
+
+</strong>
+                    </h2>
+
+
+     <ul className=" tw-p-0  tw-list-disc    tw-pt-4">
+                      <li className=" ">
+                        
+                        <p className=" m-0 tw-text-gray">
+                        The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in.
+
+
+                        </p>
+                      </li>
+                      <li className=" ">
+                        
+                        <p className=" m-0 tw-text-gray">
+                        If you rent your home, you have to send in a copy of your tenancy agreement. You must also enclose a rent invoice for the last month’s rent (1 month).
+
+</p>
+                      </li>
+
+                     
+                   
+                    </ul>
+
+                    <p className=" tw-text-gray tw-font-medium">
+                    The agreement has to contain:
+
+</p>
+     </div>
+</div>
+</div>
+           
+
+                
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
@@ -358,6 +391,10 @@ const ServiceDetails = () => {
                   </ul>
                 </div>
               </div>
+
+
+
+              
             </div>
           </div>
         </section>
@@ -368,4 +405,4 @@ const ServiceDetails = () => {
   );
 };
 
-export default ServiceDetails;
+export default EUCitizensRelocation;

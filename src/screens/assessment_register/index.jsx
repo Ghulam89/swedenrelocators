@@ -17,7 +17,7 @@ const Assessment_register = () => {
   
   const {id} = useParams()
 
-  const data = [
+  const data= [
     {
       id: 1,
       title: "Asylum",
@@ -26,6 +26,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link:'/asylum'
     },
     {
       id: 2,
@@ -35,6 +36,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -44,6 +46,9 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link:'/personnumer-sweden'
+      
     },
     {
       id: 4,
@@ -53,6 +58,8 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link:'/cpr-number-denmark'
+      
     },
     {
       id: 5,
@@ -62,6 +69,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link:'/cpr-number-denmark'
     },
     {
       id: 5,
@@ -71,6 +79,9 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link:'/business-permit'
+    
     },
     {
       id: 6,
@@ -80,6 +91,8 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+      
+      Link:'/business-permit'
     },
     {
       id: 7,
@@ -89,6 +102,8 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      
+    
     },
     {
       id: 8,
@@ -98,6 +113,8 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link:'/study-in-eu'
+      
     },
     {
       id: 9,
@@ -107,6 +124,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link:'/study-in-eu'
     },
     {
       id: 10,
@@ -116,6 +134,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -125,6 +144,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -134,6 +154,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -143,6 +164,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/company-registration'
     },
     {
       id: 14,
@@ -152,6 +174,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/study-in-eu'
     },
     {
       id: 15,
@@ -161,6 +184,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -170,6 +194,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -179,15 +204,17 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link:'/investment'
     },
     {
       id: 18,
-      title: "Direct Citizenship ",
+      title: "Direct Citizenship by Investments      ",
       description:
         "citizenship-by-investment programs provide ultra-wealthy families with the privilege of a second or third passport.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -197,18 +224,19 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link:'/permanent-residence'
     },
     {
       id: 20,
-      title: "Golden Visa    ",
+      title: "Golden Visa (Greece - Portugal)      ",
       description:
         "As a member state of the EU, They offer its residents and citizens a number of reassuring benefits.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link:'/golden-visa-greece-portugal'
     },
   ];
-
 
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -236,7 +264,7 @@ const Assessment_register = () => {
                 <div className="col-lg-12">
                   {/* user info */}
                   <div>
-                    <div className=" tw-bg-blue p-3 tw-rounded-md tw-flex tw-items-center tw-text-white">
+                    <div className="  tw-bg-primary p-3 tw-rounded-md tw-flex tw-items-center tw-text-white">
                       <i class="fa fa-user"></i>
                       <p className=" m-0 tw-text-white tw-font-semibold">
                         PERSONAL DETAILS
@@ -257,7 +285,7 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"You Full Name"}
                             star={"*"}
-                            className={" tw-w-full border tw-rounded-xl  tw-py-3 tw-px-3"}
+                            className={" tw-w-full border tw-rounded-lg  tw-py-3.5 tw-px-3"}
                             label={"Full Name"}
                           />
                         </div>
@@ -265,7 +293,7 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"Contact No with Country"}
                             star={"*"}
-                            className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
+                            className={" tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg"}
                             label={"Contact No"}
                           />
                         </div>
@@ -273,7 +301,7 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"your Address"}
                             star={"*"}
-                            className={" tw-w-full border tw-py-3  tw-px-3 tw-rounded-xl"}
+                            className={" tw-w-full border tw-py-3.5  tw-px-3 tw-rounded-lg"}
                             label={"Your Email"}
                           />
                         </div>
@@ -283,7 +311,7 @@ const Assessment_register = () => {
 
                   {/* user info */}
                   <div className=" tw-pt-8">
-                    <div className=" tw-bg-blue p-3 tw-rounded-md tw-flex tw-items-center tw-text-white">
+                    <div className="  tw-bg-primary p-3 tw-rounded-md tw-flex tw-items-center tw-text-white">
                       <i class="fa tw-text-white fa-building tw-pt-1"></i>
                       <p className=" m-0 tw-text-white tw-font-semibold">
                         EDUCATIONAL & BUSINESS BACKGROUND
@@ -293,7 +321,7 @@ const Assessment_register = () => {
                     <form>
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
-                          <label
+                          {/* <label
                             htmlFor="first_name"
                             className=" tw-block  tw-text-md  tw-pb-2.5 tw-text-gray"
                           >
@@ -301,8 +329,8 @@ const Assessment_register = () => {
                               *
                             </a>{" "}
                             Choose Option
-                          </label>
-                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3  tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-xl">
+                          </label> */}
+                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3  tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
                             <option>Choose an Option</option>
                             <option>I am in Sweden</option>
                             <option>I am outside of Sweden</option>
@@ -314,7 +342,7 @@ const Assessment_register = () => {
 
                   {/* user info */}
                   <div className=" tw-pt-8">
-                    <div className=" tw-bg-blue p-3 tw-rounded-md tw-flex tw-items-center tw-text-white">
+                    <div className="  tw-bg-primary p-3 tw-rounded-md tw-flex tw-items-center tw-text-white">
                       <i class="fa tw-text-white fa-building tw-pt-1"></i>
                       <p className=" m-0 tw-text-white tw-font-semibold">
                         LANGUAGE SKILLS
@@ -324,7 +352,7 @@ const Assessment_register = () => {
                     <form>
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
-                          <label
+                          {/* <label
                             htmlFor="first_name"
                             className=" tw-block  tw-text-md  tw-pb-2.5 tw-text-gray"
                           >
@@ -332,15 +360,15 @@ const Assessment_register = () => {
                               *
                             </a>{" "}
                             Do you have English language certificate?
-                          </label>
-                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-xl">
+                          </label> */}
+                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3.5 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-lg">
                             <option>Choose an Option</option>
                             <option>Yes</option>
                             <option>No</option>
                           </select>
                         </div>
                         <div className="col-md-8 tw-pt-4">
-                          <label
+                          {/* <label
                             htmlFor="first_name"
                             className=" tw-block  tw-text-md  tw-pb-2.5 tw-text-gray"
                           >
@@ -348,8 +376,8 @@ const Assessment_register = () => {
                               *
                             </a>{" "}
                             Do you have Swedish Language Certificate?
-                          </label>
-                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-xl">
+                          </label> */}
+                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3.5 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-lg">
                             <option>Choose an Option</option>
                             <option>Yes</option>
                             <option>No</option>
@@ -378,7 +406,7 @@ const Assessment_register = () => {
                       return (
 
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">

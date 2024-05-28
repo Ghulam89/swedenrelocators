@@ -10,7 +10,7 @@ import mobile5 from "../../assets/images/writing_image.png";
 import { GoTriangleRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 const New_In_sweden = () => {
-  const data = [
+  const data= [
     {
       id: 1,
       title: "Asylum",
@@ -19,6 +19,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link:'/asylum'
     },
     {
       id: 2,
@@ -28,6 +29,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -37,6 +39,9 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link:'/personnumer-sweden'
+      
     },
     {
       id: 4,
@@ -46,6 +51,8 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link:'/cpr-number-denmark'
+      
     },
     {
       id: 5,
@@ -55,6 +62,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link:'/cpr-number-denmark'
     },
     {
       id: 5,
@@ -64,6 +72,9 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link:'/business-permit'
+    
     },
     {
       id: 6,
@@ -73,6 +84,8 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+      
+      Link:'/business-permit'
     },
     {
       id: 7,
@@ -82,6 +95,8 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      
+    
     },
     {
       id: 8,
@@ -91,6 +106,8 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link:'/study-in-eu'
+      
     },
     {
       id: 9,
@@ -100,6 +117,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link:'/study-in-eu'
     },
     {
       id: 10,
@@ -109,6 +127,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -118,6 +137,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -127,6 +147,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -136,6 +157,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/company-registration'
     },
     {
       id: 14,
@@ -145,6 +167,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/study-in-eu'
     },
     {
       id: 15,
@@ -154,6 +177,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -163,6 +187,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -172,6 +197,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link:'/investment'
     },
     {
       id: 18,
@@ -181,6 +207,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -190,6 +217,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link:'/permanent-residence'
     },
     {
       id: 20,
@@ -199,6 +227,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link:'/golden-visa-greece-portugal'
     },
   ];
 
@@ -1578,7 +1607,7 @@ const New_In_sweden = () => {
                       return (
 
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">

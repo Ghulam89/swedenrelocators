@@ -48,28 +48,29 @@ const Login = () => {
                     </div>
 
                     <form>
-                      <div className=" row g-3 tw-pt-4 ">
+                      <div className=" row tw-pt-6">
                         <div className="col-md-12">
                           <Input
                             placeholder={"Email Address..."}
                             star={"*"}
-                            className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
-                            label={"Your Email"}
+                            className={" tw-w-full border tw-py-3.5 tw-px-3 "}
+                            label={"Email Address"}
                           />
                         </div>
+                        
                         <div className="col-md-12">
                           <Input
                             placeholder={"Enter Password"}
                             star={"*"}
-                            className={" tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl"}
-                            label={"Your Password..."}
+                            className={" tw-w-full border tw-py-3.5 tw-px-3 "}
+                            label={"Password"}
                           />
                         </div>
                         <div className=" col-md-12">
                           <div className=" tw-flex tw-justify-between tw-items-center">
-                            <div className=" tw-flex tw-gap-2 tw-items-center ">
+                            <div className=" tw-flex tw-gap-2 tw-pt-1  tw-items-center ">
                               <Input type={'checkbox'} className={' tw-w-4  tw-h-4'} />
-                              <p className=" tw-text-gray tw-pt-5">
+                              <p className=" tw-text-gray">
                                 Remember Password
                               </p>
                             </div>
@@ -84,7 +85,7 @@ const Login = () => {
                           <Button
                             label={"sign in"}
                             className={
-                              " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-3.5  tw-w-full  tw-rounded-xl tw-text-white "
+                              " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-3.5  tw-w-full  tw-rounded-lg tw-text-white "
                             }
                           />
                         </div>

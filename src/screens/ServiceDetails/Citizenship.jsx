@@ -1,67 +1,14 @@
 import React from "react";
-import Navbar from "../../components/Header/Navbar";
 import Banner_Page from "../../components/Common/Banner_Page";
+import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
-import Button from "../../components/Button";
 import { GoTriangleRight } from "react-icons/go";
-import assess1 from "../../assets/images/BusinessAssessment.png";
-import assess2 from "../../assets/images/VisitVisaAssessment.png";
-import assess3 from "../../assets/images/StudyAssesmment.png";
-import assess4 from "../../assets/images/WorkPermit.png";
-import assess5 from "../../assets/images/ass5.png";
-import assess6 from "../../assets/images/ass6.png";
-import { Link } from "react-router-dom";
-const Assessment = () => {
+import { Link, useParams } from "react-router-dom";
+import banner from "../../assets/images/security-check-in-airport.png";
+const Citizenship = () => {
+  const { id } = useParams();
+
   const data = [
-    {
-      id: 1,
-      title: "Business Visa Assessment",
-      image: assess1,
-      Icon: <i class="fa fa-building tw-mt-1" aria-hidden="true"></i>,
-      Link:""
-    },
-    {
-      id: 2,
-      title: "Visit Visa Assessment",
-      image: assess2,
-      Icon: <i class="fa fa-street-view tw-mt-1" aria-hidden="true"></i>,
-      Link:""
-    },
-    {
-      id: 3,
-      title: "Study in Sweden Assesmment",
-      image: assess3,
-      Icon: <i class="fa fa-male tw-mt-1" aria-hidden="true"></i>,
-      Link:""
-    },
-    {
-      id: 4,
-      title: "Work Permit Assesmment",
-      image: assess4,
-      Icon: <i class="fa fa-briefcase tw-mt-1" aria-hidden="true"></i>,
-      Link:""
-    },
-    {
-      id: 5,
-      title: "Family Reunification Assessment",
-      image: assess5,
-      Icon: <i class="fa fa-users tw-mt-1" aria-hidden="true"></i>,
-      Link:""
-    },
-    {
-      id: 6,
-      title: "Long Term EU Status Assessment",
-      image: assess6,
-      Icon: <i class="fa fa-home tw-mt-1" aria-hidden="true"></i>,
-      Link:""
-    },
-  ];
-
-
-
-
-
-  const data2= [
     {
       id: 1,
       title: "Asylum",
@@ -70,7 +17,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
-      Link:'/asylum'
     },
     {
       id: 2,
@@ -80,7 +26,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
-      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -90,9 +35,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
-
-      Link:'/personnumer-sweden'
-      
     },
     {
       id: 4,
@@ -102,8 +44,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
-      Link:'/cpr-number-denmark'
-      
     },
     {
       id: 5,
@@ -113,7 +53,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/cpr-number-denmark'
     },
     {
       id: 5,
@@ -123,9 +62,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
-
-      Link:'/business-permit'
-    
     },
     {
       id: 6,
@@ -135,8 +71,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
-      
-      Link:'/business-permit'
     },
     {
       id: 7,
@@ -146,8 +80,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      
-    
     },
     {
       id: 8,
@@ -157,8 +89,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
-      Link:'/study-in-eu'
-      
     },
     {
       id: 9,
@@ -168,7 +98,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/study-in-eu'
     },
     {
       id: 10,
@@ -178,7 +107,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
-      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -188,7 +116,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
-      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -198,7 +125,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
-      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -208,7 +134,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/company-registration'
     },
     {
       id: 14,
@@ -218,7 +143,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/study-in-eu'
     },
     {
       id: 15,
@@ -228,7 +152,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
-      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -238,7 +161,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
-      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -248,7 +170,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
-      Link:'/investment'
     },
     {
       id: 18,
@@ -258,7 +179,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
-      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -268,7 +188,6 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
-      Link:'/permanent-residence'
     },
     {
       id: 20,
@@ -278,106 +197,232 @@ const Assessment = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
-      Link:'/golden-visa-greece-portugal'
     },
   ];
+
+
+
+  
+
   return (
     <>
       <Navbar />
-      <Banner_Page title={" Assessment"} />
-      <section className=" md:tw-pt-40 tw-pt-48">
-        <div className="container-fluid ">
-          <div className="row">
-            <div className="col-md-8 ">
-              <div className=" tw-bg-white  md:tw-pl-20 tw-pl-5 md:tw-pr-18 tw-pr-5 tw-pt-14">
-                <div className="">
-                  <p className=" tw-font-bold tw-text-2xl md:tw-flex tw-block tw-gap-2  tw-text-gray-dark tw-m-0">
-                    {" "}
-                    <img
-                      src={
-                        "https://swedenrelocators.se/pages/assets/web/images/background/results.png"
-                      }
-                      className=" tw-w-10"
-                      alt=""
-                    />{" "}
-                    Check below your Visa or Residence Permit Eligibility
+      <Banner_Page title={`CITIZENSHIP`} />
+
+      <div className=" ">
+        <section className="  md:tw-mt-36 tw-mt-44">
+          <div className="container-fluid">
+            <div className="row g-4">
+              <div className="col-md-8 tw-py-20 tw-bg-white">
+                <div className="  md:tw-px-20 tw-px-2">
+                  <span>REQUIREMENTS FOR BECOMING
+</span>
+                  <h2>
+                    <strong>A Swedish Citizen By Application
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray tw-font-medium">
+                  To be able to become a Swedish citizen, you have to
+
+
+
                   </p>
 
-                  <p className=" tw-text-gray tw-pt-3">
-                    This tool will help you to find out if you are eligible to
-                    apply for Visa or Residence Permit. We made this assessment
-                    tool to make sure, If you are eligible for your desired Visa
-                    or Residence Permit. In the end of your assesment process
-                    you would receive your result. The risk of changes in law
-                    refers to the risk of changes that may affect the assessment
-                    results.
-                  </p>
-                  <p className=" tw-text-gray tw-pt-2">
-                    Any sort of visa and residence permit for any country are
-                    available at lower cost when you apply directly on their
-                    official website. Our comprehensive visa and
-                    Immigration-Relocation services are provided by Migration
-                    Agents who have experience to advise on visa strategy, right
-                    documentation and they ensure your application is successful
-                    and we charge for our services.
-                  </p>
-                </div>
+                 
 
-                <div className="row tw-py-12">
-                  {data?.map((item, index) => {
-                    return (
-                      <>
-                        <div className="col-md-6">
-                          <Link to={`/assessment_register/${item?.title}`}   >
-                            <img
-                              src={item?.image}
-                              alt=""
-                              className="  tw-mx-auto"
-                            />
 
-                            <Button
-                              Icons={item?.Icon}
-                              className={
-                                " hover:tw-bg-blue tw-text-black tw-font-semibold tw-w-full tw-py-3"
-                              }
-                              label={`${item?.title}`}
-                            />
-                          </Link>
-                        </div>
-                      </>
-                    );
-                  })}
-                </div>
 
-                <h6 className=" tw-text-gray tw-mb-3 text-xl">Notes:</h6>
+                  <ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        be able to prove your identity
 
-                <div className=" tw-bg-white tw-shadow-lg tw-rounded-md tw-py-4  tw-mb-4  px-3">
-                  <p className="  tw-text-gray text-sm tw-m-0">
-                    Once you book the appointment you will be able to upload the
-                    documents on online portal, If you are in Sweden or Denmark
-                    you can visit us in our office.
-                  </p>
-                </div>
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        be 18 years of age or older
 
-                <div className=" tw-bg-blue tw-rounded-md tw-py-4 tw-mb-12  px-3">
-                  <h6 className=" tw-text-white tw-m-0">
-                    {" "}
-                    <i class="fa fa-calendar"></i>You can be anywhere in the
-                    world to apply visa online through our one window visa
-                    application system.
-                  </h6>
-                </div>
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        have a permanent residence permit (a temporary residence permit is not applicable) or
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
+
+                        </p>
+                      </li>
+
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        have a right of residence or residence card (applies to you if you are an EU citizen or a close relative of an EU citizen)
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        lived in Sweden for a certain amount of time
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        have conducted yourself well while in Sweden.
+
+                        </p>
+                      </li>
+                     
+                    </ul>
+                  
+                    <div>
+                    <span>YOU MUST HAVE LIVED
+
+</span>
+                    <h2>
+                      <strong>In Sweden For A Certain Period
+</strong>
+                    </h2>
+
+                    <p className=" tw-text-gray">
+                    For becoming a Swedish citizen, you need to live in Sweden for a certain period of time.
+
+
+
+                    </p>
+                    <p className=" tw-text-gray">
+                    The required period can vary from case to case. Some people have to live for 5 year continuously. Other rules apply for those who are stateless or refugees.
+
+
+
+                    </p>
+
+
+                  </div>
+
+                  <img src={banner} alt="" />
+
+                  
+                  <div>
+                 
+
+                    
+
+                 
+     <div>
+
+     <span className=" tw-mt-5">CITIZENSHIP
+
+
+</span>
+
+                    <h2>
+                      <strong>For Adults
+
+
+</strong>
+                    </h2>
+
+
+                    <p className=" tw-text-gray ">
+                    When you have lived in Sweden for a specified period and meet the other requirements, you can apply for a Swedish citizenship.
+
+
+
+</p>
+
+<div className="">
+  
+<span className=" tw-mt-5">PERIOD OF
+
+
+
+</span>
+
+                    <h2>
+                      <strong>Residence
+
+
+
+</strong>
+                    </h2>
+
+
+                    <p className=" tw-text-gray ">
+                    To become a Swedish citizen, you need to live in Sweden for 5 years continuously and you want to continue living in future aswell. The time of the residence permit that leads to a permanent residence permit is counted as a period of habitual residence.
+
+
+
+
+</p>
+                    <p className=" tw-text-gray ">
+                    If you had a permanent residence permit or a residence permit for settlement when you entered Sweden, you count the duration of stay from your date of arrival. Otherwise, the duration of stay is calculated from the date on which you submitted your application for a residence permit and were approved. If your application was initially rejected and you then submitted a new application, the time is counted from the date on which you received approval.
+
+
+
+
+
+</p>
+</div>
+
+
+
+<div className="">
+  
+<span className=" tw-mt-5">EU/EEA CITIZENS
+
+
+
+
+</span>
+
+                    <h2>
+                      <strong>And Their Family Members
+
+
+
+
+</strong>
+                    </h2>
+
+
+                    <p className=" tw-text-gray ">
+                    EU/EEA citizens and their family members should complete and fulfill the requirements of residence permit in order to get the Swedish citizenship.
+
+
+
+
+
+</p>
+                  
+</div>
+     </div>
+</div>
+</div>
+           
+
+                
               </div>
-            </div>
 
-            <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-              <div className="  tw-pr-10">
-                <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                {data2?.map((item, index) => {
+              <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
+                <div className="  tw-pr-10">
+                  <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
+                  {data?.map((item, index) => {
                       return (
 
                         <Link
-                          to={`${item?.Link}`}
+                          to={`${`/service_details/${item?.title}`}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
@@ -388,15 +433,21 @@ const Assessment = () => {
 
                       );
                     })}
-                </ul>
+                  </ul>
+                </div>
               </div>
+
+
+
+              
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
+
       <Footer />
     </>
   );
 };
 
-export default Assessment;
+export default Citizenship;
