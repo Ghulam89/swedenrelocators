@@ -57,13 +57,13 @@ const BlogDetails = () => {
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/cpr-number-denmark'
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -86,7 +86,7 @@ const BlogDetails = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
       
-      Link:'/business-permit'
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -96,6 +96,7 @@ const BlogDetails = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
       
     
     },
@@ -118,7 +119,7 @@ const BlogDetails = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -168,7 +169,7 @@ const BlogDetails = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/house-offices'
     },
     {
       id: 15,

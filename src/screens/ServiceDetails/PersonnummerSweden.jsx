@@ -17,7 +17,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
-      Link:'/asylum'
+      Link: "/asylum",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
-      Link:'/family-reunification'
+      Link: "/family-reunification",
     },
     {
       id: 3,
@@ -38,8 +38,7 @@ const PersonnumerSweden = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
 
-      Link:'/personnumer-sweden'
-      
+      Link: "/personnumer-sweden",
     },
     {
       id: 4,
@@ -49,18 +48,17 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
-      Link:'/cpr-number-denmark'
-      
+      Link: "/cpr-number-denmark",
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/cpr-number-denmark'
+      Link: "/work-permit",
     },
     {
       id: 5,
@@ -71,8 +69,7 @@ const PersonnumerSweden = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
 
-      Link:'/business-permit'
-    
+      Link: "/business-permit",
     },
     {
       id: 6,
@@ -82,8 +79,8 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
-      
-      Link:'/business-permit'
+
+      Link: "/business-visit",
     },
     {
       id: 7,
@@ -93,8 +90,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      
-    
+      Link: "/citizenship",
     },
     {
       id: 8,
@@ -104,8 +100,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
-      Link:'/study-in-eu'
-      
+      Link: "/study-in-eu",
     },
     {
       id: 9,
@@ -115,7 +110,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/study-in-eu'
+      Link: "/global-visit-visas",
     },
     {
       id: 10,
@@ -125,7 +120,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
-      Link:'/eea-permits'
+      Link: "/eea-permits",
     },
     {
       id: 11,
@@ -135,7 +130,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
-      Link:'/parents-eu-permit'
+      Link: "/parents-eu-permit",
     },
     {
       id: 12,
@@ -145,7 +140,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
-      Link:'/marriage-divorce'
+      Link: "/marriage-divorce",
     },
     {
       id: 13,
@@ -155,7 +150,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/company-registration'
+      Link: "/company-registration",
     },
     {
       id: 14,
@@ -165,7 +160,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/study-in-eu'
+      Link: "/house-offices",
     },
     {
       id: 15,
@@ -175,7 +170,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
-      Link:'/appeal-cases'
+      Link: "/appeal-cases",
     },
     {
       id: 16,
@@ -185,7 +180,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
-      Link:'/eu-family-reunification'
+      Link: "/eu-family-reunification",
     },
     {
       id: 17,
@@ -195,7 +190,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
-      Link:'/investment'
+      Link: "/investment",
     },
     {
       id: 18,
@@ -205,7 +200,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
-      Link:'/direct-citizenship-by-investments'
+      Link: "/direct-citizenship-by-investments",
     },
     {
       id: 19,
@@ -215,7 +210,7 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
-      Link:'/permanent-residence'
+      Link: "/permanent-residence",
     },
     {
       id: 20,
@@ -225,13 +220,9 @@ const PersonnumerSweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
-      Link:'/golden-visa-greece-portugal'
+      Link: "/golden-visa-greece-portugal",
     },
   ];
-
-
-
-  
 
   return (
     <>
@@ -244,359 +235,542 @@ const PersonnumerSweden = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>APPLYING FOR A
-</span>
+                  <span>APPLYING FOR A</span>
                   <h2>
-                    <strong>SWEDISH SOCIAL SECURITY NUMBER (Personnummer)</strong>
+                    <strong>
+                      SWEDISH SOCIAL SECURITY NUMBER (Personnummer)
+                    </strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  The personal identification is a number that the Swedish Tax Agency assigns to person registered in Sweden to spot them with, among other authorities. It is easy to distinguish a person with their personnummer, it is unique for everybody. The foundations for obtaining a Swedish social insurance number are constantly changing. This can be why we keep ourselves up to date and that we know exactly what you wish to emphasize in your application – From the time you submit it until you’re finally approved. If you reside in Sweden without a social insurance number, it may be quite difficult. If you’re moving to Sweden for over a year, you’ll get a private number.If you are registered in Sweden you will get a personnummer as your identity number.The social security number consists of six digits with your date of birth in addittion to four digits at th end. Your social security number remains same throughout your life. There is a Coordination number for those who are not registered in Sweden.It needs a unique identification designation and is structured in the same format as a social security number (XXXXXX-XXXX) but where you add 60 on the person’s birthday.
-
-
-
+                    The personal identification is a number that the Swedish Tax
+                    Agency assigns to person registered in Sweden to spot them
+                    with, among other authorities. It is easy to distinguish a
+                    person with their personnummer, it is unique for everybody.
+                    The foundations for obtaining a Swedish social insurance
+                    number are constantly changing. This can be why we keep
+                    ourselves up to date and that we know exactly what you wish
+                    to emphasize in your application – From the time you submit
+                    it until you’re finally approved. If you reside in Sweden
+                    without a social insurance number, it may be quite
+                    difficult. If you’re moving to Sweden for over a year,
+                    you’ll get a private number.If you are registered in Sweden
+                    you will get a personnummer as your identity number.The
+                    social security number consists of six digits with your date
+                    of birth in addittion to four digits at th end. Your social
+                    security number remains same throughout your life. There is
+                    a Coordination number for those who are not registered in
+                    Sweden.It needs a unique identification designation and is
+                    structured in the same format as a social security number
+                    (XXXXXX-XXXX) but where you add 60 on the person’s birthday.
                   </p>
-                 
 
                   <img src={banner} alt="" />
 
                   <div>
-              
-
                     <p className=" tw-text-gray">
-                    When a person turns 100 The hyphen which is usually a minus sign is replaced by a plus sign in the system to distinguish from a newborn. Hence, the personnummer doesnt contain any century figures.
-
-
-
+                      When a person turns 100 The hyphen which is usually a
+                      minus sign is replaced by a plus sign in the system to
+                      distinguish from a newborn. Hence, the personnummer doesnt
+                      contain any century figures.
                     </p>
-                 
-
-
                   </div>
                   <div>
-                  <span>BECOMING
-
-
-</span>
+                    <span>BECOMING</span>
                     <h2>
-                      <strong>A Bank Customer
-
-</strong>
+                      <strong>A Bank Customer</strong>
                     </h2>
 
-                    <span>AN
-</span>
+                    <span>AN</span>
 
                     <h2>
-                      <strong>Identification
-
-
-</strong>
+                      <strong>Identification</strong>
                     </h2>
 
-                    <p className=" tw-text-gray">You must always be able to identify yourself.
-
-
-</p>
-<ul className=" tw-p-0 tw-pt-4">
+                    <p className=" tw-text-gray">
+                      You must always be able to identify yourself.
+                    </p>
+                    <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        You can identify yourself with a valid Swedish identification document, such as a passport, a national identity card or a BankID. You can also identify yourself with a Swedish driving license.
-
+                          You can identify yourself with a valid Swedish
+                          identification document, such as a passport, a
+                          national identity card or a BankID. You can also
+                          identify yourself with a Swedish driving license.
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        If you do not have Swedish identification documents, you can identify yourself with a valid foreign passport or other photographic identification document that shows your citizenship. This must be issued by an authority or some other authorised issuer. Note that the bank may request that you also present other documents.
-
+                          If you do not have Swedish identification documents,
+                          you can identify yourself with a valid foreign
+                          passport or other photographic identification document
+                          that shows your citizenship. This must be issued by an
+                          authority or some other authorised issuer. Note that
+                          the bank may request that you also present other
+                          documents.
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        If you do not have valid identity documents, you must prove who you are and your citizenship by means of other documents from an independent and reliable source.
+                          If you do not have valid identity documents, you must
+                          prove who you are and your citizenship by means of
+                          other documents from an independent and reliable
+                          source.
                         </p>
                       </li>
-                     
-                     
                     </ul>
 
+                    <div>
+                      <span>FOREIGN</span>
 
+                      <h2>
+                        <strong>Students</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        If you are a foreign student, you must always be able to
+                        identify yourself as above.
+                      </p>
+                      <p className=" tw-text-gray tw-font-medium">
+                        You also need:
+                      </p>
+                      <ul className=" tw-p-0 tw-pt-4">
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            A residence permit or a visa (does not apply to EU
+                            citizens).
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            An admission decision confirmation from your
+                            university, showing the duration of your studies.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
 
                     <div>
-                    <span>FOREIGN
+                      <span>IN CERTAIN CASES</span>
+
+                      <h2>
+                        <strong>
+                          The Bank Can Refuse You To Open An Account
+                        </strong>
+                      </h2>
+
+                      <p className=" tw-text-gray tw-font-medium">
+                        The bank may not open an account if :
+                      </p>
+                      <ul className=" tw-p-0 tw-pt-4">
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            The bank cannot identify you in a sufficiently
+                            secure manner.
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            The bank determines that the reason you provided for
+                            wanting to open an account is inadequate.
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            The bank, by opening an account, would be acting in
+                            breach of a legal regulation or directive.
+                          </p>
+                        </li>
+                      </ul>
+                      <p className="  tw-text-gray">
+                        The bank may also refuse you an account if you have
+                        previously acted dishonestly towards the bank.
+                      </p>
+                    </div>
+
+                    <div>
+                      <span>BEAR</span>
+
+                      <h2>
+                        <strong>In Mind That…</strong>
+                      </h2>
+
+                      <ul className=" tw-p-0 tw-pt-4">
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            You must be able to understand the bank’s questions
+                            and answer them.
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            You must also be able to understand the information
+                            that the bank gives you.
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            If you need someone to translate for you, you should
+                            bring such a person with you to the meeting with the
+                            bank.
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            The bank will ask you where your money is being sent
+                            from.
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            Your account and other bank services may not be used
+                            by anyone else unless an agreement for this is held
+                            with the bank.
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                            The bank may ask you additional questions or
+                            stipulate other requirements.
+                          </p>
+                        </li>
+                      </ul>
+                      <p className="  tw-text-gray">
+                        The bank may also refuse you an account if you have
+                        previously acted dishonestly towards the bank.
+                      </p>
+                    </div>
+
+                    <div>
+                      <span>DRIVING</span>
+                      <h2>
+                        <strong>License</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        If you have a driving license which was issued in an EU
+                        country is valid throughout your stay in Sweden. You can
+                        even exchange your driving license to Swedish license if
+                        you have permanent residence.
+                      </p>
+                      <p className=" tw-text-gray">
+                        A driving license that was issued in non-EEA countries
+                        (excluding Switzerland and Japan) is valid for a maximum
+                        of one year in Sweden. It cannot be exchanged to Swedish
+                        license and If you want to continue driving in Sweden
+                        you will have to complete the risk education, and theory
+                        and practical examinations.
+                      </p>
+                    </div>
+
+                    <div>
+                      <span>SCHOOLS IN</span>
+                      <h2>
+                        <strong>SWEDEN</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        In Swedish preschools, play is a key component. There is
+                        a focus on basic values such as playing together,
+                        tolerance and consideration for others. Preschool is for
+                        children aged 1 to 5.
+                      </p>
+                      <p className=" tw-text-gray">
+                        The year the child turns 6, he or she can participate in
+                        a non-compulsory preschool class (sexårsverksamhet)
+                        designed to help children meet future classmates and
+                        prepare for primary school without the stress of heavy
+                        studies or homework.
+                      </p>
+                      <p className=" tw-text-gray">
+                        From the ages of 7 to 16, all children in Sweden are
+                        required to attend the compulsory school (grundskola),
+                        where they are taught a core group of basic subjects.
+                        Families can apply for before/after-school care for
+                        their children (fritids).
+                      </p>
+                      <p className=" tw-text-gray">
+                        There is a charge for preschools and after-school care,
+                        but from the age of 6, all schooling in Sweden is free
+                        of charge and includes a hot lunch. Note, there is
+                        usually a fee for private schools and international
+                        schools.
+                      </p>
+                    </div>
+
+                    <div>
+                      <span>PREGNANCY</span>
+                      <h2>
+                        <strong>AND MATERNITY</strong>
+                      </h2>
+
+                      <span>PARENTAL</span>
+                      <h2>
+                        <strong>Leave(Föräldraledighet)</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        In Sweden a parent is entitled to take parental leave
+                        until their child is 8 years old in order to take care
+                        of them. During the leave parents are paid allowance
+                        from (Försäkringskassan) in accordance with the law.
+                        www.forsakringskassan.se.
+                      </p>
+
+                      <span>PARENTAL</span>
+                      <h2>
+                        <strong>Benefits</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Parental benefit is money you receive to be able to be
+                        at home with your child instead of working, seeking work
+                        or studying. Parents are granted 480 days of leave per
+                        child. 390 of these days are income based and 90 days
+                        are at the minimum level. It is not your employer who
+                        covers the cost of your parent benefit but the Swedish
+                        Social Insurance Agency (Försäkringskassan).
+                      </p>
+
+                      <span>MATERNITY</span>
+                      <h2>
+                        <strong>Clinics</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        The maternity clinic (MVC) mödravårdscentralen, is
+                        primarily for pregnant women. You go to the maternity
+                        clinic throughout your pregnancy to check that both the
+                        child and you yourself are doing well. Visits to the
+                        maternity clinic are free.
+                      </p>
+
+                      <span>CHILD</span>
+                      <h2>
+                        <strong>Health Centre</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        As a parent, you can get help here. At the child health
+                        centre, or barnavårdscentralen (BVC), you can get tips
+                        about your child’s development, breast-feeding, food and
+                        illnesses. When you come home after the childbirth, you
+                        can contact the child health centre yourself to make an
+                        appointment for a first meeting. The first meeting is
+                        often held at home. At the meeting the nurse tells you
+                        about the child health centre and looks to see how your
+                        baby is doing.
+                      </p>
+
+                      <span>CHILD</span>
+                      <h2>
+                        <strong>Allowance</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        Children who live in Sweden start receiving a child
+                        allowance the month after their birth. The allowance is
+                        paid until the child turns 16.
+                      </p>
+
+                      <span>REGISTER</span>
+                      <h2>
+                        <strong>With Försäkringskassan</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        You need to register with Försäkringskassan (the Swedish
+                        Social Insurance Agency) to qualify for benefits. Read
+                        more at www.forsakringskassan.se
+                      </p>
+
+                      <span>HEALTH AND</span>
+                      <h2>
+                        <strong>Medical Care</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        The official website 1177.se offers extensive advice on
+                        healthcare topics in several languages as well as a
+                        search function (in Swedish) for nearby healthcare
+                        centers.
+                      </p>
+
+                      <p className=" tw-text-gray">
+                      It is a 24-hour provider of free healthcare information and consulting. Phone 1177, or if you call from outside Sweden the number is: +46 771 11 77 00.
+
+
+                      </p>
+                      <p className=" tw-text-gray">
+                      Once you are registered in Sweden (have received a personal identification number), you are entitled to healthcare under the same conditions as other residents of Sweden. This means that you pay the regular Swedish patient fee for medical care in the public healthcare system.
+
+
+
+                      </p>
+
+
+
+                      <span>ID</span>
+                      <h2>
+                        <strong>Card
+</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                      You can get ID cards issued by tax agency. You need to visit one of the Skatteverket’s office and pay the fee i.e 400 SEK before you visit them.
+
+
+                      </p>
+
+                      <p className=" tw-text-gray">
+                      To be able to apply for an ID card, you must be registered as living in Sweden (having received the personal identification number), be able to show a receipt for the application fee payment and be able to show who you are (prove your identity).
+
+
+
+                      </p>
+
+
+
+                      <span>UNEMPLOYMENT</span>
+                      <h2>
+                        <strong>Insurance
+</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                      Payouts of unemployment insurance take two forms, a basic benefit or an income-related benefit.
+
+
+
+                      </p>
+
+                      <p className=" tw-text-gray">
+                      Unemployment insurance is not a part of the social insurance system in Sweden. Unemployment insurance is connected closely to the trade unions but is legally independent. When you start working in Sweden, investigate which unemployment insurance fund (widely known as A-Kassa) is available.
+
+
+
+
+                      </p>
+                     
+                      <p className=" tw-text-gray">
+                      In order to receive an income-based benefit, you must have been a member of a voluntary unemployment insurance fund (A-kassa) for 12 months and have worked (been employed) for at least six months. In addition, some trade unions offer additional insurance against loss of income.
+
+
+
+
+
+                      </p>
+
+
+
+
+                      
+                      <span>LEARN
+</span>
+                      <h2>
+                        <strong>Swedish In Sweden
+
+</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                      Depending on the location of your stay, there are different options for learning Swedish while in the country. More information at: www.sweden.se.
+
+
+
+
+                      </p>
+
+                      <p className=" tw-text-gray">
+                      Folkuniversitetet offers Swedish courses at different levels.
+
+
+
+
+
+                      </p>
+                     
+                      <p className=" tw-text-gray">
+                      Study associations also offer language courses and a wide range of other courses. See a list of study associations.
+
+
+
+
+
+
+                      </p>
+                      <p className=" tw-text-gray">
+                      SFI-courses (Swedish for immigrants). Once you have become a resident in Sweden and have been issued a personal identity number (personnummer) you can contact your local municipality for information about Swedish lessons for immigrants (SFI). SFI is basic training in the Swedish language for adults who do not have Swedish as their first language. You can study SFI full-time or part-time. The training is free of charge.
+
+
+
+
+
+
+
+                      </p>
+
+
+
+                      <p className=" tw-text-gray">
+                      SFI-courses (Swedish for immigrants). Once you have become a resident in Sweden and have been issued a personal identity number (personnummer) you can contact your local municipality for information about Swedish lessons for immigrants (SFI). SFI is basic training in the Swedish language for adults who do not have Swedish as their first language. You can study SFI full-time or part-time. The training is free of charge.
+
+
+
+
+
+
+
+                      </p>
+
+
+
+                      <span>RECOGNITION OF
 
 </span>
-
-                    <h2>
-                      <strong>Students
-
+                      <h2>
+                        <strong>Higher Education Qualifications
 
 
 </strong>
-                    </h2>
+                      </h2>
 
-                    <p className=" tw-text-gray">If you are a foreign student, you must always be able to identify yourself as above.
-
-
-
-
-</p>
-                    <p className=" tw-text-gray tw-font-medium">You also need:
+                      <p className=" tw-text-gray">
+                      The European Commission has devised a system known as ECTS (European Credit Transfer System) . It allows for the transfer of higher education credits between European countries. The Swedish Council for Higher Education (UHR) evaluates foreign qualifications in order to provide support for people looking for work in Sweden, people who wish to continue studying, or for employers who wish to employ someone with foreign qualifications.
 
 
 
 
 
+                      </p>
 
-</p>
-<ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        A residence permit or a visa (does not apply to EU citizens).
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        An admission decision confirmation from your university, showing the duration of your studies.
-
-                        </p>
-                      </li>
-                    
+                      
                      
-                     
-                    </ul>
                     </div>
-                  
-
-
-                    <div>
-                    <span>IN CERTAIN CASES
-
-
-</span>
-
-                    <h2>
-                      <strong>The Bank Can Refuse You To Open An Account
-
-
-
-
-</strong>
-                    </h2>
-
-   
-                    <p className=" tw-text-gray tw-font-medium">The bank may not open an account if :
-
-
-
-
-
-
-
-
-</p>
-<ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The bank cannot identify you in a sufficiently secure manner.
-
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The bank determines that the reason you provided for wanting to open an account is inadequate.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The bank, by opening an account, would be acting in breach of a legal regulation or directive.
-
-                        </p>
-                      </li>
-                    
-                     
-                     
-                    </ul>
-                    <p className="  tw-text-gray">The bank may also refuse you an account if you have previously acted dishonestly towards the bank.
-
-</p>
-                    </div>
-
-                    <div>
-                    <span>BEAR
-
-
-</span>
-
-                    <h2>
-                      <strong>In Mind That…
-
-
-
-
-
-</strong>
-                    </h2>
-
-   
-<ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        You must be able to understand the bank’s questions and answer them.
-
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        You must also be able to understand the information that the bank gives you.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        If you need someone to translate for you, you should bring such a person with you to the meeting with the bank.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The bank will ask you where your money is being sent from.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Your account and other bank services may not be used by anyone else unless an agreement for this is held with the bank.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The bank may ask you additional questions or stipulate other requirements.
-
-                        </p>
-                      </li>
-                    
-                     
-                     
-                    </ul>
-                    <p className="  tw-text-gray">The bank may also refuse you an account if you have previously acted dishonestly towards the bank.
-
-</p>
-                    </div>
-
-
-                    <div>
-                    <span>DRIVING
-
-</span>
-                  <h2>
-                    <strong>License</strong>
-                  </h2>
-
-                  <p className=" tw-text-gray">
-                  If you have a driving license which was issued in an EU country is valid throughout your stay in Sweden. You can even exchange your driving license to Swedish license if you have  permanent residence.
-
-
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  A driving license that was issued in non-EEA countries (excluding Switzerland and Japan) is valid for a maximum of one year in Sweden. It cannot be exchanged to Swedish license and If you want to continue driving in Sweden you will have to complete the risk education, and theory and practical examinations.
-
-
-
-
-
-                  </p>
-                    </div>
-
-
-                    
-                    <div>
-                    <span>SCHOOLS IN
-
-
-</span>
-                  <h2>
-                    <strong>SWEDEN</strong>
-                  </h2>
-
-                  <p className=" tw-text-gray">
-                  In Swedish preschools, play is a key component. There is a focus on basic values such as playing together, tolerance and consideration for others. Preschool is for children aged 1 to 5.
-
-
-
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  The year the child turns 6, he or she can participate in a non-compulsory preschool class (sexårsverksamhet) designed to help children meet future classmates and prepare for primary school without the stress of heavy studies or homework.
-
-
-
-
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  From the ages of 7 to 16, all children in Sweden are required to attend the compulsory school (grundskola), where they are taught a core group of basic subjects. Families can apply for before/after-school care for their children (fritids).
-
-
-
-
-
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  There is a charge for preschools and after-school care, but from the age of 6, all schooling in Sweden is free of charge and includes a hot lunch. Note, there is usually a fee for private schools and international schools.
-
-
-
-
-
-
-
-
-                  </p>
-                    </div>
-                  
-                 
-   
-</div>
-<div>
-</div>
-</div>
-           
-
-                
+                  </div>
+                  <div></div>
+                </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
                 <div className="  tw-pr-10">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                  {data?.map((item, index) => {
+                    {data?.map((item, index) => {
                       return (
-
                         <Link
                           to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
@@ -606,16 +780,11 @@ const PersonnumerSweden = () => {
                           </p>
                           <GoTriangleRight className="tw-text-gray" />
                         </Link>
-
                       );
                     })}
                   </ul>
                 </div>
               </div>
-
-
-
-              
             </div>
           </div>
         </section>

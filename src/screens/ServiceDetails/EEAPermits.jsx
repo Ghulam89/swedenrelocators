@@ -4,7 +4,8 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/family-time.png";
+import banner from "../../assets/images/happy-family-on-shopping.png";
+import banner2 from "../../assets/images/removebg-preview.png";
 const EEAPermits = () => {
   const { id } = useParams();
 
@@ -17,6 +18,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link:'/asylum'
     },
     {
       id: 2,
@@ -26,6 +28,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -35,6 +38,9 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link:'/personnumer-sweden'
+      
     },
     {
       id: 4,
@@ -44,15 +50,18 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link:'/cpr-number-denmark'
+      
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -62,6 +71,9 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link:'/business-permit'
+    
     },
     {
       id: 6,
@@ -71,6 +83,8 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+      
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -80,6 +94,9 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
+      
+    
     },
     {
       id: 8,
@@ -89,6 +106,8 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link:'/study-in-eu'
+      
     },
     {
       id: 9,
@@ -98,6 +117,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -107,6 +127,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -116,6 +137,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -125,6 +147,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -134,6 +157,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/company-registration'
     },
     {
       id: 14,
@@ -143,6 +167,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/house-offices'
     },
     {
       id: 15,
@@ -152,6 +177,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -161,6 +187,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -170,6 +197,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link:'/investment'
     },
     {
       id: 18,
@@ -179,6 +207,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -188,6 +217,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link:'/permanent-residence'
     },
     {
       id: 20,
@@ -197,6 +227,7 @@ const EEAPermits = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link:'/golden-visa-greece-portugal'
     },
   ];
 
@@ -207,7 +238,7 @@ const EEAPermits = () => {
   return (
     <>
       <Navbar />
-      <Banner_Page title={`FAMILY REUNIFICATION`} />
+      <Banner_Page title={`EEA PERMITS`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -215,154 +246,395 @@ const EEAPermits = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>EU CITIZEN</span>
+                  <span>EEA</span>
                   <h2>
-                    <strong>Family Members</strong>
+                    <strong>Family Permit</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  Family reunification is a recognized reason for the immigration of family members to a country where one or more family member already reside.
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  As a family member of an EU/EEA citizen exercising their right of free movement,you can get a visa through a facilitated process to travel with your family member or to join him/her in Sweden.
-
+                  Any EU citizen getting a residence in the UK according to the EU rules, can bring their family with them. The EEA permit allows the family member to work in the UK. The permit is valid for only 6 months.
 
 
 
                   </p>
                   <p className=" tw-text-gray">
-                  Family members are:
+                  You can get refused when entering the UK without a permit. You can apply for the EU card which is valid for 5 years, once you are in the UK. The residence card makes it easier for a person to work in the UK. However, The extended family has to apply for a residence card.
+
+
+
 
 
                   </p>
-
-
-
-                  <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Spouse/partner/common law spouse.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The direct descendants (children) who are under the age of 21 or are dependents, and those of the spouse or partner.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The dependent direct relatives in the ascending line (e.g. parents) and those of the spouse or partner.
-                        </p>
-                      </li>
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
-
-                        </p>
-                      </li>
-
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Once in Sweden you should apply for a residence card for a family member of a EU/EEA citizen within three months for a Residence Card of a family member of a EU/EEA citizen.
-
-                        </p>
-                      </li>
-                     
-                    </ul>
+                
                   
 
 
                   <img src={banner} alt="" />
 
                   <div>
-                    <span>SWEDISH-NORDIC FAMILY
+                    <span>HOW TO QUALIFY FOR THE
+
 </span>
                     <h2>
-                      <strong>Reunification</strong>
+                      <strong>EEA Family Permit
+</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                    If you are Swedish or Nordic citizen, then you can apply for residence permit under national Laws. Requirements are slightly different than the above-mentioned EU residence card.
+                    You can apply for an EEA permit if you are a family member of an EU citizen or a Swiss citizen. You can stay in Uk for more than 3 months if your EU family member sponsors you or has a permanent residence in the UK. It is also possible when your EU family member is working, studying, or running a business. Although you should have complete health insurance.
 
-
-                    </p>
-                    <p className=" tw-text-gray">
-                    The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in. However, these mentainence requirements are not applicable in all cases.
 
 
                     </p>
+                   
 
 
                   </div>
                   <div>
-                  <span>STUDENT-WORK-BUSINESS PERMIT FAMILY
-
-</span>
-                    <h2>
-                      <strong>Reunification
-</strong>
-                    </h2>
-
-                    <span>WHAT ARE
-
-</span>
-
-                    <h2>
-                      <strong>Mentainence Requirements
-
-</strong>
-                    </h2>
+                
+                  
 
                  
      <div>
 
-     <span>HOUSING
+     <span>WHO IS A
+
 
 </span>
 
                     <h2>
-                      <strong>Requirements:
+                      <strong>Family Member
+
 
 
 </strong>
                     </h2>
 
 
-     <ul className=" tw-p-0  tw-list-disc    tw-pt-4">
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in.
+   
 
+                    <p className=" tw-text-gray ">
+                    You must be the EEA citizen’s spouse or civil partner, or the child or grandchild under 21 of the EU national or his spouse/civil partner. Dependent parents, grandparents, children or grandchildren over 21 (of the EU national or his spouse) can be taken as family at any age if they can prove to be financially dependant on the EU sponsor.
 
-                        </p>
-                      </li>
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        If you rent your home, you have to send in a copy of your tenancy agreement. You must also enclose a rent invoice for the last month’s rent (1 month).
-
-</p>
-                      </li>
-
-                     
-                   
-                    </ul>
-
-                    <p className=" tw-text-gray tw-font-medium">
-                    The agreement has to contain:
 
 </p>
      </div>
+
+
+
+                 
+     <div>
+
+     <span>EXTENDED
+
+
+
+</span>
+
+                    <h2>
+                      <strong>Family Member
+
+
+
+
+</strong>
+                    </h2>
+
+
+   
+
+                    <p className=" tw-text-gray ">
+                    It is also possible to apply as an extended family member of the EU national. It can be, for example, an unmarried partner who has been in a relationship with the EU citizen and has, in general, lived with him/her for at least 2 years, brother, sister, aunt, uncle, cousin, or niece.
+
+
+
+</p>
+                    <p className=" tw-text-gray ">
+                    Except for unmarried partners, all other extended family members must prove to be or have been dependent on the EU citizen or being a member of their household. The extended family member can also have to prove.
+
+
+
+
+</p>
+     </div>
+
+
+     <div>
+
+     <span>DERIVATIVE
+
+
+
+</span>
+
+                    <h2>
+                      <strong>Right Of Residence
+
+
+
+
+
+</strong>
+                    </h2>
+
+
+   
+
+                    <p className=" tw-text-gray ">
+                    It is possible to apply for an EEA Family Permit if you have a derivative right of residence.
+
+
+
+
+</p>
+                    <p className=" tw-text-gray  tw-font-medium ">
+                    You will have a derivative right of residence if you are:
+
+
+
+
+
+</p>
+
+
+<ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        The primary caretaker of an EEA child in the UK, and financially independent.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        A child of an EEA former worker and you are currently in education in the UK.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        The primary caretaker of a child of an EEA former worker. This child is currently in education in the UK.
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        A primary caretaker of a British child.
+
+                        </p>
+                      </li>
+
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        The primary caretaker of a British dependent adult; or
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        A child of a primary caretaker who qualifies through one of these categories.
+
+                        </p>
+                      </li>
+                    
+                    </ul>
+
+                    <p className=" m-0 tw-text-gray">
+                    The Home Office defines the primary caretaker as someone who has the responsibility for the day-to-day care of the person. This includes decision-making about education, health, and finance.
+
+
+                        </p>
+                    <p className=" m-0 tw-text-gray">
+                    The primary caretaker must be a family member or the legal guardian. This person can be the main caretaker or can share the responsibility with someone else. You must fulfill very strict requirements to qualify under this route.
+
+
+
+                        </p>
+
+
+                        <img src={banner2} alt="" />
+
+     </div>
+
+
+     <div>
+
+<span>RETAINED
+
+
+
+</span>
+
+               <h2>
+                 <strong>Right Of Residence
+
+
+
+
+
+</strong>
+               </h2>
+
+
+
+
+               <p className=" tw-text-gray ">
+               One can apply for an EEA Family Permit if you previously had a right to reside in the UK as the family member of an EEA national who either had a permanent right of residence in the UK or was a worker, student, self-employed person, self-sufficient person or someone looking for work in the UK.
+
+
+
+
+</p>
+              
+</div>
+
+
+<div>
+
+<span>YOU CAN RECEIVE A RETAINED
+
+
+
+
+</span>
+
+               <h2>
+                 <strong>Right Of Residence In One Of The Following Ways
+
+
+
+
+
+
+</strong>
+               </h2>
+
+
+
+
+
+               <ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Your marriage or civil partnership to that person has ended due to a divorce, annulment or dissolution.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        The person died, and you have lived in the UK for at least one year before their death.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        You are the child of an EEA national who has died or left the UK. Or you are the child of their spouse or civil partner, or former spouse or civil partner, and you were in education when that person left the UK or died, and you continue to be in education.
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        You are the parent and have custody, of a child who has a retained right of residence because they are in education in the UK.
+
+                        </p>
+                      </li>
+
+                    
+                    </ul>
+             
+              
+</div>
+
+
+<div>
+
+<span>SPECIFIC REQUIREMENTS
+
+
+
+
+
+</span>
+
+               <h2>
+                 <strong>In Cases Of Divorces
+
+
+
+
+
+
+
+</strong>
+               </h2>
+
+               <p className=" tw-text-gray">It is only possible to apply if you were in the UK as the EEA national’s family member on the date the divorce/civil partnership was ended and one of the following applies;
+
+</p>
+
+
+
+
+
+               <ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        The civil partnership or marriage lasted 3 years before legal proceedings began. The couple lived in the UK for at least 1 year before the divorce, annulment or dissolution was finalized.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        You have custody of a child of the relevant EEA national.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        You have access rights to the child of the relevant EEA national. The judge ordered access to the child in the UK, and the child is younger than 18 years of age.
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        You, or a family member, have been a victim of domestic violence during the marriage or civil partnership.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Any other particularly difficult circumstances that will justify the retaining right of residence.
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Indefinite Leave to Remain in the UK and the EEA Family Permit
+
+                        </p>
+                      </li>
+
+                    
+                    </ul>
+
+                    <p  className=" tw-text-gray">After spending five years in the UK, from the first date of entry, with the EEA family visa, it is possible to apply for Indefinite Leave to Remain in the UK. It is important though to note that the EU citizen must fulfill the requirements throughout the 5-year period.
+
+</p>
+             
+              
+</div>
 </div>
 </div>
            
@@ -377,7 +649,7 @@ const EEAPermits = () => {
                       return (
 
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">

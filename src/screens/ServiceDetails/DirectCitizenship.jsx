@@ -17,6 +17,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link: "/asylum",
     },
     {
       id: 2,
@@ -26,6 +27,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link: "/family-reunification",
     },
     {
       id: 3,
@@ -35,6 +37,8 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link: "/personnumer-sweden",
     },
     {
       id: 4,
@@ -44,15 +48,17 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link: "/cpr-number-denmark",
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link: "/work-permit",
     },
     {
       id: 5,
@@ -62,6 +68,8 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link: "/business-permit",
     },
     {
       id: 6,
@@ -71,6 +79,8 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+
+      Link: "/business-visit",
     },
     {
       id: 7,
@@ -80,6 +90,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link: "/citizenship",
     },
     {
       id: 8,
@@ -89,6 +100,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link: "/study-in-eu",
     },
     {
       id: 9,
@@ -98,6 +110,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link: "/global-visit-visas",
     },
     {
       id: 10,
@@ -107,6 +120,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link: "/eea-permits",
     },
     {
       id: 11,
@@ -116,6 +130,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link: "/parents-eu-permit",
     },
     {
       id: 12,
@@ -125,6 +140,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link: "/marriage-divorce",
     },
     {
       id: 13,
@@ -134,6 +150,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link: "/company-registration",
     },
     {
       id: 14,
@@ -143,6 +160,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link: "/house-offices",
     },
     {
       id: 15,
@@ -152,6 +170,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link: "/appeal-cases",
     },
     {
       id: 16,
@@ -161,6 +180,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link: "/eu-family-reunification",
     },
     {
       id: 17,
@@ -170,6 +190,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link: "/investment",
     },
     {
       id: 18,
@@ -179,6 +200,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link: "/direct-citizenship-by-investments",
     },
     {
       id: 19,
@@ -188,6 +210,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link: "/permanent-residence",
     },
     {
       id: 20,
@@ -197,6 +220,7 @@ const DirectCitizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link: "/golden-visa-greece-portugal",
     },
   ];
 
@@ -207,7 +231,7 @@ const DirectCitizenship = () => {
   return (
     <>
       <Navbar />
-      <Banner_Page title={`FAMILY REUNIFICATION`} />
+      <Banner_Page title={`Direct Citizenship by Investments`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -377,7 +401,7 @@ const DirectCitizenship = () => {
                       return (
 
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">

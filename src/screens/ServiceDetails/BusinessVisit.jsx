@@ -4,9 +4,8 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/business-team-planning-project.png";
-import banner1 from "../../assets/images/Free-Outstanding-Portugal-Travel-Map-Vectors-2-removebg-preview.png";
-const GoldenVisa = () => {
+import banner from "../../assets/images/startup-business.jpg";
+const BusinessVisit = () => {
   const { id } = useParams();
 
   const data = [
@@ -18,7 +17,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
-      Link:'/asylum'
+      Link: "/asylum",
     },
     {
       id: 2,
@@ -28,7 +27,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
-      Link:'/family-reunification'
+      Link: "/family-reunification",
     },
     {
       id: 3,
@@ -39,8 +38,7 @@ const GoldenVisa = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
 
-      Link:'/personnumer-sweden'
-      
+      Link: "/personnumer-sweden",
     },
     {
       id: 4,
@@ -50,8 +48,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
-      Link:'/cpr-number-denmark'
-      
+      Link: "/cpr-number-denmark",
     },
     {
       id: 5,
@@ -61,7 +58,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/work-permit'
+      Link: "/work-permit",
     },
     {
       id: 5,
@@ -72,8 +69,7 @@ const GoldenVisa = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
 
-      Link:'/business-permit'
-    
+      Link: "/business-permit",
     },
     {
       id: 6,
@@ -83,8 +79,8 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
-      
-      Link:'/business-visit'
+
+      Link: "/business-visit",
     },
     {
       id: 7,
@@ -94,9 +90,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      Link:'/citizenship'
-      
-    
+      Link: "/citizenship",
     },
     {
       id: 8,
@@ -106,8 +100,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
-      Link:'/study-in-eu'
-      
+      Link: "/study-in-eu",
     },
     {
       id: 9,
@@ -117,7 +110,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/global-visit-visas'
+      Link: "/global-visit-visas",
     },
     {
       id: 10,
@@ -127,7 +120,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
-      Link:'/eea-permits'
+      Link: "/eea-permits",
     },
     {
       id: 11,
@@ -137,7 +130,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
-      Link:'/parents-eu-permit'
+      Link: "/parents-eu-permit",
     },
     {
       id: 12,
@@ -147,7 +140,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
-      Link:'/marriage-divorce'
+      Link: "/marriage-divorce",
     },
     {
       id: 13,
@@ -157,7 +150,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/company-registration'
+      Link: "/company-registration",
     },
     {
       id: 14,
@@ -167,7 +160,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/house-offices'
+      Link: "/house-offices",
     },
     {
       id: 15,
@@ -177,7 +170,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
-      Link:'/appeal-cases'
+      Link: "/appeal-cases",
     },
     {
       id: 16,
@@ -187,7 +180,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
-      Link:'/eu-family-reunification'
+      Link: "/eu-family-reunification",
     },
     {
       id: 17,
@@ -197,7 +190,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
-      Link:'/investment'
+      Link: "/investment",
     },
     {
       id: 18,
@@ -207,7 +200,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
-      Link:'/direct-citizenship-by-investments'
+      Link: "/direct-citizenship-by-investments",
     },
     {
       id: 19,
@@ -217,7 +210,7 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
-      Link:'/permanent-residence'
+      Link: "/permanent-residence",
     },
     {
       id: 20,
@@ -227,18 +220,16 @@ const GoldenVisa = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
-      Link:'/golden-visa-greece-portugal'
+      Link: "/golden-visa-greece-portugal",
     },
   ];
 
 
-
-  
-
   return (
     <>
       <Navbar />
-      <Banner_Page title={`GOLDEN VISA (GREECE-PORTUGAL)`} />
+      <Banner_Page title={`BUSINESS VISIT
+`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -246,158 +237,48 @@ const GoldenVisa = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>AN OVERVIEW
+                  <span>BUSINESS VISA TO SWEDEN
 </span>
                   <h2>
-                    <strong>Living In Greece
+                    <strong>Short Official Or Business Trip To Sweden?
 </strong>
                   </h2>
-
-                  <p className=" tw-text-gray">
-                  Situated at the junction of Europe, Asia, and Africa, Greece is regarded as the cradle of democ-racy and the birthplace of western civilization. The country’s history dates back to 800 BCE and has significantly influenced the language, arts, philosophy, politics, and physical pursuits of the modern world. Remnants of Greece’s illustrious past can still be seen in its capital city Athens, which still retains the city’s ancient landmarks.
-
-
-
-                  </p>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <img src={banner} alt="" />
-                    </div>
-                    <div className="col-md-6">
-                      <p className=" tw-text-gray">Consisting of a mainland on the Balkan peninsula and thousands of islands spread throughout the Aegean and Ionian seas, Greece has become a major European business center and is re-garded as one of the world’s top holiday destinations.
-
-</p>
-                      <p className=" tw-text-gray">Greece’s warm Mediterranean climate, world-renowned gastronomy, and cosmopolitan cities, coupled with the country’s exquisite beaches and authentic local traditions and hospitality, have led many upwardly mobile individuals to make this country their second home.
-
-
-
-</p>
-                    </div>
-                  </div>
-
-
-                  <p className=" tw-text-gray">As a member state of the EU, Greece offers its residents and citizens a number of reassuring benefits including high levels of safety and security, excellent education opportunities, robust healthcare options, and a dependable rule of law.
-
-</p>
-
-
-
-
-<span>AN OVERVIEW
-
-</span>
-                  <h2>
-                    <strong>Living In Portugal
-
-</strong>
-                  </h2>
-
-                  <p className=" tw-text-gray">
-                  Portugal is one of the oldest countries in Europe, has an excellent reputation, a very high Hu-man Development Index ranking, and a high level of security, making it one of the world’s most globalized and peaceful nations.
-
-
-
-
-                  </p>
-
-                  <p className=" tw-text-gray">
-Portugal is a member of the EU and Europe’s Schengen Area and has been using the euro as its currency since 2002. Portuguese is the official language, but English is also widely spoken, particularly by younger generations and especially in the tourist regions.
-
-
-
-
-
-                  </p>
-                  <div className="row">
-                   
-                    <div className="col-md-6">
-                      <p className=" tw-text-gray">While Portugal is shifting towards offering business-oriented services, a third of its economy remains in manufacturing. It is also the world’s largest supplier of cork and enjoys the benefits of a strong tourism industry. With little of its own hydrocarbon energy resources, Portugal is committed to creating renewable sources of energy such as hydro, wind, and solar power. Over 40% of the energy created in Portugal is from such resources, including the most efficient wind tower in the world.
-
-
-
-</p>
-       
-                    </div>
-                    <div className="col-md-6">
-                      <img src={banner1} alt="" />
-                    </div>
-                  </div>
-
-
-                  <p className=" tw-text-gray">A relatively small country of approximately 10.2 million people, Portugal boasts a rich history, a lively culture, exceptional cuisine, a mild climate, stunning beaches, and an idyllic countryside.
-
-
-
-</p>
-
-
-
-
-
-
-                  <div>
-                    <span>KEY ADVANTAGES OF
-
-</span>
-                    <h2>
-                      <strong>Residence In Portugal
-</strong>
-                    </h2>
-
-                     
-
-                    <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Visa-free travel within Europe’s Schengen Area
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Eligibility to apply for citizenship after five years as a legal resident while keeping other citizen-ships
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Excellent international and Portuguese schools and universities
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        International quality health care clinics and hospitals
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        High quality of life and low crime rate
-
-                        </p>
-                      </li>
-                     
-                     
-                    </ul>           
- 
-                  </div>
-      
-</div>
-           
 
                 
+                  <p className=" tw-text-gray tw-font-medium">
+                  If you or your company is planning for your short visit/business trip to Sweden then we are here to assist you in getting your business visa. You can just relax and focus on your business while we do it all for you.
+
+
+                  </p>
+
+                 
+                 
+
+                  <img src={banner} alt="" />
+
+                  <div>
+                    <h2>
+                      <strong>BASIC REQUIREMENTS (APPLICANT)
+</strong>
+                    </h2>
+                    <span>Documents To Be Submitted
+</span>
+
+
+   <p className=" tw-text-gray">The following are the requirements for business visa:
+
+</p>
+                   
+                  </div>
+                 
+                </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
                 <div className="  tw-pr-10">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                  {data?.map((item, index) => {
+                    {data?.map((item, index) => {
                       return (
-
                         <Link
                           to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
@@ -407,16 +288,11 @@ Portugal is a member of the EU and Europe’s Schengen Area and has been using t
                           </p>
                           <GoTriangleRight className="tw-text-gray" />
                         </Link>
-
                       );
                     })}
                   </ul>
                 </div>
               </div>
-
-
-
-              
             </div>
           </div>
         </section>
@@ -427,4 +303,4 @@ Portugal is a member of the EU and Europe’s Schengen Area and has been using t
   );
 };
 
-export default GoldenVisa;
+export default BusinessVisit;

@@ -54,13 +54,13 @@ const ServiceDetails = () => {
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/cpr-number-denmark'
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -83,7 +83,7 @@ const ServiceDetails = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
       
-      Link:'/business-permit'
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -93,6 +93,7 @@ const ServiceDetails = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
       
     
     },
@@ -115,7 +116,7 @@ const ServiceDetails = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -165,7 +166,7 @@ const ServiceDetails = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/house-offices'
     },
     {
       id: 15,
@@ -272,22 +273,43 @@ const ServiceDetails = () => {
                   </p>
 
                   <div>
-                    <span>TAKE</span>
+                    <span>ELIGIBILITY</span>
                     <h2>
-                      <strong>All These Into Consideration</strong>
+                      <strong>WHO CAN APPLY FOR ASYLUM?
+</strong>
                     </h2>
+
+
+                    <p className=" tw-text-gray">You have to be in Sweden or on the Sweden’s border in order to apply for asylum. It’s not possible to apply for asylum before you arrive in Sweden or at a Swedish embassy in another country.
+
+</p>
+
+
+
+<p className=" tw-text-gray">Asylum seeker’s application is examined individually and will be granted a residence permit only if one fulfills criteria of being a refugee.
+
+
+</p>
+<p className=" tw-text-gray">According the UN Refugee Convention and Swedish law, a person can be considered as a refugee if the person is facing oppression due of any of the following reasons:
+
+
+
+
+</p>
 
                     <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          Employment contract(s),
+                        Race
+
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          Proof of savings ex. Bank statement.
+                        Nationality (Language or Ethnic Group)
+
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
@@ -299,48 +321,95 @@ const ServiceDetails = () => {
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          Place of residence(must be in Sweden). You can NOT
-                          apply for a personnummer while still living abroad.
-                          Neither is a holiday address enough. You must have a
-                          residential address in Sweden.
+                        Religion
                         </p>
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          You need to go in person (all the persons in the
-                          family) to an office of Skatteverket to apply for a
-                          personnummer.
+                        Political belief
+
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          A legal ID-certificate, preferably a passport for
-                          every person applying.
+                        Gender
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Sexual orientation
+
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Membership of a particular social group
+
+
                         </p>
                       </li>
                     </ul>
+
+                    <p className="  tw-text-gray">
+                    Sometime a group of people can be threatening to you as well, but this cannot be a sole reason for you to be granted a positive decision. You will be asked what can happen if you return to your country.
+
+
+
+                        </p>
+                    <p className="  tw-text-gray">
+                    If you are considered as a refugee, you get a residence permit for three years or 13 months.
+
+
+
+
+                        </p>
                   </div>
 
                   <div>
-                    <span>ELIGIBILITY</span>
+                    <span>STEPS TO BE FOLLOWED
+</span>
                     <h2>
-                      <strong>CAN APPLY FOR ASYLUM? </strong>
+                      <strong>HOW DO YOU APPLY FOR ASYLUM IN SWEDEN?
+</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                      You have to be in Sweden or on the Sweden’s border in
-                      order to apply for asylum. It’s not possible to apply for
-                      asylum before you arrive in Sweden or at a Swedish embassy
-                      in another country.
+                    STEP 1: To be able to apply for asylum you must either be in Sweden, or on the border to the country.
+
+
                     </p>
-                    <p className=" tw-text-gray tw-py-3">
-                      Asylum seeker’s application is examined individually and
-                      will be granted a residence permit only if one fulfills
-                      criteria of being a refugee.
+                    <p className=" tw-text-gray tw-py-2">
+                    STEP 2: After you have registered your application, you will be called for an initial meeting at the Migration agency. During this meeting you will be given an opportunity to choose your representative/lawyer. You can then choose us.
                     </p>
+                    <p className=" tw-text-gray tw-py-2">
+                    STEP 3: In case you choose us as your representative, we will then be contacted by the Migration Agency and asked to prove your claim. We will then schedule a call with you to know more about your situation.
+
+</p>
+                    <p className=" tw-text-gray tw-py-2  tw-font-medium">
+                    As your representative, we will support you throughout the asylum process and act according to your interests. Our role becomes particularly important since you as an asylum seeker are not expected to have any knowledge of the Swedish legal system and may find it difficult to clarify your grounds for asylum and refugee status on your own.
+
+
+</p>
+                    <p className=" tw-text-gray tw-py-2  ">
+                    And for that reason, it is really important that you have a knowledgeable person to help you throughout the process.
+
+
+
+</p>
+                    <p className=" tw-text-gray tw-py-2  ">
+                    We not only take care of appealing for your decision at the Migration Court and the Migration Court of Appeal but will also provide you with a fully integrated relocation solution for your reunification with your family as well. 
+
+
+
+
+</p>
                   </div>
 
                   <img src={banner} alt="" />

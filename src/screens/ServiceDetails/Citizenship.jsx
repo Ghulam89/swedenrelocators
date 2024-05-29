@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/security-check-in-airport.png";
+import banner2 from "../../assets/images/travel-vacation.png";
 const Citizenship = () => {
   const { id } = useParams();
 
@@ -17,6 +18,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link: "/asylum",
     },
     {
       id: 2,
@@ -26,6 +28,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link: "/family-reunification",
     },
     {
       id: 3,
@@ -35,6 +38,8 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link: "/personnumer-sweden",
     },
     {
       id: 4,
@@ -44,15 +49,17 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link: "/cpr-number-denmark",
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link: "/work-permit",
     },
     {
       id: 5,
@@ -62,6 +69,8 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link: "/business-permit",
     },
     {
       id: 6,
@@ -71,6 +80,8 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+
+      Link: "/business-visit",
     },
     {
       id: 7,
@@ -80,6 +91,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link: "/citizenship",
     },
     {
       id: 8,
@@ -89,6 +101,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link: "/study-in-eu",
     },
     {
       id: 9,
@@ -98,6 +111,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link: "/global-visit-visas",
     },
     {
       id: 10,
@@ -107,6 +121,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link: "/eea-permits",
     },
     {
       id: 11,
@@ -116,6 +131,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link: "/parents-eu-permit",
     },
     {
       id: 12,
@@ -125,6 +141,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link: "/marriage-divorce",
     },
     {
       id: 13,
@@ -134,6 +151,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link: "/company-registration",
     },
     {
       id: 14,
@@ -143,6 +161,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link: "/house-offices",
     },
     {
       id: 15,
@@ -152,6 +171,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link: "/appeal-cases",
     },
     {
       id: 16,
@@ -161,6 +181,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link: "/eu-family-reunification",
     },
     {
       id: 17,
@@ -170,6 +191,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link: "/investment",
     },
     {
       id: 18,
@@ -179,6 +201,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link: "/direct-citizenship-by-investments",
     },
     {
       id: 19,
@@ -188,6 +211,7 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link: "/permanent-residence",
     },
     {
       id: 20,
@@ -197,12 +221,9 @@ const Citizenship = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link: "/golden-visa-greece-portugal",
     },
   ];
-
-
-
-  
 
   return (
     <>
@@ -215,15 +236,248 @@ const Citizenship = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>REQUIREMENTS FOR BECOMING
-</span>
+                  <span>REQUIREMENTS FOR BECOMING</span>
                   <h2>
-                    <strong>A Swedish Citizen By Application
-</strong>
+                    <strong>A Swedish Citizen By Application</strong>
                   </h2>
 
                   <p className=" tw-text-gray tw-font-medium">
-                  To be able to become a Swedish citizen, you have to
+                    To be able to become a Swedish citizen, you have to
+                  </p>
+
+                  <ul className=" tw-p-0 tw-pt-4">
+                    <li className=" tw-flex tw-items-center tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                        be able to prove your identity
+                      </p>
+                    </li>
+                    <li className=" tw-flex tw-items-center tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                        be 18 years of age or older
+                      </p>
+                    </li>
+                    <li className=" tw-flex tw-items-center tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                        have a permanent residence permit (a temporary residence
+                        permit is not applicable) or
+                      </p>
+                    </li>
+                    <li className=" tw-flex  tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                        You can apply for a short-stay Schengen visa (type
+                        C-Joining a Family Member) which will permit you to
+                        enter Sweden and the Schengen area.
+                      </p>
+                    </li>
+
+                    <li className=" tw-flex  tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                        have a right of residence or residence card (applies to
+                        you if you are an EU citizen or a close relative of an
+                        EU citizen)
+                      </p>
+                    </li>
+                    <li className=" tw-flex  tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                        lived in Sweden for a certain amount of time
+                      </p>
+                    </li>
+                    <li className=" tw-flex  tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                        have conducted yourself well while in Sweden.
+                      </p>
+                    </li>
+                  </ul>
+
+                  <div>
+                    <span>YOU MUST HAVE LIVED</span>
+                    <h2>
+                      <strong>In Sweden For A Certain Period</strong>
+                    </h2>
+
+                    <p className=" tw-text-gray">
+                      For becoming a Swedish citizen, you need to live in Sweden
+                      for a certain period of time.
+                    </p>
+                    <p className=" tw-text-gray">
+                      The required period can vary from case to case. Some
+                      people have to live for 5 year continuously. Other rules
+                      apply for those who are stateless or refugees.
+                    </p>
+                  </div>
+
+                  <img src={banner} alt="" />
+
+                  <div>
+                    <div>
+                      <span className=" tw-mt-5">CITIZENSHIP</span>
+
+                      <h2>
+                        <strong>For Adults</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray ">
+                        When you have lived in Sweden for a specified period and
+                        meet the other requirements, you can apply for a Swedish
+                        citizenship.
+                      </p>
+
+                      <div className="">
+                        <span className=" tw-mt-5">PERIOD OF</span>
+
+                        <h2>
+                          <strong>Residence</strong>
+                        </h2>
+
+                        <p className=" tw-text-gray ">
+                          To become a Swedish citizen, you need to live in
+                          Sweden for 5 years continuously and you want to
+                          continue living in future aswell. The time of the
+                          residence permit that leads to a permanent residence
+                          permit is counted as a period of habitual residence.
+                        </p>
+                        <p className=" tw-text-gray ">
+                          If you had a permanent residence permit or a residence
+                          permit for settlement when you entered Sweden, you
+                          count the duration of stay from your date of arrival.
+                          Otherwise, the duration of stay is calculated from the
+                          date on which you submitted your application for a
+                          residence permit and were approved. If your
+                          application was initially rejected and you then
+                          submitted a new application, the time is counted from
+                          the date on which you received approval.
+                        </p>
+                      </div>
+
+                      <div className="">
+                        <span className=" tw-mt-5">EU/EEA CITIZENS</span>
+
+                        <h2>
+                          <strong>And Their Family Members</strong>
+                        </h2>
+
+                        <p className=" tw-text-gray ">
+                          EU/EEA citizens and their family members should
+                          complete and fulfill the requirements of residence
+                          permit in order to get the Swedish citizenship.
+                        </p>
+                      </div>
+
+
+                      <img src={banner2} alt="" />
+
+
+                      <div className=" tw-pt-5">
+                      <span>RECORDS</span>
+                  <h2>
+                    <strong>Related You
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray ">
+                  You need to conduct yourself well. Your past will be checked by the authorities.
+Any information about your debts and crimes will be checked by the Swedish Migration Agency.
+
+
+                  </p>
+
+                  <p className=" tw-text-gray tw-font-medium">
+                  The information is requested from:
+
+
+                  </p>
+
+                  <ul className=" tw-p-0 tw-pt-4">
+                    <li className=" tw-flex tw-items-center tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                      The Enforcement Authority (if you have debts)
+
+                      </p>
+                    </li>
+                    <li className=" tw-flex tw-items-center tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                      The Police (if you committed a crime or are suspected of doing so)                      </p>
+                    </li>
+                    <li className=" tw-flex tw-items-center tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                      The Security Service (security checks).
+
+                      </p>
+                    </li>
+                   
+                  </ul>
+
+                      </div>
+
+
+                      <div className=" tw-pt-5">
+                      <span>YOU CAN GET YOUR CITIZENSHIP
+</span>
+                  <h2>
+                    <strong>Application Refused In The Situations Mentioned Below If You
+
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray ">
+                  You need to conduct yourself well. Your past will be checked by the authorities.
+Any information about your debts and crimes will be checked by the Swedish Migration Agency.
+
+
+                  </p>
+
+
+
+                  <ul className=" tw-p-0 tw-pt-4">
+                    <li className=" tw-flex tw-items-center tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                      have not paid taxes, fines or other charges
+
+
+                      </p>
+                    </li>
+                  
+                    <li className=" tw-flex tw-items-center tw-gap-3">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      <p className=" m-0 tw-text-gray">
+                      have not paid maintenance.
+
+                      </p>
+                    </li>
+                   
+                  </ul>
+  <p className=" tw-text-gray">Having debts in private companies also lead to rejection in your application. You have to remain debt free at least for 2 years before you can apply for a Swedish citizenship.
+
+</p>
+                 
+
+                      </div>
+
+                      
+                      <div className=" tw-pt-5">
+                      <span>DUAL
+</span>
+                  <h2>
+                    <strong>Nationality
+
+
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray ">
+                  Swedish law allow a person to have dual nationality or even multiple nationalities. Having multiple or dual nationalities would not affect on the rights of being a Swede.
+
 
 
 
@@ -231,198 +485,19 @@ const Citizenship = () => {
 
                  
 
-
-
-                  <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        be able to prove your identity
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        be 18 years of age or older
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        have a permanent residence permit (a temporary residence permit is not applicable) or
-                        </p>
-                      </li>
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
-
-                        </p>
-                      </li>
-
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        have a right of residence or residence card (applies to you if you are an EU citizen or a close relative of an EU citizen)
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        lived in Sweden for a certain amount of time
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        have conducted yourself well while in Sweden.
-
-                        </p>
-                      </li>
-                     
-                    </ul>
-                  
-                    <div>
-                    <span>YOU MUST HAVE LIVED
-
-</span>
-                    <h2>
-                      <strong>In Sweden For A Certain Period
-</strong>
-                    </h2>
-
-                    <p className=" tw-text-gray">
-                    For becoming a Swedish citizen, you need to live in Sweden for a certain period of time.
-
-
-
-                    </p>
-                    <p className=" tw-text-gray">
-                    The required period can vary from case to case. Some people have to live for 5 year continuously. Other rules apply for those who are stateless or refugees.
-
-
-
-                    </p>
-
-
+                      </div>
+                    </div>
                   </div>
-
-                  <img src={banner} alt="" />
-
-                  
-                  <div>
-                 
-
-                    
-
-                 
-     <div>
-
-     <span className=" tw-mt-5">CITIZENSHIP
-
-
-</span>
-
-                    <h2>
-                      <strong>For Adults
-
-
-</strong>
-                    </h2>
-
-
-                    <p className=" tw-text-gray ">
-                    When you have lived in Sweden for a specified period and meet the other requirements, you can apply for a Swedish citizenship.
-
-
-
-</p>
-
-<div className="">
-  
-<span className=" tw-mt-5">PERIOD OF
-
-
-
-</span>
-
-                    <h2>
-                      <strong>Residence
-
-
-
-</strong>
-                    </h2>
-
-
-                    <p className=" tw-text-gray ">
-                    To become a Swedish citizen, you need to live in Sweden for 5 years continuously and you want to continue living in future aswell. The time of the residence permit that leads to a permanent residence permit is counted as a period of habitual residence.
-
-
-
-
-</p>
-                    <p className=" tw-text-gray ">
-                    If you had a permanent residence permit or a residence permit for settlement when you entered Sweden, you count the duration of stay from your date of arrival. Otherwise, the duration of stay is calculated from the date on which you submitted your application for a residence permit and were approved. If your application was initially rejected and you then submitted a new application, the time is counted from the date on which you received approval.
-
-
-
-
-
-</p>
-</div>
-
-
-
-<div className="">
-  
-<span className=" tw-mt-5">EU/EEA CITIZENS
-
-
-
-
-</span>
-
-                    <h2>
-                      <strong>And Their Family Members
-
-
-
-
-</strong>
-                    </h2>
-
-
-                    <p className=" tw-text-gray ">
-                    EU/EEA citizens and their family members should complete and fulfill the requirements of residence permit in order to get the Swedish citizenship.
-
-
-
-
-
-</p>
-                  
-</div>
-     </div>
-</div>
-</div>
-           
-
-                
+                </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
                 <div className="  tw-pr-10">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                  {data?.map((item, index) => {
+                    {data?.map((item, index) => {
                       return (
-
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
@@ -430,16 +505,11 @@ const Citizenship = () => {
                           </p>
                           <GoTriangleRight className="tw-text-gray" />
                         </Link>
-
                       );
                     })}
                   </ul>
                 </div>
               </div>
-
-
-
-              
             </div>
           </div>
         </section>

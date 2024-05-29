@@ -4,7 +4,7 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/family-time.png";
+import banner from "../../assets/images/man-searching-air-ticket-for-summer-travel.png";
 const GlobalVisitVisas = () => {
   const { id } = useParams();
 
@@ -17,6 +17,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link:'/asylum'
     },
     {
       id: 2,
@@ -26,6 +27,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -35,6 +37,9 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link:'/personnumer-sweden'
+      
     },
     {
       id: 4,
@@ -44,15 +49,18 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link:'/cpr-number-denmark'
+      
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -62,6 +70,9 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link:'/business-permit'
+    
     },
     {
       id: 6,
@@ -71,6 +82,8 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+      
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -80,6 +93,9 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
+      
+    
     },
     {
       id: 8,
@@ -89,6 +105,8 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link:'/study-in-eu'
+      
     },
     {
       id: 9,
@@ -98,6 +116,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -107,6 +126,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -116,6 +136,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -125,6 +146,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -134,6 +156,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/company-registration'
     },
     {
       id: 14,
@@ -143,6 +166,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/house-offices'
     },
     {
       id: 15,
@@ -152,6 +176,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -161,6 +186,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -170,6 +196,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link:'/investment'
     },
     {
       id: 18,
@@ -179,6 +206,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -188,6 +216,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link:'/permanent-residence'
     },
     {
       id: 20,
@@ -197,6 +226,7 @@ const GlobalVisitVisas = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link:'/golden-visa-greece-portugal'
     },
   ];
 
@@ -207,64 +237,54 @@ const GlobalVisitVisas = () => {
   return (
     <>
       <Navbar />
-      <Banner_Page title={`FAMILY REUNIFICATION`} />
+      <Banner_Page title={`GLOBAL VISIT VISAS`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
+
+                
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>EU CITIZEN</span>
+                <img src={banner} alt="" />
+                 <p  className=" tw-text-gray">For visiting Sweden for a short period you will need a visit visa . Visiting for a short tour, meeting your relatives, visiting friends or business meeting you need to consider short visit to Sweden which is as Schengen tourist visa Sweden follows the same visa rules as other European country because it is also the part of Schengen agreement.
+
+</p>
+                  <span>IF YOU WANT
+</span>
                   <h2>
-                    <strong>Family Members</strong>
+                    <strong>To Visit You Need To
+</strong>
                   </h2>
 
-                  <p className=" tw-text-gray">
-                  Family reunification is a recognized reason for the immigration of family members to a country where one or more family member already reside.
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  As a family member of an EU/EEA citizen exercising their right of free movement,you can get a visa through a facilitated process to travel with your family member or to join him/her in Sweden.
-
-
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  Family members are:
-
-
-                  </p>
-
-
+               
 
                   <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        Spouse/partner/common law spouse.
+                        have a passport that is valid for at least three months after the visa has expired, was issued in the last ten years and has at least two empty pag-es
 
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        The direct descendants (children) who are under the age of 21 or are dependents, and those of the spouse or partner.
+                        be able to describe the purpose of your visit
 
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        The dependent direct relatives in the ascending line (e.g. parents) and those of the spouse or partner.
+                        have received an invitation from the person you want to visit
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
+                        have an individual medical travel insurance that covers all costs that may arise in connection with emergency medical treatment, urgent med-ical care or transportation to your home country for medical reasons (the insurance must cover costs of at least 30,000 EUR and be valid for all Schengen countries)
 
                         </p>
                       </li>
@@ -272,98 +292,48 @@ const GlobalVisitVisas = () => {
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        Once in Sweden you should apply for a residence card for a family member of a EU/EEA citizen within three months for a Residence Card of a family member of a EU/EEA citizen.
+                        have money to support yourself and for the return trip home (Sweden al-so requires you to have 450 SEK for each day you stay in Sweden, which can also be paid for by the person who has invited you)
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        show that you intend to leave Sweden and the Schengen area on the last day before the visa expires
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        a photograph that is in passport format and taken with you facing the camera and which is not older than six months
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        other documents that the embassy may require
 
                         </p>
                       </li>
                      
                     </ul>
+
+
+
+                    <p className=" tw-text-gray">You can apply for a visit visa directly from our <Link to={'https://globalvisa.eu/'}>website.</Link>
+
+</p>
                   
 
+                  <p className="  tw-text-gray tw-pt-4">For visiting Sweden for a short period you will need a visit visa . Visiting for a short tour, meeting your relatives, visiting friends or business meeting you need to consider short visit to Sweden which is as Schengen tourist visa Sweden follows the same visa rules as other European country because it is also the part of Schengen agreement.
 
-                  <img src={banner} alt="" />
+</p>
 
-                  <div>
-                    <span>SWEDISH-NORDIC FAMILY
-</span>
-                    <h2>
-                      <strong>Reunification</strong>
-                    </h2>
-
-                    <p className=" tw-text-gray">
-                    If you are Swedish or Nordic citizen, then you can apply for residence permit under national Laws. Requirements are slightly different than the above-mentioned EU residence card.
-
-
-                    </p>
-                    <p className=" tw-text-gray">
-                    The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in. However, these mentainence requirements are not applicable in all cases.
-
-
-                    </p>
-
-
-                  </div>
-                  <div>
-                  <span>STUDENT-WORK-BUSINESS PERMIT FAMILY
-
-</span>
-                    <h2>
-                      <strong>Reunification
-</strong>
-                    </h2>
-
-                    <span>WHAT ARE
-
-</span>
-
-                    <h2>
-                      <strong>Mentainence Requirements
-
-</strong>
-                    </h2>
 
                  
-     <div>
 
-     <span>HOUSING
-
-</span>
-
-                    <h2>
-                      <strong>Requirements:
-
-
-</strong>
-                    </h2>
-
-
-     <ul className=" tw-p-0  tw-list-disc    tw-pt-4">
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in.
-
-
-                        </p>
-                      </li>
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        If you rent your home, you have to send in a copy of your tenancy agreement. You must also enclose a rent invoice for the last month’s rent (1 month).
-
-</p>
-                      </li>
-
-                     
-                   
-                    </ul>
-
-                    <p className=" tw-text-gray tw-font-medium">
-                    The agreement has to contain:
-
-</p>
-     </div>
-</div>
 </div>
            
 
@@ -377,7 +347,7 @@ const GlobalVisitVisas = () => {
                       return (
 
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">

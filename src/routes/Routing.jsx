@@ -44,6 +44,8 @@ import Investment from "../screens/ServiceDetails/Investment";
 import DirectCitizenship from "../screens/ServiceDetails/DirectCitizenship";
 import PermanentResidence from "../screens/ServiceDetails/PermanentResidence";
 import GoldenVisa from "../screens/ServiceDetails/GoldenVisa";
+import BusinessVisit from "../screens/ServiceDetails/BusinessVisit";
+import WorkPermit from "../screens/ServiceDetails/WorkPermit";
 const Routing = () => {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -83,7 +85,9 @@ const Routing = () => {
         <Route path="/family-reunification" element={<FamilyRenuification />} />
         <Route path="/personnumer-sweden" element={<PersonnumerSweden />} />
         <Route path="/cpr-number-denmark" element={<CPRNumberDenmark />} />
+        <Route path="/work-permit" element={<WorkPermit />} />
         <Route path="/business-permit" element={<BusinessPermit />} />
+        <Route path="/business-visit" element={<BusinessVisit />} />
         <Route path="/citizenship" element={<Citizenship />} />
         <Route path="/study-in-eu" element={<StudyInEu />} />
         <Route path="/global-visit-visas" element={<GlobalVisitVisas />} />

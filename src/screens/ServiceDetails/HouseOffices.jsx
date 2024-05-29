@@ -4,7 +4,8 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/family-time.png";
+import banner from "../../assets/images/couple-hanging-a-picture.png";
+import banner2 from "../../assets/images/office-interior-design.png";
 const HouseOffices = () => {
   const { id } = useParams();
 
@@ -17,6 +18,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link:'/asylum'
     },
     {
       id: 2,
@@ -26,6 +28,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -35,6 +38,9 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link:'/personnumer-sweden'
+      
     },
     {
       id: 4,
@@ -44,15 +50,18 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link:'/cpr-number-denmark'
+      
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -62,6 +71,9 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link:'/business-permit'
+    
     },
     {
       id: 6,
@@ -71,6 +83,8 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+      
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -80,6 +94,9 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
+      
+    
     },
     {
       id: 8,
@@ -89,6 +106,8 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link:'/study-in-eu'
+      
     },
     {
       id: 9,
@@ -98,6 +117,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -107,6 +127,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -116,6 +137,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -125,6 +147,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -134,6 +157,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/company-registration'
     },
     {
       id: 14,
@@ -143,6 +167,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/house-offices'
     },
     {
       id: 15,
@@ -152,6 +177,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -161,6 +187,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -170,6 +197,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link:'/investment'
     },
     {
       id: 18,
@@ -179,6 +207,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -188,6 +217,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link:'/permanent-residence'
     },
     {
       id: 20,
@@ -197,6 +227,7 @@ const HouseOffices = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link:'/golden-visa-greece-portugal'
     },
   ];
 
@@ -207,7 +238,7 @@ const HouseOffices = () => {
   return (
     <>
       <Navbar />
-      <Banner_Page title={`FAMILY REUNIFICATION`} />
+      <Banner_Page title={`HOUSE & OFFICES`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -215,155 +246,133 @@ const HouseOffices = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>EU CITIZEN</span>
-                  <h2>
-                    <strong>Family Members</strong>
-                  </h2>
-
-                  <p className=" tw-text-gray">
-                  Family reunification is a recognized reason for the immigration of family members to a country where one or more family member already reside.
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  As a family member of an EU/EEA citizen exercising their right of free movement,you can get a visa through a facilitated process to travel with your family member or to join him/her in Sweden.
-
-
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  Family members are:
-
-
-                  </p>
-
-
-
-                  <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Spouse/partner/common law spouse.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The direct descendants (children) who are under the age of 21 or are dependents, and those of the spouse or partner.
-
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The dependent direct relatives in the ascending line (e.g. parents) and those of the spouse or partner.
-                        </p>
-                      </li>
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
-
-                        </p>
-                      </li>
-
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Once in Sweden you should apply for a residence card for a family member of a EU/EEA citizen within three months for a Residence Card of a family member of a EU/EEA citizen.
-
-                        </p>
-                      </li>
-                     
-                    </ul>
-                  
-
-
-                  <img src={banner} alt="" />
-
-                  <div>
-                    <span>SWEDISH-NORDIC FAMILY
-</span>
-                    <h2>
-                      <strong>Reunification</strong>
-                    </h2>
-
-                    <p className=" tw-text-gray">
-                    If you are Swedish or Nordic citizen, then you can apply for residence permit under national Laws. Requirements are slightly different than the above-mentioned EU residence card.
-
-
-                    </p>
-                    <p className=" tw-text-gray">
-                    The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in. However, these mentainence requirements are not applicable in all cases.
-
-
-                    </p>
-
-
-                  </div>
-                  <div>
-                  <span>STUDENT-WORK-BUSINESS PERMIT FAMILY
-
-</span>
-                    <h2>
-                      <strong>Reunification
-</strong>
-                    </h2>
-
-                    <span>WHAT ARE
-
-</span>
-
-                    <h2>
-                      <strong>Mentainence Requirements
-
-</strong>
-                    </h2>
-
                  
-     <div>
-
-     <span>HOUSING
-
-</span>
-
-                    <h2>
-                      <strong>Requirements:
-
-
-</strong>
-                    </h2>
-
-
-     <ul className=" tw-p-0  tw-list-disc    tw-pt-4">
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in.
-
-
-                        </p>
-                      </li>
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        If you rent your home, you have to send in a copy of your tenancy agreement. You must also enclose a rent invoice for the last month’s rent (1 month).
+            
+                <div className="row">
+                  <div className="col-md-6">
+                    <img src={banner} alt="" />
+                  </div>
+                  <div className="col-md-6">
+                    <p className=" tw-text-gray">We offer housing assistance. We look at the person’s income and character before we handle their application and we have our own online system for this purpose. We make sure you get your apartment through a smooth process.
 
 </p>
-                      </li>
+                  </div>
+                </div>
 
-                     
-                   
-                    </ul>
-
-                    <p className=" tw-text-gray tw-font-medium">
-                    The agreement has to contain:
+                <p className=" tw-text-gray tw-pt-8">We are a relocation company based in four different countries Sweden, Denmark, Pakistan and India. Our head office is in Malmö. Buying and renting requires a lot of research and is associated with uncertainty. That’s why we offer you an easy and painless solution where you can get a place to live without any worries.
 
 </p>
-     </div>
-</div>
+
+            <p className=" tw-text-gray">We are a relocation company based in four different countries Sweden, Denmark, Pakistan and India. Our head office is in Malmö. Buying and renting requires a lot of research and is associated with uncertainty. That’s why we offer you an easy and painless solution where you can get a place to live without any worries.
+
+
+
+</p>
+
+
+
+<img src={banner2} alt="" />
+
+
+
+<p className=" tw-text-gray tw-pt-8">Finding housing in Sweden is much more difficult than in other EU countries. Renting a house is having so much competition in Sweden that there is a specific black market for leasing the house or apartment on a long-term basis. You will have to struggle in finding the apartment in Malmö or Stockholm as these are the busiest cities. Foreigners who intend to live in Sweden for a longer period of time may opt for buying a house rather than being a part of this renting fray.
+
+
+
+</p>
+
+            <p className=" tw-text-gray">While you start to search for a house or apartment in Sweden, you will come across the terms known as first-hand and second-hand rentals. These two terms refer to the apartments rented directly from the landlord (first-hand rentals) or rented and/or sublet through a tenant (second-hand rentals). First-hand rentals are really scarce and in some famous areas, there might be years’ long waiting lists. Sublets or second-hand rentals may be the best option in this case, but you should know that you can be allowed to stay in that unit or house for only one year.
+
+
+
+
+
+</p>
+            <p className=" tw-text-gray">A great benefit of Swedish housing is that you can hardly go wrong with any type of housing situation. There are a lot of options in any area of the country to choose from, whether you are looking for an apartment in the countryside or in the city. You will have a lot of different options like standalone homes or high-rise apartments depending upon your choice. You can also find furnishes as well as unfurnished house and it depends upon the duration of your stay in Scandinavian or Nordic countries.Rental process in Sweden.
+
+
+
+
+
+
+
+</p>
+            <p className=" tw-text-gray">Whether you are looking for a house on rent as a foreigner in Sweden or you are a native Swede, the biggest problem, in any case, is the lack of housing opportunities. This is the case in most of the Scandinavian countries and specifically in Swedish cities causing serious problems for students and expats.
+
+
+
+
+
+
+
+
+
+</p>
+            <p className=" tw-text-gray">You may find a first-hand lease or second-hand rentals. You need to have the personummer, an employment contract, and proof of enough income to afford the house in order to get the house on rent. If your income is too low according to the lender, then you may have to provide a guarantor.
+
+
+
+
+
+
+
+
+
+
+
+</p>
+            <p className=" tw-text-gray">A subletting rental will have similar requirements and procedures as that of the landlords. However, you need to ensure that second-hand leasing has been approved by the landlord otherwise it will be considered as illegal. If you caught in violation of this rule, then you may find yourself evicted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+            <p className=" tw-text-gray">In the meantime, while looking for a house on rent, you can opt for short-term rentals as the average price won’t vary much from annual rental prices in Sweden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+            <p className=" tw-text-gray">This is where we come to help you finding your new house .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+             
 </div>
            
 
@@ -377,7 +386,7 @@ const HouseOffices = () => {
                       return (
 
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
@@ -396,6 +405,8 @@ const HouseOffices = () => {
 
               
             </div>
+
+          
           </div>
         </section>
       </div>

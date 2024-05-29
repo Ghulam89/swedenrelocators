@@ -4,7 +4,7 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/family-time.png";
+import banner from "../../assets/images/online-contract-signing.png";
 const CompanyRegistration = () => {
   const { id } = useParams();
 
@@ -17,6 +17,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link:'/asylum'
     },
     {
       id: 2,
@@ -26,6 +27,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -35,6 +37,9 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link:'/personnumer-sweden'
+      
     },
     {
       id: 4,
@@ -44,15 +49,18 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link:'/cpr-number-denmark'
+      
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -62,6 +70,9 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link:'/business-permit'
+    
     },
     {
       id: 6,
@@ -71,6 +82,8 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+      
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -80,6 +93,9 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
+      
+    
     },
     {
       id: 8,
@@ -89,6 +105,8 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link:'/study-in-eu'
+      
     },
     {
       id: 9,
@@ -98,6 +116,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -107,6 +126,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -116,6 +136,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -125,6 +146,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -134,6 +156,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/company-registration'
     },
     {
       id: 14,
@@ -143,6 +166,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/house-offices'
     },
     {
       id: 15,
@@ -152,6 +176,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -161,6 +186,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -170,6 +196,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link:'/investment'
     },
     {
       id: 18,
@@ -179,6 +206,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -188,6 +216,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link:'/permanent-residence'
     },
     {
       id: 20,
@@ -197,6 +226,7 @@ const CompanyRegistration = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link:'/golden-visa-greece-portugal'
     },
   ];
 
@@ -207,7 +237,8 @@ const CompanyRegistration = () => {
   return (
     <>
       <Navbar />
-      <Banner_Page title={`FAMILY REUNIFICATION`} />
+      <Banner_Page title={`COMPANY REGISTRATION
+`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -215,43 +246,37 @@ const CompanyRegistration = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>EU CITIZEN</span>
-                  <h2>
-                    <strong>Family Members</strong>
-                  </h2>
+                
 
+                <img src={banner} alt="" />
                   <p className=" tw-text-gray">
-                  Family reunification is a recognized reason for the immigration of family members to a country where one or more family member already reside.
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  As a family member of an EU/EEA citizen exercising their right of free movement,you can get a visa through a facilitated process to travel with your family member or to join him/her in Sweden.
-
+                  You can do business in different ways inside Sweden. Whether you can start your own business or become a partner with one or more other Firms/Corporations.Company Registration
 
 
 
                   </p>
                   <p className=" tw-text-gray">
-                  Family members are:
+                  You can do business in different ways inside Sweden. Whether you can start your own business or become a partner with one or more other Firms/Corporations.
+
+
+
 
 
                   </p>
-
-
+               
 
                   <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        Spouse/partner/common law spouse.
+                        Sole Trader (Enskild Firma)
 
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        The direct descendants (children) who are under the age of 21 or are dependents, and those of the spouse or partner.
+                        Trading Partnership or Limited Partnership (Handelsbolag/Kommanditbolag)
 
                         </p>
                       </li>
@@ -264,7 +289,7 @@ const CompanyRegistration = () => {
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
+                        Limited Company (Aktiebolag)
 
                         </p>
                       </li>
@@ -272,98 +297,35 @@ const CompanyRegistration = () => {
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        Once in Sweden you should apply for a residence card for a family member of a EU/EEA citizen within three months for a Residence Card of a family member of a EU/EEA citizen.
+                        Economic Association/cooperative (Ekonomisk Förening)
 
                         </p>
                       </li>
                      
                     </ul>
+
+
+
+                    <p className=" tw-text-gray">Non-Profit Associations and foundations also engage in business activities, although they are usually not started up for this purpose.
+
+</p>
+
+                    <p className=" tw-text-gray">If you are planning to register your company inside Sweden, you can reach us anytime if you have some queries about it.
+
+
+
+</p>
+                    <p className=" tw-text-gray">We have different packages for your new and existing business that includes website creation, data entry software, invoicing software, and mobile applications. The pricing of our offered packages will be according to the size of the company.
+
+
+
+
+
+</p>
+            
                   
 
 
-                  <img src={banner} alt="" />
-
-                  <div>
-                    <span>SWEDISH-NORDIC FAMILY
-</span>
-                    <h2>
-                      <strong>Reunification</strong>
-                    </h2>
-
-                    <p className=" tw-text-gray">
-                    If you are Swedish or Nordic citizen, then you can apply for residence permit under national Laws. Requirements are slightly different than the above-mentioned EU residence card.
-
-
-                    </p>
-                    <p className=" tw-text-gray">
-                    The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in. However, these mentainence requirements are not applicable in all cases.
-
-
-                    </p>
-
-
-                  </div>
-                  <div>
-                  <span>STUDENT-WORK-BUSINESS PERMIT FAMILY
-
-</span>
-                    <h2>
-                      <strong>Reunification
-</strong>
-                    </h2>
-
-                    <span>WHAT ARE
-
-</span>
-
-                    <h2>
-                      <strong>Mentainence Requirements
-
-</strong>
-                    </h2>
-
-                 
-     <div>
-
-     <span>HOUSING
-
-</span>
-
-                    <h2>
-                      <strong>Requirements:
-
-
-</strong>
-                    </h2>
-
-
-     <ul className=" tw-p-0  tw-list-disc    tw-pt-4">
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in.
-
-
-                        </p>
-                      </li>
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        If you rent your home, you have to send in a copy of your tenancy agreement. You must also enclose a rent invoice for the last month’s rent (1 month).
-
-</p>
-                      </li>
-
-                     
-                   
-                    </ul>
-
-                    <p className=" tw-text-gray tw-font-medium">
-                    The agreement has to contain:
-
-</p>
-     </div>
-</div>
 </div>
            
 
@@ -377,7 +339,7 @@ const CompanyRegistration = () => {
                       return (
 
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">

@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/family-time.png";
+import banner2 from "../../assets/images/family-1.png";
 const FamilyRenuification = () => {
   const { id } = useParams();
 
@@ -54,13 +55,13 @@ const FamilyRenuification = () => {
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/cpr-number-denmark'
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -83,7 +84,7 @@ const FamilyRenuification = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
       
-      Link:'/business-permit'
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -93,6 +94,7 @@ const FamilyRenuification = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
       
     
     },
@@ -115,7 +117,7 @@ const FamilyRenuification = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -165,7 +167,7 @@ const FamilyRenuification = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/house-offices'
     },
     {
       id: 15,
@@ -629,7 +631,335 @@ It has to contain:
                    
                   
                     </div>
+
+
+
+                    <div>
+                    <span>IF
+
+</span>
+                  <h2>
+                    <strong>Temporary Employment
+
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray">
+                  If your employment lasts for longer than one year, you need to send in a copy of your employment agreement and your most recent pay slip. If you have an hourly or on-call employment, you can send in a copy of your employment agreement and your three most recent pay slips.
+
+
+
+
+                  </p>
+                  <p className=" tw-text-gray">
+                  If your employment lasts for less than one year and you have had previous fixed-term employment, you also need to send in previous employment agreements for the past year.
+
+
+
+
+
+                  </p>
+                  <p className=" tw-text-gray">
+                  You can also send in documents to prove that you are a member of an unemployment benefit insurance fund, and that you will receive compensation from there in the event of unemployment.
+
+
+
+
+
+
+                  </p>
+                
+                  <p className=" tw-text-gray">
+                  Employment agreements, or other documents showing your employment, have to contain:
+
+
+
+
+
+                  </p>
+
+
+
+                  <ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Name of employee
+
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Form of employment (for example open-ended, fixed term, substitute)
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Level of employment
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Wage
+
+                        </p>
+                      </li>
+
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Employer
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Signature of an authorised representative of your employer.
+
+                        </p>
+                      </li>
+                     
+                    </ul>
+                    <p className=" tw-text-gray">You also need to send in a copy of your most recent pay slip.
+
+</p>
+
+
+<p className=" tw-text-gray tw-font-semibold">
+Your pay slip has to contain:
+
+
+
+
+
+
+
+                  </p>
+
+
+
+                  <ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Name of wage earner (employee)
+
+
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Name of person paying the wage (employer)
+
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Net wage
+                        </p>
+                      </li>
+                      <li className=" tw-flex  tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                        Any wage supplements or wage deductions (leave or illness, for example).
+
+
+                        </p>
+                      </li>
+
+                     
+                     
+                    </ul>
+                   
+                  
+                    </div>
+
+
+                    
+                    <div>
+                    <span>IF
+
+</span>
+                  <h2>
+                    <strong>Unemployment Insu­rance Fund
+
+
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray">
+                  You need to send in a copy of a decision from the unemployment insurance fund and account statements showing payments made to you. The documents should show how much benefit you receive and the period when you have the right to benefit.
+
+
+
+
+
+                  </p>
+                  
+                   
+                  
+                    </div>
+
+
+
+                    <div>
+                    <span>IF
+
+</span>
+                  <h2>
+                    <strong>You Are Receiving Benefit From Försäk­rings­kassan
+
+
+
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray">
+                  You need to send in a copy of a decision from the Försäkringskassan [the Swedish Social Insurance Agency] showing what type of benefit and how much benefit you are receiving. The documents should show the period when you have the right to benefit from Försäkringskassan.
+
+
+
+
+
+
+                  </p>
+                  
+                   
+                  
+                    </div>
+
+
+
+                    <div>
+                    <span>IF
+
+</span>
+                  <h2>
+                    <strong>Pension
+
+
+
+
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray">
+                  You need to send in a copy of a decision showing what type of pension you have and how much pension you receive each month or year. This can, for example, be a decision from the Swedish Pensions Agency.
+
+
+
+
+
+
+
+                  </p>
+                  
+                   
+                  
+                    </div>
+
+
+
+                    
+                    <div>
+                    <span>IF
+
+</span>
+                  <h2>
+                    <strong>You Are Self-Employed
+
+
+
+
+
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray">
+                  If you are a sole trader or are a partner in a trading partnership or limited partnership, your income consists of your share of the surplus from your company after deduction of social security contributions. This usually means the surplus from business activities that you declare in your tax return.
+
+
+
+
+
+
+
+
+                  </p>
+                  
+
+
+
+
+                   
+                  
+                    </div>
+
+
+                    <div className="row">
+                      <div className="col-md-6">
+                        <img src={banner2} alt="" />
+                      </div>
+
+
+                      <div className="col-md-6">
+
+                      <span>WHO CAN
+
+
+</span>
+                  <h2>
+                    <strong>Move With You
+
+
+
+
+
+
+</strong>
+                  </h2>
+
+                  <p className=" tw-text-gray">
+                  Only your immediate family members can move with you if you have a temporary residence permit. Your immediate family members mean your spouse, children under the age of 18, registered partners, and cohabiting partners. Other family members and children who are above 18 are not eligible to move to Sweden or the EU on your behalf while you have a temporary residence permit. If you are under the age of 18, then your parents are counted as your immediate family members.
+
+
+
+
+
+
+
+
+
+                  </p>
+
+</div>
+                    </div>
+
+
+                    <p className=" tw-text-gray">
+                    In case you have a permanent residence permit or you are planning to get married to a person in Sweden, then that person can apply on your behalf for the residence permit. Persons other than your immediate family members like parents or siblings can also move to Sweden with you.
+
+
+
+
+
+
+
+
+
+
+                  </p>
      </div>
+
 </div>
 </div>
            

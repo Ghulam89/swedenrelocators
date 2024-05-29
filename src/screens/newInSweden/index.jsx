@@ -10,7 +10,7 @@ import mobile5 from "../../assets/images/writing_image.png";
 import { GoTriangleRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 const New_In_sweden = () => {
-  const data= [
+  const data = [
     {
       id: 1,
       title: "Asylum",
@@ -56,13 +56,13 @@ const New_In_sweden = () => {
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/cpr-number-denmark'
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -85,7 +85,7 @@ const New_In_sweden = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
       
-      Link:'/business-permit'
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -95,6 +95,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
       
     
     },
@@ -117,7 +118,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -167,7 +168,7 @@ const New_In_sweden = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/house-offices'
     },
     {
       id: 15,

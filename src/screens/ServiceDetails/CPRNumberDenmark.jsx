@@ -4,7 +4,7 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/family-time.png";
+import banner from "../../assets/images/doctor-identification-card.png";
 const CPRNumberDenmark = () => {
   const { id } = useParams();
 
@@ -54,13 +54,13 @@ const CPRNumberDenmark = () => {
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/cpr-number-denmark'
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -83,7 +83,7 @@ const CPRNumberDenmark = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
       
-      Link:'/business-permit'
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -93,6 +93,7 @@ const CPRNumberDenmark = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
       
     
     },
@@ -115,7 +116,7 @@ const CPRNumberDenmark = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -165,7 +166,7 @@ const CPRNumberDenmark = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/study-in-eu'
+      Link:'/house-offices'
     },
     {
       id: 15,
@@ -316,7 +317,12 @@ const CPRNumberDenmark = () => {
 </strong>
                     </h2>
 
-                   <p className=" tw-text-gray">To obtain a CPR number you must have an address in Denmark, also present a range of documents counting on your current civil status (see below). Please note that if your documents aren’t in Danish, Norwegian, Swedish, English or German, you must bring an authorized translation of all these documents.
+      <div className="row">
+        <div className="col-md-6">
+          <img src={banner} alt="" />
+        </div>
+        <div className="col-md-6">
+        <p className=" tw-text-gray">To obtain a CPR number you must have an address in Denmark, also present a range of documents counting on your current civil status (see below). Please note that if your documents aren’t in Danish, Norwegian, Swedish, English or German, you must bring an authorized translation of all these documents.
 
 </p>
 
@@ -325,7 +331,9 @@ const CPRNumberDenmark = () => {
 
 </p>    
 
-
+        </div>
+      </div>
+ 
 
 <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">

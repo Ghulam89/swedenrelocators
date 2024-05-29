@@ -4,7 +4,7 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/programmers-building-mobile-application.png";
+import banner from "../../assets/images/business-startup.png";
 const BusinessPermit = () => {
   const { id } = useParams();
 
@@ -17,6 +17,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
+      Link:'/asylum'
     },
     {
       id: 2,
@@ -26,6 +27,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
+      Link:'/family-reunification'
     },
     {
       id: 3,
@@ -35,6 +37,9 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
+
+      Link:'/personnumer-sweden'
+      
     },
     {
       id: 4,
@@ -44,15 +49,18 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
+      Link:'/cpr-number-denmark'
+      
     },
     {
       id: 5,
-      title: "CPR Number Denmark",
+      title: "Work Permit",
       description:
-        "CPR stands for Det Centrale Personregister, which translates to the Civil Registration System ",
+        "Permit To Work refers to management systems used to ensure that work is done safely and efficiently.        ",
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
+      Link:'/work-permit'
     },
     {
       id: 5,
@@ -62,6 +70,9 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
+
+      Link:'/business-permit'
+    
     },
     {
       id: 6,
@@ -71,6 +82,8 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
+      
+      Link:'/business-visit'
     },
     {
       id: 7,
@@ -80,6 +93,9 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
+      Link:'/citizenship'
+      
+    
     },
     {
       id: 8,
@@ -89,6 +105,8 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
+      Link:'/study-in-eu'
+      
     },
     {
       id: 9,
@@ -98,6 +116,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
+      Link:'/global-visit-visas'
     },
     {
       id: 10,
@@ -107,6 +126,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
+      Link:'/eea-permits'
     },
     {
       id: 11,
@@ -116,6 +136,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
+      Link:'/parents-eu-permit'
     },
     {
       id: 12,
@@ -125,6 +146,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
+      Link:'/marriage-divorce'
     },
     {
       id: 13,
@@ -134,6 +156,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/company-registration'
     },
     {
       id: 14,
@@ -143,6 +166,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
+      Link:'/house-offices'
     },
     {
       id: 15,
@@ -152,6 +176,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
+      Link:'/appeal-cases'
     },
     {
       id: 16,
@@ -161,6 +186,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
+      Link:'/eu-family-reunification'
     },
     {
       id: 17,
@@ -170,6 +196,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
+      Link:'/investment'
     },
     {
       id: 18,
@@ -179,6 +206,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
+      Link:'/direct-citizenship-by-investments'
     },
     {
       id: 19,
@@ -188,6 +216,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
+      Link:'/permanent-residence'
     },
     {
       id: 20,
@@ -197,13 +226,14 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
+      Link:'/golden-visa-greece-portugal'
     },
   ];
 
   return (
     <>
       <Navbar />
-      <Banner_Page title={`WORK PERMIT`} />
+      <Banner_Page title={`BUSINESS PERMIT`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
@@ -211,333 +241,204 @@ const BusinessPermit = () => {
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
                 <div className="  md:tw-px-20 tw-px-2">
-                  <span>FOR EMPLOYEE-EMPLOYER</span>
+                  <span>STARTING YOUR OWN</span>
                   <h2>
-                    <strong>Assistance</strong>
+                    <strong>Business In Sweden
+</strong>
                   </h2>
 
-                  <span>FACING PROBLEMS WITH WORK PERMITS?</span>
+                  <span>IF YOU ARE PLANNING ABOUT INVESTING
+</span>
                   <h2>
                     <strong>
-                      We Will Help You With Preparing Work Permit Applications
+                    In Sweden, You Need To Apply For The Residence Permit
+
                     </strong>
                   </h2>
 
                   <p className=" tw-text-gray tw-font-medium">
-                    Whether you are a Swedish company or foreign employer who is
-                    facing problems with working permits inside Sweden we have
-                    easy solutions for you. You won’t be wasting enough time on
-                    how to apply for the Swedish work permit. We will do it for
-                    you easily and conveniently. You will not have to wait for
-                    12 months in case of incorrect or incomplete applications.
+                  We have a complete solution for all your problems while starting a new business or opening a franchise of your existing business at Sweden. Our mobile app Sweden for all AB will deliver the service of providing the resident permit that will align your plan easily. You will need a detailed plan for your business, bank statement which shows that you have enough capital to invest in your business along with other enough funds to show that you can support your family and you while staying at Sweden during the first two years.
+
                   </p>
 
                   <p className=" tw-text-gray tw-font-medium">
-                    You can signup as Company if you want to hire someone from
-                    outside of Sweden or Non-Eu Citizen in Sweden, similarly if
-                    you have a job offer from any Swedish company just signup on
-                    www.sweden4allab.se and we will take care rest of the
-                    application process.
+                  Sweden is known as the land of start-ups because the economic conditions of the country are detrimental to entrepreneurship. Swedish business culture is open and innovative, and starting a business there is relatively simple. Thus, Sweden excels in promoting the formation of ambitious start-ups on an unexpected level. After Silicon Valley, Stockholm is known for producing the second-highest revenues from tech companies per capita.
+
+
                   </p>
 
-                  <span>CITIZENS OF</span>
+                  <p className=" tw-text-gray tw-font-medium">
+                  Being the tech and innovation hub, there is a high survival rate for start-ups in Sweden with relatively fast growth. However, you can face some difficulties in understanding the business culture and the procedures for operating a business in Sweden.
+
+
+
+                  </p>
+                  <p className=" tw-text-gray tw-font-medium">
+                  Swedish market has been witnessing the growing number of foreign companies, especially in the past few years. Sweden has developed a strong and competitive capitalist economy with a generous and universal welfare system that is known as the Nordic Model. With its diverse and stable market, investors are attracted to the country’s growing economy. There are so many opportunities for business in the country and Business Sweden can help you to connect with other companies in the sector.
+
+
+
+
+                  </p>
+                  <p className=" tw-text-gray tw-font-medium">
+                  You can do business in different ways inside Sweden. Whether you can start your own business or become a partner with one or more other Firms/Corporations.
+
+
+
+
+
+                  </p>
+                  <p className=" tw-text-gray tw-font-medium">
+                  Non-Profit Associations and foundations also engage in business activities, although they are usually not started up for this purpose.
+
+
+
+
+
+                  </p>
+                  <p className=" tw-text-gray tw-font-medium">
+                  Some of the reasons that businesses have chosen the Swedish market as their destination are the world-class infrastructure, Low-level of corruption, highly-skilled workforce, capitalistic economy, and friendly business culture. Sweden’s business climate is very favorable and that’s why it is known as a country of innovation.
+
+
+
+
+
+
+                  </p>
+
+                  <span>CBENEFIT</span>
                   <h2>
-                    <strong>Non-EU Countries</strong>
+                    <strong>From Business Culture
+</strong>
                   </h2>
 
                   <p className=" tw-text-gray tw-font-medium">
-                    You have to be in Sweden or on the Swedish border in order
-                    to apply for asylum. It’s not possible to apply for asylum
-                    before you arrive, or at a Swedish embassy in another
-                    country.
+                  Compared with many other cultures, the Swedish business culture is more relaxed and casual. There isn’t too much bureaucracy and the country is quite free from corruption. You will be inspired much by working in this much relaxed and informal culture. You will learn a lot will build many fruitful business relationships. These cultural reforms can be beneficial for you as an entrepreneur in Sweden.
+
+
                   </p>
 
                   <p className=" tw-text-gray tw-font-medium">
-                    Generally, citizens from countries outside the EU must apply
-                    for a work permit to work in Sweden.
+                  Besides this, the Swedish government has made it a lot easier for people to borrow money from public or private lenders. Swedish are informal about names and being an expat, you should do the same. In short, the business culture, here in Sweden, is much favourable for new business opportunities.
+
+
                   </p>
-                  <p className=" tw-text-gray tw-font-medium">
-                    There are a few exceptions to the rule. Citizens of
-                    Argentina, Australia, Chile, Canada, Hong Kong, New Zealand,
-                    South Korea and Uruguay aged 18–30 can also apply for a
-                    working holiday visa for up to one year.
-                  </p>
-                  <p className=" tw-text-gray tw-font-medium">
-                    For employment that lasts less than three months, citizens
-                    of certain countries must have both a work permit and a
-                    visa. Also note that employees in certain fields may be
-                    exempt from work permit regulations.
-                  </p>
+                 
 
                   <img src={banner} alt="" />
 
                   <div>
                     <h2>
-                      <strong>Citizens Of EU Countries</strong>
+                      <strong>RESIDENCE PERMIT FOR PEOPLE
+</strong>
                     </h2>
                     <span>PASSPORT</span>
                     <h2>
-                      <strong>ID Is Required</strong>
+                      <strong>Who Have Their Own Business
+</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                      EU citizens can look for a job and work without a permit.
-                      Their family can accompany them and can also work.
-                      However, you should have a valid passport to show your
-                      identity.
+                    People who start their business in Sweden or become a partner of a company, doing so if they have to stay for more than 3 months, they need a residence permit. You should apply and get a residence permit before you arrive in Sweden.
+
+
                     </p>
                   </div>
                   <div>
-                    <span>PERMITS FOR</span>
+                    <span>RESIDENCE
+</span>
                     <h2>
-                      <strong>Family Members</strong>
+                      <strong>Permit Requirements
+</strong>
                     </h2>
 
-                    <p className=" tw-text-gray">
-                      If you are a non-EU citizen eligible to receive a work
-                      permit, your spouse/common law spouse/registered partner
-                      and children up to age 21 (as well as children over 21 who
-                      are financially dependent on you) have the right to join
-                      you in Sweden. They must apply for residence permits,
-                      either as part of your application or separately.
-                    </p>
 
-                    <span>THE</span>
-                    <h2>
-                      <strong>Application Processes</strong>
-                    </h2>
 
-                    <p className=" tw-text-gray">
-                      You will need to apply for your permit before entering
-                      Sweden, though in some cases you may be able to apply from
-                      within Sweden if you are already legally living in the
-                      country.
-                    </p>
 
-                    <span>RECEIVE</span>
-                    <h2>
-                      <strong>An Offer Of Employment</strong>
-                    </h2>
 
-                    <p className=" tw-text-gray">
-                      which must have been approved by a relevant trade union.
-                    </p>
-
-                    <span>COMPILE AND</span>
-                    <h2>
-                      <strong>Submit Your Application</strong>
-                    </h2>
-
-                    <p className=" tw-text-gray">
-                      either online or through a paper application submitted to
-                      your closest Swedish embassy or consulate. Your completed
-                      application must include
-                    </p>
-
-                    <div>
-                      <ul className=" tw-p-0 tw-pt-4">
+                    <ul className=" tw-p-0 tw-pt-4">
                         <li className=" tw-flex tw-items-center tw-gap-3">
                           <GoTriangleRight className=" tw-text-blue" />
                           <p className=" m-0 tw-text-gray">
-                            A completed application form
+                          A valid passport. Note that the permit is only valid until the passport expiry date.
+
                           </p>
                         </li>
                         <li className=" tw-flex tw-items-center tw-gap-3">
                           <GoTriangleRight className=" tw-text-blue" />
                           <p className=" m-0 tw-text-gray">
-                            Copies of the pages of your passport that show
-                            personal data, period of validity and whether you
-                            have permission to live in countries other than your
-                            country of origin (e.g. other visas or residence
-                            permits)
+                          Copies of the passport showing your identity, passport validity and permits to reside in any other countries.
+
                           </p>
                         </li>
                         <li className=" tw-flex tw-items-center tw-gap-3">
                           <GoTriangleRight className=" tw-text-blue" />
                           <p className=" m-0 tw-text-gray">
-                            Your offer of employment and the statement from the
-                            trade union
+                          Proof that you own at least 50% of the company and have ultimate responsibility over any decisions.
+
                           </p>
                         </li>
                         <li className=" tw-flex tw-items-center tw-gap-3">
                           <GoTriangleRight className=" tw-text-blue" />
                           <p className=" m-0 tw-text-gray">
-                            An application fees
+                          Bank statements proving that you have sufficient capital to buy or establish a business for at least the first two years in Sweden.
+
                           </p>
                         </li>
                         <li className=" tw-flex tw-items-center tw-gap-3">
                           <GoTriangleRight className=" tw-text-blue" />
                           <p className=" m-0 tw-text-gray">
-                            The Migration Agency considers your application and
-                            informs you of its decision, see current waiting
-                            times.
+                          Your company must be expected to create sufficient profits to support the company, yourself and your family.
+
                           </p>
                         </li>
                         <li className=" tw-flex tw-items-center tw-gap-3">
                           <GoTriangleRight className=" tw-text-blue" />
                           <p className=" m-0 tw-text-gray">
-                            Submit data for visa and residence permit card.
+                          A detailed account of your business plan, including contracts with customers / suppliers; a contract for business premises; business permits if required; an investment budget; a liquidity budget and a budgeted balance sheet (profit / loss).
+
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                          You must have relevant experience in the sector, and in running your own business.
+
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                          You have sufficient income to support yourself and your family for at least the first two years of the permit. This is estimated to be SEK 200,000; for your spouse SEK 100,000; and SEK 50,000 for every child who accompanies you.
+
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                          Proof of sufficient English and or Swedish language skills.
+
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                          Receipt of payment for the application.
+
+                          </p>
+                        </li>
+                        <li className=" tw-flex tw-items-center tw-gap-3">
+                          <GoTriangleRight className=" tw-text-blue" />
+                          <p className=" m-0 tw-text-gray">
+                          If you want to be registered in Sweden, you need to live in Sweden for more than a year and have a valid permit for that time period.
+
+
                           </p>
                         </li>
                       </ul>
-                    </div>
 
-                    <div>
-                      <span>EXTENDING</span>
-                      <h2>
-                        <strong>A Work Permit</strong>
-                      </h2>
 
-                      <p className=" tw-text-gray">
-                        You can apply to extend your permit before your current
-                        permit expires. You can continue working until you get
-                        the decision if you had a permit to work for six months.
-                        For extending your work permit the conditions of the
-                        work permit should have been the same throughout the
-                        working period i.e salary equals 13000 SEK per month
-                        before taxes. You should also have health insurance,
-                        life insurance, occupational injury insurance, and
-                        occupational pension insurance for the entire period.
-                        You need to show the job satisfies the requirement and
-                        conditions of a work permit.
-                      </p>
-                      <p className=" tw-text-gray">
-                        You can apply for extension 4 months before your permit
-                        expires. If you change the conditions of your employment
-                        or change your workplace in the first 24 months of your
-                        work permit, your permit will not be valid and you will
-                        have to apply for a new work permit.
-                      </p>
 
-                      <p className=" tw-text-gray">
-                        You can change your workplace or employer after working
-                        24 months without changing the line of profession.
-                      </p>
-                    </div>
-
-                    <div>
-                      <span>PERMANENT</span>
-                      <h2>
-                        <strong>Residence Permit</strong>
-                      </h2>
-
-                      <p className=" tw-text-gray">
-                        International students with a residence permit in Sweden
-                        can work alongside their studies. If they want to stay
-                        and work in Sweden after completing their studies, they
-                        need a work permit.
-                      </p>
-                      <p className=" tw-text-gray">
-                        If you have been working in same profession and working
-                        conditions as when you you applied for the first time
-                        for 4 years in last 7 years you can get permanent
-                        residence permit.
-                      </p>
-
-                      <p className=" tw-text-gray">
-                        Residence permit for your family members
-                      </p>
-                      <p className=" tw-text-gray">
-                        Your family members can also get the residence permit
-                        for the same duration as you. you will have to show that
-                        you can support them.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h2>
-                        <strong>The Application Process</strong>
-                      </h2>
-
-                      <p className=" tw-text-gray">
-                        We provide you with a complete online transparent
-                        experience of your Sweden relocation process. All you
-                        have to do is to Sign Up to access your online portal
-                        from where your journey begins.
-                      </p>
-                    </div>
-
-                    <div>
-                      <span>CASE</span>
-                      <h2>
-                        <strong>History</strong>
-                      </h2>
-
-                      <p className=" tw-text-gray">
-                        We will study your background to determine whether you
-                        are suitable for the job offer you currently have. The
-                        company will also be investigated as per the
-                        requirements. We will suggest you with the most suitable
-                        service we can provide or the company as our client.
-                      </p>
-                    </div>
-
-                    <div>
-                      <span>PERMANENT</span>
-                      <h2>
-                        <strong>Residence Permit</strong>
-                      </h2>
-
-                      <p className=" tw-text-gray">
-                        International students with a residence permit in Sweden
-                        can work alongside their studies. If they want to stay
-                        and work in Sweden after completing their studies, they
-                        need a work permit.
-                      </p>
-                    </div>
-
-                    <div>
-                      <span>SERVICE</span>
-                      <h2>
-                        <strong>Charges</strong>
-                      </h2>
-
-                      <p className=" tw-text-gray">
-                        On My Page, you will find the total cost for the process
-                        with the service code. You can find your invoice under
-                        the Payment Section on the portal.
-                      </p>
-                    </div>
-
-                    <div>
-                      <span>FILE</span>
-                      <h2>
-                        <strong>Preparation</strong>
-                      </h2>
-
-                      <p className=" tw-text-gray">
-                        While preparing your file we take care of all the
-                        required documentation including the job offer/
-                        anställningserbjudande, trade union’s opinion/ fackligt
-                        yttrande , insurances, etc. We take care of all these
-                        parts during the entire application. When the
-                        application has been submitted to the Swedish Migration
-                        Agency, you will receive a receipt and a control number.
-                      </p>
-                      <p className=" tw-text-gray">
-                        During the processing of the application at
-                        Migrationsverket we will regularly update you about your
-                        case.
-                      </p>
-                    </div>
-
-                    <div>
-                      <span>GRANTED</span>
-                      <h2>
-                        <strong>Work Permit</strong>
-                      </h2>
-
-                      <p className=" tw-text-gray">
-                        We inform and coordinate the above with you and with the
-                        applicant. We will help you through the whole process
-                        with our one window solution. We can even further assist
-                        you with settling in Sweden and relocating.
-                      </p>
-                      <p className=" tw-text-gray">
-                        The employment can begin as soon as the person arrives
-                        in Sweden.
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -548,7 +449,7 @@ const BusinessPermit = () => {
                     {data?.map((item, index) => {
                       return (
                         <Link
-                          to={`${`/service_details/${item?.title}`}`}
+                          to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
                         >
                           <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
