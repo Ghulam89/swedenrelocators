@@ -5,6 +5,8 @@ import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/programmers-building-mobile-application.png";
+import { imageVariants } from "../../utils/motion";
+import { motion } from "framer-motion";
 const WorkPermit = () => {
   const { id } = useParams();
 
@@ -240,13 +242,17 @@ const WorkPermit = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>FOR EMPLOYEE-EMPLOYER</span>
+                <div className="  md:tw-pl-32 tw-pl-3">
+                 
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> FOR EMPLOYEE-EMPLOYER</span>
+
                   <h2>
                     <strong>Assistance</strong>
                   </h2>
 
-                  <span>FACING PROBLEMS WITH WORK PERMITS?</span>
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> FACING PROBLEMS WITH WORK PERMITS?</span>
+
                   <h2>
                     <strong>
                       We Will Help You With Preparing Work Permit Applications
@@ -270,7 +276,9 @@ const WorkPermit = () => {
                     application process.
                   </p>
 
-                  <span>CITIZENS OF</span>
+                 
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> CITIZENS OF</span>
+
                   <h2>
                     <strong>Non-EU Countries</strong>
                   </h2>
@@ -299,15 +307,26 @@ const WorkPermit = () => {
                     exempt from work permit regulations.
                   </p>
 
-                  <img src={banner} alt="" />
+                  <div className="row">
+                    <div className="col-md-10 tw-mx-auto">
+                      
+                    <motion.img  
+                 animate={imageVariants} className=" tw-w-full"  src={banner} alt="" />
+                    </div>
+                  </div>
 
                   <div>
                     <h2>
                       <strong>Citizens Of EU Countries</strong>
                     </h2>
-                    <span>PASSPORT</span>
+                    
+
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PASSPORT</span>
+
                     <h2>
-                      <strong>ID Is Required</strong>
+                   
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> ID Is Required</span>
+
                     </h2>
 
                     <p className=" tw-text-gray">
@@ -318,7 +337,9 @@ const WorkPermit = () => {
                     </p>
                   </div>
                   <div>
-                    <span>PERMITS FOR</span>
+                   
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PERMITS FOR</span>
+
                     <h2>
                       <strong>Family Members</strong>
                     </h2>
@@ -332,7 +353,9 @@ const WorkPermit = () => {
                       either as part of your application or separately.
                     </p>
 
-                    <span>THE</span>
+                
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> THE</span>
+
                     <h2>
                       <strong>Application Processes</strong>
                     </h2>
@@ -344,7 +367,9 @@ const WorkPermit = () => {
                       country.
                     </p>
 
-                    <span>RECEIVE</span>
+              
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> RECEIVE</span>
+
                     <h2>
                       <strong>An Offer Of Employment</strong>
                     </h2>
@@ -353,7 +378,9 @@ const WorkPermit = () => {
                       which must have been approved by a relevant trade union.
                     </p>
 
-                    <span>COMPILE AND</span>
+              
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> COMPILE AND</span>
+
                     <h2>
                       <strong>Submit Your Application</strong>
                     </h2>
@@ -413,7 +440,9 @@ const WorkPermit = () => {
                     </div>
 
                     <div>
-                      <span>EXTENDING</span>
+                     
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> EXTENDING</span>
+
                       <h2>
                         <strong>A Work Permit</strong>
                       </h2>
@@ -446,7 +475,9 @@ const WorkPermit = () => {
                     </div>
 
                     <div>
-                      <span>PERMANENT</span>
+                      
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PERMANENT</span>
+
                       <h2>
                         <strong>Residence Permit</strong>
                       </h2>
@@ -488,7 +519,9 @@ const WorkPermit = () => {
                     </div>
 
                     <div>
-                      <span>CASE</span>
+                  
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> CASE</span>
+
                       <h2>
                         <strong>History</strong>
                       </h2>
@@ -503,7 +536,9 @@ const WorkPermit = () => {
                     </div>
 
                     <div>
-                      <span>PERMANENT</span>
+                   
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PERMANENT</span>
+
                       <h2>
                         <strong>Residence Permit</strong>
                       </h2>
@@ -517,7 +552,9 @@ const WorkPermit = () => {
                     </div>
 
                     <div>
-                      <span>SERVICE</span>
+                    
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> SERVICE</span>
+
                       <h2>
                         <strong>Charges</strong>
                       </h2>
@@ -530,7 +567,9 @@ const WorkPermit = () => {
                     </div>
 
                     <div>
-                      <span>FILE</span>
+                     
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> FILE</span>
+
                       <h2>
                         <strong>Preparation</strong>
                       </h2>
@@ -552,7 +591,9 @@ const WorkPermit = () => {
                     </div>
 
                     <div>
-                      <span>GRANTED</span>
+                      
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> GRANTED</span>
+
                       <h2>
                         <strong>Work Permit</strong>
                       </h2>
@@ -573,7 +614,7 @@ const WorkPermit = () => {
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (

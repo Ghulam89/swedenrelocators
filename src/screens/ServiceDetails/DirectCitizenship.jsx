@@ -4,7 +4,16 @@ import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
-import banner from "../../assets/images/family-time.png";
+import d1 from "../../assets/images/antigua-barbuda.jpg";
+import d2 from "../../assets/images/austria.jpg";
+import d3 from "../../assets/images/cyprus.jpg";
+import d4 from "../../assets/images/Malta.jpg";
+import d5 from "../../assets/images/Montenegro.jpg";
+import d6 from "../../assets/images/Saint_Kitts_and_Nevis.jpg";
+import d7 from "../../assets/images/Saint_Lucia.jpg";
+import d8 from "../../assets/images/Turkey.jpg";
+import { imageVariants } from "../../utils/motion";
+import { motion } from "framer-motion";
 const DirectCitizenship = () => {
   const { id } = useParams();
 
@@ -224,182 +233,253 @@ const DirectCitizenship = () => {
     },
   ];
 
-
-
-  
-
   return (
     <>
       <Navbar />
-      <Banner_Page title={`Direct Citizenship by Investments`} />
+      <Banner_Page title={`DIRECT CITIZENSHIP BY INVESTMENTS`} />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>EU CITIZEN</span>
+                <div className="  md:tw-pl-32 tw-px-3">
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2">
+                    {" "}
+                    <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>
+                    A SELECTION OF
+                  </span>
+
                   <h2>
-                    <strong>Family Members</strong>
+                    <strong>Prime Citizenship Programs</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  Family reunification is a recognized reason for the immigration of family members to a country where one or more family member already reside.
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  As a family member of an EU/EEA citizen exercising their right of free movement,you can get a visa through a facilitated process to travel with your family member or to join him/her in Sweden.
-
-
-
-
-                  </p>
-                  <p className=" tw-text-gray">
-                  Family members are:
-
-
+                    Citizenship-by-investment programs provide ultra-wealthy
+                    families with the privilege of a second or third passport,
+                    which affords them all the internal rights enjoyed by
+                    residents. Listed below are the details of the most credible
+                    and successful citizenship programs offered by Henley &
+                    Partners.
                   </p>
 
+                  <div className="row g-4">
+                    <div className="col-md-6">
+                      <h2 className=" tw-text-center">
+                        <strong>Antigua And Barbuda</strong>
+                      </h2>
 
+                      <div className=" row">
+                        <div className="col-md-8 tw-mx-auto">
+                          <motion.img
+                            animate={imageVariants}
+                            className=" tw-w-full tw-my-3"
+                            src={d1}
+                            alt=""
+                          />
+                        </div>
+                      </div>
 
-                  <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Spouse/partner/common law spouse.
+                      <p className=" tw-text-gray tw-pt-2">
+                        Antigua and Barbuda offers one of the most competitive
+                        citizenship programs in the Caribbe-an. Options start
+                        from USD 100,000 and citizens of Antigua and Barbuda
+                        have visa-free access to 151 destinations, including top
+                        business and lifestyle destinations.
+                      </p>
+                    </div>
+                    <div className="col-md-6">
+                      <h2 className=" tw-text-center">
+                        <strong>Austria</strong>
+                      </h2>
 
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The direct descendants (children) who are under the age of 21 or are dependents, and those of the spouse or partner.
+                      <div className=" row">
+                        <div className="col-md-8 tw-mx-auto">
+                          <motion.img
+                            animate={imageVariants}
+                            className=" tw-w-full tw-my-3"
+                            src={d2}
+                            alt=""
+                          />
+                        </div>
+                      </div>
 
-                        </p>
-                      </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        The dependent direct relatives in the ascending line (e.g. parents) and those of the spouse or partner.
-                        </p>
-                      </li>
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        You can apply for a short-stay Schengen visa (type C-Joining a Family Member) which will permit you to enter Sweden and the Schengen area.
+                      <p className=" tw-text-gray tw-pt-2">
+                        Austria has one of the world’s strongest passports
+                        providing its holders with visa-free access to 187
+                        destinations worldwide, along with settlement rights in
+                        all EU member states. Options for obtaining Austrian
+                        citizenship start from a minimum investment of EUR 3
+                        million.
+                      </p>
+                    </div>
 
-                        </p>
-                      </li>
+                    <div className="col-md-6">
+                      <h2 className=" tw-text-center">
+                        <strong>Cyprus</strong>
+                      </h2>
 
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                        Once in Sweden you should apply for a residence card for a family member of a EU/EEA citizen within three months for a Residence Card of a family member of a EU/EEA citizen.
+                      <div className=" row">
+                        <div className="col-md-8 tw-mx-auto">
+                          <motion.img
+                            animate={imageVariants}
+                            className=" tw-w-full tw-my-3"
+                            src={d3}
+                            alt=""
+                          />
+                        </div>
+                      </div>
 
-                        </p>
-                      </li>
-                     
-                    </ul>
-                  
+                      <p className=" tw-text-gray tw-pt-2">
+                        The Cyprus Investment Programme is one of the most
+                        sought-after citizenship programs that provides
+                        successful applicants with an attractive balance between
+                        the capital contribution they make and the benefits they
+                        receive. For a minimum contribution of EUR 2.15 million,
+                        successful applicants can travel visa-free to 174
+                        destinations worldwide.
+                      </p>
+                    </div>
 
+                    <div className="col-md-6">
+                      <h2 className=" tw-text-center">
+                        <strong>Malta</strong>
+                      </h2>
 
-                  <img src={banner} alt="" />
+                      <div className=" row">
+                        <div className="col-md-8 tw-mx-auto">
+                          <motion.img
+                            animate={imageVariants}
+                            className=" tw-w-full tw-my-3"
+                            src={d4}
+                            alt=""
+                          />
+                        </div>
+                      </div>
 
-                  <div>
-                    <span>SWEDISH-NORDIC FAMILY
-</span>
-                    <h2>
-                      <strong>Reunification</strong>
-                    </h2>
+                      <p className=" tw-text-gray tw-pt-2">
+                        The Malta Individual Investor Program is the world’s
+                        leading citizenship program. For a minimum contribution
+                        of approximately EUR 1 million, successful applicants
+                        can acquire Maltese citizen-ship that offers safety and
+                        security by providing a better quality of life and the
+                        right to live, work, and study in all EU member states.
+                      </p>
+                    </div>
 
-                    <p className=" tw-text-gray">
-                    If you are Swedish or Nordic citizen, then you can apply for residence permit under national Laws. Requirements are slightly different than the above-mentioned EU residence card.
+                    <div className="col-md-6">
+                      <h2 className=" tw-text-center">
+                        <strong>Montenegro</strong>
+                      </h2>
 
+                      <div className=" row">
+                        <div className="col-md-8 tw-mx-auto">
+                          <motion.img
+                            animate={imageVariants}
+                            className=" tw-w-full tw-my-3"
+                            src={d5}
+                            alt=""
+                          />
+                        </div>
+                      </div>
 
-                    </p>
-                    <p className=" tw-text-gray">
-                    The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in. However, these mentainence requirements are not applicable in all cases.
+                      <p className=" tw-text-gray tw-pt-2">
+                        The Montenegro Citizenship-by-Investment Program offers
+                        increased global mobility with visa-free or
+                        visa-on-arrival access to 124 destinations including the
+                        countries of Europe’s Schengen Area, as well as Russia
+                        and the UAE. The program is exclusively limited to 2,000
+                        applicants and a minimum contribution of EUR 350,000 is
+                        required.
+                      </p>
+                    </div>
 
+                    <div className="col-md-6">
+                      <h2 className=" tw-text-center">
+                        <strong>St. Kitts And Nevis</strong>
+                      </h2>
 
-                    </p>
+                      <div className=" row">
+                        <div className="col-md-8 tw-mx-auto">
+                          <motion.img
+                            animate={imageVariants}
+                            className=" tw-w-full tw-my-3"
+                            src={d6}
+                            alt=""
+                          />
+                        </div>
+                      </div>
 
+                      <p className=" tw-text-gray tw-pt-2">
+                        St. Kitts and Nevis has one of the strongest passports
+                        among all the Caribbean citizenship programs. For a
+                        minimum contribution of USD 150,000, the St. Kitts and
+                        Nevis Citizenship-by-Investment Program provides
+                        visa-free or visa-on-arrival access to 156
+                        destina-tions.
+                      </p>
+                    </div>
 
+                    <div className="col-md-6">
+                      <h2 className=" tw-text-center">
+                        <strong>St. Lucia</strong>
+                      </h2>
+
+                      <div className=" row">
+                        <div className="col-md-8 tw-mx-auto">
+                          <motion.img
+                            animate={imageVariants}
+                            className=" tw-w-full tw-my-3"
+                            src={d7}
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <p className=" tw-text-gray tw-pt-2">
+                        The St. Lucia Citizenship-by-Investment Program offers
+                        increased global mobility and oppor-tunity by providing
+                        visa-free or visa-on-arrival access to 146 destinations
+                        around the world. For a contribution of USD 100,000,
+                        applicants can acquire their passports in as little as
+                        four months.
+                      </p>
+                    </div>
+
+                    <div className="col-md-6">
+                      <h2 className=" tw-text-center">
+                        <strong>Turkey</strong>
+                      </h2>
+
+                      <div className=" row">
+                        <div className="col-md-8 tw-mx-auto">
+                          <motion.img
+                            animate={imageVariants}
+                            className=" tw-w-full tw-my-3"
+                            src={d8}
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <p className=" tw-text-gray tw-pt-2">
+                        The Turkey Citizenship-by-Investment Program offers
+                        European citizenship and access to the Western markets.
+                        The Turkish passport provides visa-free or
+                        visa-on-arrival access to 111 des-tinations around the
+                        world. For a real estate investment of USD 250,000,
+                        passports can be ac-quired in six to nine months.
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                  <span>STUDENT-WORK-BUSINESS PERMIT FAMILY
-
-</span>
-                    <h2>
-                      <strong>Reunification
-</strong>
-                    </h2>
-
-                    <span>WHAT ARE
-
-</span>
-
-                    <h2>
-                      <strong>Mentainence Requirements
-
-</strong>
-                    </h2>
-
-                 
-     <div>
-
-     <span>HOUSING
-
-</span>
-
-                    <h2>
-                      <strong>Requirements:
-
-
-</strong>
-                    </h2>
-
-
-     <ul className=" tw-p-0  tw-list-disc    tw-pt-4">
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        The person who wants to invite his family to the country he should be residing and have enough income resources to provide financial support to the family and a standard house to live in.
-
-
-                        </p>
-                      </li>
-                      <li className=" ">
-                        
-                        <p className=" m-0 tw-text-gray">
-                        If you rent your home, you have to send in a copy of your tenancy agreement. You must also enclose a rent invoice for the last month’s rent (1 month).
-
-</p>
-                      </li>
-
-                     
-                   
-                    </ul>
-
-                    <p className=" tw-text-gray tw-font-medium">
-                    The agreement has to contain:
-
-</p>
-     </div>
-</div>
-</div>
-           
-
-                
+                </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                  {data?.map((item, index) => {
+                    {data?.map((item, index) => {
                       return (
-
                         <Link
                           to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
@@ -409,16 +489,11 @@ const DirectCitizenship = () => {
                           </p>
                           <GoTriangleRight className="tw-text-gray" />
                         </Link>
-
                       );
                     })}
                   </ul>
                 </div>
               </div>
-
-
-
-              
             </div>
           </div>
         </section>

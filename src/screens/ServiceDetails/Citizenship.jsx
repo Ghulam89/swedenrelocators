@@ -235,8 +235,10 @@ const Citizenship = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>REQUIREMENTS FOR BECOMING</span>
+                <div className="  md:tw-pl-32 tw-pl-3">
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> REQUIREMENTS FOR BECOMING</span>
+
                   <h2>
                     <strong>A Swedish Citizen By Application</strong>
                   </h2>
@@ -297,7 +299,8 @@ const Citizenship = () => {
                   </ul>
 
                   <div>
-                    <span>YOU MUST HAVE LIVED</span>
+                  
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> YOU MUST HAVE LIVED</span>
                     <h2>
                       <strong>In Sweden For A Certain Period</strong>
                     </h2>
@@ -313,11 +316,16 @@ const Citizenship = () => {
                     </p>
                   </div>
 
-                  <img src={banner} alt="" />
+                  <div className="row">
+                    <div className="col-md-10 tw-mx-auto">
+                    <img src={banner} alt="" />
+                    </div>
+                  </div>
 
                   <div>
                     <div>
-                      <span className=" tw-mt-5">CITIZENSHIP</span>
+                     
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>CITIZENSHIP</span>
 
                       <h2>
                         <strong>For Adults</strong>
@@ -330,8 +338,8 @@ const Citizenship = () => {
                       </p>
 
                       <div className="">
-                        <span className=" tw-mt-5">PERIOD OF</span>
-
+                       
+                        <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>PERIOD OF</span>
                         <h2>
                           <strong>Residence</strong>
                         </h2>
@@ -357,8 +365,8 @@ const Citizenship = () => {
                       </div>
 
                       <div className="">
-                        <span className=" tw-mt-5">EU/EEA CITIZENS</span>
-
+                       
+                        <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>EU/EEA CITIZENS</span>
                         <h2>
                           <strong>And Their Family Members</strong>
                         </h2>
@@ -370,121 +378,109 @@ const Citizenship = () => {
                         </p>
                       </div>
 
-
-                      <img src={banner2} alt="" />
-
-
-                      <div className=" tw-pt-5">
-                      <span>RECORDS</span>
-                  <h2>
-                    <strong>Related You
-</strong>
-                  </h2>
-
-                  <p className=" tw-text-gray ">
-                  You need to conduct yourself well. Your past will be checked by the authorities.
-Any information about your debts and crimes will be checked by the Swedish Migration Agency.
-
-
-                  </p>
-
-                  <p className=" tw-text-gray tw-font-medium">
-                  The information is requested from:
-
-
-                  </p>
-
-                  <ul className=" tw-p-0 tw-pt-4">
-                    <li className=" tw-flex tw-items-center tw-gap-3">
-                      <GoTriangleRight className=" tw-text-blue" />
-                      <p className=" m-0 tw-text-gray">
-                      The Enforcement Authority (if you have debts)
-
-                      </p>
-                    </li>
-                    <li className=" tw-flex tw-items-center tw-gap-3">
-                      <GoTriangleRight className=" tw-text-blue" />
-                      <p className=" m-0 tw-text-gray">
-                      The Police (if you committed a crime or are suspected of doing so)                      </p>
-                    </li>
-                    <li className=" tw-flex tw-items-center tw-gap-3">
-                      <GoTriangleRight className=" tw-text-blue" />
-                      <p className=" m-0 tw-text-gray">
-                      The Security Service (security checks).
-
-                      </p>
-                    </li>
-                   
-                  </ul>
-
+                      <div className="row">
+                        <div className="col-md-10 tw-mx-auto">
+                        <img src={banner2} alt="" />
+                        </div>
                       </div>
 
-
                       <div className=" tw-pt-5">
-                      <span>YOU CAN GET YOUR CITIZENSHIP
-</span>
-                  <h2>
-                    <strong>Application Refused In The Situations Mentioned Below If You
+                    
+                        <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>RECORDS</span>
 
-</strong>
-                  </h2>
+                        <h2>
+                          <strong>Related You</strong>
+                        </h2>
 
-                  <p className=" tw-text-gray ">
-                  You need to conduct yourself well. Your past will be checked by the authorities.
-Any information about your debts and crimes will be checked by the Swedish Migration Agency.
+                        <p className=" tw-text-gray ">
+                          You need to conduct yourself well. Your past will be
+                          checked by the authorities. Any information about your
+                          debts and crimes will be checked by the Swedish
+                          Migration Agency.
+                        </p>
 
+                        <p className=" tw-text-gray tw-font-medium">
+                          The information is requested from:
+                        </p>
 
-                  </p>
-
-
-
-                  <ul className=" tw-p-0 tw-pt-4">
-                    <li className=" tw-flex tw-items-center tw-gap-3">
-                      <GoTriangleRight className=" tw-text-blue" />
-                      <p className=" m-0 tw-text-gray">
-                      have not paid taxes, fines or other charges
-
-
-                      </p>
-                    </li>
-                  
-                    <li className=" tw-flex tw-items-center tw-gap-3">
-                      <GoTriangleRight className=" tw-text-blue" />
-                      <p className=" m-0 tw-text-gray">
-                      have not paid maintenance.
-
-                      </p>
-                    </li>
-                   
-                  </ul>
-  <p className=" tw-text-gray">Having debts in private companies also lead to rejection in your application. You have to remain debt free at least for 2 years before you can apply for a Swedish citizenship.
-
-</p>
-                 
-
+                        <ul className=" tw-p-0 tw-pt-4">
+                          <li className=" tw-flex tw-items-center tw-gap-3">
+                            <GoTriangleRight className=" tw-text-blue" />
+                            <p className=" m-0 tw-text-gray">
+                              The Enforcement Authority (if you have debts)
+                            </p>
+                          </li>
+                          <li className=" tw-flex tw-items-center tw-gap-3">
+                            <GoTriangleRight className=" tw-text-blue" />
+                            <p className=" m-0 tw-text-gray">
+                              The Police (if you committed a crime or are
+                              suspected of doing so){" "}
+                            </p>
+                          </li>
+                          <li className=" tw-flex tw-items-center tw-gap-3">
+                            <GoTriangleRight className=" tw-text-blue" />
+                            <p className=" m-0 tw-text-gray">
+                              The Security Service (security checks).
+                            </p>
+                          </li>
+                        </ul>
                       </div>
 
+                      <div className=" tw-pt-5">
                       
+                        <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>YOU CAN GET YOUR CITIZENSHIP</span>
+
+                        <h2>
+                          <strong>
+                            Application Refused In The Situations Mentioned
+                            Below If You
+                          </strong>
+                        </h2>
+
+                        <p className=" tw-text-gray ">
+                          You need to conduct yourself well. Your past will be
+                          checked by the authorities. Any information about your
+                          debts and crimes will be checked by the Swedish
+                          Migration Agency.
+                        </p>
+
+                        <ul className=" tw-p-0 tw-pt-4">
+                          <li className=" tw-flex tw-items-center tw-gap-3">
+                            <GoTriangleRight className=" tw-text-blue" />
+                            <p className=" m-0 tw-text-gray">
+                              have not paid taxes, fines or other charges
+                            </p>
+                          </li>
+
+                          <li className=" tw-flex tw-items-center tw-gap-3">
+                            <GoTriangleRight className=" tw-text-blue" />
+                            <p className=" m-0 tw-text-gray">
+                              have not paid maintenance.
+                            </p>
+                          </li>
+                        </ul>
+                        <p className=" tw-text-gray">
+                          Having debts in private companies also lead to
+                          rejection in your application. You have to remain debt
+                          free at least for 2 years before you can apply for a
+                          Swedish citizenship.
+                        </p>
+                      </div>
+
                       <div className=" tw-pt-5">
-                      <span>DUAL
-</span>
-                  <h2>
-                    <strong>Nationality
+                    
+                        <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>DUAL</span>
 
+                        <h2>
+                          <strong>Nationality</strong>
+                        </h2>
 
-</strong>
-                  </h2>
-
-                  <p className=" tw-text-gray ">
-                  Swedish law allow a person to have dual nationality or even multiple nationalities. Having multiple or dual nationalities would not affect on the rights of being a Swede.
-
-
-
-
-                  </p>
-
-                 
-
+                        <p className=" tw-text-gray ">
+                          Swedish law allow a person to have dual nationality or
+                          even multiple nationalities. Having multiple or dual
+                          nationalities would not affect on the rights of being
+                          a Swede.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -492,7 +488,7 @@ Any information about your debts and crimes will be checked by the Swedish Migra
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (

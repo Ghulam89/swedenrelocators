@@ -291,7 +291,7 @@ const Blogs = () => {
         <div className="container-fluid ">
           <div className="row g-5">
             <div className="col-md-8    tw-py-10 tw-bg-white">
-              <div className="row tw-pt-6  md:tw-px-10 tw-px-4">
+              <div className="row tw-pt-6  md:tw-pl-32 tw-px-4">
                 {data?.map((item, index) => {
                   return (
                     <div className="col-lg-6">
@@ -359,7 +359,7 @@ const Blogs = () => {
             </div>
 
             <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                   {data2?.map((item, index) => {
                       return (

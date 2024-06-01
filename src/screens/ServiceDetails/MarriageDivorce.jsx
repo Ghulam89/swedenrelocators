@@ -17,7 +17,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
-      Link:'/asylum'
+      Link: "/asylum",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
-      Link:'/family-reunification'
+      Link: "/family-reunification",
     },
     {
       id: 3,
@@ -38,8 +38,7 @@ const MarriageDivorce = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
 
-      Link:'/personnumer-sweden'
-      
+      Link: "/personnumer-sweden",
     },
     {
       id: 4,
@@ -49,8 +48,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
-      Link:'/cpr-number-denmark'
-      
+      Link: "/cpr-number-denmark",
     },
     {
       id: 5,
@@ -60,7 +58,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/work-permit'
+      Link: "/work-permit",
     },
     {
       id: 5,
@@ -71,8 +69,7 @@ const MarriageDivorce = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
 
-      Link:'/business-permit'
-    
+      Link: "/business-permit",
     },
     {
       id: 6,
@@ -82,8 +79,8 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
-      
-      Link:'/business-visit'
+
+      Link: "/business-visit",
     },
     {
       id: 7,
@@ -93,9 +90,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      Link:'/citizenship'
-      
-    
+      Link: "/citizenship",
     },
     {
       id: 8,
@@ -105,8 +100,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
-      Link:'/study-in-eu'
-      
+      Link: "/study-in-eu",
     },
     {
       id: 9,
@@ -116,7 +110,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/global-visit-visas'
+      Link: "/global-visit-visas",
     },
     {
       id: 10,
@@ -126,7 +120,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
-      Link:'/eea-permits'
+      Link: "/eea-permits",
     },
     {
       id: 11,
@@ -136,7 +130,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
-      Link:'/parents-eu-permit'
+      Link: "/parents-eu-permit",
     },
     {
       id: 12,
@@ -146,7 +140,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
-      Link:'/marriage-divorce'
+      Link: "/marriage-divorce",
     },
     {
       id: 13,
@@ -156,7 +150,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/company-registration'
+      Link: "/company-registration",
     },
     {
       id: 14,
@@ -166,7 +160,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/house-offices'
+      Link: "/house-offices",
     },
     {
       id: 15,
@@ -176,7 +170,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
-      Link:'/appeal-cases'
+      Link: "/appeal-cases",
     },
     {
       id: 16,
@@ -186,7 +180,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
-      Link:'/eu-family-reunification'
+      Link: "/eu-family-reunification",
     },
     {
       id: 17,
@@ -196,7 +190,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
-      Link:'/investment'
+      Link: "/investment",
     },
     {
       id: 18,
@@ -206,7 +200,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
-      Link:'/direct-citizenship-by-investments'
+      Link: "/direct-citizenship-by-investments",
     },
     {
       id: 19,
@@ -216,7 +210,7 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
-      Link:'/permanent-residence'
+      Link: "/permanent-residence",
     },
     {
       id: 20,
@@ -226,13 +220,9 @@ const MarriageDivorce = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
-      Link:'/golden-visa-greece-portugal'
+      Link: "/golden-visa-greece-portugal",
     },
   ];
-
-
-
-  
 
   return (
     <>
@@ -244,109 +234,106 @@ const MarriageDivorce = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>GET STARTED
-</span>
+                <div className="  md:tw-pl-32 tw-pl-3">
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> GET STARTED</span>
                   <h2>
-                    <strong>IN YOUR NEW LIFE
-</strong>
+                    <strong>IN YOUR NEW LIFE</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  Getting married is beautiful. But to make sure that it will be a good experience for both you and your partner, it is important to have legal control. We help you with that, so that you can just enjoy your upcoming marriage. To get married in Sweden you should be 18 years old according to the law.
-
-
-
+                    Getting married is beautiful. But to make sure that it will
+                    be a good experience for both you and your partner, it is
+                    important to have legal control. We help you with that, so
+                    that you can just enjoy your upcoming marriage. To get
+                    married in Sweden you should be 18 years old according to
+                    the law.
                   </p>
                   <p className=" tw-text-gray">
-                  Before getting married you should check in Swedish Tax Agency that you can get married without any hindrance. You need to fill a form and submit it to your kommun. They will approve you to be married.
-
-
-
-
-
+                    Before getting married you should check in Swedish Tax
+                    Agency that you can get married without any hindrance. You
+                    need to fill a form and submit it to your kommun. They will
+                    approve you to be married.
                   </p>
-                
 
+                  <div>
+                   
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> ACCORDING TO SWEDISH LAW</span>
+                    <h2>
+                      <strong>The Following Are Impediments To Marriage</strong>
+                    </h2>
 
-
-
-<div>
-  
-<span>ACCORDING TO SWEDISH LAW
-
-</span>
-                  <h2>
-                    <strong>The Following Are Impediments To Marriage
-
-</strong>
-                  </h2>
-
-<ul className=" tw-p-0 tw-pt-4">
+                    <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        if you or your partner are under the age of 18
-
+                          if you or your partner are under the age of 18
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        if you are closely related to the person you want to marry
-
+                          if you are closely related to the person you want to
+                          marry
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        if you or your partner are already married, or are registered partners
+                          if you or your partner are already married, or are
+                          registered partners
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                        Swedish law also forbids forced marriage. This means that no one can force anyone else to marry. Everyone has the right to decide who they want to marry.
-
+                          Swedish law also forbids forced marriage. This means
+                          that no one can force anyone else to marry. Everyone
+                          has the right to decide who they want to marry.
                         </p>
                       </li>
-
-                     
-                     
                     </ul>
 
+                    <p className=" tw-text-gray">
+                      Marriage is between two consented and happy people.
+                      Wedding can be conducted in kommun or in a mosque or
+                      church etc and can be conducted by a a priest, imam or a
+                      registrar, for example. Civil marriages are performed by a
+                      person who has been appointed by the county administrative
+                      board.
+                    </p>
+                    <p className=" tw-text-gray">
+                      A civil marriage is a ceremony that is unconnected to any
+                      religion. If the wedding is a religious ceremony performed
+                      by a celebrant who does not have the right to solemnise
+                      marriages, the marriage is not official in the eyes of the
+                      law. For it to become official, a civil marriage is also
+                      required.
+                    </p>
+                  </div>
 
-                    <p className=" tw-text-gray">Marriage is between two consented and happy people. Wedding can be conducted in kommun or in a mosque or church etc and can be conducted by a a priest, imam or a registrar, for example. Civil marriages are performed by a person who has been appointed by the county administrative board.
+                  <div className="row">
+                    <div className="col-md-10 tw-mx-auto">
+                    <img src={banner} alt="" />
+                    </div>
+                  </div>
 
-
-
-</p>
-                    <p className=" tw-text-gray">A civil marriage is a ceremony that is unconnected to any religion. If the wedding is a religious ceremony performed by a celebrant who does not have the right to solemnise marriages, the marriage is not official in the eyes of the law. For it to become official, a civil marriage is also required.
-
-
-
-</p>
-                  
-</div>
-
-
-                  <img src={banner} alt="" />
-
-          <p  className=" tw-text-gray">However, sometimes it is best to go separately and get divorced. Unfortunately, this can create some challenges, especially when you are not in your home country. In those cases, things usually get easier if a third party takes care of all the legal stuff, so you can both use your energy to get on well.
-
-    </p>
-</div>
-           
-
-                
+                  <p className=" tw-text-gray">
+                    However, sometimes it is best to go separately and get
+                    divorced. Unfortunately, this can create some challenges,
+                    especially when you are not in your home country. In those
+                    cases, things usually get easier if a third party takes care
+                    of all the legal stuff, so you can both use your energy to
+                    get on well.
+                  </p>
+                </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4 ">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                  {data?.map((item, index) => {
+                    {data?.map((item, index) => {
                       return (
-
                         <Link
                           to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
@@ -356,16 +343,11 @@ const MarriageDivorce = () => {
                           </p>
                           <GoTriangleRight className="tw-text-gray" />
                         </Link>
-
                       );
                     })}
                   </ul>
                 </div>
               </div>
-
-
-
-              
             </div>
           </div>
         </section>

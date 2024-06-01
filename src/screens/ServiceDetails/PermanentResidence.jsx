@@ -244,9 +244,9 @@ const PermanentResidence = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>PERMANENT RIGHT OF
-</span>
+                <div className="  md:tw-pl-32 tw-pl-3">
+          
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PERMANENT RIGHT OF</span>
                   <h2>
                     <strong>Residence For EU Citizens
 </strong>
@@ -261,9 +261,9 @@ const PermanentResidence = () => {
               
 
                   <div>
-                  <span>DIFFERENT WAYS FOR
+       
 
-</span>
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> DIFFERENT WAYS FOR</span>
                   <h2>
                     <strong>Permanent Right Of Residence
 
@@ -344,9 +344,9 @@ const PermanentResidence = () => {
 
 
                   <div>
-                    <span>FOR
-
-</span>
+     
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> FOR</span>
+            
                     <h2>
                       <strong>Dependents
 </strong>
@@ -365,12 +365,15 @@ const PermanentResidence = () => {
                   </div>
 
 
-                  <img src={banner} alt="" />
+                  <div className="row">
+                    <div className="col-md-10 tw-mx-auto"> 
+                    <img src={banner} alt="" />
+                    </div>
+                  </div>
                   <div>
-                    <span>PERMANENT RESIDENCE CARDS FOR
+     
 
-
-</span>
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PERMANENT RESIDENCE CARDS FOR</span>
                     <h2>
                       <strong>EU Citizens Family Members Who Are Non-EU Citizens
 
@@ -396,11 +399,8 @@ const PermanentResidence = () => {
                  
 
 
-                    <span>REQUIREMENTS FOR
-
-
-
-</span>
+         
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> REQUIREMENTS FOR</span>
                     <h2>
                       <strong>Permanent Residence Card
 
@@ -412,12 +412,8 @@ const PermanentResidence = () => {
                   </div>
 
                   <div>
-                  <span>TO BE ELIGIBLE FOR
-
-
-
-
-</span>
+             
+<span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> TO BE ELIGIBLE FOR</span>
                     <h2>
                       <strong>A Permanent Residence Card
 
@@ -460,13 +456,8 @@ const PermanentResidence = () => {
 
 
                   <div>
-                  <span>HOWEVER, HAVING A PERMANENT
-
-
-
-
-
-</span>
+            
+<span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> HOWEVER, HAVING A PERMANENT</span>
                     <h2>
                       <strong>Residence Permit Does Not Entitle You To
 
@@ -526,7 +517,7 @@ const PermanentResidence = () => {
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                   {data?.map((item, index) => {
                       return (

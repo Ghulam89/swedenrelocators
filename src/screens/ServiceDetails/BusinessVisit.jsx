@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/startup-business.jpg";
+import banner2 from "../../assets/images/man-searching-air-ticket-for-summer-travel.png"
 const BusinessVisit = () => {
   const { id } = useParams();
 
@@ -224,58 +225,87 @@ const BusinessVisit = () => {
     },
   ];
 
-
   return (
     <>
       <Navbar />
-      <Banner_Page title={`BUSINESS VISIT
-`} />
+      <Banner_Page
+        title={`BUSINESS VISIT
+`}
+      />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>BUSINESS VISA TO SWEDEN
-</span>
+                <div className="  md:tw-pl-32 tw-pl-2">
+                 
+                  <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> BUSINESS VISA TO SWEDEN</span>
                   <h2>
-                    <strong>Short Official Or Business Trip To Sweden?
-</strong>
+                    <strong>Short Official Or Business Trip To Sweden?</strong>
                   </h2>
 
-                
                   <p className=" tw-text-gray tw-font-medium">
-                  If you or your company is planning for your short visit/business trip to Sweden then we are here to assist you in getting your business visa. You can just relax and focus on your business while we do it all for you.
-
-
+                    If you or your company is planning for your short
+                    visit/business trip to Sweden then we are here to assist you
+                    in getting your business visa. You can just relax and focus
+                    on your business while we do it all for you.
                   </p>
-
-                 
-                 
 
                   <img src={banner} alt="" />
 
                   <div>
-                    <h2>
-                      <strong>BASIC REQUIREMENTS (APPLICANT)
-</strong>
-                    </h2>
-                    <span>Documents To Be Submitted
+                  <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> BASIC REQUIREMENTS (APPLICANT)
 </span>
+                    <h2>
+                      <strong>Documents To Be Submitted</strong>
+                    </h2>
+               
+
+                    <p className=" tw-text-gray">
+                      The following are the requirements for business visa:
+                    </p>
 
 
-   <p className=" tw-text-gray">The following are the requirements for business visa:
+                    <ul className=" tw-p-0 tw-pt-4">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                     
+                      <p className=" tw-text-gray "> 2. <b>Application form:</b> Duly filled and signed by the applicant.</p>
+                      </li>
+
+
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                     
+                    
+                     <p className=" tw-text-gray "> 2. <b>Photograph:</b> One recent color photograph in passport format(not older than 6 months) with white background, head on and uncovered head for gentleman.</p>
+                  
+                   </li>
+
+
+                    
+                     
+                    </ul>
+
+
+
+                     <div className="row">
+                      <div className="col-md-10 tw-mx-auto">
+                      <img src={banner2} alt="" />
+
+
+                      <p className=" tw-text-gray">Foreign people who want to invest in Sweden and stay temporarily for that purpose can also apply for a business visa which is valid for multiple entries. With this visa they can travel back and forth to run their business for stays of up to 90 days during a 180 day period for up to five years. People who stay in sweden for less than 3 months for the purpose of business they don’t have to take a residence permit they can get a business visa.
 
 </p>
-                   
+                      </div>
+                     </div>
+
+                    
                   </div>
-                 
                 </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (

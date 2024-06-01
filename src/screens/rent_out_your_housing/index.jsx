@@ -210,7 +210,7 @@ const Rent_out_your_housing = () => {
         <div className="container-fluid ">
           <div className="row">
             <div className="col-md-8">
-              <div className=" tw-bg-white tw-pt-8  md:tw-p-14 tw-p-5">
+              <div className=" tw-bg-white tw-pt-14  md:tw-pl-32 tw-pl-4">
                 <div className=" tw-bg-blue tw-text-center tw-rounded-md tw-py-4  px-3">
                   <h6 className=" tw-text-white tw-m-0">
                     {" "}
@@ -654,7 +654,7 @@ const Rent_out_your_housing = () => {
               </div>
             </div>
             <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-              <div className="  tw-pr-10">
+              <div className="  md:tw-pr-32 tw-pr-4">
                 <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                 {data?.map((item, index) => {
                       return (

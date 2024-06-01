@@ -17,7 +17,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
-      Link:'/asylum'
+      Link: "/asylum",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
-      Link:'/family-reunification'
+      Link: "/family-reunification",
     },
     {
       id: 3,
@@ -38,8 +38,7 @@ const BusinessPermit = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
 
-      Link:'/personnumer-sweden'
-      
+      Link: "/personnumer-sweden",
     },
     {
       id: 4,
@@ -49,8 +48,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
-      Link:'/cpr-number-denmark'
-      
+      Link: "/cpr-number-denmark",
     },
     {
       id: 5,
@@ -60,7 +58,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/work-permit'
+      Link: "/work-permit",
     },
     {
       id: 5,
@@ -71,8 +69,7 @@ const BusinessPermit = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
 
-      Link:'/business-permit'
-    
+      Link: "/business-permit",
     },
     {
       id: 6,
@@ -82,8 +79,8 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
-      
-      Link:'/business-visit'
+
+      Link: "/business-visit",
     },
     {
       id: 7,
@@ -93,9 +90,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      Link:'/citizenship'
-      
-    
+      Link: "/citizenship",
     },
     {
       id: 8,
@@ -105,8 +100,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
-      Link:'/study-in-eu'
-      
+      Link: "/study-in-eu",
     },
     {
       id: 9,
@@ -116,7 +110,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/global-visit-visas'
+      Link: "/global-visit-visas",
     },
     {
       id: 10,
@@ -126,7 +120,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
-      Link:'/eea-permits'
+      Link: "/eea-permits",
     },
     {
       id: 11,
@@ -136,7 +130,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
-      Link:'/parents-eu-permit'
+      Link: "/parents-eu-permit",
     },
     {
       id: 12,
@@ -146,7 +140,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
-      Link:'/marriage-divorce'
+      Link: "/marriage-divorce",
     },
     {
       id: 13,
@@ -156,7 +150,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/company-registration'
+      Link: "/company-registration",
     },
     {
       id: 14,
@@ -166,7 +160,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/house-offices'
+      Link: "/house-offices",
     },
     {
       id: 15,
@@ -176,7 +170,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
-      Link:'/appeal-cases'
+      Link: "/appeal-cases",
     },
     {
       id: 16,
@@ -186,7 +180,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
-      Link:'/eu-family-reunification'
+      Link: "/eu-family-reunification",
     },
     {
       id: 17,
@@ -196,7 +190,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
-      Link:'/investment'
+      Link: "/investment",
     },
     {
       id: 18,
@@ -206,7 +200,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
-      Link:'/direct-citizenship-by-investments'
+      Link: "/direct-citizenship-by-investments",
     },
     {
       id: 19,
@@ -216,7 +210,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
-      Link:'/permanent-residence'
+      Link: "/permanent-residence",
     },
     {
       id: 20,
@@ -226,7 +220,7 @@ const BusinessPermit = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
-      Link:'/golden-visa-greece-portugal'
+      Link: "/golden-visa-greece-portugal",
     },
   ];
 
@@ -240,211 +234,228 @@ const BusinessPermit = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>STARTING YOUR OWN</span>
+                <div className="  md:tw-pl-32 tw-pl-2">
+             
+                  <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> STARTING YOUR OWN</span>
                   <h2>
-                    <strong>Business In Sweden
-</strong>
+                    <strong>Business In Sweden</strong>
                   </h2>
 
-                  <span>IF YOU ARE PLANNING ABOUT INVESTING
-</span>
+                  <span className=" tw-pt-5 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> IF YOU ARE PLANNING ABOUT INVESTING</span>
                   <h2>
                     <strong>
-                    In Sweden, You Need To Apply For The Residence Permit
-
+                      In Sweden, You Need To Apply For The Residence Permit
                     </strong>
                   </h2>
 
                   <p className=" tw-text-gray tw-font-medium">
-                  We have a complete solution for all your problems while starting a new business or opening a franchise of your existing business at Sweden. Our mobile app Sweden for all AB will deliver the service of providing the resident permit that will align your plan easily. You will need a detailed plan for your business, bank statement which shows that you have enough capital to invest in your business along with other enough funds to show that you can support your family and you while staying at Sweden during the first two years.
-
+                    We have a complete solution for all your problems while
+                    starting a new business or opening a franchise of your
+                    existing business at Sweden. Our mobile app Sweden for all
+                    AB will deliver the service of providing the resident permit
+                    that will align your plan easily. You will need a detailed
+                    plan for your business, bank statement which shows that you
+                    have enough capital to invest in your business along with
+                    other enough funds to show that you can support your family
+                    and you while staying at Sweden during the first two years.
                   </p>
 
                   <p className=" tw-text-gray tw-font-medium">
-                  Sweden is known as the land of start-ups because the economic conditions of the country are detrimental to entrepreneurship. Swedish business culture is open and innovative, and starting a business there is relatively simple. Thus, Sweden excels in promoting the formation of ambitious start-ups on an unexpected level. After Silicon Valley, Stockholm is known for producing the second-highest revenues from tech companies per capita.
-
-
+                    Sweden is known as the land of start-ups because the
+                    economic conditions of the country are detrimental to
+                    entrepreneurship. Swedish business culture is open and
+                    innovative, and starting a business there is relatively
+                    simple. Thus, Sweden excels in promoting the formation of
+                    ambitious start-ups on an unexpected level. After Silicon
+                    Valley, Stockholm is known for producing the second-highest
+                    revenues from tech companies per capita.
                   </p>
 
                   <p className=" tw-text-gray tw-font-medium">
-                  Being the tech and innovation hub, there is a high survival rate for start-ups in Sweden with relatively fast growth. However, you can face some difficulties in understanding the business culture and the procedures for operating a business in Sweden.
-
-
-
+                    Being the tech and innovation hub, there is a high survival
+                    rate for start-ups in Sweden with relatively fast growth.
+                    However, you can face some difficulties in understanding the
+                    business culture and the procedures for operating a business
+                    in Sweden.
                   </p>
                   <p className=" tw-text-gray tw-font-medium">
-                  Swedish market has been witnessing the growing number of foreign companies, especially in the past few years. Sweden has developed a strong and competitive capitalist economy with a generous and universal welfare system that is known as the Nordic Model. With its diverse and stable market, investors are attracted to the country’s growing economy. There are so many opportunities for business in the country and Business Sweden can help you to connect with other companies in the sector.
-
-
-
-
+                    Swedish market has been witnessing the growing number of
+                    foreign companies, especially in the past few years. Sweden
+                    has developed a strong and competitive capitalist economy
+                    with a generous and universal welfare system that is known
+                    as the Nordic Model. With its diverse and stable market,
+                    investors are attracted to the country’s growing economy.
+                    There are so many opportunities for business in the country
+                    and Business Sweden can help you to connect with other
+                    companies in the sector.
                   </p>
                   <p className=" tw-text-gray tw-font-medium">
-                  You can do business in different ways inside Sweden. Whether you can start your own business or become a partner with one or more other Firms/Corporations.
-
-
-
-
-
+                    You can do business in different ways inside Sweden. Whether
+                    you can start your own business or become a partner with one
+                    or more other Firms/Corporations.
                   </p>
                   <p className=" tw-text-gray tw-font-medium">
-                  Non-Profit Associations and foundations also engage in business activities, although they are usually not started up for this purpose.
-
-
-
-
-
+                    Non-Profit Associations and foundations also engage in
+                    business activities, although they are usually not started
+                    up for this purpose.
                   </p>
                   <p className=" tw-text-gray tw-font-medium">
-                  Some of the reasons that businesses have chosen the Swedish market as their destination are the world-class infrastructure, Low-level of corruption, highly-skilled workforce, capitalistic economy, and friendly business culture. Sweden’s business climate is very favorable and that’s why it is known as a country of innovation.
-
-
-
-
-
-
+                    Some of the reasons that businesses have chosen the Swedish
+                    market as their destination are the world-class
+                    infrastructure, Low-level of corruption, highly-skilled
+                    workforce, capitalistic economy, and friendly business
+                    culture. Sweden’s business climate is very favorable and
+                    that’s why it is known as a country of innovation.
                   </p>
 
-                  <span>CBENEFIT</span>
+                  
+                  <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> CBENEFIT</span>
                   <h2>
-                    <strong>From Business Culture
-</strong>
+                    <strong>From Business Culture</strong>
                   </h2>
 
                   <p className=" tw-text-gray tw-font-medium">
-                  Compared with many other cultures, the Swedish business culture is more relaxed and casual. There isn’t too much bureaucracy and the country is quite free from corruption. You will be inspired much by working in this much relaxed and informal culture. You will learn a lot will build many fruitful business relationships. These cultural reforms can be beneficial for you as an entrepreneur in Sweden.
-
-
+                    Compared with many other cultures, the Swedish business
+                    culture is more relaxed and casual. There isn’t too much
+                    bureaucracy and the country is quite free from corruption.
+                    You will be inspired much by working in this much relaxed
+                    and informal culture. You will learn a lot will build many
+                    fruitful business relationships. These cultural reforms can
+                    be beneficial for you as an entrepreneur in Sweden.
                   </p>
 
                   <p className=" tw-text-gray tw-font-medium">
-                  Besides this, the Swedish government has made it a lot easier for people to borrow money from public or private lenders. Swedish are informal about names and being an expat, you should do the same. In short, the business culture, here in Sweden, is much favourable for new business opportunities.
-
-
+                    Besides this, the Swedish government has made it a lot
+                    easier for people to borrow money from public or private
+                    lenders. Swedish are informal about names and being an
+                    expat, you should do the same. In short, the business
+                    culture, here in Sweden, is much favourable for new business
+                    opportunities.
                   </p>
-                 
 
-                  <img src={banner} alt="" />
+                  <div className="row">
+                    <div className="col-md-10 tw-mx-auto">
+                    <img src={banner} alt="" />
+                    </div>
+                  </div>
 
                   <div>
                     <h2>
-                      <strong>RESIDENCE PERMIT FOR PEOPLE
-</strong>
+                      <strong>RESIDENCE PERMIT FOR PEOPLE</strong>
                     </h2>
-                    <span>PASSPORT</span>
+               
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PASSPORT</span>
                     <h2>
-                      <strong>Who Have Their Own Business
-</strong>
+                      <strong>Who Have Their Own Business</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                    People who start their business in Sweden or become a partner of a company, doing so if they have to stay for more than 3 months, they need a residence permit. You should apply and get a residence permit before you arrive in Sweden.
-
-
+                      People who start their business in Sweden or become a
+                      partner of a company, doing so if they have to stay for
+                      more than 3 months, they need a residence permit. You
+                      should apply and get a residence permit before you arrive
+                      in Sweden.
                     </p>
                   </div>
                   <div>
-                    <span>RESIDENCE
-</span>
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> RESIDENCE</span>
                     <h2>
-                      <strong>Permit Requirements
-</strong>
+                      <strong>Permit Requirements</strong>
                     </h2>
 
-
-
-
-
                     <ul className=" tw-p-0 tw-pt-4">
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          A valid passport. Note that the permit is only valid until the passport expiry date.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          Copies of the passport showing your identity, passport validity and permits to reside in any other countries.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          Proof that you own at least 50% of the company and have ultimate responsibility over any decisions.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          Bank statements proving that you have sufficient capital to buy or establish a business for at least the first two years in Sweden.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          Your company must be expected to create sufficient profits to support the company, yourself and your family.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          A detailed account of your business plan, including contracts with customers / suppliers; a contract for business premises; business permits if required; an investment budget; a liquidity budget and a budgeted balance sheet (profit / loss).
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          You must have relevant experience in the sector, and in running your own business.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          You have sufficient income to support yourself and your family for at least the first two years of the permit. This is estimated to be SEK 200,000; for your spouse SEK 100,000; and SEK 50,000 for every child who accompanies you.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          Proof of sufficient English and or Swedish language skills.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          A valid passport. Note that the permit is only valid
+                          until the passport expiry date.
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          Copies of the passport showing your identity, passport
+                          validity and permits to reside in any other countries.
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          Proof that you own at least 50% of the company and
+                          have ultimate responsibility over any decisions.
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          Bank statements proving that you have sufficient
+                          capital to buy or establish a business for at least
+                          the first two years in Sweden.
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          Your company must be expected to create sufficient
+                          profits to support the company, yourself and your
+                          family.
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          A detailed account of your business plan, including
+                          contracts with customers / suppliers; a contract for
+                          business premises; business permits if required; an
+                          investment budget; a liquidity budget and a budgeted
+                          balance sheet (profit / loss).
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          You must have relevant experience in the sector, and
+                          in running your own business.
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          You have sufficient income to support yourself and
+                          your family for at least the first two years of the
+                          permit. This is estimated to be SEK 200,000; for your
+                          spouse SEK 100,000; and SEK 50,000 for every child who
+                          accompanies you.
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          Proof of sufficient English and or Swedish language
+                          skills.
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
                           Receipt of payment for the application.
-
-                          </p>
-                        </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
-                          <p className=" m-0 tw-text-gray">
-                          If you want to be registered in Sweden, you need to live in Sweden for more than a year and have a valid permit for that time period.
-
-
-                          </p>
-                        </li>
-                      </ul>
-
-
-
+                        </p>
+                      </li>
+                      <li className=" tw-flex tw-items-center tw-gap-3">
+                        <GoTriangleRight className=" tw-text-blue" />
+                        <p className=" m-0 tw-text-gray">
+                          If you want to be registered in Sweden, you need to
+                          live in Sweden for more than a year and have a valid
+                          permit for that time period.
+                        </p>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32  tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (

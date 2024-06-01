@@ -17,7 +17,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
-      Link:'/asylum'
+      Link: "/asylum",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
-      Link:'/family-reunification'
+      Link: "/family-reunification",
     },
     {
       id: 3,
@@ -38,8 +38,7 @@ const AppealCases = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
 
-      Link:'/personnumer-sweden'
-      
+      Link: "/personnumer-sweden",
     },
     {
       id: 4,
@@ -49,8 +48,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
-      Link:'/cpr-number-denmark'
-      
+      Link: "/cpr-number-denmark",
     },
     {
       id: 5,
@@ -60,7 +58,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/work-permit'
+      Link: "/work-permit",
     },
     {
       id: 5,
@@ -71,8 +69,7 @@ const AppealCases = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
 
-      Link:'/business-permit'
-    
+      Link: "/business-permit",
     },
     {
       id: 6,
@@ -82,8 +79,8 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
-      
-      Link:'/business-visit'
+
+      Link: "/business-visit",
     },
     {
       id: 7,
@@ -93,9 +90,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      Link:'/citizenship'
-      
-    
+      Link: "/citizenship",
     },
     {
       id: 8,
@@ -105,8 +100,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
-      Link:'/study-in-eu'
-      
+      Link: "/study-in-eu",
     },
     {
       id: 9,
@@ -116,7 +110,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/global-visit-visas'
+      Link: "/global-visit-visas",
     },
     {
       id: 10,
@@ -126,7 +120,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
-      Link:'/eea-permits'
+      Link: "/eea-permits",
     },
     {
       id: 11,
@@ -136,7 +130,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
-      Link:'/parents-eu-permit'
+      Link: "/parents-eu-permit",
     },
     {
       id: 12,
@@ -146,7 +140,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
-      Link:'/marriage-divorce'
+      Link: "/marriage-divorce",
     },
     {
       id: 13,
@@ -156,7 +150,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/company-registration'
+      Link: "/company-registration",
     },
     {
       id: 14,
@@ -166,7 +160,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/house-offices'
+      Link: "/house-offices",
     },
     {
       id: 15,
@@ -176,7 +170,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
-      Link:'/appeal-cases'
+      Link: "/appeal-cases",
     },
     {
       id: 16,
@@ -186,7 +180,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
-      Link:'/eu-family-reunification'
+      Link: "/eu-family-reunification",
     },
     {
       id: 17,
@@ -196,7 +190,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
-      Link:'/investment'
+      Link: "/investment",
     },
     {
       id: 18,
@@ -206,7 +200,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
-      Link:'/direct-citizenship-by-investments'
+      Link: "/direct-citizenship-by-investments",
     },
     {
       id: 19,
@@ -216,7 +210,7 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
-      Link:'/permanent-residence'
+      Link: "/permanent-residence",
     },
     {
       id: 20,
@@ -226,207 +220,169 @@ const AppealCases = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
-      Link:'/golden-visa-greece-portugal'
+      Link: "/golden-visa-greece-portugal",
     },
   ];
-
-
-
-  
 
   return (
     <>
       <Navbar />
-      <Banner_Page title={`APPEAL CASES
-`} />
+      <Banner_Page
+        title={`APPEAL CASES
+`}
+      />
 
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  
+                <div className="  md:tw-pl-32 tw-pl-3">
                   <p className=" tw-text-gray">
-                  Have you been denied family reunification? Residence permit? business visa? Citizenship? Identity card/personnummer? Visa? Or something completely different? let’s take a look at your case so that the decision can hopefully be overturned.
-
-
-
+                    Have you been denied family reunification? Residence permit?
+                    business visa? Citizenship? Identity card/personnummer?
+                    Visa? Or something completely different? let’s take a look
+                    at your case so that the decision can hopefully be
+                    overturned.
                   </p>
                   <p className=" tw-text-gray">
-                  It has become much more difficult to enter Sweden. After the refugee crisis, the authorities have tightened the requirements violently, and you may have been caught in that regard. We have appealed many cases to our clients and they have won their cases. We hope that we can help you as well.
-
-
-
-
-
+                    It has become much more difficult to enter Sweden. After the
+                    refugee crisis, the authorities have tightened the
+                    requirements violently, and you may have been caught in that
+                    regard. We have appealed many cases to our clients and they
+                    have won their cases. We hope that we can help you as well.
                   </p>
-
-
 
                   <div>
-                    <span>HOW TO
+                   
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> HOW TO</span>
 
-</span>
                     <h2>
                       <strong>Appeal?</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                    To appeal against the decision made on your visa case, you should write a letter in Swedish or English. You must sign the appeal.
-
-
-
+                      To appeal against the decision made on your visa case, you
+                      should write a letter in Swedish or English. You must sign
+                      the appeal.
                     </p>
+                  </div>
+
+                  <div className="row">
+                    <div  className="col-md-10 tw-mx-auto">
+                    <img src={banner} alt="" />
+                    </div>
+                  </div>
+
+                  <div>
                     
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>AFTER</span>
 
-
-                  </div>
-             
-
-
-                  <img src={banner} alt="" />
-
-                  <div>
-                    <span>AFTER
-</span>
                     <h2>
-                      <strong>Sending The Appeal
-</strong>
+                      <strong>Sending The Appeal</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                    After receiving your appeal, it is the Embassy that initially decides whether to review the decision. The Embassy will verify that the appeal came in on time and will go over the case again. If more than 3 weeks have passed, the appeal will be rejected; in that case you will have to submit a new visa application.
-
-
-
+                      After receiving your appeal, it is the Embassy that
+                      initially decides whether to review the decision. The
+                      Embassy will verify that the appeal came in on time and
+                      will go over the case again. If more than 3 weeks have
+                      passed, the appeal will be rejected; in that case you will
+                      have to submit a new visa application.
                     </p>
-                   
-
                   </div>
 
-
-
                   <div>
-                    <span>IF THE
+                   
+                   
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>IF THE</span>
 
-</span>
                     <h2>
-                      <strong>Embassy Changes The Decision
-
-</strong>
+                      <strong>Embassy Changes The Decision</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                    If the Embassy finds that the decision could be changed, you will be contacted. The decision can be changed if new information comes in or if the Embassy considers the decision to be wrong. In that case you will be notified, and the entry visa placed in your passport.
-
-
-
-
+                      If the Embassy finds that the decision could be changed,
+                      you will be contacted. The decision can be changed if new
+                      information comes in or if the Embassy considers the
+                      decision to be wrong. In that case you will be notified,
+                      and the entry visa placed in your passport.
                     </p>
-                   
-
                   </div>
 
-
                   <div>
-                    <span>IF THE
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>IF THE</span>
 
-</span>
                     <h2>
-                      <strong>Embassy Does Not Change The Decision, It Will Be Forwarded
-
-
-</strong>
+                      <strong>
+                        Embassy Does Not Change The Decision, It Will Be
+                        Forwarded
+                      </strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                    If the appeal came in on time and the Embassy sees no reason to change the decision, the case will be forwarded as soon as possible. Your application, the decision, and all other documents submitted in the case will be sent to the Administrative Court in Göteborg. The Administrative Court then makes a decision and notifies you at the address you specified in the application or in the appeal.
-
-
-
-
+                      If the appeal came in on time and the Embassy sees no
+                      reason to change the decision, the case will be forwarded
+                      as soon as possible. Your application, the decision, and
+                      all other documents submitted in the case will be sent to
+                      the Administrative Court in Göteborg. The Administrative
+                      Court then makes a decision and notifies you at the
+                      address you specified in the application or in the appeal.
                     </p>
                     <p className=" tw-text-gray">
-                    After the case has been handed over to the court, all questions about the case should be addressed to them
-
-
-
-
-
+                      After the case has been handed over to the court, all
+                      questions about the case should be addressed to them
                     </p>
-                   
-
                   </div>
 
-
-
                   <div>
-                    <span>HOW
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>HOW</span>
 
-
-</span>
                     <h2>
-                      <strong>Long Will It Take
-
-
-
-</strong>
+                      <strong>Long Will It Take</strong>
                     </h2>
 
                     <p className=" tw-text-gray">
-                    After receiving the appeal, if the Embassy wants to change its decision, you will be contacted in a few days.
-But if the Embassy decides not to change its decision and forwards it to the Migration Court in Sweden, the waiting time would be longer.
-
-
-
+                      After receiving the appeal, if the Embassy wants to change
+                      its decision, you will be contacted in a few days. But if
+                      the Embassy decides not to change its decision and
+                      forwards it to the Migration Court in Sweden, the waiting
+                      time would be longer.
                     </p>
                     <p className=" tw-text-gray">
-                    After receiving your appeal, it is the Embassy that initially decides whether to review the decision. The Embassy will verify that the appeal came in on time and will go over the case again. If more than 3 weeks have passed, the appeal will be rejected; in that case you will have to submit a new visa application.
-
-
-
-
-
-
+                      After receiving your appeal, it is the Embassy that
+                      initially decides whether to review the decision. The
+                      Embassy will verify that the appeal came in on time and
+                      will go over the case again. If more than 3 weeks have
+                      passed, the appeal will be rejected; in that case you will
+                      have to submit a new visa application.
                     </p>
                     <p className=" tw-text-gray">
-                    Have you been denied family reunification? Residence permit? business visa? Citizenship? Identity card/personnummer? Visa? Or something completely different? let’s take a look at your case so that the decision can hopefully be overturned.
-
-
-
-
-
-
-
+                      Have you been denied family reunification? Residence
+                      permit? business visa? Citizenship? Identity
+                      card/personnummer? Visa? Or something completely
+                      different? let’s take a look at your case so that the
+                      decision can hopefully be overturned.
                     </p>
                     <p className=" tw-text-gray">
-                    It has become much more difficult to enter Sweden. After the refugee crisis, the authorities have tightened the requirements violently, and you may have been caught in that regard. We have appealed many cases to our clients and they have won their cases. We hope that we can help you as well.
-
-
-
-
-
-
-
-
+                      It has become much more difficult to enter Sweden. After
+                      the refugee crisis, the authorities have tightened the
+                      requirements violently, and you may have been caught in
+                      that regard. We have appealed many cases to our clients
+                      and they have won their cases. We hope that we can help
+                      you as well.
                     </p>
-                   
-
                   </div>
-                 
-</div>
-           
-
-                
+                </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                  {data?.map((item, index) => {
+                    {data?.map((item, index) => {
                       return (
-
                         <Link
                           to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
@@ -436,16 +392,11 @@ But if the Embassy decides not to change its decision and forwards it to the Mig
                           </p>
                           <GoTriangleRight className="tw-text-gray" />
                         </Link>
-
                       );
                     })}
                   </ul>
                 </div>
               </div>
-
-
-
-              
             </div>
           </div>
         </section>

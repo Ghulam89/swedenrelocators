@@ -5,6 +5,8 @@ import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/doctor-identification-card.png";
+import { imageVariants } from "../../utils/motion";
+import {motion } from 'framer-motion'
 const CPRNumberDenmark = () => {
   const { id } = useParams();
 
@@ -244,8 +246,9 @@ const CPRNumberDenmark = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>CPR NUMBER</span>
+                <div className="  md:tw-pl-32 tw-pl-2">
+             
+                  <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> CPR NUMBER</span>
                   <h2>
                     <strong>Danish ID Number</strong>
                   </h2>
@@ -260,9 +263,9 @@ const CPRNumberDenmark = () => {
 
 
                   <div>
-                    <span>CPR NUMBER REQUIREMENT
+     
 
-</span>
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> CPR NUMBER REQUIREMENT</span>
                     <h2>
                       <strong>Why & When?
 </strong>
@@ -307,21 +310,26 @@ const CPRNumberDenmark = () => {
 
                   </div>
                   <div>
-                  <span>HOW TO GET
+                  
 
-
-</span>
+      <div className="row">
+        <div className="col-md-6">
+        <div className="row">
+          <div className="col-md-10 tw-mx-auto">
+          <motion.img  
+                 animate={imageVariants} className=" tw-w-full"  src={banner} alt="" />
+         
+          </div>
+        </div>
+        </div>
+        <div className="col-md-6">
+    
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> HOW TO GET</span>
                     <h2>
                       <strong>A CPR Number?
 
 </strong>
                     </h2>
-
-      <div className="row">
-        <div className="col-md-6">
-          <img src={banner} alt="" />
-        </div>
-        <div className="col-md-6">
         <p className=" tw-text-gray">To obtain a CPR number you must have an address in Denmark, also present a range of documents counting on your current civil status (see below). Please note that if your documents aren’t in Danish, Norwegian, Swedish, English or German, you must bring an authorized translation of all these documents.
 
 </p>
@@ -392,7 +400,7 @@ const CPRNumberDenmark = () => {
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                   {data?.map((item, index) => {
                       return (

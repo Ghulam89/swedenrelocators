@@ -245,9 +245,9 @@ const GoldenVisa = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>AN OVERVIEW
-</span>
+                <div className="  md:tw-pl-32 tw-pl-3">
+            
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> AN OVERVIEW</span>
                   <h2>
                     <strong>Living In Greece
 </strong>
@@ -283,9 +283,7 @@ const GoldenVisa = () => {
 
 
 
-<span>AN OVERVIEW
-
-</span>
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> AN OVERVIEW</span>
                   <h2>
                     <strong>Living In Portugal
 
@@ -336,9 +334,8 @@ Portugal is a member of the EU and Europe’s Schengen Area and has been using t
 
 
                   <div>
-                    <span>KEY ADVANTAGES OF
-
-</span>
+       
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>KEY ADVANTAGES OF</span>
                     <h2>
                       <strong>Residence In Portugal
 </strong>
@@ -393,7 +390,7 @@ Portugal is a member of the EU and Europe’s Schengen Area and has been using t
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                   {data?.map((item, index) => {
                       return (

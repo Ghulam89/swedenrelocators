@@ -238,8 +238,9 @@ const EUCitizensRelocation = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>WHAT IS</span>
+                <div className="  md:tw-pl-32 tw-pl-2">
+                 
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> WHAT IS</span>
                   <h2>
                     <strong>Family Reunification?</strong>
                   </h2>
@@ -252,7 +253,8 @@ const EUCitizensRelocation = () => {
                     refugee.
                   </p>
 
-                  <span>EU CITIZEN</span>
+              
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>EU CITIZEN</span>
                   <h2>
                     <strong>Family Members</strong>
                   </h2>
@@ -310,10 +312,15 @@ const EUCitizensRelocation = () => {
                     </li>
                   </ul>
 
+                 <div className="row">
+                  <div className="col-md-10 tw-mx-auto">
                   <img src={banner} alt="" />
+                  </div>
+                 </div>
 
                   <div>
-                    <span>FAMILY</span>
+                 
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>FAMILY</span>
                     <h2>
                       <strong>Reunification For Refugees</strong>
                     </h2>
@@ -372,10 +379,15 @@ const EUCitizensRelocation = () => {
 
                   <div className="row">
                     <div className="col-md-6">
+                    <div className="row">
+                      <div className="col-md-10 tw-mx-auto">
                       <img src={banner2} alt="" />
+                      </div>
+                    </div>
                     </div>
                     <div className="col-md-6">
-                      <span>WHO CAN</span>
+                   
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>WHO CAN</span>
                       <h2>
                         <strong>Move With You?</strong>
                       </h2>
@@ -444,9 +456,8 @@ const EUCitizensRelocation = () => {
 
 
 
-                    <span>FOREIGN
-
-</span>
+         
+<span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>FOREIGN</span>
                       <h2>
                         <strong>Students
 
@@ -492,11 +503,7 @@ const EUCitizensRelocation = () => {
                     </ul>
 
 
-
-                    <span>IN CERTAIN CASES
-
-
-</span>
+<span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>IN CERTAIN CASES</span>
                       <h2>
                         <strong>The Bank Can Refuse You To Open An Account
 
@@ -537,12 +544,7 @@ const EUCitizensRelocation = () => {
 
 
 
-
-<span>BEAR
-
-
-
-</span>
+<span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>BEAR</span>
                       <h2>
                         <strong>In Mind That…
 
@@ -598,12 +600,7 @@ const EUCitizensRelocation = () => {
                     </ul>
 
 
-<span>DRIVING
-
-
-
-
-</span>
+<span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>DRIVING</span>
                       <h2>
                         <strong>License
 
@@ -630,7 +627,7 @@ const EUCitizensRelocation = () => {
 
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (

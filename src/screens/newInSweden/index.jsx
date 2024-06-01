@@ -202,7 +202,7 @@ const New_In_sweden = () => {
     },
     {
       id: 18,
-      title: "Direct Citizenship by Investments      ",
+      title: " Citizenship by Investments      ",
       description:
         "citizenship-by-investment programs provide ultra-wealthy families with the privilege of a second or third passport.        ",
       icons: (
@@ -233,7 +233,6 @@ const New_In_sweden = () => {
   ];
 
 
-
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
@@ -258,8 +257,10 @@ const New_In_sweden = () => {
           <div className="container-fluid  ">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="   md:tw-pl-20 tw-pl-2 md:tw-pr-8 pr-2">
-                  <span>SOCIAL SECURITY NUMBER</span>
+                <div className="   md:tw-pl-32 tw-pl-3 md:tw-pr-8 pr-2">
+                  
+                  <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>SOCIAL SECURITY NUMBER</span>
+
                   <h2>
                     <strong>Personnummer</strong>
                   </h2>
@@ -289,7 +290,9 @@ const New_In_sweden = () => {
                   </p>
 
                   <div>
-                    <span>TAKE</span>
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>TAKE</span>
+
                     <h2>
                       <strong>All These Into Consideration</strong>
                     </h2>
@@ -342,7 +345,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>IDENTIFICATION CARD</span>
+                 
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>IDENTIFICATION CARD</span>
+
                     <h2>
                       <strong>Swedish ID Card</strong>
                     </h2>
@@ -362,7 +367,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>OPENING OF A</span>
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>OPENING OF A</span>
+
                     <h2>
                       <strong>Bank Account</strong>
                     </h2>
@@ -411,7 +418,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>OPENING OF A</span>
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>OPENING OF A</span>
+
                     <h2>
                       <strong>Bank Account</strong>
                     </h2>
@@ -486,7 +495,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>BEFORE</span>
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>BEFORE</span>
+
                     <h2>
                       <strong>Visiting A Bank …</strong>
                     </h2>
@@ -542,7 +553,10 @@ const New_In_sweden = () => {
                   </div>
 
                   <div className=" tw-pt-6">
-                    <span>HOW TO GET A</span>
+                   
+                   
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>HOW TO GET A</span>
+
                     <h2>
                       <strong> Driving License</strong>
                     </h2>
@@ -585,6 +599,7 @@ const New_In_sweden = () => {
 
                   <div className=" tw-pt-6">
                     {/* <span>BEFORE</span> */}
+
                     <h2>
                       <strong>Steps To Get A License</strong>
                     </h2>
@@ -626,7 +641,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div className=" tw-pt-6">
-                    <span>LOOKING</span>
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>LOOKING</span>
+
                     <h2>
                       <strong>For Work In Sweden</strong>
                     </h2>
@@ -648,7 +665,10 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>SWEDISH EDUCATION SYSTEM</span>
+                  
+                  
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>SWEDISH EDUCATION SYSTEM</span>
+
                     <h2>
                       <strong>School Admissions</strong>
                     </h2>
@@ -693,7 +713,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>PARENTAL</span>
+                   
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>PARENTAL</span>
+
                     <h2>
                       <strong>Allowance</strong>
                     </h2>
@@ -716,7 +738,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>MOTHER AND CHILD CARE</span>
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>MOTHER AND CHILD CARE</span>
+
                     <h2>
                       <strong>Maternity Clinics</strong>
                     </h2>
@@ -732,7 +756,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>CHILD</span>
+                   
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>CHILD</span>
+
                     <h2>
                       <strong>Health Care Centre</strong>
                     </h2>
@@ -750,7 +776,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>CHILD</span>
+                
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>CHILD</span>
+
                     <h2>
                       <strong>Care Allowance (Barnbidrag)</strong>
                     </h2>
@@ -765,7 +793,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>REGISTER</span>
+                 
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>REGISTER</span>
+
                     <h2>
                       <strong>With Försäkringskassan</strong>
                     </h2>
@@ -780,7 +810,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>HEALTH CARE</span>
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>HEALTH CARE</span>
+
                     <h2>
                       <strong>Health Centre</strong>
                     </h2>
@@ -802,7 +834,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div className=" tw-pt-6">
-                    <span>COSTS</span>
+                 
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>COSTS</span>
+
                     <h2>
                       <strong>And Fees</strong>
                     </h2>
@@ -818,7 +852,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div className=" tw-pt-6">
-                    <span>COSTS</span>
+                 
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>COSTS</span>
+
                     <h2>
                       <strong>Is Covered?</strong>
                     </h2>
@@ -845,7 +881,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div className=" tw-pt-6">
-                    <span>WHERE DO</span>
+                    
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>WHERE DO</span>
+
                     <h2>
                       <strong>I Find A Dentist?</strong>
                     </h2>
@@ -857,7 +895,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div>
-                    <span>LANGUAGE</span>
+                  
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>LANGUAGE</span>
+
                     <h2>
                       <strong>Courses</strong>
                     </h2>
@@ -907,7 +947,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div className=" tw-pt-6">
-                    <span>UNEMPLOYMENT</span>
+                   
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>UNEMPLOYMENT</span>
+
                     <h2>
                       <strong>Insurance</strong>
                     </h2>
@@ -937,7 +979,9 @@ const New_In_sweden = () => {
                   </div>
 
                   <div className=" tw-pt-6">
-                    <span>RECOGNITION OF</span>
+                  
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>RECOGNITION OF</span>
+
                     <h2>
                       <strong>Higher Education Qualifications</strong>
                     </h2>
@@ -1044,7 +1088,9 @@ const New_In_sweden = () => {
                     </ul>
 
                     <div className=" tw-pt-6">
-                      <span>MIGRATIONSVERKET</span>
+                     
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>MIGRATIONSVERKET</span>
+
                       <h2>
                         <strong>(Migration Agency)</strong>
                       </h2>
@@ -1060,7 +1106,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>SKATTEVERKET</span>
+                     
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>SKATTEVERKET</span>
+
                       <h2>
                         <strong>(Tax Agency)</strong>
                       </h2>
@@ -1074,7 +1122,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>ARBETSFÖRMEDLINGEN</span>
+                      
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>ARBETSFÖRMEDLINGEN</span>
+
                       <h2>
                         <strong>(Public Employment Service)</strong>
                       </h2>
@@ -1108,7 +1158,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>FÖRSÄKRINGSKASSAN</span>
+                      
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>FÖRSÄKRINGSKASSAN</span>
+
                       <h2>
                         <strong>(Social Insurance Agency)</strong>
                       </h2>
@@ -1164,7 +1216,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>SKOLVERKET</span>
+                     
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>SKOLVERKET</span>
+
                       <h2>
                         <strong>(National Agency For Education)</strong>
                       </h2>
@@ -1179,7 +1233,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>JORDBRUKSVERKET</span>
+                   
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>JORDBRUKSVERKET</span>
+
                       <h2>
                         <strong>(Board Of Agriculture)</strong>
                       </h2>
@@ -1207,7 +1263,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>TRANSPORTSTYRELSEN (TRANSPORT AGENCY)</span>
+                     
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>TRANSPORTSTYRELSEN (TRANSPORT AGENCY)</span>
+
                       <h2>
                         <strong>
                           & Trafikverket (Transport Administration)
@@ -1224,7 +1282,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>KOMMUNERNA</span>
+                      
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>KOMMUNERNA</span>
+
                       <h2>
                         <strong>(The Municipalities)</strong>
                       </h2>
@@ -1294,7 +1354,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>LÄNSSTYRELSERNA</span>
+                      
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>LÄNSSTYRELSERNA</span>
+
                       <h2>
                         <strong>(The County Administrative Boards)</strong>
                       </h2>
@@ -1312,7 +1374,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>LANDSTINGEN</span>
+                      
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>LANDSTINGEN</span>
+
                       <h2>
                         <strong>(The County Councils)</strong>
                       </h2>
@@ -1341,7 +1405,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div>
-                      <span>ACCOMODATION</span>
+                     
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>ACCOMODATION</span>
+
                       <h2>
                         <strong>Finding Home</strong>
                       </h2>
@@ -1397,7 +1463,9 @@ const New_In_sweden = () => {
                     </div>
 
                     <div className=" tw-pt-6">
-                      <span>USEFULL</span>
+                    
+                      <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>USEFULL</span>
+
                       <h2>
                         <strong>LINKS</strong>
                       </h2>
@@ -1602,7 +1670,7 @@ const New_In_sweden = () => {
               </div>
 
               <div className="col-md-4  tw-pt-16   tw-bg-[#F5FAFF]  "  style={{ position: 'sticky', top: '300px'}} >
-                <div className={`tw-pr-10 ${isSticky?' md:tw-fixed tw-flex-initial  tw-bottom-0  md:tw-w-[30%] tw-w-full':'tw-relative'} `}>
+                <div className={`tw-pr-28 ${isSticky?' md:tw-fixed tw-flex-initial  tw-bottom-0  md:tw-w-[30%] tw-w-full':'tw-relative'} `}>
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (

@@ -246,13 +246,19 @@ const GlobalVisitVisas = () => {
               <div className="col-md-8 tw-py-20 tw-bg-white">
 
                 
-                <div className="  md:tw-px-20 tw-px-2">
-                <img src={banner} alt="" />
+                <div className="  md:tw-pl-32 tw-px-3">
+                <div className="row">
+                  <div className="col-md-10 tw-mx-auto">
+                  <img src={banner} alt="" />
+                  </div>
+                </div>
                  <p  className=" tw-text-gray">For visiting Sweden for a short period you will need a visit visa . Visiting for a short tour, meeting your relatives, visiting friends or business meeting you need to consider short visit to Sweden which is as Schengen tourist visa Sweden follows the same visa rules as other European country because it is also the part of Schengen agreement.
 
 </p>
-                  <span>IF YOU WANT
-</span>
+              
+
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> IF YOU WANT</span>
+
                   <h2>
                     <strong>To Visit You Need To
 </strong>
@@ -341,7 +347,7 @@ const GlobalVisitVisas = () => {
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                   {data?.map((item, index) => {
                       return (

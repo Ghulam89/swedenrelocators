@@ -5,6 +5,8 @@ import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/psychological-problems-at-school.png";
+import {motion } from 'framer-motion'
+import { imageVariants } from "../../utils/motion";
 const ServiceDetails = () => {
   const { id } = useParams();
 
@@ -242,10 +244,11 @@ const ServiceDetails = () => {
       <div className=" ">
         <section className="  md:tw-mt-36 tw-mt-44">
           <div className="container-fluid">
-            <div className="row g-4">
+          <div className="">
+              <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>asylum</span>
+                <div className="  md:tw-pl-32 tw-pl-3">
+                  <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> ASYLUM IN SWEDEN</span>
                   <h2>
                     <strong>What We Offer</strong>
                   </h2>
@@ -273,7 +276,8 @@ const ServiceDetails = () => {
                   </p>
 
                   <div>
-                    <span>ELIGIBILITY</span>
+               
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> ELIGIBILITY</span>
                     <h2>
                       <strong>WHO CAN APPLY FOR ASYLUM?
 </strong>
@@ -373,8 +377,8 @@ const ServiceDetails = () => {
                   </div>
 
                   <div>
-                    <span>STEPS TO BE FOLLOWED
-</span>
+         
+<span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> STEPS TO BE FOLLOWED</span>
                     <h2>
                       <strong>HOW DO YOU APPLY FOR ASYLUM IN SWEDEN?
 </strong>
@@ -412,10 +416,17 @@ const ServiceDetails = () => {
 </p>
                   </div>
 
-                  <img src={banner} alt="" />
+                 <div className="row">
+                  <div className="col-md-10 tw-mx-auto">
+              
+                  <motion.img  
+                 animate={imageVariants} className=" tw-w-full"  src={banner} alt="" />
+                  </div>
+                 </div>
 
                   <div>
-                    <span>FAMILY REUNIFICATION</span>
+                   
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> FAMILY REUNIFICATION</span>
                     <h2>
                       <strong>Reunification For Refugees</strong>
                     </h2>
@@ -475,7 +486,8 @@ const ServiceDetails = () => {
 
 
                   <div>
-                    <span>FAMILY REUNIFICATION</span>
+                 
+                    <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> FAMILY REUNIFICATION</span>
                     <h2>
                       <strong>In Case You Have A Temporary Residence Permit
 </strong>
@@ -503,7 +515,8 @@ One must fulfill maintainance requirement in order to apply for family reunifica
 
 
                   <div>
-                  <span>OUR ROLE</span>
+              
+                  <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> OUR ROLE</span>
                     <h2>
                       <strong>Who Have A Right To Family Reunification?</strong>
                     </h2>
@@ -566,7 +579,7 @@ One must fulfill maintainance requirement in order to apply for family reunifica
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                   {data?.map((item, index) => {
                       return (
@@ -591,6 +604,7 @@ One must fulfill maintainance requirement in order to apply for family reunifica
 
               
             </div>
+          </div>
           </div>
         </section>
       </div>

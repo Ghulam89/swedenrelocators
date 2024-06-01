@@ -5,6 +5,8 @@ import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/signup-screen-of-e-wallet-app.png";
+import { imageVariants } from "../../utils/motion";
+import {motion} from 'framer-motion'
 const Investment = () => {
   const { id } = useParams();
   const data = [
@@ -236,8 +238,14 @@ const Investment = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <img src={banner} alt="" />
+                <div className="  md:tw-pl-32 tw-pl-3">
+                 <div className="row">
+                  <div className="col-md-10 tw-mx-auto">
+                 
+                  <motion.img  
+                 animate={imageVariants} className=" tw-w-full"  src={banner} alt="" />
+                  </div>
+                 </div>
 
                   <p className="  tw-text-gray">
                     Swedish market has been witnessing the growing number of
@@ -267,14 +275,15 @@ const Investment = () => {
                     investors.
                   </p>
 
-                  <span>WE HAVE SCOURED SOME IMPORTANT STEPS</span>
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> WE HAVE SCOURED SOME IMPORTANT STEPS</span>
                   <h2>
                     <strong>
                       To Look For Business Opportunities In Sweden, Which Are:
                     </strong>
                   </h2>
 
-                  <span>DO THE</span>
+                 
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>DO THE</span>
                   <h2>
                     <strong>Required Research</strong>
                   </h2>
@@ -295,7 +304,8 @@ const Investment = () => {
                     companies, rules and regulations of that particular sector,
                     and general stats of the market.
                   </p>
-                  <span>BUILD</span>
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>BUILD</span>
                   <h2>
                     <strong>Your Network</strong>
                   </h2>
@@ -312,9 +322,13 @@ const Investment = () => {
                     Society Foundation or Sweden Business, which help-out new
                     businesses in Sweden to expand their network.
                   </p>
-                  <span>FRANCHISE</span>
+               
+
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>FRANCHISE</span>
+                  
                   <h2>
                     <strong>Or Business</strong>
+                    
                   </h2>
 
                   <p className=" tw-text-gray">
@@ -327,7 +341,8 @@ const Investment = () => {
                     search for business ventures and should invest in the most
                     suitable one. Both have their pros and cons.
                   </p>
-                  <span>GO</span>
+               
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>GO</span>
                   <h2>
                     <strong>For It</strong>
                   </h2>
@@ -357,7 +372,8 @@ const Investment = () => {
                     ADRs.There are many benefits and risks that international
                     investors should consider before investing in Sweden.
                   </p>
-                  <span>INVEST IN</span>
+                 
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>INVEST IN</span>
                   <h2>
                     <strong>SWEDISH REAL ESTATE</strong>
                   </h2>
@@ -383,7 +399,8 @@ const Investment = () => {
                     unsurpassed ease of operation. Moreover, 85% of the Swedish
                     population are proficient in English.
                   </p>
-                  <span>INVESTMENT IN</span>
+              
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>INVESTMENT IN</span>
                   <h2>
                     <strong>Swedish Real Estate Makes A Great Profit</strong>
                   </h2>
@@ -403,7 +420,8 @@ const Investment = () => {
                     retailers, who view Stockholm as one of the most desirable
                     areas to do business in the Scandinavian region.
                   </p>
-                  <span>INVEST IN</span>
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>INVEST IN</span>
                   <h2>
                     <strong>DIGITAL TECHNOLOGIES</strong>
                   </h2>
@@ -417,7 +435,8 @@ const Investment = () => {
                     low-carbon future.
                   </p>
 
-                  <span>MARKETS</span>
+             
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>MARKETS</span>
                   <h2>
                     <strong>SWEDEN DIGITAL TECHNOLOGIES</strong>
                   </h2>
@@ -459,7 +478,8 @@ const Investment = () => {
                     have invested heavily in Sweden.
                   </p>
 
-                  <span>SMART</span>
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>SMART</span>
                   <h2>
                     <strong>INDUSTRY</strong>
                   </h2>
@@ -492,7 +512,8 @@ const Investment = () => {
                     cent of the nation’s GDP.
                   </p>
 
-                  <span>FOOD</span>
+              
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>FOOD</span>
                   <h2>
                     <strong>INDUSTRY</strong>
                   </h2>
@@ -514,7 +535,8 @@ const Investment = () => {
                     and job creation across the country.
                   </p>
 
-                  <span>GOING</span>
+                
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>GOING</span>
                   <h2>
                     <strong>PLANT-BASED</strong>
                   </h2>
@@ -555,277 +577,195 @@ const Investment = () => {
                     OTHER WAYS TO INVEST IN SWEDEN ARE AS FOLLOWS
                   </p>
 
-
-
-
-                  <span>OPEN A</span>
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>OPEN A</span>
                   <h2>
                     <strong>Boutique</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  Boutique business is one of the thriving small-scale businesses in the fashion industry that an aspiring entrepreneur can start in Sweden. Interest in fashion is big in Sweden and the country is headquartering famous brands like Hennes & Mauritz (operating as H&M), J. Lindeberg (operating as JL), Acne, Lindex, Odd Molly, Cheap Monday, Gant, WESC, Filippa K, and Nakkna within its borders.
-
-
+                    Boutique business is one of the thriving small-scale
+                    businesses in the fashion industry that an aspiring
+                    entrepreneur can start in Sweden. Interest in fashion is big
+                    in Sweden and the country is headquartering famous brands
+                    like Hennes & Mauritz (operating as H&M), J. Lindeberg
+                    (operating as JL), Acne, Lindex, Odd Molly, Cheap Monday,
+                    Gant, WESC, Filippa K, and Nakkna within its borders.
                   </p>
                   <p className=" tw-text-gray">
-                  All that is required to launch this type of business is a store that is well positioned and money to stock your boutique with clothes and fashion accessories from different clothing labels/designers. The truth is that if your boutique is well located and stocked with quality clothes and fashion accessories, you are likely not going to struggle to attract customers.
-
-
+                    All that is required to launch this type of business is a
+                    store that is well positioned and money to stock your
+                    boutique with clothes and fashion accessories from different
+                    clothing labels/designers. The truth is that if your
+                    boutique is well located and stocked with quality clothes
+                    and fashion accessories, you are likely not going to
+                    struggle to attract customers.
                   </p>
 
-
-
-                  <span>RETAIL OF
-</span>
+                
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>RETAIL OF</span>
                   <h2>
-                    <strong>Shoes, Sandals, Slippers And Belts
-</strong>
+                    <strong>Shoes, Sandals, Slippers And Belts</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  Aside from running a boutique which is a good small-scale business in the fashion industry, opening a store where shoes, sandals, slippers and belts are sold is yet another easy to setup business that an entrepreneur should consider starting. It is indeed a profitable, easy to start, easy to manage and thriving business especially if the business is well positioned.
-
-
-
+                    Aside from running a boutique which is a good small-scale
+                    business in the fashion industry, opening a store where
+                    shoes, sandals, slippers and belts are sold is yet another
+                    easy to setup business that an entrepreneur should consider
+                    starting. It is indeed a profitable, easy to start, easy to
+                    manage and thriving business especially if the business is
+                    well positioned.
                   </p>
                   <p className=" tw-text-gray">
-                  So, if you are looking towards leveraging on the big market in the fashion industry in Sweden to start a business, then you should consider opening a store that sells shoes, sandals, slippers, belts, wallets, hats, caps and general leather works as it relates to fashion.
-
-
-
+                    So, if you are looking towards leveraging on the big market
+                    in the fashion industry in Sweden to start a business, then
+                    you should consider opening a store that sells shoes,
+                    sandals, slippers, belts, wallets, hats, caps and general
+                    leather works as it relates to fashion.
                   </p>
-
-
-
 
                   
-                  <span>OPEN A
-
-</span>
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>OPEN A</span>
                   <h2>
-                    <strong>Perfume Store
-
-</strong>
+                    <strong>Perfume Store</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  It is safe to say that wearing a nice smelling perfume from a good perfume designer gives one confidence. Retailing of perfumes from different designers is yet another profitable small-scale business that an entrepreneur can consider starting in Sweden.
-
-
-
-
+                    It is safe to say that wearing a nice smelling perfume from
+                    a good perfume designer gives one confidence. Retailing of
+                    perfumes from different designers is yet another profitable
+                    small-scale business that an entrepreneur can consider
+                    starting in Sweden.
                   </p>
                   <p className=" tw-text-gray">
-                  This type of business is simple to start and it is also easy to manage. Some of the major things you need to do to get the business running is to rent or lease a shop, and then stock the shop with various brands of perfume. If you are able to secure a good location perhaps in a busy market, you won’t struggle to make daily sales.
-
-
-
-
+                    This type of business is simple to start and it is also easy
+                    to manage. Some of the major things you need to do to get
+                    the business running is to rent or lease a shop, and then
+                    stock the shop with various brands of perfume. If you are
+                    able to secure a good location perhaps in a busy market, you
+                    won’t struggle to make daily sales.
                   </p>
 
-
-                  <span>RETAILING OF
-
-
-</span>
+                
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>RETAILING OF</span>
                   <h2>
-                    <strong>Jewelries And Fashion Accessories
-
-
-</strong>
+                    <strong>Jewelries And Fashion Accessories</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  If you have cash and you are looking for a viable small-scale business to start in Sweden, then you should look towards starting your own jewelry and fashion accessories shop; a shop where you can sell necklaces, rings, earrings, bangles, ribbons, hairband et al.
-
-
-
-
-
+                    If you have cash and you are looking for a viable
+                    small-scale business to start in Sweden, then you should
+                    look towards starting your own jewelry and fashion
+                    accessories shop; a shop where you can sell necklaces,
+                    rings, earrings, bangles, ribbons, hairband et al.
                   </p>
                   <p className=" tw-text-gray">
-                  It is indeed a viable and profitable business and aside from the fact that you can sell these items from your shop, you can as well take your fashion accessories to places where you can attract sales. It could be the homes of your family members and friends or even a place where people meet to network.
-
-
-
-
-
+                    It is indeed a viable and profitable business and aside from
+                    the fact that you can sell these items from your shop, you
+                    can as well take your fashion accessories to places where
+                    you can attract sales. It could be the homes of your family
+                    members and friends or even a place where people meet to
+                    network.
                   </p>
 
-
-                  <span>OPEN A
-
-
-
-</span>
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>OPEN A</span>
                   <h2>
-                    <strong>Consignment Shop
-
-
-
-</strong>
+                    <strong>Consignment Shop</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  There are several stuffs that can be sold in a consignment shop and if you are looking towards starting a business in Sweden that requires minimal startup capital, a business that is thriving and profitable, then you should consider opening a consignment shop that deals in fashion wears; a place where people with low income can purchase neatly used suits, shirts, belts, caps, handbags, shoes, wristwatches et al.
-
-
-
-
-
-
+                    There are several stuffs that can be sold in a consignment
+                    shop and if you are looking towards starting a business in
+                    Sweden that requires minimal startup capital, a business
+                    that is thriving and profitable, then you should consider
+                    opening a consignment shop that deals in fashion wears; a
+                    place where people with low income can purchase neatly used
+                    suits, shirts, belts, caps, handbags, shoes, wristwatches et
+                    al.
                   </p>
                   <p className=" tw-text-gray">
-                  As a matter of fact, there is a large market for secondhand stuffs all over the globe. It is important to locate this type of business in a place that is densely populated by people of low income and a migrant community seems to be an ideal place to start this type of business in Sweden.
-
-
-
-
-
-
+                    As a matter of fact, there is a large market for secondhand
+                    stuffs all over the globe. It is important to locate this
+                    type of business in a place that is densely populated by
+                    people of low income and a migrant community seems to be an
+                    ideal place to start this type of business in Sweden.
                   </p>
-                 
-                  <span>OPEN A
 
-
-
-
-</span>
+                  
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>OPEN A</span>
                   <h2>
-                    <strong>Bridal Shop
-
-
-
-
-</strong>
+                    <strong>Bridal Shop</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  A bridal shop is a place where everything about weddings are sold. Wedding gown, shoes, veil and other wedding accessories are part of what you will find in a typical bridal shop. Retailing of wedding gowns and other wedding accessories is indeed a thriving and profitable fashion related business that any serious – minded entrepreneur can successfully launch.
-
-
-
-
-
-
-
+                    A bridal shop is a place where everything about weddings are
+                    sold. Wedding gown, shoes, veil and other wedding
+                    accessories are part of what you will find in a typical
+                    bridal shop. Retailing of wedding gowns and other wedding
+                    accessories is indeed a thriving and profitable fashion
+                    related business that any serious – minded entrepreneur can
+                    successfully launch.
                   </p>
                   <p className=" tw-text-gray">
-                  So, if you are looking towards starting a small- scale business in Sweden, a business that does not require training or special skills to manage, then one of your options is to open a wedding shop
-
-
-
-
-
-
-
+                    So, if you are looking towards starting a small- scale
+                    business in Sweden, a business that does not require
+                    training or special skills to manage, then one of your
+                    options is to open a wedding shop
                   </p>
 
-
-                  <span>OPEN A
-
-
-
-
-
-</span>
+             
+                                    
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>OPEN A</span>
                   <h2>
-                    <strong>Restaurant
-
-
-
-
-
-</strong>
+                    <strong>Restaurant</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  Restaurant business is yet another thriving business that can be started on a small-scale in Sweden. Just ensure that you have a blend of both local and international dishes in your restaurant and you will attract both locals and migrants on a regular basis.
-
-
-
-
-
-
-
-
+                    Restaurant business is yet another thriving business that
+                    can be started on a small-scale in Sweden. Just ensure that
+                    you have a blend of both local and international dishes in
+                    your restaurant and you will attract both locals and
+                    migrants on a regular basis.
                   </p>
                   <p className=" tw-text-gray">
-                  Swedish traditional dishes, some of which are hundreds of years old, are still an important part of Swedish everyday meals, in spite of the fact that modern-day Swedish cuisine adopts many international dishes.
-
-
-
-
-
-
-
-
+                    Swedish traditional dishes, some of which are hundreds of
+                    years old, are still an important part of Swedish everyday
+                    meals, in spite of the fact that modern-day Swedish cuisine
+                    adopts many international dishes.
                   </p>
 
-
-                  <span>OPEN A
-
-
-
-
-
-
-</span>
+         
+                                    
+                  <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p>OPEN A</span>
                   <h2>
-                    <strong>Sport Shop
-
-
-
-
-
-
-</strong>
+                    <strong>Sport Shop</strong>
                   </h2>
 
                   <p className=" tw-text-gray">
-                  Sport activities are a national movement with half of the population actively participating in organized sporting activities. The two main spectator sports are football and ice hockey. In essence, if you are interested in starting a small-scale business in Sweden, then you should consider opening a sport shop.
-
-
-
-
-
-
-
-
-
+                    Sport activities are a national movement with half of the
+                    population actively participating in organized sporting
+                    activities. The two main spectator sports are football and
+                    ice hockey. In essence, if you are interested in starting a
+                    small-scale business in Sweden, then you should consider
+                    opening a sport shop.
                   </p>
                   <p className=" tw-text-gray">
-                  Just ensure that your shop is stocked with a wide range of sporting goods and above all, your shop must be strategically located if you intend maximizing profits from this line of business
-
-
-
-
-
-
-
-
-
+                    Just ensure that your shop is stocked with a wide range of
+                    sporting goods and above all, your shop must be
+                    strategically located if you intend maximizing profits from
+                    this line of business
                   </p>
                   <p className=" tw-text-gray">
-                  If you are an investor who is interested and is either living abroad or in Sweden, you can feel free to contact us
-
-
-
-
-
-
-
-
-
-
+                    If you are an investor who is interested and is either
+                    living abroad or in Sweden, you can feel free to contact us
                   </p>
-                 
                 </div>
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (

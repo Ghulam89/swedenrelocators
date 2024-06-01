@@ -413,14 +413,14 @@ const Gallery = ({
         <div className="container-fluid ">
           <div className="row g-5">
             <div className="col-md-8    tw-py-10 tw-bg-white">
-              <div className=" tw-relative p-4">
+              <div className=" tw-relative tw-pl-32">
                 <Tabs tabs={tabData} defaultTab={defaultTab} />
               </div>
 
             </div>
 
             <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-              <div className="  tw-pr-10">
+              <div className="  md:tw-pr-32 tw-pr-4">
                 <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                   {data?.map((item, index) => {
                     return (

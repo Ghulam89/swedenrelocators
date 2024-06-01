@@ -290,7 +290,7 @@ const Assessment = () => {
         <div className="container-fluid ">
           <div className="row">
             <div className="col-md-8 ">
-              <div className=" tw-bg-white  md:tw-pl-20 tw-pl-5 md:tw-pr-18 tw-pr-5 tw-pt-14">
+              <div className=" tw-bg-white  md:tw-pl-32 tw-pl-5 md:tw-pr-18 tw-pr-5 tw-pt-14">
                 <div className="">
                   <p className=" tw-font-bold tw-text-2xl md:tw-flex tw-block tw-gap-2  tw-text-gray-dark tw-m-0">
                     {" "}
@@ -372,7 +372,7 @@ const Assessment = () => {
             </div>
 
             <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-              <div className="  tw-pr-10">
+              <div className="  md:tw-pr-32  tw-pr-4">
                 <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                 {data2?.map((item, index) => {
                       return (

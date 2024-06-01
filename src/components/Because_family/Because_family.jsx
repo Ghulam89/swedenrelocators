@@ -158,7 +158,7 @@ const Because_family = () => {
               <motion.img  
                  animate={imageVariants} className=" tw-w-full"  src={Hero} alt="" />
 
-                 <Link to={`/service_details/Family Reunification`}>
+                 <Link to={`/family-reunification`}>
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
               </Link>
             </div>
@@ -233,9 +233,7 @@ const Because_family = () => {
             <div  className="col-md-6">
               <motion.img  
                  animate={imageVariants}  className=" tw-w-full" src={fourth_image} alt="" />
-                 <Link to={`/service_details/Family Reunification`}>
-              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
-              </Link>
+                 
             </div>
             <div className="col-md-6">
               <motion.div variants={containerVariants}
@@ -321,6 +319,9 @@ const Because_family = () => {
                 arranging for a handyman.
               </motion.p>
               </motion.div>
+              <Link to={`/family-reunification`}>
+              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
             </div>
             <div className="col-md-6">
              <div className="row">
@@ -360,7 +361,7 @@ const Because_family = () => {
                 case directly with our team.
               </motion.p>
               </motion.div>
-             <Link to={`/service_details/business visit`}  >
+             <Link to={`/business-visit`}  >
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
               </Link>
             </div>
@@ -401,7 +402,7 @@ const Because_family = () => {
                 family and yourself while staying in Sweden during the first two
                 years. Don’t forget to use our Assessment tool to find out more.
               </p>
-             <Link to={`/service_details/business Permit`}>
+             <Link to={`/business-permit`}>
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
               </Link>
             </div>
@@ -430,7 +431,7 @@ const Because_family = () => {
 
               </p>
 
-              <p className=" tw-text-gray-dark tw-m-0 tw-pt-2 tw-font-semibold tw-text-lg">
+              <p className=" tw-text-gray tw-m-0 tw-pt-2 tw-font-semibold tw-text-lg">
                1.EOR Services:
 
               </p>
@@ -441,7 +442,7 @@ const Because_family = () => {
 
               </p>
 
-              <p className=" tw-text-gray-dark tw-m-0 tw-pt-2 tw-font-semibold tw-text-lg">
+              <p className=" tw-text-gray tw-m-0 tw-pt-2 tw-font-semibold tw-text-lg">
                2.Payroll Services:
 
               </p>
@@ -477,7 +478,7 @@ const Because_family = () => {
               </div>
 
 
-              <Link to={`/service_details/business Permit`}>
+              <Link to={`/business-permit`}>
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
               </Link>
              </div>

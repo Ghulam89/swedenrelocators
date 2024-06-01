@@ -5,6 +5,8 @@ import Footer from "../../components/Footer/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/credit-card.png";
+import { imageVariants } from "../../utils/motion";
+import { motion } from "framer-motion";
 const PersonnumerSweden = () => {
   const { id } = useParams();
 
@@ -234,8 +236,10 @@ const PersonnumerSweden = () => {
           <div className="container-fluid">
             <div className="row g-4">
               <div className="col-md-8 tw-py-20 tw-bg-white">
-                <div className="  md:tw-px-20 tw-px-2">
-                  <span>APPLYING FOR A</span>
+                <div className="  md:tw-pl-32 tw-pl-3">
+                  
+                <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> APPLYING FOR A</span>
+
                   <h2>
                     <strong>
                       SWEDISH SOCIAL SECURITY NUMBER (Personnummer)
@@ -265,7 +269,13 @@ const PersonnumerSweden = () => {
                     (XXXXXX-XXXX) but where you add 60 on the person’s birthday.
                   </p>
 
-                  <img src={banner} alt="" />
+                  <div className="row">
+                    <div className="col-md-10 tw-mx-auto">
+                    
+                    <motion.img  
+                 animate={imageVariants} className=" tw-w-full"  src={banner} alt="" />
+                    </div>
+                  </div>
 
                   <div>
                     <p className=" tw-text-gray">
@@ -276,12 +286,14 @@ const PersonnumerSweden = () => {
                     </p>
                   </div>
                   <div>
-                    <span>BECOMING</span>
+                    
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> BECOMING</span>
+
                     <h2>
                       <strong>A Bank Customer</strong>
                     </h2>
 
-                    <span>AN</span>
+                    <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> AN</span>
 
                     <h2>
                       <strong>Identification</strong>
@@ -356,7 +368,8 @@ const PersonnumerSweden = () => {
                     </div>
 
                     <div>
-                      <span>IN CERTAIN CASES</span>
+                     
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> IN CERTAIN CASES</span>
 
                       <h2>
                         <strong>
@@ -397,7 +410,8 @@ const PersonnumerSweden = () => {
                     </div>
 
                     <div>
-                      <span>BEAR</span>
+                      
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> BEAR</span>
 
                       <h2>
                         <strong>In Mind That…</strong>
@@ -456,7 +470,9 @@ const PersonnumerSweden = () => {
                     </div>
 
                     <div>
-                      <span>DRIVING</span>
+               
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> DRIVING</span>
+
                       <h2>
                         <strong>License</strong>
                       </h2>
@@ -478,7 +494,9 @@ const PersonnumerSweden = () => {
                     </div>
 
                     <div>
-                      <span>SCHOOLS IN</span>
+                      
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> SCHOOLS IN</span>
+
                       <h2>
                         <strong>SWEDEN</strong>
                       </h2>
@@ -513,12 +531,16 @@ const PersonnumerSweden = () => {
                     </div>
 
                     <div>
-                      <span>PREGNANCY</span>
+                      
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PREGNANCY</span>
+
                       <h2>
                         <strong>AND MATERNITY</strong>
                       </h2>
 
-                      <span>PARENTAL</span>
+                     
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PARENTAL</span>
+
                       <h2>
                         <strong>Leave(Föräldraledighet)</strong>
                       </h2>
@@ -531,7 +553,8 @@ const PersonnumerSweden = () => {
                         www.forsakringskassan.se.
                       </p>
 
-                      <span>PARENTAL</span>
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> PARENTAL</span>
+
                       <h2>
                         <strong>Benefits</strong>
                       </h2>
@@ -546,7 +569,9 @@ const PersonnumerSweden = () => {
                         Social Insurance Agency (Försäkringskassan).
                       </p>
 
-                      <span>MATERNITY</span>
+
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> MATERNITY</span>
+
                       <h2>
                         <strong>Clinics</strong>
                       </h2>
@@ -559,7 +584,9 @@ const PersonnumerSweden = () => {
                         maternity clinic are free.
                       </p>
 
-                      <span>CHILD</span>
+
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> CHILD</span>
+
                       <h2>
                         <strong>Health Centre</strong>
                       </h2>
@@ -576,7 +603,9 @@ const PersonnumerSweden = () => {
                         baby is doing.
                       </p>
 
-                      <span>CHILD</span>
+
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> CHILD</span>
+
                       <h2>
                         <strong>Allowance</strong>
                       </h2>
@@ -587,7 +616,9 @@ const PersonnumerSweden = () => {
                         paid until the child turns 16.
                       </p>
 
-                      <span>REGISTER</span>
+
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> REGISTER</span>
+
                       <h2>
                         <strong>With Försäkringskassan</strong>
                       </h2>
@@ -598,7 +629,9 @@ const PersonnumerSweden = () => {
                         more at www.forsakringskassan.se
                       </p>
 
-                      <span>HEALTH AND</span>
+
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> HEALTH AND</span>
+
                       <h2>
                         <strong>Medical Care</strong>
                       </h2>
@@ -611,155 +644,134 @@ const PersonnumerSweden = () => {
                       </p>
 
                       <p className=" tw-text-gray">
-                      It is a 24-hour provider of free healthcare information and consulting. Phone 1177, or if you call from outside Sweden the number is: +46 771 11 77 00.
-
-
+                        It is a 24-hour provider of free healthcare information
+                        and consulting. Phone 1177, or if you call from outside
+                        Sweden the number is: +46 771 11 77 00.
                       </p>
                       <p className=" tw-text-gray">
-                      Once you are registered in Sweden (have received a personal identification number), you are entitled to healthcare under the same conditions as other residents of Sweden. This means that you pay the regular Swedish patient fee for medical care in the public healthcare system.
-
-
-
+                        Once you are registered in Sweden (have received a
+                        personal identification number), you are entitled to
+                        healthcare under the same conditions as other residents
+                        of Sweden. This means that you pay the regular Swedish
+                        patient fee for medical care in the public healthcare
+                        system.
                       </p>
 
 
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> ID</span>
 
-                      <span>ID</span>
                       <h2>
-                        <strong>Card
-</strong>
+                        <strong>Card</strong>
                       </h2>
 
                       <p className=" tw-text-gray">
-                      You can get ID cards issued by tax agency. You need to visit one of the Skatteverket’s office and pay the fee i.e 400 SEK before you visit them.
-
-
+                        You can get ID cards issued by tax agency. You need to
+                        visit one of the Skatteverket’s office and pay the fee
+                        i.e 400 SEK before you visit them.
                       </p>
 
                       <p className=" tw-text-gray">
-                      To be able to apply for an ID card, you must be registered as living in Sweden (having received the personal identification number), be able to show a receipt for the application fee payment and be able to show who you are (prove your identity).
-
-
-
+                        To be able to apply for an ID card, you must be
+                        registered as living in Sweden (having received the
+                        personal identification number), be able to show a
+                        receipt for the application fee payment and be able to
+                        show who you are (prove your identity).
                       </p>
 
+               
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> UNEMPLOYMENT</span>
 
-
-                      <span>UNEMPLOYMENT</span>
                       <h2>
-                        <strong>Insurance
-</strong>
+                        <strong>Insurance</strong>
                       </h2>
 
                       <p className=" tw-text-gray">
-                      Payouts of unemployment insurance take two forms, a basic benefit or an income-related benefit.
-
-
-
+                        Payouts of unemployment insurance take two forms, a
+                        basic benefit or an income-related benefit.
                       </p>
 
                       <p className=" tw-text-gray">
-                      Unemployment insurance is not a part of the social insurance system in Sweden. Unemployment insurance is connected closely to the trade unions but is legally independent. When you start working in Sweden, investigate which unemployment insurance fund (widely known as A-Kassa) is available.
-
-
-
-
+                        Unemployment insurance is not a part of the social
+                        insurance system in Sweden. Unemployment insurance is
+                        connected closely to the trade unions but is legally
+                        independent. When you start working in Sweden,
+                        investigate which unemployment insurance fund (widely
+                        known as A-Kassa) is available.
                       </p>
-                     
+
                       <p className=" tw-text-gray">
-                      In order to receive an income-based benefit, you must have been a member of a voluntary unemployment insurance fund (A-kassa) for 12 months and have worked (been employed) for at least six months. In addition, some trade unions offer additional insurance against loss of income.
-
-
-
-
-
+                        In order to receive an income-based benefit, you must
+                        have been a member of a voluntary unemployment insurance
+                        fund (A-kassa) for 12 months and have worked (been
+                        employed) for at least six months. In addition, some
+                        trade unions offer additional insurance against loss of
+                        income.
                       </p>
 
 
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> LEARN</span>
 
-
-                      
-                      <span>LEARN
-</span>
                       <h2>
-                        <strong>Swedish In Sweden
-
-</strong>
+                        <strong>Swedish In Sweden</strong>
                       </h2>
 
                       <p className=" tw-text-gray">
-                      Depending on the location of your stay, there are different options for learning Swedish while in the country. More information at: www.sweden.se.
-
-
-
-
+                        Depending on the location of your stay, there are
+                        different options for learning Swedish while in the
+                        country. More information at: www.sweden.se.
                       </p>
 
                       <p className=" tw-text-gray">
-                      Folkuniversitetet offers Swedish courses at different levels.
-
-
-
-
-
-                      </p>
-                     
-                      <p className=" tw-text-gray">
-                      Study associations also offer language courses and a wide range of other courses. See a list of study associations.
-
-
-
-
-
-
-                      </p>
-                      <p className=" tw-text-gray">
-                      SFI-courses (Swedish for immigrants). Once you have become a resident in Sweden and have been issued a personal identity number (personnummer) you can contact your local municipality for information about Swedish lessons for immigrants (SFI). SFI is basic training in the Swedish language for adults who do not have Swedish as their first language. You can study SFI full-time or part-time. The training is free of charge.
-
-
-
-
-
-
-
+                        Folkuniversitetet offers Swedish courses at different
+                        levels.
                       </p>
 
-
-
                       <p className=" tw-text-gray">
-                      SFI-courses (Swedish for immigrants). Once you have become a resident in Sweden and have been issued a personal identity number (personnummer) you can contact your local municipality for information about Swedish lessons for immigrants (SFI). SFI is basic training in the Swedish language for adults who do not have Swedish as their first language. You can study SFI full-time or part-time. The training is free of charge.
-
-
-
-
-
-
-
+                        Study associations also offer language courses and a
+                        wide range of other courses. See a list of study
+                        associations.
+                      </p>
+                      <p className=" tw-text-gray">
+                        SFI-courses (Swedish for immigrants). Once you have
+                        become a resident in Sweden and have been issued a
+                        personal identity number (personnummer) you can contact
+                        your local municipality for information about Swedish
+                        lessons for immigrants (SFI). SFI is basic training in
+                        the Swedish language for adults who do not have Swedish
+                        as their first language. You can study SFI full-time or
+                        part-time. The training is free of charge.
                       </p>
 
-
-
-                      <span>RECOGNITION OF
-
-</span>
-                      <h2>
-                        <strong>Higher Education Qualifications
-
-
-</strong>
-                      </h2>
-
                       <p className=" tw-text-gray">
-                      The European Commission has devised a system known as ECTS (European Credit Transfer System) . It allows for the transfer of higher education credits between European countries. The Swedish Council for Higher Education (UHR) evaluates foreign qualifications in order to provide support for people looking for work in Sweden, people who wish to continue studying, or for employers who wish to employ someone with foreign qualifications.
-
-
-
-
-
+                        SFI-courses (Swedish for immigrants). Once you have
+                        become a resident in Sweden and have been issued a
+                        personal identity number (personnummer) you can contact
+                        your local municipality for information about Swedish
+                        lessons for immigrants (SFI). SFI is basic training in
+                        the Swedish language for adults who do not have Swedish
+                        as their first language. You can study SFI full-time or
+                        part-time. The training is free of charge.
                       </p>
 
                       
-                     
+                      
+                      <span className=" tw-pt-3 tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> RECOGNITION OF</span>
+
+                      <h2>
+                        <strong>Higher Education Qualifications</strong>
+                      </h2>
+
+                      <p className=" tw-text-gray">
+                        The European Commission has devised a system known as
+                        ECTS (European Credit Transfer System) . It allows for
+                        the transfer of higher education credits between
+                        European countries. The Swedish Council for Higher
+                        Education (UHR) evaluates foreign qualifications in
+                        order to provide support for people looking for work in
+                        Sweden, people who wish to continue studying, or for
+                        employers who wish to employ someone with foreign
+                        qualifications.
+                      </p>
                     </div>
                   </div>
                   <div></div>
@@ -767,7 +779,7 @@ const PersonnumerSweden = () => {
               </div>
 
               <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  tw-pr-10">
+                <div className="  md:tw-pr-32 tw-pr-4">
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (
