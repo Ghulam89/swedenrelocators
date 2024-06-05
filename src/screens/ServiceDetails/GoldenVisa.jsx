@@ -261,7 +261,11 @@ const GoldenVisa = () => {
                   </p>
                   <div className="row">
                     <div className="col-md-6">
-                      <img src={banner} alt="" />
+                      <div className="row">
+                        <div className="col-md-10 tw-mx-auto">
+                        <img src={banner} alt="" />
+                        </div>
+                      </div>
                     </div>
                     <div className="col-md-6">
                       <p className=" tw-text-gray">Consisting of a mainland on the Balkan peninsula and thousands of islands spread throughout the Aegean and Ionian seas, Greece has become a major European business center and is re-garded as one of the world’s top holiday destinations.
@@ -317,7 +321,11 @@ Portugal is a member of the EU and Europe’s Schengen Area and has been using t
        
                     </div>
                     <div className="col-md-6">
+                     <div className="row">
+                      <div className="col-md-10 tw-mx-auto">
                       <img src={banner1} alt="" />
+                      </div>
+                     </div>
                     </div>
                   </div>
 
