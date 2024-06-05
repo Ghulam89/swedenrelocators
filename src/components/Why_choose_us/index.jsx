@@ -69,21 +69,6 @@ const Why_choose_us = () => {
                     Business Permit
                   </p>
                   <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
-                    80%
-                  </p>
-                </div>
-                <div className="tw-w-full   tw-bg-gray-light tw-h-2 mb-6 mt-2">
-                  <div
-                    className="tw-bg-blue tw-h-2 "
-                    style={{ width: "80%" }}
-                  />
-                </div>
-
-                <div className="tw-flex  tw-mt-6 tw-items-center tw-justify-between">
-                  <p className="  tw-text-primary  tw-font-medium tw-text-md  m-0">
-                    Work Permit
-                  </p>
-                  <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
                     94%
                   </p>
                 </div>
@@ -96,16 +81,31 @@ const Why_choose_us = () => {
 
                 <div className="tw-flex  tw-mt-6 tw-items-center tw-justify-between">
                   <p className="  tw-text-primary  tw-font-medium tw-text-md  m-0">
-                    Family Reunification
+                    Work Permit
                   </p>
                   <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
-                    96%
+                    98%
                   </p>
                 </div>
                 <div className="tw-w-full   tw-bg-gray-light tw-h-2 mb-6 mt-2">
                   <div
                     className="tw-bg-blue tw-h-2 "
-                    style={{ width: "96%" }}
+                    style={{ width: "98%" }}
+                  />
+                </div>
+
+                <div className="tw-flex  tw-mt-6 tw-items-center tw-justify-between">
+                  <p className="  tw-text-primary  tw-font-medium tw-text-md  m-0">
+                    Family Reunification
+                  </p>
+                  <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
+                    100%
+                  </p>
+                </div>
+                <div className="tw-w-full   tw-bg-gray-light tw-h-2 mb-6 mt-2">
+                  <div
+                    className="tw-bg-blue tw-h-2 "
+                    style={{ width: "100%" }}
                   />
                 </div>
 
@@ -114,13 +114,13 @@ const Why_choose_us = () => {
                     Study in Sweden
                   </p>
                   <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
-                    96%
+                    98%
                   </p>
                 </div>
                 <div className="tw-w-full   tw-bg-gray-light tw-h-2 mb-6 mt-2">
                   <div
                     className="tw-bg-blue tw-h-2 "
-                    style={{ width: "96%" }}
+                    style={{ width: "98" }}
                   />
                 </div>
 
@@ -129,13 +129,13 @@ const Why_choose_us = () => {
                     Long Term EU Resident
                   </p>
                   <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
-                    93%
+                    99%
                   </p>
                 </div>
                 <div className="tw-w-full   tw-bg-gray-light tw-h-2 mb-6 mt-2">
                   <div
                     className="tw-bg-blue tw-h-2 "
-                    style={{ width: "93%" }}
+                    style={{ width: "99%" }}
                   />
                 </div>
               </div>

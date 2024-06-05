@@ -301,26 +301,23 @@ const Assessment = () => {
                       className=" tw-w-10"
                       alt=""
                     />{" "}
-                    Check below your Visa or Residence Permit Eligibility
+Check Your Eligibility Before Proceeding with Our Services
                   </p>
 
                   <p className=" tw-text-gray tw-pt-3">
-                    This tool will help you to find out if you are eligible to
-                    apply for Visa or Residence Permit. We made this assessment
-                    tool to make sure, If you are eligible for your desired Visa
-                    or Residence Permit. In the end of your assesment process
-                    you would receive your result. The risk of changes in law
-                    refers to the risk of changes that may affect the assessment
-                    results.
+                  Welcome to our assessment tool designed to determine your eligibility to confirm the basic criteria for relocating to Sweden. We've developed this tool to ensure that you can ascertain your eligibility for your desired Visa or Residence Permit for your relocation. Upon completing the assessment process, you'll receive your result. If the assessment indicates eligibility, you can also download our app and assess your eligibility there as well.
+
                   </p>
                   <p className=" tw-text-gray tw-pt-2">
-                    Any sort of visa and residence permit for any country are
-                    available at lower cost when you apply directly on their
-                    official website. Our comprehensive visa and
-                    Immigration-Relocation services are provided by Migration
-                    Agents who have experience to advise on visa strategy, right
-                    documentation and they ensure your application is successful
-                    and we charge for our services.
+                  If the assessment indicates eligibility, simply sign up and book an appointment to discuss further. Even in cases where the result is negative or uncertain, you can still contact us, and we can explore possibilities together.
+
+                  </p>
+                  <p className=" tw-text-gray tw-pt-2">
+                  Please note that the risk of changes in law pertains to the possibility of legal alterations that may impact the assessment results.
+
+                  </p>
+                  <p className=" tw-text-gray tw-pt-2">
+                  It's important to mention that any type of visa or residence permit for any country can be obtained at a lower cost when applying directly through their official website. However, if you choose to utilize our services, you'll benefit from our comprehensive visa and immigration relocation services. Our team of Migration/Relocation consultants possesses the expertise to advise you on relocation and immigration strategy, ensure the right documentation is provided, and ultimately, increase the likelihood of a successful application. Please be aware that we charge for our services. You can find all the information on our portal and on the app. Simply write in the message section if you have any further questions or concerns.
                   </p>
                 </div>
 
