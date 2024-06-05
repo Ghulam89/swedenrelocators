@@ -321,18 +321,26 @@ Check Your Eligibility Before Proceeding with Our Services
                   </p>
                 </div>
 
-                <div className="row tw-py-12">
+                <div className="row  g-4 tw-py-12">
                   {data?.map((item, index) => {
                     return (
                       <>
                         <div className="col-md-6">
                           <Link to={`/assessment_register/${item?.title}`}   >
+                           <div className="row">
+
+                            <div className="col-md-10 tw-mx-auto">
+                            <div className=" tw-h-56">
                             <img
                               src={item?.image}
                               alt=""
-                              className="  tw-mx-auto"
+                              className="  tw-mx-auto tw-h-full"
                             />
+                            </div>
 
+                            </div>
+
+                           </div>
                             <Button
                               Icons={item?.Icon}
                               className={

@@ -400,7 +400,7 @@ const Assessment_register = () => {
             </div>
 
             <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-              <div className="  md:tw-pr-32 tw-pr-4">
+              <div className="  md:tw-pr-28 tw-pr-4">
                 <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                 {data?.map((item, index) => {
                       return (
