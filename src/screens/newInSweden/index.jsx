@@ -317,7 +317,7 @@ const New_In_sweden = () => {
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                        <GoTriangleRight size={25} className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
                           Place of residence(must be in Sweden). You can NOT
                           apply for a personnummer while still living abroad.
@@ -327,7 +327,7 @@ const New_In_sweden = () => {
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                        <GoTriangleRight  className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
                           You need to go in person (all the persons in the
                           family) to an office of Skatteverket to apply for a
@@ -384,7 +384,7 @@ const New_In_sweden = () => {
                     </p>
 
                     <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
                           You can identify yourself with a valid Swedish

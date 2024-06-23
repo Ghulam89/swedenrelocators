@@ -46,6 +46,11 @@ import PermanentResidence from "../screens/ServiceDetails/PermanentResidence";
 import GoldenVisa from "../screens/ServiceDetails/GoldenVisa";
 import BusinessVisit from "../screens/ServiceDetails/BusinessVisit";
 import WorkPermit from "../screens/ServiceDetails/WorkPermit";
+import Family_reunification_assessment from "../screens/assessment_register/Family_reunification_assessment";
+import Long_term_eu_status_assessment from "../screens/assessment_register/Long_term_eu_status_assessment";
+import Visit_visa from "../screens/assessment_register/Visit_visa";
+import Work_permit from "../screens/assessment_register/Work_permit";
+import Student_assessments from "../screens/assessment_register/Student_assessments";
 const Routing = () => {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -79,7 +84,12 @@ const Routing = () => {
         />
         <Route path="/looking_for_housing" element={<Looking_for_housing />} />
         <Route path="/assessment" element={<Assessment />} />
-        <Route path="/assessment_register/:id" element={<Assessment_register />} />
+        <Route path="/assessment_register" element={<Assessment_register />} />
+        <Route path="/family_reunification_assessment" element={<Family_reunification_assessment/>} />
+        <Route path="/long_term_eu_status_assessment" element={<Long_term_eu_status_assessment/>} />
+        <Route path="/visit_visa" element={<Visit_visa/>} />
+        <Route path="/Work_permit" element={<Work_permit/>} />
+        <Route path="/student_assessments" element={<Student_assessments/>} />
         <Route path="/services" element={<Services />} />
         <Route path="/asylum" element={<ServiceDetails />} />
         <Route path="/family-reunification" element={<FamilyRenuification />} />

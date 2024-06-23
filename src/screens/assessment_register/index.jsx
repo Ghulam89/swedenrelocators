@@ -14,8 +14,7 @@ import { Link, useParams } from "react-router-dom";
 import Assessment_modal from "./Assessment_modal";
 
 const Assessment_register = () => {
-  
-  const {id} = useParams()
+  const { id } = useParams();
 
   const data = [
     {
@@ -26,7 +25,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-home"></i>
       ),
-      Link:'/asylum'
+      Link: "/asylum",
     },
     {
       id: 2,
@@ -36,7 +35,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-family"></i>
       ),
-      Link:'/family-reunification'
+      Link: "/family-reunification",
     },
     {
       id: 3,
@@ -47,8 +46,7 @@ const Assessment_register = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-14"></i>
       ),
 
-      Link:'/personnumer-sweden'
-      
+      Link: "/personnumer-sweden",
     },
     {
       id: 4,
@@ -58,8 +56,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-12"></i>
       ),
-      Link:'/cpr-number-denmark'
-      
+      Link: "/cpr-number-denmark",
     },
     {
       id: 5,
@@ -69,7 +66,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport-11"></i>
       ),
-      Link:'/work-permit'
+      Link: "/work-permit",
     },
     {
       id: 5,
@@ -80,8 +77,7 @@ const Assessment_register = () => {
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 fa fa-briefcase"></i>
       ),
 
-      Link:'/business-permit'
-    
+      Link: "/business-permit",
     },
     {
       id: 6,
@@ -91,8 +87,8 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 themifyicon ti-map-alt"></i>
       ),
-      
-      Link:'/business-visit'
+
+      Link: "/business-visit",
     },
     {
       id: 7,
@@ -102,9 +98,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-passport"></i>
       ),
-      Link:'/citizenship'
-      
-    
+      Link: "/citizenship",
     },
     {
       id: 8,
@@ -114,8 +108,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-graduation-hat-1"></i>
       ),
-      Link:'/study-in-eu'
-      
+      Link: "/study-in-eu",
     },
     {
       id: 9,
@@ -125,7 +118,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-travel"></i>
       ),
-      Link:'/global-visit-visas'
+      Link: "/global-visit-visas",
     },
     {
       id: 10,
@@ -135,7 +128,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12 flaticon-contract"></i>
       ),
-      Link:'/eea-permits'
+      Link: "/eea-permits",
     },
     {
       id: 11,
@@ -145,7 +138,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-family-1"></i>
       ),
-      Link:'/parents-eu-permit'
+      Link: "/parents-eu-permit",
     },
     {
       id: 12,
@@ -155,7 +148,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-insurance"></i>
       ),
-      Link:'/marriage-divorce'
+      Link: "/marriage-divorce",
     },
     {
       id: 13,
@@ -165,7 +158,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/company-registration'
+      Link: "/company-registration",
     },
     {
       id: 14,
@@ -175,7 +168,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-certificate"></i>
       ),
-      Link:'/house-offices'
+      Link: "/house-offices",
     },
     {
       id: 15,
@@ -185,7 +178,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-reading"></i>
       ),
-      Link:'/appeal-cases'
+      Link: "/appeal-cases",
     },
     {
       id: 16,
@@ -195,7 +188,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-passport-3"></i>
       ),
-      Link:'/eu-family-reunification'
+      Link: "/eu-family-reunification",
     },
     {
       id: 17,
@@ -205,7 +198,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  fa fa-sitemap"></i>
       ),
-      Link:'/investment'
+      Link: "/investment",
     },
     {
       id: 18,
@@ -215,7 +208,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass"></i>
       ),
-      Link:'/direct-citizenship-by-investments'
+      Link: "/direct-citizenship-by-investments",
     },
     {
       id: 19,
@@ -225,7 +218,7 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-policy"></i>
       ),
-      Link:'/permanent-residence'
+      Link: "/permanent-residence",
     },
     {
       id: 20,
@@ -235,9 +228,31 @@ const Assessment_register = () => {
       icons: (
         <i class="   tw-ml-0 p-0 tw-text-4xl tw-text-blue tw-mb-12  flaticon-boarding-pass-2"></i>
       ),
-      Link:'/golden-visa-greece-portugal'
+      Link: "/golden-visa-greece-portugal",
     },
   ];
+
+  const [location, setLocation] = useState("");
+  const [personalStatus, setPersonalStatus] = useState("");
+  const [maritalStatus, setMaritalStatus] = useState("");
+  const [residencePermit, setResidencePermit] = useState("");
+  const [personnummer, setPersonnummer] = useState("");
+  const [coordinationNumber, setCoordinationNumber] = useState("");
+  const [investmentAmount, setInvestmentAmount] = useState("");
+  const [separateAssets, setSeparateAssets] = useState("");
+  const [depents, setDepents] = useState("");
+
+  const handleDepentsChange = (e) => setDepents(e.target.value);
+  const handleLocationChange = (e) => setLocation(e.target.value);
+  const handlePersonalStatusChange = (e) => setPersonalStatus(e.target.value);
+  const handleMaritalStatusChange = (e) => setMaritalStatus(e.target.value);
+  const handleResidencePermitChange = (e) => setResidencePermit(e.target.value);
+  const handlePersonnummerChange = (e) => setPersonnummer(e.target.value);
+  const handleCoordinationNumberChange = (e) =>
+    setCoordinationNumber(e.target.value);
+  const handleInvestmentAmountChange = (e) =>
+    setInvestmentAmount(e.target.value);
+  const handleSeparateAssetsChange = (e) => setSeparateAssets(e.target.value);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -249,13 +264,10 @@ const Assessment_register = () => {
     setIsModalOpen(false);
   };
 
-  
-
-
   return (
     <>
       <Navbar />
-      <Banner_Page title={`${id}`} />
+      <Banner_Page title={`BUSINESS VISA ASSESSMENT`} />
       <section className=" md:tw-mt-36 tw-mt-48">
         <div className="container-fluid ">
           <div className="row g-5">
@@ -271,13 +283,11 @@ const Assessment_register = () => {
                       </p>
                     </div>
 
-
-                    
-        <Assessment_modal
-          isModalOpen={isModalOpen}
-          setIsModalOpen={setIsModalOpen}
-          // setUsers={setUsers}
-        />
+                    <Assessment_modal
+                      isModalOpen={isModalOpen}
+                      setIsModalOpen={setIsModalOpen}
+                      // setUsers={setUsers}
+                    />
 
                     <form>
                       <div className="row ">
@@ -285,7 +295,9 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"You Full Name"}
                             star={"*"}
-                            className={" tw-w-full border tw-rounded-lg  tw-py-3.5 tw-px-3"}
+                            className={
+                              " tw-w-full border tw-rounded-lg  tw-py-3.5 tw-px-3"
+                            }
                             label={"Full Name"}
                           />
                         </div>
@@ -293,7 +305,9 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"Contact No with Country"}
                             star={"*"}
-                            className={" tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg"}
+                            className={
+                              " tw-w-full border tw-py-3.5 tw-px-3 tw-rounded-lg"
+                            }
                             label={"Contact No"}
                           />
                         </div>
@@ -301,7 +315,9 @@ const Assessment_register = () => {
                           <Input
                             placeholder={"your Address"}
                             star={"*"}
-                            className={" tw-w-full border tw-py-3.5  tw-px-3 tw-rounded-lg"}
+                            className={
+                              " tw-w-full border tw-py-3.5  tw-px-3 tw-rounded-lg"
+                            }
                             label={"Your Email"}
                           />
                         </div>
@@ -321,25 +337,295 @@ const Assessment_register = () => {
                     <form>
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
-                          {/* <label
-                            htmlFor="first_name"
-                            className=" tw-block  tw-text-md  tw-pb-2.5 tw-text-gray"
+                          <select
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg"
+                            value={location}
+                            onChange={handleLocationChange}
                           >
-                            <a className=" tw-text-red-600 tw-font-semibold">
-                              *
-                            </a>{" "}
-                            Choose Option
-                          </label> */}
-                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3  tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
-                            <option>Choose an Option</option>
-                            <option>I am in Sweden</option>
-                            <option>I am outside of Sweden</option>
+                            <option value="">Choose an Option</option>
+                            <option value="sweden">I am in Sweden</option>
+                            <option value="outside">
+                              I am outside of Sweden
+                            </option>
                           </select>
                         </div>
+                        {location === "sweden" && (
+                          <>
+                            <div className="col-md-6">
+                              <select
+                                className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                value={personalStatus}
+                                onChange={handlePersonalStatusChange}
+                              >
+                                <option value="">Select Personal Status</option>
+                                <option value="student">Student</option>
+                                <option value="employed">Other</option>
+                              </select>
+                            </div>
+
+                            {personalStatus === "student" && (
+                              <div className="col-md-6">
+                                <select
+                                  className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                  value={maritalStatus}
+                                  onChange={handleMaritalStatusChange}
+                                >
+                                  <option value="">
+                                    Select Marital Status
+                                  </option>
+                                  <option value="single">Single</option>
+                                  <option value="married">Married</option>
+                                </select>
+                              </div>
+                            )}
+
+                            {personalStatus === "employed" && (
+                              <>
+                                <div className="col-md-12">
+                                  <select
+                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                    value={residencePermit}
+                                    onChange={handleResidencePermitChange}
+                                  >
+                                    <option value="">
+                                      Do you have any valid residence permit in
+                                      Sweden?
+                                    </option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                  </select>
+                                </div>
+
+                                <div className="col-md-6">
+                                  <select
+                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                    value={personnummer}
+                                    onChange={handlePersonnummerChange}
+                                  >
+                                    <option value="">
+                                      Do you have valid Personnummer?
+                                    </option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                  </select>
+                                </div>
+
+                                {personnummer === "no" && (
+                                  <div className="col-md-6">
+                                    <select
+                                      className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                      value={coordinationNumber}
+                                      onChange={handleCoordinationNumberChange}
+                                    >
+                                      <option value="">
+                                        Do you have valid Coordination number?
+                                      </option>
+                                      <option value="yes">Yes</option>
+                                      <option value="no">No</option>
+                                    </select>
+                                  </div>
+                                )}
+
+                                <div className="col-md-6">
+                                  <select
+                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                    value={investmentAmount}
+                                    onChange={handleInvestmentAmountChange}
+                                  >
+                                    <option value="">
+                                      How much are you planning to invest?
+                                    </option>
+                                    <option value="less_than_50k">
+                                      Less than 50,000 SEK
+                                    </option>
+                                    <option value="50k_100k">
+                                      50,000 - 100,000 SEK
+                                    </option>
+                                    <option value="more_than_100k">
+                                      More than 100,000 SEK
+                                    </option>
+                                  </select>
+                                </div>
+
+                                <div className="col-md-12">
+                                  <select
+                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                    value={separateAssets}
+                                    onChange={handleSeparateAssetsChange}
+                                  >
+                                    <option value="">
+                                      Do you have separate assets other than the
+                                      investment to support yourself with the
+                                      application?
+                                    </option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                  </select>
+                                </div>
+                              </>
+                            )}
+
+                            {maritalStatus==='single' &&(
+                                <>
+                                <div className="col-md-6"></div>
+                                <div className="col-md-6">
+                                 <select
+                                   className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                  
+                                 >
+                                   <option value="">
+                                   * Did you complete your degree in sweden?
+                                   </option>
+                                   <option value="yes">Yes</option>
+                                   <option value="no">No</option>
+                                 </select>
+                               </div>
+
+                               <div className="col-md-12">
+                                 <select
+                                   className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                  
+                                 >
+                                   <option value="">
+                                   * Do you have separate assets other than the investment to support yourself with the application?
+                                   </option>
+                                   <option value="yes">Yes</option>
+                                   <option value="no">No</option>
+                                 </select>
+                               </div>
+                                </>
+                            )}
+
+
+{maritalStatus==='married' &&(
+                                <>
+                              
+                                <div className="col-md-6">
+                                 <select
+                                   className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                   value={depents}
+                                    onChange={handleDepentsChange}
+                                 >
+                                   <option value="">
+                                   * Dependent / Main Applicant
+                                   </option>
+                                   <option value="dependent">Dependent</option>
+                                   <option value="applicant">Main Applicant</option>
+                                 </select>
+                               </div>
+
+                                </>
+                            )}
+
+
+
+{maritalStatus==='applicant' &&(
+                                <>
+                              
+                                <div className="col-md-6">
+                                 <select
+                                   className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                              
+                                 >
+                                   <option value="">
+                                   * Did you complete your degree in sweden?
+                                   </option>
+                                   <option value="yes">Yes</option>
+                                   <option value="no">No</option>
+                                 </select>
+                               </div>
+
+
+                               <div className="col-md-12">
+                                 <select
+                                   className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                              
+                                 >
+                                   <option value="">
+                                   * Do you have separate assets other than the investment to support the family with the application?
+                                   </option>
+                                   <option value="yes">Yes</option>
+                                   <option value="no">No</option>
+                                 </select>
+                               </div>
+
+                                </>
+                            )}
+
+
+
+
+
+                          </>
+                        )}
                       </div>
+                      {location === "outside" && (
+                        <>
+                          <div className="row">
+                            <div className="col-md-6 tw-pt-6">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                                <option value="">* Education Level</option>
+                                <option value="sweden">
+                                  Matriculation/Secondary
+                                </option>
+                                <option value="outside">
+                                  Higher Secondary/Intermediate
+                                </option>
+                                <option value="outside">
+                                  Bachelor's / Under Graduate
+                                </option>
+                                <option value="outside">Masters/M.Phil</option>
+                                <option value="outside">Ph.d</option>
+                                <option value="outside">Other</option>
+                              </select>
+                            </div>
+
+                            <div className="col-md-6 tw-pt-6">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                                <option value="">
+                                  * Educational Certificate available
+                                </option>
+                                <option value="sweden">Yes</option>
+                                <option value="outside">No</option>
+                              </select>
+                            </div>
+                            <div className="col-md-12 tw-pt-6">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                                <option value="">
+                                  * Did you have any relevant job or business
+                                  experience in any other country?
+                                </option>
+                                <option value="sweden">Yes</option>
+                                <option value="outside">No</option>
+                              </select>
+                            </div>
+                            <div className="col-md-12 tw-pt-6">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                                <option value="">
+                                  * Did you currently owned business in any
+                                  other country?
+                                </option>
+                                <option value="sweden">Yes</option>
+                                <option value="outside">No</option>
+                              </select>
+                            </div>
+
+                            <div className="col-md-6 tw-pt-6">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                                <option value="">
+                                  * Did you owned business in Sweden?
+                                </option>
+                                <option value="sweden">Yes</option>
+                                <option value="outside">No</option>
+                              </select>
+                            </div>
+                          </div>
+                        </>
+                      )}
                     </form>
                   </div>
 
+                  
                   {/* user info */}
                   <div className=" tw-pt-8">
                     <div className="  tw-bg-primary p-3 tw-rounded-md tw-flex tw-items-center tw-text-white">
@@ -388,7 +674,6 @@ const Assessment_register = () => {
                   </div>
 
                   <Button
-
                     onClick={openModal}
                     label={"Submit"}
                     className={
@@ -402,35 +687,24 @@ const Assessment_register = () => {
             <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
               <div className="  md:tw-pr-28 tw-pr-4">
                 <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
-                {data?.map((item, index) => {
-                      return (
-
-                        <Link
-                          to={`${item?.Link}`}
-                          className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
-                        >
-                          <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
-                            {item?.title}
-                          </p>
-                          <GoTriangleRight className="tw-text-gray" />
-                        </Link>
-
-                      );
-                    })}
-
-
-
+                  {data?.map((item, index) => {
+                    return (
+                      <Link
+                        to={`${item?.Link}`}
+                        className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
+                      >
+                        <p className="m-0 tw-text-gray-dark tw-font-semibold hover:tw-text-white">
+                          {item?.title}
+                        </p>
+                        <GoTriangleRight className="tw-text-gray" />
+                      </Link>
+                    );
+                  })}
                 </ul>
               </div>
             </div>
           </div>
         </div>
-
-
-
-
-
-          
       </section>
       <Footer />
     </>

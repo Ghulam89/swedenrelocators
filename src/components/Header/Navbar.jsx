@@ -577,34 +577,36 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to={`/assessment_register/BUSINESS VISA`}
+                        to={`/assessment_register`}
                       >
                         BUSINESS VISA
+                      </Link>
+                    </li>
+                    <hr className=" tw-border-gray m-0" />
+                    
+                    <li className=" ">
+                      <Link
+                        className="dropdown-item tw-text-sm   tw-font-medium"
+                        to={`/family_reunification_assessment`}
+                      >
+                        FAMILY REUNIFICATION
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
                     <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium "
-                        to={`/assessment_register/LONG TEAM EU STATUS`}
+                        to={`/long_term_eu_status_assessment`}
                       >
                         LONG TEAM EU STATUS
                       </Link>
                     </li>
-                    <hr className=" tw-border-gray m-0" />
-                    <li className=" ">
-                      <Link
-                        className="dropdown-item tw-text-sm   tw-font-medium"
-                        to={`/assessment_register/FAMILY REUNIFICATION`}
-                      >
-                        FAMILY REUNIFICATION
-                      </Link>
-                    </li>
+                  
                     <hr className=" tw-border-gray m-0" />
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to={`/assessment_register/STUDY IN SWEDEN`}
+                        to={`/student_assessments`}
                       >
                         STUDY IN SWEDEN
                       </Link>
@@ -613,7 +615,7 @@ const Navbar = () => {
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to={`/assessment_register/VISIT VISA`}
+                        to={`/visit_visa`}
                       >
                         VISIT VISA
                       </Link>
@@ -622,7 +624,7 @@ const Navbar = () => {
                     <li className="">
                       <Link
                         className="dropdown-item tw-text-sm tw-font-medium"
-                        to="/assessment_register/WORK PEPMIT"
+                        to="/Work_permit"
                       >
                         WORK PEPMIT
                       </Link>
@@ -668,23 +670,24 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <hr className=" tw-border-gray m-0" />
-                    <li className="">
-                      <Link
-                        className="dropdown-item tw-text-sm tw-font-medium "
-                        to={`/assessment_register/LONG TEAM EU STATUS`}
-                      >
-                        LONG TEAM EU STATUS
-                      </Link>
-                    </li>
-                    <hr className=" tw-border-gray m-0" />
                     <li className=" ">
                       <Link
                         className="dropdown-item tw-text-sm   tw-font-medium"
-                        to={`/assessment_register/FAMILY REUNIFICATION`}
+                        to={`/family_reunification_assessment`}
                       >
                         FAMILY REUNIFICATION
                       </Link>
                     </li>
+                    <hr className=" tw-border-gray m-0" />
+                    <li className="">
+                      <Link
+                        className="dropdown-item tw-text-sm tw-font-medium "
+                        to={`/long_term_eu_status_assessment`}
+                      >
+                        LONG TEAM EU STATUS
+                      </Link>
+                    </li>
+                   
                     <hr className=" tw-border-gray m-0" />
                     <li className=" ">
                       <Link

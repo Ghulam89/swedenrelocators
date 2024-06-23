@@ -15,6 +15,8 @@ const OurSkills = () => {
       Icon: (
         <i className="flaticon icons-animate tw-text-blue tw-pl-1   tw-mr-0 tw-text-[43px] flaticon-family" />
       ),
+
+      Link:'/family-reunification',
       
     },
     {
@@ -25,6 +27,8 @@ const OurSkills = () => {
       Icon: (
         <i className=" icons-animate mt_tripzia flaticon-travel tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px]" />
       ),
+      
+      Link:'/global-visit-visas',
     },
     {
       id: 3,
@@ -34,6 +38,7 @@ const OurSkills = () => {
       Icon: (
         <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px] flaticon-certificate" />
       ),
+      Link:'/work-permit',
     },
     {
       id: 4,
@@ -43,6 +48,7 @@ const OurSkills = () => {
       Icon: (
         <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px] flaticon-reading" />
       ),
+      Link:'/study-in-eu',
     },
     {
       id: 5,
@@ -52,6 +58,7 @@ const OurSkills = () => {
       Icon: (
         <i className="flaticon icons-animate tw-text-blue tw-pl-1  tw-mr-0 tw-text-[43px] flaticon-visa" />
       ),
+      Link:'/citizenship',
     },
     {
       id: 6,
@@ -60,6 +67,7 @@ const OurSkills = () => {
       Icon: (
         <i className="flaticon icons-animate tw-text-blue tw-pl-1 tw-mr-0 tw-text-[43px] flaticon-bussiness-man" />
       ),
+      Link:'/investment',
     },
   ];
 
@@ -134,7 +142,7 @@ const OurSkills = () => {
                       <div className="cmt-serviceboxbox-readmore tw-pb-5">
                         <Link
                           className=" tw-font-medium"
-                          to={`/service_details/${item?.title}`}
+                          to={`${item?.Link}`}
                         >
                           View More Details
                         </Link>

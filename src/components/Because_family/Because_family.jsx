@@ -387,12 +387,22 @@ const Because_family = () => {
                   <strong> In Sweden</strong>
                 </h2>
               </div>
-              <p className=" tw-text-gray-dark tw-pt-2 tw-font-semibold tw-text-lg">
-                If you are planning to invest in Sweden, you might need to apply
+              <motion.div variants={containerVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.25 }}>
+
+<motion.p  variants={fadeIn("up", "tween", 0.2, 1)} className="  tw-text-gray-dark tw-pt-2 tw-font-semibold tw-text-lg">
+              If you are planning to invest in Sweden, you might need to apply
                 for the residence permit
-              </p>
-              <p className=" tw-text-gray">
-                We have a complete solution for all your problems while starting
+              </motion.p>
+                </motion.div>
+                <motion.div variants={containerVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.25 }}>
+                    <motion.p  variants={fadeIn("up", "tween", 0.2, 1)} className="  tw-text-gray">
+              We have a complete solution for all your problems while starting
                 a new business or opening a franchise of your existing business
                 in Sweden. Our company will deliver the service of providing the
                 resident permit that will align with your plan easily. You will
@@ -401,7 +411,11 @@ const Because_family = () => {
                 along with other enough funds to show that you can support your
                 family and yourself while staying in Sweden during the first two
                 years. Don’t forget to use our Assessment tool to find out more.
-              </p>
+              </motion.p>
+
+                </motion.div>
+            
+             
              <Link to={`/business-permit`}>
               <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
               </Link>
@@ -416,16 +430,16 @@ const Because_family = () => {
                   <strong>  Payroll Services</strong>
                 </h2>
               </div>
-              <p className=" tw-text-gray">
-              Welcome to Sweden Relocators, your reliable partner for seamless global expansion. Our advanced Employer of Record (EOR) services simplify the process of growing your workforce internationally, helping you overcome common challenges with ease.
+           
+              <motion.div variants={containerVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.25 }}>
+                    <motion.p  variants={fadeIn("up", "tween", 0.2, 1)} className="  tw-text-gray">
+                    Welcome to Sweden Relocators, your reliable partner for seamless global expansion. Our advanced Employer of Record (EOR) services simplify the process of growing your workforce internationally, helping you overcome common challenges with ease.
+              </motion.p>
 
-
-
-
-
-
-
-              </p>
+                </motion.div>
               <p className=" tw-text-gray-dark tw-m-0 tw-pt-0 tw-font-semibold tw-text-lg">
               How Payroll Services Work:
 
