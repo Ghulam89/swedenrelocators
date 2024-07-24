@@ -371,6 +371,7 @@ const Navbar = () => {
                     >
                       {data?.map((item, index) => {
                         return (
+                         <>
                           <li className=" " key={index}>
                             <Link
                               style={{
@@ -385,7 +386,10 @@ const Navbar = () => {
                               {/* <p className="  tw-flex tw-gap-1"> {item?.icons}</p> */}
                               {item?.title}
                             </Link>
+                            <hr className=" tw-border-gray m-0" />
                           </li>
+                         
+                         </>
                         );
                       })}
                     </ul>

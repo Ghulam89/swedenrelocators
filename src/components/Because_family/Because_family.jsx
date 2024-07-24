@@ -482,6 +482,9 @@ const Because_family = () => {
 
 
               </p>
+              <Link to={`/business-permit`}>
+              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
             </div>
 
             <div    className="col-md-6">
@@ -492,9 +495,7 @@ const Because_family = () => {
               </div>
 
 
-              <Link to={`/business-permit`}>
-              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
-              </Link>
+              
              </div>
             </div>
           </div>

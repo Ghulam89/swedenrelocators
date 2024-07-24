@@ -252,7 +252,11 @@ const BusinessVisit = () => {
                     on your business while we do it all for you.
                   </p>
 
-                  <img src={banner} alt="" />
+                  <div className="row">
+                    <div  className=" col-md-10 tw-mx-auto">
+                    <img src={banner} alt="" />
+                    </div>
+                  </div>
 
                   <div>
                   <span className=" tw-flex tw-items-center tw-gap-2"> <p className=" tw-m-0 tw-w-[15px]  tw-h-[1px] tw-bg-[#c2c2d3]"></p> BASIC REQUIREMENTS (APPLICANT)
@@ -290,8 +294,13 @@ const BusinessVisit = () => {
 
                      <div className="row">
                       <div className="col-md-10 tw-mx-auto">
-                      <img src={banner2} alt="" />
+                      
 
+                      <div className="row">
+                    <div  className=" col-md-10 tw-mx-auto">
+                    <img src={banner2} alt="" />
+                    </div>
+                  </div>
 
                       <p className=" tw-text-gray">Foreign people who want to invest in Sweden and stay temporarily for that purpose can also apply for a business visa which is valid for multiple entries. With this visa they can travel back and forth to run their business for stays of up to 90 days during a 180 day period for up to five years. People who stay in sweden for less than 3 months for the purpose of business they don’t have to take a residence permit they can get a business visa.
 

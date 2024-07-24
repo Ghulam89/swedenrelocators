@@ -36,6 +36,7 @@ import ab from "../../assets/images/ab.png";
 // const LANGUAGE_SELECTOR_ID = "language-selector";
 
 import { FaAngleUp, FaArrowDown } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 const LanguageSelector = () => {
   //   const { i18n } = useTranslation();
   //   const [languages, setLanguages] = useState<Language[]>([]);
@@ -171,7 +172,7 @@ const LanguageSelector = () => {
         </button>
 
         {isOpen && (
-          <div className=" tw-absolute  tw-z-50    tw-right-12  sm:tw-top-20 md:tw-top-12  lg:tw-top-12 tw-top-32  tw-mt-2 tw-w-80 tw-rounded-md tw-shadow-lg tw-bg-white tw-ring-1 tw-ring-black tw-ring-opacity-5">
+          <div className=" tw-absolute  tw-z-[99999]    tw-right-12  sm:tw-top-20 md:tw-top-12  lg:tw-top-12 tw-top-32  tw-mt-2 tw-w-80 tw-rounded-md tw-shadow-lg tw-bg-white tw-pb-3 tw-ring-1 tw-ring-black tw-ring-opacity-5">
             <div
               className="tw-py-1 tw-grid tw-grid-cols-2  tw-gap-3 p-2"
               role="none"
@@ -258,7 +259,17 @@ const LanguageSelector = () => {
                   <p className=" m-0 tw-text-black">Persian</p>
                 </div>
               </div>
+
+
+              
             </div>
+            
+            <div className=" ">
+
+
+<Link to={"#"} className="">Other Languages</Link>
+
+</div>
           </div>
         )}
       </div>

@@ -219,10 +219,11 @@ i {
   animation: rotate360 1s linear;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .hover-dropdown:hover .dropdown-menu {
     display: block;
     position: unset !important;
     left: 0;
   }
+
 }
