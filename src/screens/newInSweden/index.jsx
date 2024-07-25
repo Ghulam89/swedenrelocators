@@ -1044,7 +1044,6 @@ const New_In_sweden = () => {
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
-                          Jordbruksverket (Swedish Board of Agriculture)•
                           Jordbruksverket (Swedish Board of Agriculture)
                         </p>
                       </li>
@@ -1064,13 +1063,6 @@ const New_In_sweden = () => {
                         </p>
                       </li>
 
-                      <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
-                          Transportstyrelsen (Transport Agency) & Trafikverket
-                          (Transport Administration)
-                        </p>
-                      </li>
 
                       <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
