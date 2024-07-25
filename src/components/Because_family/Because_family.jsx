@@ -153,14 +153,15 @@ const Because_family = () => {
                 public security or public health.
               </motion.p>
               </motion.div>
+              
+              <Link to={`/family-reunification`}>
+              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
+              </Link>
             </div>
             <div   className="col-md-6">
               <motion.img  
                  animate={imageVariants} className=" tw-w-full"  src={Hero} alt="" />
 
-                 <Link to={`/family-reunification`}>
-              <Button label={"Read More!"} className={"btn-indigo tw-mt-8"} />
-              </Link>
             </div>
 
             <div className="col-md-6">
