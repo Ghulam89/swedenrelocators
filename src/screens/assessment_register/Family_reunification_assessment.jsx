@@ -344,7 +344,7 @@ const Family_reunification_assessment = () => {
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
                           <select
-                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg"
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3"
                             value={location}
                             onChange={handleLocationChange}
                           >
@@ -357,7 +357,7 @@ const Family_reunification_assessment = () => {
                         {location === "yes" && (
                           <>
                             <div className="col-md-12 tw-pt-4">
-                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                                 <option value="">
                                   Are you already moved to Sweden or planning to
                                   move in coming 90 Days Period?
@@ -372,7 +372,7 @@ const Family_reunification_assessment = () => {
                         {location === "no" && (
                           <>
                             <div className="col-md-6 tw-pt-4">
-                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                                 <option value="">
                                   Which Citizenship you have?
                                 </option>
@@ -382,7 +382,7 @@ const Family_reunification_assessment = () => {
                             </div>
 
                             <div className="col-md-12 tw-pt-4">
-                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                                 <option value="">
                                   Do you have permanent Residence permit from
                                   below mentioned countries?
@@ -394,7 +394,7 @@ const Family_reunification_assessment = () => {
                           </>
                         )}
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                               Do you have valid Personnummer in Sweden?
                             </option>
@@ -403,7 +403,7 @@ const Family_reunification_assessment = () => {
                           </select>
                         </div>
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                               Did you applied for Personnummer and got rejected?
                             </option>
@@ -413,7 +413,7 @@ const Family_reunification_assessment = () => {
                         </div>
 
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                               Do you have your own Apartment in Sweden OR do you
                               have first hand rental apartment?
@@ -424,7 +424,7 @@ const Family_reunification_assessment = () => {
                         </div>
 
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                               * Are you planning to stay permanently in Sweden?
                             </option>
@@ -433,7 +433,7 @@ const Family_reunification_assessment = () => {
                           </select>
                         </div>
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                               Do you have full time work in Sweden or Denmark?
                             </option>
@@ -442,7 +442,7 @@ const Family_reunification_assessment = () => {
                           </select>
                         </div>
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                               * Did you applied for your family visa and got
                               rejected?
@@ -480,7 +480,7 @@ const Family_reunification_assessment = () => {
                       <form>
                         <div className="row">
                           <div className="col-md-6 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                                 Did your Spouse have valid National Passport?
                               </option>
@@ -489,7 +489,7 @@ const Family_reunification_assessment = () => {
                             </select>
                           </div>
                           <div className="col-md-6 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                                 Did your Children have valid national passport?
                               </option>
@@ -498,7 +498,7 @@ const Family_reunification_assessment = () => {
                             </select>
                           </div>
                           <div className="col-md-8 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                                 Did your spouse have marriage certificate and is
                                 your marriage registered in your home country?
@@ -508,7 +508,7 @@ const Family_reunification_assessment = () => {
                             </select>
                           </div>
                           <div className="col-md-12 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                                 If you are not EU citizen, do you have birth
                                 certificate of your children?
@@ -526,7 +526,7 @@ const Family_reunification_assessment = () => {
                     onClick={openModal}
                     label={"Submit"}
                     className={
-                      "  tw-w-full tw-bg-blue tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
+                      "  tw-w-full  tw-bg-primary tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
                     }
                   />
                 </div>

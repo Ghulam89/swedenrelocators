@@ -227,3 +227,36 @@ i {
   }
 
 }
+/* Add this to your CSS file */
+.floating-select {
+  position: relative !important;
+}
+
+.floating-select option:first-child {
+  transition: transform 0.2s, opacity 0.2s !important;
+}
+
+.floating-select:focus option:first-child,
+.floating-select:valid option:first-child {
+  transform: translateY(-12px) !important;
+  opacity: 0.6; /* Adjust opacity as needed */
+}
+
+@media screen and (max-width:1280px) {
+
+  .top_nav_row{
+    display: block !important ;
+  }
+  .top_nav_col{
+    width: 100% !important;
+  }
+  .container_navbar{
+    max-width: 100% !important;
+    margin-top: 6px !important;
+    /* border-radius: 0 !important; */
+  }
+  .container-navbar ul li a{
+    font-size: 12px !important;
+  }
+  
+}

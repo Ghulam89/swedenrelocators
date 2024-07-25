@@ -296,12 +296,12 @@ const Navbar = () => {
       <div className=" tw-relative">
         <TopBar />
         <nav
-          className={`navbar md:tw-absolute tw-relative md:-tw-top-10   -tw-top-8 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${
+          className={`navbar md:tw-absolute tw-relative md:-tw-top-10   -tw-top-5 tw-h-24 navbar-expand-lg navbar-light  tw-transition-all tw-duration-700 ${
             isSticky ? "fixed-top p-0 tw-smooth-transition" : ""
           }`}
         >
           <div
-            className={`container${
+            className={`container_navbar container${
               isSticky
                 ? "-fluid  px-lg-5 px-sm-0 tw-rounded-none"
                 : "-lg px-lg-5 px-sm-3  md:tw-rounded-md  tw-rounded-none"
@@ -317,7 +317,7 @@ const Navbar = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <Link className="navbar-brand   tw-w-56" to="/">
+            <Link className="navbar-brand   xl:tw-w-56 tw-w-52 " to="/">
               <img src={logo} alt="" />
             </Link>
 

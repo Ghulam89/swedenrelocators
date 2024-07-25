@@ -12,8 +12,8 @@ const TopBar = () => {
     <>
       <section className="  md:tw-pb-3 tw-pb-0 md:tw-pl-24 tw-pl-0  tw-bg-primary">
         <div className="container-fluid tw-p-0 ">
-          <div className="row   tw-items-baseline text-center">
-            <div className="col-lg-6 tw-relative col-md-12">
+          <div className="row  top_nav_row  tw-items-baseline text-center">
+            <div className="col-lg-6 top_nav_col tw-relative col-md-12">
               <div className=" tw-flex tw-flex-wrap tw-items-center tw-gap-4 tw-justify-center md:tw-justify-start tw-text-center ">
                 <p className="   tw-text-sm      tw-border-gray  tw-text-white">
                   <i class="ti ti-alarm-clock"></i>
@@ -29,7 +29,7 @@ const TopBar = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12  px-0">
+            <div className="col-lg-6 top_nav_col col-md-12  px-0">
               <div className=" sm:tw-flex  tw-block tw-justify-end tw-gap-4 tw-items-center">
                 <div className="  tw-flex tw-justify-around tw-items-center tw-gap-4">
                   <div>

@@ -350,7 +350,7 @@ const Assessment_register = () => {
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
                           <select
-                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg"
+                            className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg"
                             value={location}
                             onChange={handleLocationChange}
                           >
@@ -363,9 +363,9 @@ const Assessment_register = () => {
                         </div>
                         {location === "sweden" && (
                           <>
-                            <div className="col-md-6">
+                            <div className="col-md-6  tw-pt-4">
                               <select
-                                className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg"
                                 value={personalStatus}
                                 onChange={handlePersonalStatusChange}
                               >
@@ -376,9 +376,9 @@ const Assessment_register = () => {
                             </div>
 
                             {personalStatus === "student" && (
-                              <div className="col-md-6">
+                              <div className="col-md-6 tw-pt-4">
                                 <select
-                                  className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                  className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg"
                                   value={maritalStatus}
                                   onChange={handleMaritalStatusChange}
                                 >
@@ -395,7 +395,7 @@ const Assessment_register = () => {
                               <>
                                 <div className="col-md-12">
                                   <select
-                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                    className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg"
                                     value={residencePermit}
                                     onChange={handleResidencePermitChange}
                                   >
@@ -410,7 +410,7 @@ const Assessment_register = () => {
 
                                 <div className="col-md-6">
                                   <select
-                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                    className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg"
                                     value={personnummer}
                                     onChange={handlePersonnummerChange}
                                   >
@@ -461,7 +461,7 @@ const Assessment_register = () => {
 
                                 <div className="col-md-12">
                                   <select
-                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3"
                                     value={separateAssets}
                                     onChange={handleSeparateAssetsChange}
                                   >
@@ -523,7 +523,7 @@ const Assessment_register = () => {
                               <>
                                 <div className="col-md-6">
                                   <select
-                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3"
+                                    className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3"
                                     value={depents}
                                     onChange={handleDepentsChange}
                                   >
@@ -542,7 +542,7 @@ const Assessment_register = () => {
                             {maritalStatus === "applicant" && (
                               <>
                                 <div className="col-md-6">
-                                  <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3">
+                                  <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                                     <option value="">
                                       * Did you complete your degree in sweden?
                                     </option>
@@ -552,7 +552,7 @@ const Assessment_register = () => {
                                 </div>
 
                                 <div className="col-md-12">
-                                  <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg mt-3">
+                                  <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                                     <option value="">
                                       * Do you have separate assets other than
                                       the investment to support the family with
@@ -589,7 +589,7 @@ const Assessment_register = () => {
                             </div>
 
                             <div className="col-md-6 tw-pt-6">
-                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                                 <option value="">
                                   * Educational Certificate available
                                 </option>
@@ -654,7 +654,7 @@ const Assessment_register = () => {
                             </a>{" "}
                             Do you have English language certificate?
                           </label> */}
-                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3.5 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                             <option>Choose an Option</option>
                             <option>Yes</option>
                             <option>No</option>
@@ -670,7 +670,7 @@ const Assessment_register = () => {
                             </a>{" "}
                             Do you have Swedish Language Certificate?
                           </label> */}
-                          <select className="tw-outline-none tw-bg-lightGray  tw-py-3.5 tw-px-3   tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                             <option>Choose an Option</option>
                             <option>Yes</option>
                             <option>No</option>
@@ -684,7 +684,7 @@ const Assessment_register = () => {
                     onClick={openModal}
                     label={"Submit"}
                     className={
-                      "  tw-w-full tw-bg-blue tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
+                      "  tw-w-full tw-bg-primary tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
                     }
                   />
                 </div>

@@ -64,12 +64,12 @@ const Why_choose_us = () => {
               </motion.div>
 
               <div className="bg-white">
-                <div className="tw-flex tw-items-center tw-justify-between">
+                <div className="tw-flex   tw-items-center tw-justify-between">
                   <p className="  tw-text-primary  tw-font-medium tw-text-md  m-0">
                     Business Permit
                   </p>
-                  <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
-                    94%
+                  <p className=" tw-pr-4 tw-text-primary m-0 tw-font-medium tw-text-lg">
+                    94% 
                   </p>
                 </div>
                 <div className="tw-w-full   tw-bg-gray-light tw-h-2 mb-6 mt-2">
@@ -83,7 +83,7 @@ const Why_choose_us = () => {
                   <p className="  tw-text-primary  tw-font-medium tw-text-md  m-0">
                     Work Permit
                   </p>
-                  <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
+                  <p className="tw-pr-4 tw-text-primary m-0 tw-font-medium tw-text-lg">
                     98%
                   </p>
                 </div>
@@ -98,7 +98,7 @@ const Why_choose_us = () => {
                   <p className="  tw-text-primary  tw-font-medium tw-text-md  m-0">
                     Family Reunification
                   </p>
-                  <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
+                  <p className="tw-pr-4 tw-text-primary m-0 tw-font-medium tw-text-lg">
                     100%
                   </p>
                 </div>
@@ -113,7 +113,7 @@ const Why_choose_us = () => {
                   <p className="  tw-text-primary  tw-font-medium tw-text-md  m-0">
                     Study in Sweden
                   </p>
-                  <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
+                  <p className="tw-pr-4 tw-text-primary m-0 tw-font-medium tw-text-lg">
                     98%
                   </p>
                 </div>
@@ -128,7 +128,7 @@ const Why_choose_us = () => {
                   <p className="  tw-text-primary  tw-font-medium tw-text-md  m-0">
                     Long Term EU Resident
                   </p>
-                  <p className=" tw-text-primary m-0 tw-font-medium tw-text-lg">
+                  <p className="tw-pr-4 tw-text-primary m-0 tw-font-medium tw-text-lg">
                     99%
                   </p>
                 </div>

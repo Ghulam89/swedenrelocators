@@ -85,7 +85,7 @@ const Login = () => {
                           <Button
                             label={"sign in"}
                             className={
-                              " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-3.5  tw-w-full  tw-rounded-lg tw-text-white "
+                              " tw-uppercase tw-mx-auto  tw-text-sm    tw-bg-primary tw-py-3.5  tw-w-full  tw-rounded-lg tw-text-white "
                             }
                           />
                         </div>

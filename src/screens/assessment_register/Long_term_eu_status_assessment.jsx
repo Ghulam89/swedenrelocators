@@ -344,7 +344,7 @@ const Long_term_eu_status_assessment = () => {
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
                           <select
-                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg"
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3"
                             value={location}
                             onChange={handleLocationChange}
                           >
@@ -463,7 +463,7 @@ const Long_term_eu_status_assessment = () => {
 
                      
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                              Select Country 
                             </option>
@@ -579,7 +579,7 @@ const Long_term_eu_status_assessment = () => {
                           </select>
                         </div>
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                             Do you have job offer in Sweden?
                             </option>
@@ -589,7 +589,7 @@ const Long_term_eu_status_assessment = () => {
                         </div>
 
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                             Do you want to start your own business in Sweden?
                             </option>
@@ -599,7 +599,7 @@ const Long_term_eu_status_assessment = () => {
                         </div>
 
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                             Are you already moved to Sweden or planning to move in coming 90 Days Period?
                             </option>
@@ -625,7 +625,7 @@ const Long_term_eu_status_assessment = () => {
                       <form>
                         <div className="row">
                           <div className="col-md-6 tw-pt-4">
-                            <select value={assesment_family} onChange={handleAssesment_familyChange} className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                            <select value={assesment_family} onChange={handleAssesment_familyChange} className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                               Do you want to move to Sweden with family?
                               </option>
@@ -638,7 +638,7 @@ const Long_term_eu_status_assessment = () => {
                           {assesment_family==='no'&&(
                             <>
                             <div className="col-md-6 tw-pt-4">
-<select  className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+<select  className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                               Do you have marriage certificate?
                               </option>
@@ -649,7 +649,7 @@ const Long_term_eu_status_assessment = () => {
 
 
                             <div className="col-md-6 tw-pt-4">
-<select  className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+<select  className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                               Is your marriage registered in your home country?
                               </option>
@@ -658,7 +658,7 @@ const Long_term_eu_status_assessment = () => {
                             </select>
                             </div>
                             <div className="col-md-6 tw-pt-4">
-<select  className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+<select  className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                               Do you have family registration certificate?
                               </option>
@@ -667,7 +667,7 @@ const Long_term_eu_status_assessment = () => {
                             </select>
                             </div>
                             <div className="col-md-6 tw-pt-4">
-<select  className="tw-outline-none tw-bg-lightGray tw-py-3.5 tw-px-3 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+<select  className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                               <option>
                               How many children do you have?
                               </option>
@@ -694,7 +694,7 @@ const Long_term_eu_status_assessment = () => {
                     onClick={openModal}
                     label={"Submit"}
                     className={
-                      "  tw-w-full tw-bg-blue tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
+                      "  tw-w-full tw-bg-primary tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
                     }
                   />
                 </div>

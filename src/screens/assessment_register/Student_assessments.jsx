@@ -343,7 +343,7 @@ const Student_assessments = () => {
                     <form>
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">Country</option>
                             <option value="AF">Afghanistan</option>
                             <option value="AL">Albania</option>
@@ -458,7 +458,7 @@ const Student_assessments = () => {
                         </div>
 
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                             Educational Level
                             </option>
@@ -471,7 +471,7 @@ const Student_assessments = () => {
                           </select>
                         </div>
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray-dark tw-w-full border tw-rounded-lg">
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
                             <option value="">
                             Total no of years of study
                             </option>
@@ -495,7 +495,7 @@ const Student_assessments = () => {
                     onClick={openModal}
                     label={"Submit"}
                     className={
-                      "  tw-w-full tw-bg-blue tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
+                      "  tw-w-full tw-bg-primary tw-py-3 tw-text-white tw-rounded-xl  tw-mt-10"
                     }
                   />
                 </div>

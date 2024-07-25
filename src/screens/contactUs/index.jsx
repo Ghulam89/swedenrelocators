@@ -85,19 +85,19 @@ const ContactUs = () => {
                 <form>
                   <div className="row g-3">
                     <div className="col-md-6">
-                      <Input  placeholder={'Your Name'} type={'text'} className={' tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5 tw-rounded-xl tw-px-3 '} />
+                      <Input  label={'Your Name'} type={'text'} className={' tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5 tw-rounded-xl tw-px-3 '} />
                     </div>
                     <div className="col-md-6">
-                    <Input  placeholder={'Your Name'} type={'text'} className={' tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5  tw-rounded-xl tw-px-3'} />
+                    <Input  label={'Your Name'} type={'text'} className={' tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5  tw-rounded-xl tw-px-3'} />
                     </div>
                     <div className="col-md-6">
-                    <Input  placeholder={'Phone Number'} type={'text'} className={' tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5  tw-rounded-xl tw-px-3'} />
+                    <Input  label={'Phone Number'} type={'text'} className={' tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5  tw-rounded-xl tw-px-3'} />
                     </div>
                     <div className="col-md-6">
-                    <Input  placeholder={'Subject'} type={'text'} className={' tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5  tw-rounded-xl tw-px-3'} />
+                    <Input  label={'Subject'} type={'text'} className={' tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5  tw-rounded-xl tw-px-3'} />
                     </div>
                     <div className="col-md-12">
-                      <textarea rows={6} className="tw-bg-[#F5FAFF]   tw-w-full tw-py-3.5  tw-rounded-xl tw-px-3"></textarea>
+                      <textarea rows={6} className="tw-bg-white tw-border   tw-w-full tw-py-3.5  tw-rounded-xl tw-px-3"></textarea>
                     </div>
                     <div className="col-md-12">
                       <Button label={' Submit Request!'} className={' tw-text-gray-dark hover:tw-bg-gray-dark hover:tw-text-white tw-font-bold  tw-w-full py-3 tw-rounded-sm tw-border tw-border-gray-dark'} />

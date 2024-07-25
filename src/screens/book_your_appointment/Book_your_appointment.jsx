@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../components/Header/Navbar";
 import Banner_Page from "../../components/Common/Banner_Page";
 import Footer from "../../components/Footer/Footer";
@@ -6,6 +6,7 @@ import Input from "../../components/Input";
 import Button from "../../components/Button";
 import { Link } from "react-router-dom";
 import { GoTriangleRight } from "react-icons/go";
+import ViewTermsConditions from "./ViewTermsConditions";
 const Book_your_appointment = () => {
 
 
@@ -200,10 +201,26 @@ const Book_your_appointment = () => {
       ),
     },
   ];
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
 
   return (
     <>
+
+
+<ViewTermsConditions
+                      isModalOpen={isModalOpen}
+                      setIsModalOpen={setIsModalOpen}
+                      // setUsers={setUsers}
+                    />
       <Navbar />
       <Banner_Page title={"BOOK YOUR APPOINTMENT"} />
       <section className=" md:tw-pt-40 tw-pt-48">
@@ -211,7 +228,7 @@ const Book_your_appointment = () => {
           <div className="row">
             <div className="col-md-8">
               <div className=" tw-bg-white tw-pt-8  md:tw-p-14 tw-p-5">
-                <div className=" tw-bg-blue tw-rounded-md tw-py-4  px-3">
+                <div className=" tw-bg-[#1F2437] tw-rounded-md tw-py-4  px-3">
                   <h6 className=" tw-text-white tw-m-0">
                     {" "}
                     <i class="fa fa-calendar"></i> YOU CAN BOOK AN APPOINTMENT
@@ -220,46 +237,28 @@ const Book_your_appointment = () => {
                 </div>
 
                 <form>
-                  <div className="row g-3 tw-pt-6 ">
+                  <div className="row g-4 tw-pt-6 ">
                     <div className="col-md-6">
-                      <label
-                        htmlFor="first_name"
-                        className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
-                      >
-                        <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
-                        Select Appointment Type
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
-                        <option>Choose Option</option>
-                        <option>At office</option>
+                      
+                      <select className="tw-outline-none tw-bg-lightGray  tw-text-sm tw-p-1.5   tw-text-gray  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                        
+                        <option>   Select Appointment Type</option>
                         <option>Telephone</option>
                       </select>
                     </div>
                     <div className="col-md-6">
-                      <label
-                        htmlFor="first_name"
-                        className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
-                      >
-                        <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
-                        Select Category
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
-                        <option>Choose Option</option>
-                        <option>At office</option>
+                      
+                      <select className="tw-outline-none tw-bg-lightGray  tw-text-sm tw-p-1.5   tw-text-gray   border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                       
+                        <option>  Select Category</option>
                         <option>Telephone</option>
                       </select>
                     </div>
                     <div className="col-md-12">
-                      <label
-                        htmlFor="first_name"
-                        className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
-                      >
-                        <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
-                        Select Country
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
-                        <option>Choose Option</option>
-                        <option>At office</option>
+                      
+                      <select className="tw-outline-none tw-bg-lightGray  tw-text-sm tw-p-1.5   tw-text-gray   border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                       
+                        <option> Select Country</option>
                         <option>Telephone</option>
                       </select>
                     </div>
@@ -271,16 +270,10 @@ const Book_your_appointment = () => {
                       />
                     </div>
                     <div className="col-md-6">
-                      <label
-                        htmlFor="first_name"
-                        className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
-                      >
-                        <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
-                        Select Appointment Time (Select date first)
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
-                        <option>Choose Option</option>
-                        <option>At office</option>
+                     
+                      <select className="tw-outline-none tw-bg-lightGray  tw-text-sm tw-p-1.5   tw-text-gray   border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                       
+                        <option>Select Appointment Time (Select date first)</option>
                         <option>Telephone</option>
                       </select>
                     </div>
@@ -297,17 +290,17 @@ const Book_your_appointment = () => {
                         className="tw-outline-none tw-bg-lightGray  tw-p-1.5   tw-text-gray-dark tw-w-full border tw-rounded-xl"
                       ></textarea>
                     </div> 
-                     <div className=" tw-flex tw-gap-2 ">
-                      <Input  type={'checkbox'}  className={''} />
-                      <p className=" tw-text-gray tw-pt-2">I agree to the <Link className=" text-sm">APPOINTMENT TERMS & CONDITIONS</Link></p>
+                     <div className=" tw-flex tw-gap-2 tw-items-center ">
+                      <Input  type={'checkbox'}  className={' tw-mt-2'} />
+                      <p className=" tw-text-gray tw-pt-2" >I agree to the   <Link onClick={()=>openModal()}   className=" text-sm">APPOINTMENT TERMS & CONDITIONS</Link></p>
                      </div>
                     <div className="col-md-12">
                      <div className="row tw-items-center">
                       <div className="col-md-6">
-                      <Input placeholder={'Do you have a Promo Code?'} className={' tw-w-full border tw-py-3 tw-px-2.5 tw-rounded-xl'} />
+                      <Input label={'Do you have a Promo Code?'} className={'  tw-w-full border tw-py-3 tw-px-2.5 tw-rounded-xl'} />
                       </div>
                       <div className="col-md-3">
-                        <Button label={'APPLY '}  className={' tw-bg-blue tw-mt-1.5 tw-py-3 tw-rounded-xl text-md tw-w-18 tw-text-white'} />
+                        <Button label={'APPLY '}  className={' tw-bg-[#1F2437] tw-mb-5 tw-mt-1.5 tw-py-3 tw-rounded-xl text-md tw-w-18 tw-text-white'} />
                       </div>
                      </div>
                     </div>
@@ -316,7 +309,7 @@ const Book_your_appointment = () => {
                       <Button
                         label={"BOOK YOUR APPOINTMENT"}
                         className={
-                          " tw-uppercase tw-mx-auto  tw-text-sm tw-mt-5   tw-bg-blue tw-py-3  tw-w-96 tw-rounded-xl tw-text-white "
+                          " tw-uppercase tw-mx-auto  tw-text-sm tw-mt-5   tw-bg-[#1F2437] tw-py-3  tw-w-96 tw-rounded-xl tw-text-white "
                         }
                       />
                     </div>
