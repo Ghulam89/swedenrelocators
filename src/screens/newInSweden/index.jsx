@@ -385,17 +385,24 @@ const New_In_sweden = () => {
 
                     <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
+                      <div>
+                      <GoTriangleRight className=" tw-text-blue" />
+                      </div>
+                       <div>
+                         <p className=" m-0 tw-text-gray">
                           You can identify yourself with a valid Swedish
                           identification document, such as a passport, a
                           national identity card or a BankID. You can also
                           identify yourself with a Swedish driving license.
                         </p>
+                       </div>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
+                      <li className=" tw-flex tw-gap-3">
+                      <div className="">
+                      <GoTriangleRight className=" tw-text-blue" />
+                      </div>
+                       <div>
+                       <p className=" m-0 tw-text-gray">
                           If you do not have Swedish identification documents,
                           you can identify yourself with a valid foreign
                           passport or other photo identification document that
@@ -404,15 +411,20 @@ const New_In_sweden = () => {
                           the bank may request that you also present other
                           documents.
                         </p>
+                       </div>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
-                        <p className=" m-0 tw-text-gray">
+                        </div>
+                      <div>
+                      <p className=" m-0 tw-text-gray">
                           If you do not have any valid identity documents, you
                           must be able to prove who you are and your citizenship
                           by means of other documents issued by a competent
                           authority.
                         </p>
+                      </div>
                       </li>
                     </ul>
                   </div>
@@ -441,15 +453,19 @@ const New_In_sweden = () => {
                       </div>
                       <div className=" col-md-7">
                         <ul className=" tw-p-0 tw-pt-4">
-                          <li className=" tw-flex tw-items-center tw-gap-3">
-                            <GoTriangleRight className=" tw-text-blue" />
+                          <li className=" tw-flex  tw-gap-3">
+                           <div>
+                           <GoTriangleRight className=" tw-text-blue" />
+                           </div>
                             <p className=" m-0 tw-text-gray">
                               A residence permit or a visa (does not apply to EU
                               citizens).
                             </p>
                           </li>
-                          <li className=" tw-flex tw-items-center tw-gap-3">
-                            <GoTriangleRight className=" tw-text-blue" />
+                          <li className=" tw-flex  tw-gap-3">
+                          <div>
+                          <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                             <p className=" m-0 tw-text-gray">
                               An admission decision confirmation from your
                               university, showing the duration of your studies.

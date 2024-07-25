@@ -267,28 +267,36 @@ const GlobalVisitVisas = () => {
                
 
                   <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         have a passport that is valid for at least three months after the visa has expired, was issued in the last ten years and has at least two empty pag-es
 
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         be able to describe the purpose of your visit
 
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         have received an invitation from the person you want to visit
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         have an individual medical travel insurance that covers all costs that may arise in connection with emergency medical treatment, urgent med-ical care or transportation to your home country for medical reasons (the insurance must cover costs of at least 30,000 EUR and be valid for all Schengen countries)
 
@@ -296,28 +304,37 @@ const GlobalVisitVisas = () => {
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                         have money to support yourself and for the return trip home (Sweden al-so requires you to have 450 SEK for each day you stay in Sweden, which can also be paid for by the person who has invited you)
 
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
+                        <div>
+                          
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         show that you intend to leave Sweden and the Schengen area on the last day before the visa expires
 
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <div>
+                      <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                         <p className=" m-0 tw-text-gray">
                         a photograph that is in passport format and taken with you facing the camera and which is not older than six months
 
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         other documents that the embassy may require
 

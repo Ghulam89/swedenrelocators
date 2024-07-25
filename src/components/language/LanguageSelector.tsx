@@ -267,7 +267,7 @@ const LanguageSelector = () => {
             <div className=" ">
 
 
-<Link to={"#"} className="">Other Languages</Link>
+<Link to={"#"} className=" tw-text-sm  tw-border-b ">More Languages  </Link>
 
 </div>
           </div>

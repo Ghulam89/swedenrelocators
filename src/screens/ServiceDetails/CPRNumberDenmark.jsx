@@ -345,7 +345,9 @@ const CPRNumberDenmark = () => {
 
 <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         Your Danish residence and legal document (non-EU/EEA citizens), or certificate of registration (for EU/EEA and Swiss citizens). Nordic citizens must bring proof of their Nordic personal positive identification, e.g. your passport.
 
@@ -368,7 +370,9 @@ const CPRNumberDenmark = () => {
                       </li>
                     
                       <li className=" tw-flex tw-items-center tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         In case, If you’re divorced your divorce certificate.
 
@@ -376,7 +380,9 @@ const CPRNumberDenmark = () => {
                       </li>
                     
                       <li className=" tw-flex tw-items-center tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         In case, if you’re a widow/widower, the death certificate of your spouse.
 

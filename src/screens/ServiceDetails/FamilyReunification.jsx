@@ -260,28 +260,36 @@ const FamilyRenuification = () => {
 
                   <ul className=" tw-p-0 tw-pt-4">
                     <li className=" tw-flex tw-items-center tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         Spouse/partner/common law spouse.
                       </p>
                     </li>
-                    <li className=" tw-flex tw-items-center tw-gap-3">
+                    <li className=" tw-flex  tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         The direct descendants (children) who are under the age
                         of 21 or are dependents, and those of the spouse or
                         partner.
                       </p>
                     </li>
-                    <li className=" tw-flex tw-items-center tw-gap-3">
-                      <GoTriangleRight className=" tw-text-blue" />
+                    <li className=" tw-flex  tw-gap-3">
+                     <div>
+                     <GoTriangleRight className=" tw-text-blue" />
+                     </div>
                       <p className=" m-0 tw-text-gray">
                         The dependent direct relatives in the ascending line
                         (e.g. parents) and those of the spouse or partner.
                       </p>
                     </li>
                     <li className=" tw-flex  tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         You can apply for a short-stay Schengen visa (type
                         C-Joining a Family Member) which will permit you to
@@ -290,7 +298,9 @@ const FamilyRenuification = () => {
                     </li>
 
                     <li className=" tw-flex  tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         Once in Sweden you should apply for a residence card for
                         a family member of a EU/EEA citizen within three months

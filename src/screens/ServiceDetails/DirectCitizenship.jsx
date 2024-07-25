@@ -271,12 +271,16 @@ const DirectCitizenship = () => {
 
                       <div className=" row">
                         <div className="col-md-8 tw-mx-auto">
+                         <div className=" row">
+                          <div className=" col-md-10 tw-mx-auto">
                           <motion.img
                             animate={imageVariants}
                             className=" tw-w-full tw-my-3"
                             src={d1}
                             alt=""
                           />
+                          </div>
+                         </div>
                         </div>
                       </div>
 
@@ -295,12 +299,17 @@ const DirectCitizenship = () => {
 
                       <div className=" row">
                         <div className="col-md-8 tw-mx-auto">
+                          
+                          <div className=" row">
+                          <div className=" col-md-10 tw-mx-auto">
                           <motion.img
                             animate={imageVariants}
                             className=" tw-w-full tw-my-3"
                             src={d2}
                             alt=""
                           />
+                          </div>
+                         </div>
                         </div>
                       </div>
 
@@ -321,12 +330,17 @@ const DirectCitizenship = () => {
 
                       <div className=" row">
                         <div className="col-md-8 tw-mx-auto">
+                          
+                          <div className=" row">
+                          <div className=" col-md-10 tw-mx-auto">
                           <motion.img
                             animate={imageVariants}
                             className=" tw-w-full tw-my-3"
                             src={d3}
                             alt=""
                           />
+                          </div>
+                         </div>
                         </div>
                       </div>
 
@@ -348,12 +362,17 @@ const DirectCitizenship = () => {
 
                       <div className=" row">
                         <div className="col-md-8 tw-mx-auto">
+                          
+                            <div className=" row">
+                          <div className=" col-md-10 tw-mx-auto">
                           <motion.img
                             animate={imageVariants}
                             className=" tw-w-full tw-my-3"
                             src={d4}
                             alt=""
                           />
+                          </div>
+                         </div>
                         </div>
                       </div>
 
@@ -374,12 +393,17 @@ const DirectCitizenship = () => {
 
                       <div className=" row">
                         <div className="col-md-8 tw-mx-auto">
+                         
+                            <div className=" row">
+                          <div className=" col-md-10 tw-mx-auto">
                           <motion.img
                             animate={imageVariants}
                             className=" tw-w-full tw-my-3"
                             src={d5}
                             alt=""
                           />
+                          </div>
+                         </div>
                         </div>
                       </div>
 
@@ -401,12 +425,17 @@ const DirectCitizenship = () => {
 
                       <div className=" row">
                         <div className="col-md-8 tw-mx-auto">
+                         
+                            <div className=" row">
+                          <div className=" col-md-10 tw-mx-auto">
                           <motion.img
                             animate={imageVariants}
                             className=" tw-w-full tw-my-3"
                             src={d6}
                             alt=""
                           />
+                          </div>
+                         </div>
                         </div>
                       </div>
 
@@ -427,12 +456,17 @@ const DirectCitizenship = () => {
 
                       <div className=" row">
                         <div className="col-md-8 tw-mx-auto">
+                          
+                            <div className=" row">
+                          <div className=" col-md-10 tw-mx-auto">
                           <motion.img
                             animate={imageVariants}
                             className=" tw-w-full tw-my-3"
                             src={d7}
                             alt=""
                           />
+                          </div>
+                         </div>
                         </div>
                       </div>
 
@@ -453,12 +487,17 @@ const DirectCitizenship = () => {
 
                       <div className=" row">
                         <div className="col-md-8 tw-mx-auto">
+                         
+                            <div className=" row">
+                          <div className=" col-md-10 tw-mx-auto">
                           <motion.img
                             animate={imageVariants}
                             className=" tw-w-full tw-my-3"
                             src={d8}
                             alt=""
                           />
+                          </div>
+                         </div>
                         </div>
                       </div>
 

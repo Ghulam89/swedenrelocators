@@ -385,24 +385,30 @@ const BusinessPermit = () => {
                           have ultimate responsibility over any decisions.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Bank statements proving that you have sufficient
                           capital to buy or establish a business for at least
                           the first two years in Sweden.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex t tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Your company must be expected to create sufficient
                           profits to support the company, yourself and your
                           family.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex  tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           A detailed account of your business plan, including
                           contracts with customers / suppliers; a contract for
@@ -411,15 +417,17 @@ const BusinessPermit = () => {
                           balance sheet (profit / loss).
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
                           You must have relevant experience in the sector, and
                           in running your own business.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           You have sufficient income to support yourself and
                           your family for at least the first two years of the
@@ -428,21 +436,23 @@ const BusinessPermit = () => {
                           accompanies you.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
                           Proof of sufficient English and or Swedish language
                           skills.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
                         <GoTriangleRight className=" tw-text-blue" />
                         <p className=" m-0 tw-text-gray">
                           Receipt of payment for the application.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           If you want to be registered in Sweden, you need to
                           live in Sweden for more than a year and have a valid

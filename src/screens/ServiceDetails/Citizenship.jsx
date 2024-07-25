@@ -249,7 +249,9 @@ const Citizenship = () => {
 
                   <ul className=" tw-p-0 tw-pt-4">
                     <li className=" tw-flex tw-items-center tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         be able to prove your identity
                       </p>
@@ -260,15 +262,19 @@ const Citizenship = () => {
                         be 18 years of age or older
                       </p>
                     </li>
-                    <li className=" tw-flex tw-items-center tw-gap-3">
+                    <li className=" tw-flex  tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         have a permanent residence permit (a temporary residence
                         permit is not applicable) or
                       </p>
                     </li>
                     <li className=" tw-flex  tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         You can apply for a short-stay Schengen visa (type
                         C-Joining a Family Member) which will permit you to
@@ -277,7 +283,9 @@ const Citizenship = () => {
                     </li>
 
                     <li className=" tw-flex  tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         have a right of residence or residence card (applies to
                         you if you are an EU citizen or a close relative of an

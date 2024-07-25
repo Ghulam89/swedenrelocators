@@ -433,23 +433,29 @@ const EEAPermits = () => {
                       </h2>
 
                       <ul className=" tw-p-0 tw-pt-4">
-                        <li className=" tw-flex tw-items-center tw-gap-3">
+                        <li className=" tw-flex tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             Your marriage or civil partnership to that person
                             has ended due to a divorce, annulment or
                             dissolution.
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
+                        <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             The person died, and you have lived in the UK for at
                             least one year before their death.
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
+                        <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             You are the child of an EEA national who has died or
                             left the UK. Or you are the child of their spouse or
@@ -459,7 +465,9 @@ const EEAPermits = () => {
                           </p>
                         </li>
                         <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             You are the parent and have custody, of a child who
                             has a retained right of residence because they are
@@ -484,8 +492,10 @@ const EEAPermits = () => {
                       </p>
 
                       <ul className=" tw-p-0 tw-pt-4">
-                        <li className=" tw-flex tw-items-center tw-gap-3">
+                        <li className=" tw-flex tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             The civil partnership or marriage lasted 3 years
                             before legal proceedings began. The couple lived in
@@ -493,15 +503,19 @@ const EEAPermits = () => {
                             annulment or dissolution was finalized.
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                        <li className=" tw-flex  tw-gap-3">
+                         <div>
+                         <GoTriangleRight className=" tw-text-blue" />
+                         </div>
                           <p className=" m-0 tw-text-gray">
                             You have custody of a child of the relevant EEA
                             national.
                           </p>
                         </li>
                         <li className=" tw-flex tw-items-center tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             You have access rights to the child of the relevant
                             EEA national. The judge ordered access to the child
@@ -510,7 +524,9 @@ const EEAPermits = () => {
                           </p>
                         </li>
                         <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             You, or a family member, have been a victim of
                             domestic violence during the marriage or civil
@@ -518,14 +534,18 @@ const EEAPermits = () => {
                           </p>
                         </li>
                         <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             Any other particularly difficult circumstances that
                             will justify the retaining right of residence.
                           </p>
                         </li>
                         <li className=" tw-flex  tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                         <div>
+                         <GoTriangleRight className=" tw-text-blue" />
+                         </div>
                           <p className=" m-0 tw-text-gray">
                             Indefinite Leave to Remain in the UK and the EEA
                             Family Permit

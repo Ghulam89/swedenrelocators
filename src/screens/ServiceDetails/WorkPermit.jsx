@@ -393,14 +393,18 @@ const WorkPermit = () => {
 
                     <div>
                       <ul className=" tw-p-0 tw-pt-4">
-                        <li className=" tw-flex tw-items-center tw-gap-3">
+                        <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             A completed application form
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
+                        <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             Copies of the pages of your passport that show
                             personal data, period of validity and whether you
@@ -409,21 +413,28 @@ const WorkPermit = () => {
                             permits)
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
+                        <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             Your offer of employment and the statement from the
                             trade union
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
+                        <li className=" tw-flex  tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
+                          
                           <p className=" m-0 tw-text-gray">
                             An application fees
                           </p>
                         </li>
                         <li className=" tw-flex tw-items-center tw-gap-3">
+                          <div>
                           <GoTriangleRight className=" tw-text-blue" />
+                          </div>
                           <p className=" m-0 tw-text-gray">
                             The Migration Agency considers your application and
                             informs you of its decision, see current waiting

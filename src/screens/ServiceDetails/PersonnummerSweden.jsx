@@ -303,8 +303,10 @@ const PersonnumerSweden = () => {
                       You must always be able to identify yourself.
                     </p>
                     <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           You can identify yourself with a valid Swedish
                           identification document, such as a passport, a
@@ -312,8 +314,10 @@ const PersonnumerSweden = () => {
                           identify yourself with a Swedish driving license.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           If you do not have Swedish identification documents,
                           you can identify yourself with a valid foreign
@@ -324,8 +328,10 @@ const PersonnumerSweden = () => {
                           documents.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           If you do not have valid identity documents, you must
                           prove who you are and your citizenship by means of

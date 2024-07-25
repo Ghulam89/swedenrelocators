@@ -265,13 +265,17 @@ const MarriageDivorce = () => {
 
                     <ul className=" tw-p-0 tw-pt-4">
                       <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           if you or your partner are under the age of 18
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           if you are closely related to the person you want to
                           marry
@@ -285,7 +289,9 @@ const MarriageDivorce = () => {
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Swedish law also forbids forced marriage. This means
                           that no one can force anyone else to marry. Everyone

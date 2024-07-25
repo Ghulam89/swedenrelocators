@@ -816,29 +816,37 @@ const StudyInEu = () => {
 
                         </p>
                         <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         At least two subjects to be taken at A2. Sometimes grades are converted into UCAS Tariff points to compare the applicants
 
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         Many universities appreciate The Extended Project (EPQ) though it is not compulsory
 
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         Many universities appreciate The Extended Project (EPQ) though it is not compulsory
 
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex t tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         SI-UK provides IELTS preparation classes so you can hit your target score. Sign up for the right IELTS course that suits your schedule.
 
@@ -851,15 +859,19 @@ const StudyInEu = () => {
 
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         A fitness to practice check as well as finance check
 
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         You will need to take an admission test and an interview if required by the course. So it will be advised for some early preparation
 

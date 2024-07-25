@@ -277,7 +277,11 @@ const HouseOffices = () => {
                     place to live without any worries.
                   </p>
 
-                  <img src={banner2} alt="" />
+                  <div className=" row tw-mx-auto">
+                    <div className=" col-md-10 max-auto">
+                    <img src={banner2} alt="" />
+                    </div>
+                  </div>
 
                   <p className=" tw-text-gray tw-pt-8">
                     Finding housing in Sweden is much more difficult than in

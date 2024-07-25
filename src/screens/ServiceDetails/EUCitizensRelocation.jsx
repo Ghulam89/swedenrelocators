@@ -278,7 +278,9 @@ const EUCitizensRelocation = () => {
                       </p>
                     </li>
                     <li className=" tw-flex tw-items-center tw-gap-3">
-                      <GoTriangleRight className=" tw-text-blue" />
+                     <div>
+                     <GoTriangleRight className=" tw-text-blue" />
+                     </div>
                       <p className=" m-0 tw-text-gray">
                         The direct descendants (children) who are under the age
                         of 21 or are dependents, and those of the spouse or
@@ -286,14 +288,18 @@ const EUCitizensRelocation = () => {
                       </p>
                     </li>
                     <li className=" tw-flex tw-items-center tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         The dependent direct relatives in the ascending line
                         (e.g. parents) and those of the spouse or partner.
                       </p>
                     </li>
                     <li className=" tw-flex  tw-gap-3">
-                      <GoTriangleRight className=" tw-text-blue" />
+                     <div>
+                     <GoTriangleRight className=" tw-text-blue" />
+                     </div>
                       <p className=" m-0 tw-text-gray">
                         You can apply for a short-stay Schengen visa (type
                         C-Joining a Family Member) which will permit you to
@@ -302,7 +308,9 @@ const EUCitizensRelocation = () => {
                     </li>
 
                     <li className=" tw-flex  tw-gap-3">
+                      <div>
                       <GoTriangleRight className=" tw-text-blue" />
+                      </div>
                       <p className=" m-0 tw-text-gray">
                         Once in Sweden you should apply for a residence card for
                         a family member of a EU/EEA citizen within three months
@@ -432,20 +440,26 @@ const EUCitizensRelocation = () => {
 
 
                       <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex  tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                         You can identify yourself with a valid Swedish identification document, such as a passport, a national identity card or a BankID. You can also identify yourself with a Swedish driving license.
 
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">If you do not have Swedish identification documents, you can identify yourself with a valid foreign passport or other photographic identification document that shows your citizenship. This must be issued by an authority or some other authorised issuer. Note that the bank may request that you also present other documents.
 </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                         If you do not have valid identity documents, you must prove who you are and your citizenship by means of other documents from an independent and reliable source.
 
@@ -489,7 +503,9 @@ const EUCitizensRelocation = () => {
                         </p>
                       </li>
                       <li className=" tw-flex tw-items-center tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">If you do not have Swedish identification documents, you can identify yourself with a valid foreign passport or other photographic identification document that shows your citizenship. This must be issued by an authority or some other authorised issuer. Note that the bank may request that you also present other documents.
 </p>
                       </li>
