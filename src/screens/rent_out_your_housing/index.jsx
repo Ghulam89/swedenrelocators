@@ -211,7 +211,7 @@ const Rent_out_your_housing = () => {
           <div className="row">
             <div className="col-md-8">
               <div className=" tw-bg-white tw-pt-14  md:tw-pl-32 tw-pl-4">
-                <div className=" tw-bg-blue tw-text-center tw-rounded-md tw-py-4  px-3">
+                <div className="  tw-bg-primary tw-text-center tw-rounded-md tw-py-4  px-3">
                   <h6 className=" tw-text-white tw-m-0">
                     {" "}
                     <i class="fa fa-building"></i> FILL UP THE DETAILS OF YOUR
@@ -222,14 +222,14 @@ const Rent_out_your_housing = () => {
                 <form>
                   <div className="row g-3 tw-pt-6 ">
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Country
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Sweden - Skane</option>
                         <option>Denmark - Copenhagen</option>
@@ -237,14 +237,14 @@ const Rent_out_your_housing = () => {
                     </div>
                     <div className=" col-md-6"> </div>
                     <div className="col-md-4">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select your type of house
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Apartment</option>
                         <option>Villa</option>
@@ -255,14 +255,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-4">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Floor
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Basement</option>
                         <option>Ground Floor</option>
@@ -275,14 +275,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-4">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Total rooms
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>1</option>
                         <option>2</option>
@@ -301,21 +301,21 @@ const Rent_out_your_housing = () => {
                       />
                     </div>
 
-                    <div className=" tw-bg-blue  tw-rounded-md tw-py-3.5  px-3">
+                    <div className="  tw-bg-primary  tw-rounded-md tw-py-3.5  px-3">
                       <h6 className=" tw-text-white tw-m-0">
                         BASIC NECESSITIES
                       </h6>
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Furnished?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Yes</option>
                         <option>Partly</option>
@@ -323,14 +323,14 @@ const Rent_out_your_housing = () => {
                       </select>
                     </div>
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is car parking included?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Included</option>
                         <option>Not Included</option>
@@ -339,14 +339,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Are pets allowed?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Allowed</option>
                         <option>Not Allowed</option>
@@ -354,14 +354,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is smoking allowed?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Allowed</option>
                         <option>Not Allowed</option>
@@ -369,14 +369,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is electricity included?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Included</option>
                         <option>Not Included</option>
@@ -384,14 +384,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is lift available?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Allowed</option>
                         <option>Not Allowed</option>
@@ -399,14 +399,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is internet included?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Included</option>
                         <option>Not Included</option>
@@ -416,14 +416,14 @@ const Rent_out_your_housing = () => {
                     <div className="col-md-6"></div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is washing machine available?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Available</option>
                         <option>Not Available</option>
@@ -431,14 +431,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is dishwasher available?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Available</option>
                         <option>Not Available</option>
@@ -446,14 +446,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is heat & water includes in rent?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Available</option>
                         <option>Not Available</option>
@@ -461,35 +461,35 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Is balcony/terrace available?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Included</option>
                         <option>Not Included</option>
                       </select>
                     </div>
 
-                    <div className=" tw-bg-blue  tw-rounded-md tw-py-2  px-3">
+                    <div className="  tw-bg-primary  tw-rounded-md tw-py-3  px-3">
                       <h6 className=" tw-text-white tw-m-0">
                         CONTRACT DETAILS
                       </h6>
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Contract Type?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>First Hand</option>
                         <option>Second Hand</option>
@@ -499,14 +499,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Are you looking for deposit?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Yes</option>
                         <option>No</option>
@@ -514,14 +514,14 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Maximum people can stay in this residence?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>1</option>
                         <option>2</option>
@@ -535,35 +535,35 @@ const Rent_out_your_housing = () => {
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         What is the duration of rent out?
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>1 month</option>
                         <option>2 month</option>
                       </select>
                     </div>
 
-                    <div className=" tw-bg-blue  tw-rounded-md tw-py-2  px-3">
+                    <div className=" tw-bg-primary  tw-rounded-md tw-py-3 px-3">
                       <h6 className=" tw-text-white tw-m-0">
                         PROPERTY DETAILS & PICTURES
                       </h6>
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Your Property Type
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray   tw-text-gray-dark  border   tw-w-full border tw-py-3 tw-px-3 tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Rental Property</option>
                         <option>Shared Property</option>
@@ -591,19 +591,19 @@ const Rent_out_your_housing = () => {
                       />
                     </div>
 
-                    <div className=" tw-bg-blue  tw-rounded-md tw-py-2  px-3">
+                    <div className="   tw-bg-primary tw-rounded-md tw-py-3  px-3">
                       <h6 className=" tw-text-white tw-m-0">BANK DETAILS</h6>
                     </div>
 
                     <div className="col-md-6">
-                      <label
+                      {/* <label
                         htmlFor="first_name"
                         className=" tw-block  tw-text-md  tw-pb-2 tw-text-gray"
                       >
                         <a className=" tw-text-red-600 tw-font-semibold">*</a>{" "}
                         Select Bank Country
-                      </label>
-                      <select className="tw-outline-none tw-bg-lightGray  tw-p-3   tw-text-gray-dark tw-w-full border tw-rounded-xl">
+                      </label> */}
+                      <select className="tw-outline-none tw-text-sm  tw-bg-lightGray tw-py-3 tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg">
                         <option>Choose Option</option>
                         <option>Rental Property</option>
                         <option>Shared Property</option>
@@ -645,7 +645,7 @@ const Rent_out_your_housing = () => {
                       <Button
                         label={"SEND REQUEST"}
                         className={
-                          " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-blue tw-py-3   tw-w-full tw-rounded-xl  tw-text-white "
+                          " tw-uppercase tw-mx-auto  tw-text-sm   tw-bg-primary tw-py-3   tw-w-full tw-rounded-xl  tw-text-white "
                         }
                       />
                     </div>
