@@ -527,22 +527,28 @@ const New_In_sweden = () => {
                     </h2>
 
                     <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           You must be able to understand the bank’s questions as
                           well as answer them.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           You must also be able to understand the information
                           that the bank gives you.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex  tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           In case you need someone to translate for you then you
                           should bring such a person with you while visiting the
@@ -550,15 +556,19 @@ const New_In_sweden = () => {
                         </p>
                       </li>
 
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           The bank will ask you about the source of income.
                         </p>
                       </li>
 
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex  tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Your account and other bank services must not be used
                           by anyone else unless an agreement for this is held
@@ -566,8 +576,10 @@ const New_In_sweden = () => {
                         </p>
                       </li>
 
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           The bank may ask you additional questions or stipulate
                           other requirements.
