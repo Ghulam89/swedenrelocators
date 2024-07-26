@@ -641,34 +641,44 @@ const New_In_sweden = () => {
                     </h2>
 
                     <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Apply for a learning permit
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex  tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Start your driving practice
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Study the theory of driving
                         </p>
                       </li>
 
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Take the risk training – riskutbildning
                         </p>
                       </li>
 
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Book a time for a driving test.
                         </p>
