@@ -476,30 +476,38 @@ const New_In_sweden = () => {
 
                       <div className="col-md-12">
                         <ul className=" tw-p-0 tw-pt-4">
-                          <li className=" tw-flex tw-items-center tw-gap-3">
+                          <li className=" tw-flex  tw-gap-3">
+                            <div>
                             <GoTriangleRight className=" tw-text-blue" />
+                            </div>
                             <p className=" m-0 tw-text-gray">
                               The bank is not satisfied with the identity
                               document submitted.
                             </p>
                           </li>
-                          <li className=" tw-flex tw-items-center tw-gap-3">
+                          <li className=" tw-flex  tw-gap-3">
+                            <div>
                             <GoTriangleRight className=" tw-text-blue" />
+                            </div>
                             <p className=" m-0 tw-text-gray">
                               The bank determines that the reason given by you
                               to open an account is inadequate.
                             </p>
                           </li>
-                          <li className=" tw-flex tw-items-center tw-gap-3">
+                          <li className=" tw-flex  tw-gap-3">
+                            <div>
                             <GoTriangleRight className=" tw-text-blue" />
+                            </div>
                             <p className=" m-0 tw-text-gray">
                               The bank, by opening an account, would be in
                               breach of a legal regulation or directive.
                             </p>
                           </li>
 
-                          <li className=" tw-flex tw-items-center tw-gap-3">
-                            <GoTriangleRight className=" tw-text-blue" />
+                          <li className=" tw-flex  tw-gap-3">
+                           <div>
+                           <GoTriangleRight className=" tw-text-blue" />
+                           </div>
                             <p className=" m-0 tw-text-gray">
                               You have previously acted dishonestly towards the
                               bank.
