@@ -200,7 +200,7 @@ const PermanentResidence = () => {
     },
     {
       id: 18,
-      title: "Direct Citizenship by Investments      ",
+      title: "Direct Citizenship     ",
       description:
         "citizenship-by-investment programs provide ultra-wealthy families with the privilege of a second or third passport.        ",
       icons: (
@@ -220,7 +220,7 @@ const PermanentResidence = () => {
     },
     {
       id: 20,
-      title: "Golden Visa (Greece - Portugal)      ",
+      title: "Golden Visa  ",
       description:
         "As a member state of the EU, They offer its residents and citizens a number of reassuring benefits.        ",
       icons: (

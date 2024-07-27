@@ -202,7 +202,7 @@ const New_In_sweden = () => {
     },
     {
       id: 18,
-      title: " Citizenship by Investments      ",
+      title: " Citizenship       ",
       description:
         "citizenship-by-investment programs provide ultra-wealthy families with the privilege of a second or third passport.        ",
       icons: (
@@ -222,7 +222,7 @@ const New_In_sweden = () => {
     },
     {
       id: 20,
-      title: "Golden Visa (Greece - Portugal)      ",
+      title: "Golden Visa     ",
       description:
         "As a member state of the EU, They offer its residents and citizens a number of reassuring benefits.        ",
       icons: (

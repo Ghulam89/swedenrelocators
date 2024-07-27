@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Banner_Page from "../../components/Common/Banner_Page";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -7,12 +7,32 @@ import { Link, useParams } from "react-router-dom";
 import banner from "../../assets/images/startup-incubation.png";
 import banner2 from "../../assets/images/study-material.png";
 import banner3 from "../../assets/images/educational-books.png";
-import flag from "../../assets/images/icons8-sweden-80.png";
+import flag from "../../assets/images/Denmark-1.png";
 import flag1 from "../../assets/images/icons8-finland-80.png";
 import flag2 from "../../assets/images/Norway.png";
 import flag3 from "../../assets/images/icons8-czech-republic-80.png";
 import flag4 from "../../assets/images/great-britain.png";
+
+
+
 const StudyInEu = () => {
+
+
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+        const bottomSpace = document.documentElement.offsetHeight - (window.scrollY + window.innerHeight);
+        setIsSticky(window.scrollY > 1100 && bottomSpace > 685);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []);
+
+
   const { id } = useParams();
 
   const data = [
@@ -201,7 +221,7 @@ const StudyInEu = () => {
     },
     {
       id: 18,
-      title: "Direct Citizenship by Investments      ",
+      title: "Direct Citizenship ",
       description:
         "citizenship-by-investment programs provide ultra-wealthy families with the privilege of a second or third passport.        ",
       icons: (
@@ -221,7 +241,7 @@ const StudyInEu = () => {
     },
     {
       id: 20,
-      title: "Golden Visa (Greece - Portugal)      ",
+      title: "Golden Visa  ",
       description:
         "As a member state of the EU, They offer its residents and citizens a number of reassuring benefits.        ",
       icons: (
@@ -1205,11 +1225,12 @@ const StudyInEu = () => {
                 </div>
               </div>
 
-              <div className="col-md-4  tw-pt-16  tw-bg-[#F5FAFF]">
-                <div className="  md:tw-pr-32 tw-pr-4">
+              <div className="col-md-4  tw-pt-16   tw-bg-[#F5FAFF]  "  style={{ position: 'sticky', top: '300px'}} >
+                <div className={`tw-pr-28 ${isSticky?' md:tw-fixed tw-flex-initial  tw-bottom-0  md:tw-w-[30%] tw-w-full':'tw-relative'} `}>
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (
+
                         <Link
                           to={`${item?.Link}`}
                           className="hover-effect tw-rounded-md hover:tw-bg-blue tw-bg-white tw-p-4 tw-shadow-lg tw-flex tw-justify-between tw-items-center hover:tw-text-white"
@@ -1219,6 +1240,7 @@ const StudyInEu = () => {
                           </p>
                           <GoTriangleRight className="tw-text-gray" />
                         </Link>
+
                       );
                     })}
                   </ul>
