@@ -18,42 +18,42 @@ const Assessment = () => {
       title: "Business Visa Assessment",
       image: assess1,
       Icon: <i class="fa fa-building tw-mt-1" aria-hidden="true"></i>,
-      Link:""
+      Link:"/assessment_register"
     },
     {
       id: 2,
       title: "Visit Visa Assessment",
       image: assess2,
       Icon: <i class="fa fa-street-view tw-mt-1" aria-hidden="true"></i>,
-      Link:""
+      Link:"/visit_visa"
     },
     {
       id: 3,
       title: "Study in Sweden Assesmment",
       image: assess3,
       Icon: <i class="fa fa-male tw-mt-1" aria-hidden="true"></i>,
-      Link:""
+      Link:"/student_assessments"
     },
     {
       id: 4,
       title: "Work Permit Assesmment",
       image: assess4,
       Icon: <i class="fa fa-briefcase tw-mt-1" aria-hidden="true"></i>,
-      Link:""
+      Link:"/Work_permit"
     },
     {
       id: 5,
       title: "Family Reunification Assessment",
       image: assess5,
       Icon: <i class="fa fa-users tw-mt-1" aria-hidden="true"></i>,
-      Link:""
+      Link:"/family_reunification_assessment"
     },
     {
       id: 6,
       title: "Long Term EU Status Assessment",
       image: assess6,
       Icon: <i class="fa fa-home tw-mt-1" aria-hidden="true"></i>,
-      Link:""
+      Link:"/long_term_eu_status_assessment"
     },
   ];
 
@@ -326,7 +326,7 @@ Check Your Eligibility Before Proceeding with Our Services
                     return (
                       <>
                         <div className="col-md-6">
-                          <Link to={`/assessment_register/${item?.title}`}   >
+                          <Link to={`${item?.Link}`}   >
                            <div className="row">
 
                             <div className="col-md-10 tw-mx-auto">

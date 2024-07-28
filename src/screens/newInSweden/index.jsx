@@ -298,26 +298,34 @@ const New_In_sweden = () => {
                     </h2>
 
                     <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Employment contract(s),
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Proof of savings ex. Bank statement.
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
+                      <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Number of members in the family
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight size={25} className=" tw-text-blue" />
+                        <div>
+                        <GoTriangleRight  className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           Place of residence(must be in Sweden). You can NOT
                           apply for a personnummer while still living abroad.
@@ -327,7 +335,9 @@ const New_In_sweden = () => {
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
+                        <div>
                         <GoTriangleRight  className=" tw-text-blue" />
+                        </div>
                         <p className=" m-0 tw-text-gray">
                           You need to go in person (all the persons in the
                           family) to an office of Skatteverket to apply for a
@@ -335,7 +345,9 @@ const New_In_sweden = () => {
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           A legal ID-certificate, preferably a passport for
                           every person applying.
@@ -1056,53 +1068,69 @@ const New_In_sweden = () => {
                     </p>
 
                     <ul className=" tw-p-0 tw-pt-4">
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex  tw-gap-3">
+                       <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Migrationsverket (Migration Agency)
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex  tw-gap-3">
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Skatteverket (Tax Agency)
                         </p>
                       </li>
-                      <li className=" tw-flex tw-items-center tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <li className=" tw-flex  tw-gap-3">
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Arbetsförmedlingen (Public Employment Service)
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Försäkringskassan (Social Insurance Agency)
                         </p>
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Skolverket (National Agency for Education)
                         </p>
                       </li>
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Jordbruksverket (Swedish Board of Agriculture)
                         </p>
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Tullverket (Swedish Customs)
                         </p>
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Transportstyrelsen (Transport Agency) & Trafikverket
                           (Transport Administration)
@@ -1111,14 +1139,18 @@ const New_In_sweden = () => {
 
 
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Länsstyrelserna (the County administrative boards)
                         </p>
                       </li>
 
                       <li className=" tw-flex  tw-gap-3">
-                        <GoTriangleRight className=" tw-text-blue" />
+                      <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                         <p className=" m-0 tw-text-gray">
                           Landstingen (County councils)
                         </p>
@@ -1177,16 +1209,22 @@ const New_In_sweden = () => {
                       </p>
 
                       <ul className=" tw-p-0 tw-pt-4">
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                        <li className=" tw-flex  tw-gap-3">
+                        <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                           <p className=" m-0 tw-text-gray">Nystartsjobb</p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                        <li className=" tw-flex tw-gap-3">
+                        <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                           <p className=" m-0 tw-text-gray">Instegsjobb</p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                        <li className=" tw-flex tw-gap-3">
+                        <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                           <p className=" m-0 tw-text-gray">
                             Etableringspaket(for peple covered by the law 2010:
                             197)
@@ -1222,30 +1260,38 @@ const New_In_sweden = () => {
                       </p>
 
                       <ul className=" tw-p-0 tw-pt-4">
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                        <li className=" tw-flex  tw-gap-3">
+                        <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                           <p className=" m-0 tw-text-gray">
                             Etableringsersättning(introduction supplement)
                             Information in Swedish, English, Arabic, Dari,
                             Tingrinja, Somali)
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                        <li className=" tw-flex tw-gap-3">
+                        <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                           <p className=" m-0 tw-text-gray">
                             Etableringstillägg(financial supplement that can be
                             added to the introduction supplement if you have
                             children) Information in Swedish
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                        <li className=" tw-flex  tw-gap-3">
+                        <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                           <p className=" m-0 tw-text-gray">
                             Bostadsersättning(housing allowance)
                           </p>
                         </li>
-                        <li className=" tw-flex tw-items-center tw-gap-3">
-                          <GoTriangleRight className=" tw-text-blue" />
+                        <li className=" tw-flex  tw-gap-3">
+                        <div>
+                       <GoTriangleRight className=" tw-text-blue" />
+                       </div>
                           <p className=" m-0 tw-text-gray">
                             Föräldraförsäkring(parental leave)
                           </p>
@@ -1707,8 +1753,8 @@ const New_In_sweden = () => {
                 </div>
               </div>
 
-              <div className="col-md-4  tw-pt-16   tw-bg-[#F5FAFF]  "  style={{ position: 'sticky', top: '300px'}} >
-                <div className={`tw-pr-28 ${isSticky?' md:tw-fixed tw-flex-initial  tw-bottom-0  md:tw-w-[30%] tw-w-full':'tw-relative'} `}>
+              <div className="col-md-4  tw-pt-16   tw-bg-[#F5FAFF]   "  style={{ position: 'sticky', top: '300px'}} >
+                <div className={`sm:tw-pr-28 tw-pr-0 ${isSticky?' md:tw-fixed tw-flex-initial  tw-bottom-0  md:tw-w-[30%] tw-w-full':'tw-relative'} `}>
                   <ul className=" tw-pl-4 tw-flex tw-flex-col tw-gap-2.5">
                     {data?.map((item, index) => {
                       return (
