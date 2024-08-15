@@ -233,26 +233,23 @@ const Family_reunification_assessment = () => {
   ];
 
   const [location, setLocation] = useState("");
-  const [personalStatus, setPersonalStatus] = useState("");
-  const [maritalStatus, setMaritalStatus] = useState("");
-  const [residencePermit, setResidencePermit] = useState("");
-  const [personnummer, setPersonnummer] = useState("");
-  const [coordinationNumber, setCoordinationNumber] = useState("");
-  const [investmentAmount, setInvestmentAmount] = useState("");
-  const [separateAssets, setSeparateAssets] = useState("");
-  const [depents, setDepents] = useState("");
 
-  const handleDepentsChange = (e) => setDepents(e.target.value);
-  const handleLocationChange = (e) => setLocation(e.target.value);
-  const handlePersonalStatusChange = (e) => setPersonalStatus(e.target.value);
-  const handleMaritalStatusChange = (e) => setMaritalStatus(e.target.value);
-  const handleResidencePermitChange = (e) => setResidencePermit(e.target.value);
-  const handlePersonnummerChange = (e) => setPersonnummer(e.target.value);
-  const handleCoordinationNumberChange = (e) =>
-    setCoordinationNumber(e.target.value);
-  const handleInvestmentAmountChange = (e) =>
-    setInvestmentAmount(e.target.value);
-  const handleSeparateAssetsChange = (e) => setSeparateAssets(e.target.value);
+  const handleSelectChange = (e) => {
+    const value = e.target.value;
+
+    if (e.target.name === "location") {
+      setLocation("");
+    }
+
+    switch (e.target.name) {
+      case "location":
+        setLocation(value);
+        break;
+
+      default:
+        break;
+    }
+  };
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -343,110 +340,174 @@ const Family_reunification_assessment = () => {
                     <form>
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Are you EU Citizen?
+                          </label>
                           <select
-                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3"
+                            name="location"
                             value={location}
-                            onChange={handleLocationChange}
+                            onChange={handleSelectChange}
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
                           >
-                            <option value=""> Are you EU Citizen?</option>
+                            <option value=""> Choose option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
 
-                        {location === "yes" && (
-                          <>
-                            <div className="col-md-12 tw-pt-4">
-                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                                <option value="">
-                                  Are you already moved to Sweden or planning to
-                                  move in coming 90 Days Period?
-                                </option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
-                              </select>
-                            </div>
-                          </>
-                        )}
+                        {location === "yes" ? (
+                          <div className="col-md-12 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Are you already moved to Sweden or planning to
+                              move in coming 90 Days Period?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option value="">Choose option</option>
+                              <option value="yes">Yes</option>
+                              <option value="no">No</option>
+                            </select>
+                          </div>
+                        ) : null}
 
-                        {location === "no" && (
+                        {location === "no" ? (
                           <>
                             <div className="col-md-6 tw-pt-4">
-                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                                <option value="">
-                                  Which Citizenship you have?
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                Which Citizenship you have?
+                              </label>
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                                <option value="">Choose option</option>
+                                <option value="AF">Afghanistan</option>
+                                <option value="AS">American Samoa</option>
+                                <option value="CA">Canada</option>
+                                <option value="OM">Oman</option>
+                                <option value="PK">Pakistan</option>
+                                <option value="NL">Netherlands</option>
+                                <option value="NZ">New Zealand</option>
+                                <option value="IS">Iceland</option>
+                                <option value="IN">India</option>
+                                <option value="FR">France</option>
+                                <option value="BD">Bangladesh</option>
+                                <option value="BB">Barbados</option>
+                                <option value="BY">Belarus</option>
+                                <option value="BE">Belgium</option>
+                                <option value="BZ">Belize</option>
+                                <option value="BJ">Benin</option>
+                                <option value="BM">Bermuda</option>
+                                <option value="BT">Bhutan</option>
+                                <option value="BO">Bolivia</option>
+                                <option value="BA">
+                                  Bosnia and Herzegovina
                                 </option>
-                                <option value="pakistan">Pakistan</option>
-                                <option value="sweden">Sweden</option>
+                                <option value="BW">Botswana</option>
+                                <option value="BR">Brazil</option>
+                                <option value="BN">Brunei Darussalam</option>
+                                <option value="BG">Bulgaria</option>
+                                <option value="BF">Burkina Faso</option>
+                                <option value="BI">Burundi</option>
                               </select>
                             </div>
 
                             <div className="col-md-12 tw-pt-4">
-                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                                <option value="">
-                                  Do you have permanent Residence permit from
-                                  below mentioned countries?
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                Do you have permanent Residence permit from
+                                below mentioned countries?
+                              </label>
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                                <option value="">Choose option</option>
+                                <option value="AF">Afghanistan</option>
+                                <option value="AS">American Samoa</option>
+                                <option value="CA">Canada</option>
+                                <option value="OM">Oman</option>
+                                <option value="PK">Pakistan</option>
+                                <option value="NL">Netherlands</option>
+                                <option value="NZ">New Zealand</option>
+                                <option value="IS">Iceland</option>
+                                <option value="IN">India</option>
+                                <option value="FR">France</option>
+                                <option value="BD">Bangladesh</option>
+                                <option value="BB">Barbados</option>
+                                <option value="BY">Belarus</option>
+                                <option value="BE">Belgium</option>
+                                <option value="BZ">Belize</option>
+                                <option value="BJ">Benin</option>
+                                <option value="BM">Bermuda</option>
+                                <option value="BT">Bhutan</option>
+                                <option value="BO">Bolivia</option>
+                                <option value="BA">
+                                  Bosnia and Herzegovina
                                 </option>
-                                <option value="pakistan">Pakistan</option>
-                                <option value="sweden">Sweden</option>
+                                <option value="BW">Botswana</option>
+                                <option value="BR">Brazil</option>
+                                <option value="BN">Brunei Darussalam</option>
+                                <option value="BG">Bulgaria</option>
+                                <option value="BF">Burkina Faso</option>
+                                <option value="BI">Burundi</option>
                               </select>
                             </div>
                           </>
-                        )}
+                        ) : null}
+
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                              Do you have valid Personnummer in Sweden?
-                            </option>
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Do you have valid Personnummer in Sweden?
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option value="">Choose option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                              Did you applied for Personnummer and got rejected?
-                            </option>
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Did you applied for Personnummer and got rejected?
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option>Choose option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
 
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                              Do you have your own Apartment in Sweden OR do you
-                              have first hand rental apartment?
-                            </option>
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Do you have your own Apartment in Sweden OR do you
+                            have first hand rental apartment?
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option>Choose</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
 
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                              * Are you planning to stay permanently in Sweden?
-                            </option>
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Are you planning to stay permanently in Sweden?
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option value="">Choose option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                              Do you have full time work in Sweden or Denmark?
-                            </option>
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Do you have full time work in Sweden or Denmark?
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option value="">Choose option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
                         <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                              * Did you applied for your family visa and got
-                              rejected?
-                            </option>
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Did you applied for your family visa and got
+                            rejected?
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option>Choose option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
@@ -480,39 +541,43 @@ const Family_reunification_assessment = () => {
                       <form>
                         <div className="row">
                           <div className="col-md-6 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
-                                Did your Spouse have valid National Passport?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Did your Spouse have valid National Passport?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-6 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
-                                Did your Children have valid national passport?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Did your Children have valid national passport?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-8 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
-                                Did your spouse have marriage certificate and is
-                                your marriage registered in your home country?
-                              </option>
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Did your spouse have marriage certificate and is
+                              your marriage registered in your home country?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose option</option>
                               <option>Yes</option>
                               <option>No</option>
                             </select>
                           </div>
                           <div className="col-md-12 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
-                                If you are not EU citizen, do you have birth
-                                certificate of your children?
-                              </option>
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              If you are not EU citizen, do you have birth
+                              certificate of your children?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose option</option>
                               <option>Yes</option>
                               <option>No</option>
                             </select>

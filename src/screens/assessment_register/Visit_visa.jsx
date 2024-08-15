@@ -240,19 +240,56 @@ const Visit_visa = () => {
   const [coordinationNumber, setCoordinationNumber] = useState("");
   const [investmentAmount, setInvestmentAmount] = useState("");
   const [separateAssets, setSeparateAssets] = useState("");
+  const [refusal, setRefusal] = useState("");
   const [depents, setDepents] = useState("");
 
-  const handleDepentsChange = (e) => setDepents(e.target.value);
-  const handleLocationChange = (e) => setLocation(e.target.value);
-  const handlePersonalStatusChange = (e) => setPersonalStatus(e.target.value);
-  const handleMaritalStatusChange = (e) => setMaritalStatus(e.target.value);
-  const handleResidencePermitChange = (e) => setResidencePermit(e.target.value);
-  const handlePersonnummerChange = (e) => setPersonnummer(e.target.value);
-  const handleCoordinationNumberChange = (e) =>
-    setCoordinationNumber(e.target.value);
-  const handleInvestmentAmountChange = (e) =>
-    setInvestmentAmount(e.target.value);
-  const handleSeparateAssetsChange = (e) => setSeparateAssets(e.target.value);
+  const handleSelectChange = (e) => {
+    const value = e.target.value;
+
+    if (e.target.name === "personalStatus") {
+      setResidencePermit("");
+    }
+
+    if (e.target.name === "refusal") {
+      setRefusal("");
+    }
+
+    switch (e.target.name) {
+      case "depents":
+        setDepents(value);
+        break;
+      case "location":
+        setLocation(value);
+        break;
+      case "personalStatus":
+        setPersonalStatus(value);
+        break;
+      case "maritalStatus":
+        setMaritalStatus(value);
+        break;
+      case "refusal":
+        setRefusal(value);
+
+        break;
+      case "residencePermit":
+        setResidencePermit(value);
+        break;
+      case "personnummer":
+        setPersonnummer(value);
+        break;
+      case "coordinationNumber":
+        setCoordinationNumber(value);
+        break;
+      case "investmentAmount":
+        setInvestmentAmount(value);
+        break;
+      case "separateAssets":
+        setSeparateAssets(value);
+        break;
+      default:
+        break;
+    }
+  };
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -276,7 +313,7 @@ const Visit_visa = () => {
       <Banner_Page title={`VISIT VISA ASSESSMENT`} />
       <section className=" md:tw-mt-36 tw-mt-48">
         <div className="container-fluid ">
-          <div className="row g-5">
+          <div className="row   g-5">
             <div className="col-md-8    tw-py-10 tw-bg-white">
               <div className="row tw-pt-6  md:tw-pl-32 tw-pl-3">
                 <div className="col-lg-12">
@@ -336,88 +373,428 @@ const Visit_visa = () => {
                     <div className="  tw-bg-primary p-3 tw-rounded-md tw-flex tw-items-center tw-text-white">
                       <i class="fa tw-text-white fa-building tw-pt-1"></i>
                       <p className=" m-0 tw-text-white tw-font-semibold">
-                      APPLICANT ASSESSMENT
+                        APPLICANT ASSESSMENT
                       </p>
                     </div>
 
                     <form>
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
-                          <select
-                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3"
-                                                      >
-                            <option value="">  Do you have National Passport?</option>
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            {" "}
+                            Do you have National Passport?
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option>Choose an option </option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
 
-                       
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            {" "}
                             Did you visit Schengen Countries before?
-                            </option>
+                          </label>
+
+                          <select
+                            name="personalStatus"
+                            value={personalStatus}
+                            onChange={handleSelectChange}
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                          >
+                            <option>Choose an option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
+
+                        {personalStatus === "yes" ? (
+                          <>
+                            <div className="col-md-6 tw-pt-4">
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                How many time you visited the Schengen States?
+                              </label>
+
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                                <option>Choose an option</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 or more</option>
+                              </select>
+                            </div>
+
+                            <div className="col-md-6 tw-pt-4">
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                Purpose of Visit
+                              </label>
+
+                              <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                                <option value="">Choose an option</option>
+                                <option value="Visiting Family Friend">
+                                  Visiting Family Friend
+                                </option>
+                                <option value="Official Trip">
+                                  Official Trip
+                                </option>
+                                <option value="Tourism">Tourism</option>
+                                <option value="Business Conference">
+                                  Business Conference
+                                </option>
+                                <option value="Medical Treatment">
+                                  Medical Treatment
+                                </option>
+                                <option value="Other">Other</option>
+                              </select>
+                            </div>
+                          </>
+                        ) : null}
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            {" "}
                             Have you got any refusal for Schengen Countries?
-                            </option>
+                          </label>
+
+                          <select
+                            name="refusal"
+                            value={refusal}
+                            onChange={handleSelectChange}
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                          >
+                            <option>Choose an option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
 
-                        <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                            Is any of your close relative living in Schengen Countries and you want to visit him/her?
-                            </option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                          </select>
-                        </div>
+                        {refusal === "yes" ? (
+                          <>
+                            <div className="col-md-6 tw-pt-4">
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                Refusal Month-Year
+                              </label>
 
-                        <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                            Are you dependent on the person who is living in Schengen Countries?
-                            </option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                          </select>
-                        </div>
-                        <div className="col-md-12 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
-                            Do you have an invitation from any Individual Business Group, Company, Organisation?
-                            </option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                          </select>
-                        </div>
+                              <input
+                                type="date"
+                                className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                              />
+                            </div>
+
+                            <div className="col-md-12 tw-pt-4">
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                Reason of Refusal
+                              </label>
+                              <textarea className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"></textarea>
+                            </div>
+                          </>
+                        ) : null}
+
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            {" "}
+                            Is any of your close relative living in Schengen
+                            Countries and you want to visit him/her?
+                          </label>
+
+                          <select
+                            name="residencePermit"
+                            value={residencePermit}
+                            onChange={handleSelectChange}
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                          >
+                            <option value="">Choose an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                          </select>
+                        </div>
+
+                        {residencePermit === "yes" ? (
+                          <div className="col-md-6 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Relation with the EU person( Like Parents,
+                              Siblings, Family friend)
+                            </label>
+
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option value="">Choose an option</option>
+                              <option value="Parents">Parents</option>
+                              <option value="Husband">Husband</option>
+                              <option value="Wife">Wife</option>
+                              <option value="Sibling">Sibling</option>
+                              <option value="Cousin">Cousin</option>
+                              <option value="Family Friend">
+                                Family Friend
+                              </option>
+                            </select>
+                          </div>
+                        ) : null}
+
+                        <div className="col-md-6 tw-pt-4">
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Are you dependent on the person who is living in
+                            Schengen Countries?
+                          </label>
+                          <select
+                            name="depents"
+                            value={depents}
+                            onChange={handleSelectChange}
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                          >
+                            <option>Choose an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                          </select>
+                        </div>
+
+                        {depents === "yes" ? (
+                          <>
+                            <div className="col-md-6 tw-pt-4">
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                Describe How?
+                              </label>
+                              <textarea className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"></textarea>
+                            </div>
+                          </>
+                        ) : null}
+                        <div className="col-md-12 tw-pt-4">
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Do you have an invitation from any Individual
+                            Business Group, Company, Organisation?
+                          </label>
+                          <select
+                            name="separateAssets"
+                            value={separateAssets}
+                            onChange={handleSelectChange}
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                          >
+                            <option value="">Choose an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                          </select>
+                        </div>
+
+                        {separateAssets === "yes" ? (
+                          <>
+                            <div className="col-md-12 tw-pt-4">
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                Details of the Company, Organisation or
+                                Association
+                              </label>
+                              <textarea className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"></textarea>
+                            </div>
+                          </>
+                        ) : null}
+                        <div className="col-md-6 tw-pt-4">
+                          <label className=" tw-text-sm  tw-text-gray ">
                             Can you support yourself for this trip?
-                            </option>
+                          </label>
+                          <select
+                            name="investmentAmount"
+                            value={investmentAmount}
+                            onChange={handleSelectChange}
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                          >
+                            <option value="">Choose an option</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                           </select>
                         </div>
+                        {investmentAmount === "no" ? (
+                          <div className="col-md-3 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Funded by Organizer?
+                            </label>
+                            <select
+                              name="coordinationNumber"
+                              value={coordinationNumber}
+                              onChange={handleSelectChange}
+                              className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                            >
+                              <option value="">Choose an option</option>
+                              <option value="yes">Yes</option>
+                              <option value="no">No</option>
+                            </select>
+                          </div>
+                        ) : null}
+
+                        {coordinationNumber === "yes" ? (
+                          <>
+                            <div className="col-md-3 tw-pt-4">
+                              <label className=" tw-text-sm  tw-text-gray ">
+                                Details of Organizer
+                              </label>
+                              <textarea className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"></textarea>
+                            </div>
+                          </>
+                        ) : null}
+
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
+                          <label className=" tw-text-sm  tw-text-gray ">
                             Choose Employee Type?
+                          </label>
+                          <select
+                            name="personnummer"
+                            value={personnummer}
+                            onChange={handleSelectChange}
+                            className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"
+                          >
+                            <option>Choose an option</option>
+                            <option value="Employee">Employee</option>
+                            <option value="Self-Employee">Self-Employee</option>
+                            <option value="Student">Student</option>
+                            <option value="NGO / Media /Sports / Association">
+                              NGO / Media /Sports / Association
                             </option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
                           </select>
                         </div>
+
+
+                        {personnummer==="Student"?
+                        <>
+                        <div className="row">
+                          <div className="col-md-3 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                            Proof of enrolment
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option value="">Choose an option</option>
+                              <option value="yes">Yes</option>
+                              <option value="no">No</option>
+                            </select>
+                          </div>
+                          <div className="col-md-3 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                            Invitation for visit
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option value="">Choose an option</option>
+                              <option value="yes">Yes</option>
+                              <option value="no">No</option>
+                            </select>
+                          </div>
+
+                          <div className="col-md-6 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                            No objection letter from School/College/University
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option value="">Choose an option</option>
+                              <option value="yes">Yes</option>
+                              <option value="no">No</option>
+                            </select>
+                          </div>
+                          
+                        </div>
+                      </>
+                      :null}
+
+{personnummer==="Self-Employee"?
+                        <>
+                        <div className="row">
+                          <div className="col-md-4 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                            Registration Certificate
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option value="">Choose an option</option>
+                              <option value="yes">Yes</option>
+                              <option value="no">No</option>
+                            </select>
+                          </div>
+                          <div className="col-md-4 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                            Available Assets
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option value="">Choose an option</option>
+                              <option value="1 Million $ to 3 Million $">1 Million $ to 3 Million $</option>
+                              <option value="3 Million $ to 5 Million $">3 Million $ to 5 Million $</option>
+                              <option value="5 Million $ to 10 Million $">5 Million $ to 10 Million $</option>
+                              <option value="3 Million $ to 5 Million $">10 Million $ to 20 Million $</option>
+                            </select>
+                          </div>
+
+                          <div className="col-md-4 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                             Tax Returns of 2 to 3 Years
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option value="">Choose an option</option>
+                              <option value="yes">Yes</option>
+                              <option value="no">No</option>
+                            </select>
+                          </div>
+                          
+                        </div>
+                      </>
+                      :null}
+
+                        {personnummer ===
+                        "NGO / Media /Sports / Association" ? (
+                          <div className="col-md-12 tw-pt-4">
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Please describe NGO / Media /Sports / Association:
+                            </label>
+                            <textarea className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2"></textarea>
+                          </div>
+                        ) : null}
+
+                        {personnummer === "Employee" ? (
+                          <>
+                            <div className="row">
+                              <div className="col-md-3 tw-pt-4">
+                                <label className=" tw-text-sm  tw-text-gray ">
+                                  Nature of Job
+                                </label>
+                                <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                                  <option value="">Choose an option</option>
+                                  <option value="Permanent">Permanent</option>
+                                  <option value="Temporary">Temporary</option>
+                                </select>
+                              </div>
+                              <div className="col-md-3 tw-pt-4">
+                                <label className=" tw-text-sm  tw-text-gray ">
+                                  Monthly Salary
+                                </label>
+                                <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                                  <option value="">Choose an option</option>
+                                  <option value="Permanent">
+                                    0 - 50.000 $
+                                  </option>
+                                  <option value="50.000 $-75000 $">
+                                    50.000 $-75000 $
+                                  </option>
+                                  <option value="75.000 $- 100.000 $">
+                                    75.000 $- 100.000 $
+                                  </option>
+                                </select>
+                              </div>
+
+                              <div className="col-md-3 tw-pt-4">
+                                <label className=" tw-text-sm  tw-text-gray ">
+                                  Job Contract
+                                </label>
+                                <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                                  <option value="">Choose an option</option>
+                                  <option value="yes">Yes</option>
+                                  <option value="no">No</option>
+                                </select>
+                              </div>
+                              <div className="col-md-3 tw-pt-4">
+                                <label className=" tw-text-sm  tw-text-gray ">
+                                  Vacations Letter
+                                </label>
+                                <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                                  <option value="">Choose an option</option>
+                                  <option value="yes">Yes</option>
+                                  <option value="no">No</option>
+                                </select>
+                              </div>
+                            </div>
+                          </>
+                        ) : null}
                       </div>
                     </form>
                   </div>
@@ -439,7 +816,7 @@ const Visit_visa = () => {
                         onChange={handleCheckboxChange}
                       />
                       <p className="tw-text-gray-dark  tw-m-0">
-                      I am Visiting Alone
+                        I am Visiting Alone
                       </p>
                     </div>
 
@@ -447,75 +824,85 @@ const Visit_visa = () => {
                       <form>
                         <div className="row">
                           <div className="col-md-6 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
-                                Did your Spouse have valid National Passport?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Did your Spouse have valid National Passport?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose an option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-6 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
-                              Did your spouse have Marriage certificate and did your marriage is registered in your home country?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Did your spouse have Marriage certificate and did
+                              your marriage is registered in your home country?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose an option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-8 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
+                            <label className=" tw-text-sm  tw-text-gray ">
                               Do you have Family Registration Certificate?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-12 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
-                              Do you as main applicant support your family as trip?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              Do you as main applicant support your family as
+                              trip?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose an option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-6 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
+                            <label className=" tw-text-sm  tw-text-gray ">
                               Do you have children?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose an option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-12 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
-                              If you are not EU citizen, do you have birth certificate of your childrens?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            <label className=" tw-text-sm  tw-text-gray ">
+                              If you are not EU citizen, do you have birth
+                              certificate of your childrens?
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose an option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-12 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
+                            <label className=" tw-text-sm  tw-text-gray ">
                               Does your spouse have any income, Savings?
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose an option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                           <div className="col-md-12 tw-pt-4">
-                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                              <option>
+                            <label className=" tw-text-sm  tw-text-gray ">
                               Someone else will support you for this trip
-                              </option>
-                              <option>Yes</option>
-                              <option>No</option>
+                            </label>
+                            <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                              <option>Choose an option</option>
+                              <option value={"yes"}>Yes</option>
+                              <option value={"no"}>No</option>
                             </select>
                           </div>
                         </div>
