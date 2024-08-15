@@ -11,13 +11,13 @@ const Assessment_modal = ({
 
   return (
     <div>
-      <Modal isOpen={isModalOpen} className={'tw-w-[60%] tw-rounded-md border tw-border-gray'} onClose={closeModal}>
+      <Modal isOpen={isModalOpen} className={'md:tw-w-[60%] tw-w-[100%] tw-rounded-md border tw-border-gray'} onClose={closeModal}>
         {/* Modal Content */}
         <div className="">
         
-          <div className=" p-4 tw-rounded-md">
+          <div className=" md:p-4 p-3 tw-rounded-md">
            
-           <div className=" tw-flex tw-justify-between ">
+           <div className=" tw-flex md:tw-flex-row tw-flex-col tw-justify-between ">
             <img src={logo} alt="" className=" tw-w-44" />
 
             <div>
@@ -26,7 +26,7 @@ const Assessment_modal = ({
             </div>
            </div>
 
-           <div className=" tw-bg-[#d0e8d6] tw-my-4 border tw-py-3 tw-px-6 tw-rounded-md tw-flex tw-items-center tw-justify-between ">
+           <div className=" tw-bg-[#d0e8d6] tw-my-4 border tw-py-3 tw-px-6 tw-rounded-md tw-flex md:tw-flex-row tw-flex-col tw-items-center tw-justify-between ">
            <div>
             <h5 className=" tw-m-0 tw-text-[green]">You are ELIGLE!</h5>
             <p className=" m-0 tw-text-blue">Assessment No: 24042189</p>
@@ -93,7 +93,7 @@ const Assessment_modal = ({
 
           <div className="  tw-flex tw-justify-end">
             <div></div>
-            <div className=" tw-flex  tw-items-center tw-gap-2">
+            <div className=" tw-flex md:tw-flex-row tw-flex-col  tw-items-center tw-gap-2">
                 <button className=" tw-bg-blue  tw-rounded-sm tw-text-xs px-2 tw-py-1.5 tw-text-white"> <i class="fa tw-m-0 fa-download" aria-hidden="true"></i> Download/View Report</button>
                 <button className=" tw-bg-blue tw-rounded-sm tw-text-xs px-2 tw-py-1.5 tw-text-white"> <i class="fa fa-step-forward tw-m-0 tw-mt-1" aria-hidden="true"></i> Book an Appointment</button>
                 <button onClick={()=>setIsModalOpen(false)} className=" tw-bg-[#1F2437]  tw-rounded-sm  tw-text-xs px-2 tw-py-1.5 tw-text-white"> <i class="fa fa-times-circle  tw-m-0  tw-mt-1" aria-hidden="true"></i> close</button>

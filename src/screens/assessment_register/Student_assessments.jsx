@@ -343,8 +343,11 @@ const Student_assessments = () => {
                     <form>
                       <div className="row ">
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">Country</option>
+                          <label className=" tw-text-sm  tw-text-gray ">
+                            Country
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option>Choose option</option>
                             <option value="AF">Afghanistan</option>
                             <option value="AL">Albania</option>
                             <option value="DZ">Algeria</option>
@@ -458,38 +461,37 @@ const Student_assessments = () => {
                         </div>
 
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
+                          <label className=" tw-text-sm  tw-text-gray ">
                             Educational Level
-                            </option>
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option>Choose option</option>
                             <option value="">Select Level of Studies</option>
                             <option value="">Higher Secondary Education</option>
                             <option value="">Intermediate / O-A Levels</option>
                             <option value="">Under Graduate</option>
-                            <option value="">Masters/ M.Phil / Post Graduate</option>
+                            <option value="">
+                              Masters/ M.Phil / Post Graduate
+                            </option>
                             <option value="">Other</option>
                           </select>
                         </div>
                         <div className="col-md-6 tw-pt-4">
-                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-3">
-                            <option value="">
+                          <label className=" tw-text-sm  tw-text-gray ">
                             Total no of years of study
-                            </option>
-                            <option value="">10 Year</option>
-                            <option value="no">12 Year</option>
-                            <option value="no">14 Year</option>
-                            <option value="no">16 Year</option>
-                            <option value="no">18 Year</option>
+                          </label>
+                          <select className="tw-outline-none tw-bg-lightGray tw-py-3 tw-text-sm tw-px-3.5 tw-text-gray tw-w-full border tw-rounded-lg mt-2">
+                            <option>Choose option</option>
+                            <option value="10 Year">10 Year</option>
+                            <option value="12 Year">12 Year</option>
+                            <option value="14 Year">14 Year</option>
+                            <option value="16 Year">16 Year</option>
+                            <option value="18 Year">18 Year</option>
                           </select>
                         </div>
-
-                       
                       </div>
                     </form>
                   </div>
-
-                 
-                 
 
                   <Button
                     onClick={openModal}
